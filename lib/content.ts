@@ -1,0 +1,58 @@
+import fs from "node:fs";
+import path from "node:path";
+import { marked } from "marked";
+import type { GraphData, Note, SearchEntry } from "./types";
+
+const dataDir = path.join(process.cwd(), "public", "data");
+
+function readJson<T>(name: string): T {
+  const filePath = path.join(dataDir, name);
+  return JSON.parse(fs.readFileSync(filePath, "utf8")) as T;
+}
+
+export function getAllNotes(): Note[] {
+  return readJson<Note[]>("notes.json");
+}
+
+export function getGraph(): GraphData {
+  return readJson<GraphData>("graph.json");
+}
+
+export function getSearchIndex(): SearchEntry[] {
+  return readJson<SearchEntry[]>("search.json");
+}
+
+export function getNote(slug: string): Note | undefined {
+  return getAllNotes().find((note) => note.slug === slug);
+}
+
+export function searchNotes(query: string, limit = 8): SearchEntry[] {
+  const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return [];
+  return getSearchIndex()
+    .map((entry) => {
+      const score = terms.reduce((sum, term) => {
+        if (entry.title.toLowerCase().includes(term)) return sum + 8;
+        if (entry.category.toLowerCase().includes(term)) return sum + 4;
+        if (entry.text.includes(term)) return sum + 1;
+        return sum;
+      }, 0);
+      return { entry, score };
+    })
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title))
+    .slice(0, limit)
+    .map(({ entry }) => entry);
+}
+
+export function renderNoteMarkdown(note: Note, allNotes = getAllNotes()): string {
+  const byTitle = new Map(allNotes.map((item) => [item.title.toLowerCase(), item]));
+  const byFile = new Map(allNotes.map((item) => [item.path.split("/").pop()?.replace(/\.md$/i, "").toLowerCase(), item]));
+  const htmlReady = note.content.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (_, rawTarget: string, alias: string) => {
+    const key = rawTarget.trim().toLowerCase();
+    const target = byTitle.get(key) || byFile.get(key);
+    const label = alias || rawTarget;
+    return target ? `[${label}](/notes/${target.slug})` : label;
+  });
+  return marked.parse(htmlReady, { async: false }) as string;
+}
