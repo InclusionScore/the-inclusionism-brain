@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper, Search } from "lucide-react";
+import { Compass, GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper, Search } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
 import { siteConfig, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -42,8 +43,10 @@ export const metadata: Metadata = {
 };
 
 const nav = [
+  { href: "/what-is-inclusionism", label: "What Is", icon: Compass },
   { href: "/graph", label: "Graph", icon: GitBranch },
   { href: "/compare", label: "Compare", icon: GitCompareArrows },
+  { href: "/issues", label: "Issues", icon: Library },
   { href: "/notes", label: "Canon", icon: Search },
   { href: "/essays", label: "Essays", icon: Newspaper },
   { href: "/podcast", label: "Podcast", icon: Headphones },
@@ -55,6 +58,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <JsonLd
+          data={[
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Inclusionism",
+              url: siteUrl("/"),
+              logo: siteUrl("/icon.svg"),
+              description: siteConfig.description
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Inclusionism",
+              url: siteUrl("/"),
+              description: siteConfig.description,
+              inLanguage: "en"
+            }
+          ]}
+        />
         <header className="sticky top-0 z-40 border-b border-white/15 bg-black/90 backdrop-blur-xl">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
             <Link href="/" className="flex items-center gap-3">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper } from "lucide-react";
+import { Compass, GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper } from "lucide-react";
 
 const dynamicChain = ["Interaction", "Value", "Recognition", "Agency", "Legitimacy", "Fairness", "Belonging"];
 
@@ -33,8 +33,10 @@ export default function HomePage() {
 
         <div className="grid gap-3 md:grid-cols-3 lg:col-span-2">
           {[
+            { href: "/what-is-inclusionism", label: "What Is Inclusionism?", icon: Compass },
             { href: "/graph", label: "Explore the Graph", icon: GitBranch },
             { href: "/compare", label: "Compare Frameworks", icon: GitCompareArrows },
+            { href: "/issues", label: "Explore Issues", icon: Library },
             { href: "/notes", label: "Read the Canon", icon: Library },
             { href: "/essays", label: "Read the Essays", icon: Newspaper },
             { href: "/podcast", label: "Hear the Podcast", icon: Headphones },

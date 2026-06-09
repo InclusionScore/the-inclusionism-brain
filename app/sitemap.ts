@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { getAllEssays, getAllPodcastEpisodes, getReadableNotes } from "@/lib/content";
 import { frameworkComparisons } from "@/lib/frameworks";
+import { issueLandings } from "@/lib/issues";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/graph", "/compare", "/notes", "/under-development", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
+  const staticRoutes = ["", "/what-is-inclusionism", "/issues", "/graph", "/compare", "/notes", "/under-development", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
     url: siteUrl(path || "/"),
     lastModified: new Date()
   }));
@@ -29,5 +30,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date()
   }));
 
-  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes];
+  const issueRoutes = issueLandings.map((issue) => ({
+    url: siteUrl(`/issues/${issue.slug}`),
+    lastModified: new Date()
+  }));
+
+  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes, ...issueRoutes];
 }

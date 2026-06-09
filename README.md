@@ -19,6 +19,8 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 ## Features
 
 - Obsidian-style graph view with category filters and backlink-weighted nodes
+- Flagship “What Is Inclusionism?” explainer page
+- Issue landing pages for AI, democracy, economics, race and class, ownership, transhumanism, belonging, and legitimacy
 - Compare Frameworks section for political, economic, and future-oriented comparisons
 - Canon reader with markdown rendering, clickable wikilinks, backlinks, related notes, and search
 - Canon Workflow support for Draft, Candidate, Canon, and Deprecated notes
@@ -72,6 +74,36 @@ Supported statuses:
 - `Deprecated`: retired from public doctrine; excluded from public indexes and pages
 
 If a note has no status, it defaults to `Canon` so the existing vault remains public until a status is explicitly changed.
+
+## SEO and Discoverability
+
+The app includes a discovery layer designed to help people find Inclusionism through political, economic, technological, and civilizational questions, not only by searching for the word “Inclusionism.”
+
+Key routes:
+
+- `/what-is-inclusionism`
+- `/issues`
+- `/issues/ai`
+- `/issues/democracy`
+- `/issues/economics`
+- `/issues/race-and-class`
+- `/issues/ownership`
+- `/issues/transhumanism`
+- `/issues/belonging`
+- `/issues/legitimacy`
+- `/compare/capitalism`
+- `/compare/socialism`
+- `/compare/democratic-socialism`
+- `/compare/technocracy`
+- `/compare/transhumanism`
+
+SEO support includes:
+
+- canonical URLs through `siteUrl`
+- per-page metadata titles and descriptions
+- note-level metadata and internal issue links
+- schema.org JSON-LD for the site, issue pages, canon notes, comparison pages, and the flagship explainer
+- sitemap entries for issue, comparison, note, essay, and podcast pages
 
 ## Essays / Substack RSS
 

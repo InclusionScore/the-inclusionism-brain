@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import JsonLd from "@/components/JsonLd";
 import { comparisonAxes, dynamicChain, frameworkComparisons, getFrameworkComparison } from "@/lib/frameworks";
 import { searchNotes } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
@@ -17,6 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: metadataTitle(`Inclusionism vs ${framework.name}`),
     description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
+    keywords: ["Inclusionism", framework.name, `Inclusionism vs ${framework.name}`, "value", "agency", "ownership", "legitimacy", "belonging"],
     alternates: { canonical: siteUrl(`/compare/${framework.slug}`) },
     openGraph: {
       title: socialTitle(`Inclusionism vs ${framework.name}`),
@@ -75,6 +77,35 @@ export default async function FrameworkComparisonPage({ params }: { params: Prom
 
   return (
     <main className="mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1fr_360px]">
+      <JsonLd
+        data={[
+          {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: `Inclusionism vs ${framework.name}`,
+            description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
+            author: { "@type": "Organization", name: "Inclusionism" },
+            publisher: { "@type": "Organization", name: "Inclusionism" },
+            mainEntityOfPage: siteUrl(`/compare/${framework.slug}`),
+            about: [
+              { "@type": "Thing", name: "Inclusionism" },
+              { "@type": "Thing", name: framework.name },
+              { "@type": "Thing", name: "value" },
+              { "@type": "Thing", name: "agency" },
+              { "@type": "Thing", name: "legitimacy" },
+              { "@type": "Thing", name: "belonging" }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Compare", item: siteUrl("/compare") },
+              { "@type": "ListItem", position: 2, name: `Inclusionism vs ${framework.name}`, item: siteUrl(`/compare/${framework.slug}`) }
+            ]
+          }
+        ]}
+      />
       <article className="max-w-4xl">
         <p className="brand-kicker">Compare / {framework.group}</p>
         <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">Inclusionism vs {framework.name}</h1>
