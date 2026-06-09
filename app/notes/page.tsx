@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import SearchBox from "@/components/SearchBox";
 import { getSearchIndex } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
@@ -22,8 +23,11 @@ export default function NotesPage() {
       <p className="brand-kicker">Canon reader</p>
       <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">Read the Inclusionism Canon</h1>
       <p className="mt-5 max-w-3xl border-l-4 border-red pl-5 text-white/70">
-        Search titles and note bodies across the vault. Wikilinks inside notes become internal links, with backlinks and related notes shown below each entry.
+        Search settled Canon notes across the vault. Draft and Deprecated notes stay private, while Candidate notes are separated from the canon workflow.
       </p>
+      <Link href="/under-development" className="outline-button mt-6 inline-block px-4 py-3 text-xs">
+        Under Development
+      </Link>
       <div className="mt-8">
         <SearchBox entries={getSearchIndex()} />
       </div>

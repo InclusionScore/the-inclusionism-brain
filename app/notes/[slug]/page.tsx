@@ -1,11 +1,11 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllNotes, getNote, renderNoteMarkdown } from "@/lib/content";
+import { getReadableNotes, getNote, renderNoteMarkdown } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 
 export function generateStaticParams() {
-  return getAllNotes().map((note) => ({ slug: note.slug }));
+  return getReadableNotes().map((note) => ({ slug: note.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -44,7 +44,17 @@ export default async function NotePage({ params }: { params: Promise<{ slug: str
     <main className="mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1fr_340px]">
       <article className="max-w-4xl">
         <p className="brand-kicker">{note.category}</p>
+        {note.status === "Candidate" ? (
+          <div className="mt-4 inline-block border border-signal bg-black px-3 py-2 text-xs font-black uppercase tracking-[0.22em] text-signal">
+            Candidate / Under Development
+          </div>
+        ) : null}
         <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">{note.title}</h1>
+        {note.status === "Candidate" ? (
+          <p className="mt-5 max-w-3xl border-l-4 border-signal pl-5 text-sm leading-6 text-white/60">
+            This note is visible for development and debate. It is not yet settled canon.
+          </p>
+        ) : null}
         <div className="prose prose-invert mt-8 max-w-none prose-headings:brand-title prose-headings:font-black prose-headings:text-white prose-p:text-white/75 prose-li:text-white/75 prose-hr:border-white/15" dangerouslySetInnerHTML={{ __html: html }} />
       </article>
       <aside className="space-y-5">

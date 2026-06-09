@@ -14,6 +14,14 @@ export function getAllNotes(): Note[] {
   return readJson<Note[]>("notes.json");
 }
 
+export function getCandidateNotes(): Note[] {
+  return readJson<Note[]>("candidate-notes.json");
+}
+
+export function getReadableNotes(): Note[] {
+  return [...getAllNotes(), ...getCandidateNotes()];
+}
+
 export function getGraph(): GraphData {
   return readJson<GraphData>("graph.json");
 }
@@ -39,7 +47,7 @@ export function getPodcastEpisode(slug: string): PodcastEpisode | undefined {
 }
 
 export function getNote(slug: string): Note | undefined {
-  return getAllNotes().find((note) => note.slug === slug);
+  return getReadableNotes().find((note) => note.slug === slug);
 }
 
 export function searchNotes(query: string, limit = 8): SearchEntry[] {
@@ -61,7 +69,7 @@ export function searchNotes(query: string, limit = 8): SearchEntry[] {
     .map(({ entry }) => entry);
 }
 
-export function renderNoteMarkdown(note: Note, allNotes = getAllNotes()): string {
+export function renderNoteMarkdown(note: Note, allNotes = note.status === "Canon" ? getAllNotes() : getReadableNotes()): string {
   const byTitle = new Map(allNotes.map((item) => [item.title.toLowerCase(), item]));
   const byFile = new Map(allNotes.map((item) => [item.path.split("/").pop()?.replace(/\.md$/i, "").toLowerCase(), item]));
   const htmlReady = note.content.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (_, rawTarget: string, alias: string) => {

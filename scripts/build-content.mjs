@@ -32,6 +32,7 @@ const categoryMap = new Map([
   ["09 Maps of Content", "Maps of Content"]
 ]);
 
+const noteStatuses = new Set(["Draft", "Candidate", "Canon", "Deprecated"]);
 const wikiRe = /\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g;
 const stopWords = new Set([
   "about",
@@ -96,6 +97,12 @@ function titleFrom(content, filePath) {
 function categoryFrom(relativePath) {
   const first = relativePath.split(path.sep)[0];
   return categoryMap.get(first) || "Inclusionism Core";
+}
+
+function statusFrom(frontmatter) {
+  const raw = String(frontmatter.status || frontmatter.canonStatus || "Canon").trim().toLowerCase();
+  const normalized = raw === "under development" ? "Candidate" : raw.charAt(0).toUpperCase() + raw.slice(1);
+  return noteStatuses.has(normalized) ? normalized : "Canon";
 }
 
 function excerpt(content) {
@@ -233,7 +240,7 @@ async function importEssays(notes) {
         link,
         source,
         content,
-        relatedNotes: relatedNotesForText(`${title}\n\n${content}`, notes)
+    relatedNotes: relatedNotesForText(`${title}\n\n${content}`, notes)
       };
     }).filter((essay) => essay.title && essay.link);
   } catch (error) {
@@ -322,6 +329,7 @@ for (const file of files) {
     category: categoryFrom(relativePath),
     content: parsed.content.trim(),
     excerpt: excerpt(parsed.content),
+    status: statusFrom(parsed.data),
     links: [],
     backlinks: [],
     aliases: Array.isArray(parsed.data.aliases) ? parsed.data.aliases : []
@@ -359,36 +367,53 @@ for (const note of notes) {
   }
 }
 
+const readableStatuses = new Set(["Canon", "Candidate"]);
+const canonNotes = notes.filter((note) => note.status === "Canon");
+const candidateNotes = notes.filter((note) => note.status === "Candidate");
+const readableNotes = notes.filter((note) => readableStatuses.has(note.status));
+const canonSlugs = new Set(canonNotes.map((note) => note.slug));
+const readableSlugs = new Set(readableNotes.map((note) => note.slug));
+
+function noteForOutput(note, allowedSlugs) {
+  return {
+    ...note,
+    links: note.links.filter((link) => allowedSlugs.has(link.slug)),
+    backlinks: note.backlinks.filter((link) => allowedSlugs.has(link.slug))
+  };
+}
+
 const graph = {
   categories,
-  nodes: notes.map((note) => ({
+  nodes: canonNotes.map((note) => ({
     id: note.slug,
     title: note.title,
     category: note.category,
-    backlinks: note.backlinks.length,
-    links: note.links.length,
+    backlinks: note.backlinks.filter((link) => canonSlugs.has(link.slug)).length,
+    links: note.links.filter((link) => canonSlugs.has(link.slug)).length,
     excerpt: note.excerpt
   })),
-  links
+  links: links.filter((link) => canonSlugs.has(link.source) && canonSlugs.has(link.target))
 };
 
-const search = notes.map((note) => ({
+const search = canonNotes.map((note) => ({
   slug: note.slug,
   title: note.title,
   category: note.category,
   path: note.path,
   excerpt: note.excerpt,
+  status: "Canon",
   text: `${note.title} ${note.category} ${note.content}`.toLowerCase()
 }));
 
-const essays = await importEssays(notes);
-const podcastEpisodes = await importPodcastEpisodes(notes);
+const essays = await importEssays(canonNotes);
+const podcastEpisodes = await importPodcastEpisodes(canonNotes);
 
 await fs.mkdir(outDir, { recursive: true });
-await fs.writeFile(path.join(outDir, "notes.json"), JSON.stringify(notes.sort((a, b) => a.title.localeCompare(b.title)), null, 2));
+await fs.writeFile(path.join(outDir, "notes.json"), JSON.stringify(canonNotes.map((note) => noteForOutput(note, canonSlugs)).sort((a, b) => a.title.localeCompare(b.title)), null, 2));
+await fs.writeFile(path.join(outDir, "candidate-notes.json"), JSON.stringify(candidateNotes.map((note) => noteForOutput(note, readableSlugs)).sort((a, b) => a.title.localeCompare(b.title)), null, 2));
 await fs.writeFile(path.join(outDir, "graph.json"), JSON.stringify(graph, null, 2));
 await fs.writeFile(path.join(outDir, "search.json"), JSON.stringify(search.sort((a, b) => a.title.localeCompare(b.title)), null, 2));
 await fs.writeFile(path.join(outDir, "essays.json"), JSON.stringify(essays.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()), null, 2));
 await fs.writeFile(path.join(outDir, "podcast.json"), JSON.stringify(podcastEpisodes.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()), null, 2));
 
-console.log(`Built ${notes.length} notes, ${links.length} graph edges, ${essays.length} essays, and ${podcastEpisodes.length} podcast episodes.`);
+console.log(`Built ${canonNotes.length} canon notes, ${candidateNotes.length} candidate notes, ${graph.links.length} canon graph edges, ${essays.length} essays, and ${podcastEpisodes.length} podcast episodes.`);

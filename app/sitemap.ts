@@ -1,15 +1,15 @@
 import type { MetadataRoute } from "next";
-import { getAllEssays, getAllNotes, getAllPodcastEpisodes } from "@/lib/content";
+import { getAllEssays, getAllPodcastEpisodes, getReadableNotes } from "@/lib/content";
 import { frameworkComparisons } from "@/lib/frameworks";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/graph", "/compare", "/notes", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
+  const staticRoutes = ["", "/graph", "/compare", "/notes", "/under-development", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
     url: siteUrl(path || "/"),
     lastModified: new Date()
   }));
 
-  const noteRoutes = getAllNotes().map((note) => ({
+  const noteRoutes = getReadableNotes().map((note) => ({
     url: siteUrl(`/notes/${note.slug}`),
     lastModified: new Date()
   }));

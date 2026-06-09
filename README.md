@@ -10,6 +10,7 @@ Before changing design, navigation, branding, or feature direction, read:
 The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, and generates:
 
 - `public/data/notes.json`
+- `public/data/candidate-notes.json`
 - `public/data/graph.json`
 - `public/data/search.json`
 - `public/data/essays.json`
@@ -20,6 +21,7 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 - Obsidian-style graph view with category filters and backlink-weighted nodes
 - Compare Frameworks section for political, economic, and future-oriented comparisons
 - Canon reader with markdown rendering, clickable wikilinks, backlinks, related notes, and search
+- Canon Workflow support for Draft, Candidate, Canon, and Deprecated notes
 - Essays section that imports Substack RSS posts and connects think pieces to related canon notes
 - Podcast section that imports RSS episodes, audio links, and related canon notes
 - Debate Inclusionism page with local retrieval, OpenAI responses when configured, and a local fallback
@@ -51,6 +53,25 @@ Supported wikilink forms include:
 - `[[Agency]]`
 - `[[Value|value emergence]]`
 - `[[Universal Basic Ownership#Section]]`
+
+## Canon Workflow
+
+Every markdown note may include a frontmatter status:
+
+```md
+---
+status: Candidate
+---
+```
+
+Supported statuses:
+
+- `Draft`: private working material; excluded from public indexes and pages
+- `Candidate`: visible under `/under-development`; not presented as settled doctrine
+- `Canon`: visible by default in the Canon reader, Graph, Search, Debate retrieval, and related-note systems
+- `Deprecated`: retired from public doctrine; excluded from public indexes and pages
+
+If a note has no status, it defaults to `Canon` so the existing vault remains public until a status is explicitly changed.
 
 ## Essays / Substack RSS
 

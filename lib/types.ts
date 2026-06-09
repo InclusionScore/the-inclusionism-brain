@@ -10,6 +10,7 @@ export type Note = {
   category: string;
   content: string;
   excerpt: string;
+  status: "Draft" | "Candidate" | "Canon" | "Deprecated";
   links: NoteLink[];
   backlinks: NoteLink[];
   aliases: string[];
@@ -21,6 +22,7 @@ export type SearchEntry = {
   category: string;
   path: string;
   excerpt: string;
+  status: "Canon";
   text: string;
 };
 
