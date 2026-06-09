@@ -12,11 +12,13 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 - `public/data/notes.json`
 - `public/data/graph.json`
 - `public/data/search.json`
+- `public/data/essays.json`
 
 ## Features
 
 - Obsidian-style graph view with category filters and backlink-weighted nodes
 - Canon reader with markdown rendering, clickable wikilinks, backlinks, related notes, and search
+- Essays section that imports Substack RSS posts and connects think pieces to related canon notes
 - Debate Inclusionism page with local retrieval, OpenAI responses when configured, and a local fallback
 - PEST Lens page for political, economic, sociocultural, and technological exploration
 - Dark, graph-centered public interface
@@ -46,6 +48,23 @@ Supported wikilink forms include:
 - `[[Agency]]`
 - `[[Value|value emergence]]`
 - `[[Universal Basic Ownership#Section]]`
+
+## Essays / Substack RSS
+
+Set this environment variable to import essays from Substack at build time:
+
+```bash
+SUBSTACK_RSS_URL=https://your-substack.substack.com/feed
+```
+
+The build writes `public/data/essays.json`. Each imported essay gets:
+
+- title, date, excerpt, and original Substack link
+- local detail page under `/essays/[slug]`
+- related canon notes matched by terms and Obsidian-style wikilinks
+- Debate Mode links for “Debate this essay” and “Suggest Canon Updates”
+
+If `SUBSTACK_RSS_URL` is missing or the feed cannot be reached, the app still builds and shows an empty-state message on `/essays`.
 
 ## Debate API
 
@@ -90,6 +109,7 @@ When `OPENAI_API_KEY` is present, the route sends the user question plus retriev
 4. Use the default build command: `npm run build`.
 5. The build command runs `npm run build:content` before `next build`.
 6. Add `OPENAI_API_KEY` in Vercel Environment Variables to enable AI Debate Mode.
+7. Add `SUBSTACK_RSS_URL` in Vercel Environment Variables to import Substack essays.
 
 ## Recommended Next Steps
 

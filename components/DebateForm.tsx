@@ -10,8 +10,8 @@ type DebateResponse = {
   relevantNotes: { slug: string; title: string; category: string; excerpt: string; url?: string }[];
 };
 
-export default function DebateForm() {
-  const [question, setQuestion] = useState("");
+export default function DebateForm({ initialQuestion = "" }: { initialQuestion?: string }) {
+  const [question, setQuestion] = useState(initialQuestion);
   const [loading, setLoading] = useState(false);
   const [answer, setAnswer] = useState<DebateResponse | null>(null);
 

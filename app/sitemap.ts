@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
-import { getAllNotes } from "@/lib/content";
+import { getAllEssays, getAllNotes } from "@/lib/content";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/graph", "/notes", "/debate", "/pest"].map((path) => ({
+  const staticRoutes = ["", "/graph", "/notes", "/essays", "/debate", "/pest"].map((path) => ({
     url: siteUrl(path || "/"),
     lastModified: new Date()
   }));
@@ -13,5 +13,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date()
   }));
 
-  return [...staticRoutes, ...noteRoutes];
+  const essayRoutes = getAllEssays().map((essay) => ({
+    url: siteUrl(`/essays/${essay.slug}`),
+    lastModified: new Date(essay.date)
+  }));
+
+  return [...staticRoutes, ...noteRoutes, ...essayRoutes];
 }

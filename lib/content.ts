@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { marked } from "marked";
-import type { GraphData, Note, SearchEntry } from "./types";
+import type { Essay, GraphData, Note, SearchEntry } from "./types";
 
 const dataDir = path.join(process.cwd(), "public", "data");
 
@@ -20,6 +20,14 @@ export function getGraph(): GraphData {
 
 export function getSearchIndex(): SearchEntry[] {
   return readJson<SearchEntry[]>("search.json");
+}
+
+export function getAllEssays(): Essay[] {
+  return readJson<Essay[]>("essays.json");
+}
+
+export function getEssay(slug: string): Essay | undefined {
+  return getAllEssays().find((essay) => essay.slug === slug);
 }
 
 export function getNote(slug: string): Note | undefined {

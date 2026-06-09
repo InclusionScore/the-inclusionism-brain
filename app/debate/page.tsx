@@ -15,7 +15,10 @@ export const metadata: Metadata = {
   }
 };
 
-export default function DebatePage() {
+export default async function DebatePage({ searchParams }: { searchParams?: Promise<{ question?: string }> }) {
+  const resolvedSearchParams = await searchParams;
+  const initialQuestion = resolvedSearchParams?.question || "";
+
   return (
     <main className="brain-grid mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <p className="brand-kicker">Debate Inclusionism</p>
@@ -24,7 +27,7 @@ export default function DebatePage() {
         Ask a hard question, name a disagreement, or test a weak point. Debate Mode grounds its response in the Inclusionism canon and keeps critique, synthesis, and canon updates in view.
       </p>
       <div className="mt-8">
-        <DebateForm />
+        <DebateForm initialQuestion={initialQuestion} />
       </div>
     </main>
   );

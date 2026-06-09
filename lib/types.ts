@@ -38,3 +38,21 @@ export type GraphData = {
   nodes: GraphNode[];
   links: { source: string; target: string }[];
 };
+
+export type EssayRelatedNote = {
+  slug: string;
+  title: string;
+  category: string;
+  reason: string;
+};
+
+export type Essay = {
+  slug: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  link: string;
+  source: string;
+  content: string;
+  relatedNotes: EssayRelatedNote[];
+};

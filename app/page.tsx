@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GitBranch, Library, MessageSquareText } from "lucide-react";
+import { GitBranch, Library, MessageSquareText, Newspaper } from "lucide-react";
 
 const dynamicChain = ["Interaction", "Value", "Recognition", "Agency", "Legitimacy", "Fairness", "Belonging"];
 
@@ -31,10 +31,11 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="grid gap-3 md:grid-cols-3 lg:col-span-2">
+        <div className="grid gap-3 md:grid-cols-4 lg:col-span-2">
           {[
             { href: "/graph", label: "Explore the Graph", icon: GitBranch },
             { href: "/notes", label: "Read the Canon", icon: Library },
+            { href: "/essays", label: "Read the Essays", icon: Newspaper },
             { href: "/debate", label: "Debate Inclusionism", icon: MessageSquareText }
           ].map((action) => {
             const Icon = action.icon;
