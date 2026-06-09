@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
-import { getAllEssays, getAllNotes } from "@/lib/content";
+import { getAllEssays, getAllNotes, getAllPodcastEpisodes } from "@/lib/content";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/graph", "/notes", "/essays", "/debate", "/pest"].map((path) => ({
+  const staticRoutes = ["", "/graph", "/notes", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
     url: siteUrl(path || "/"),
     lastModified: new Date()
   }));
@@ -18,5 +18,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(essay.date)
   }));
 
-  return [...staticRoutes, ...noteRoutes, ...essayRoutes];
+  const podcastRoutes = getAllPodcastEpisodes().map((episode) => ({
+    url: siteUrl(`/podcast/${episode.slug}`),
+    lastModified: new Date(episode.date)
+  }));
+
+  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes];
 }

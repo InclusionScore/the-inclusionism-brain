@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { marked } from "marked";
-import type { Essay, GraphData, Note, SearchEntry } from "./types";
+import type { Essay, GraphData, Note, PodcastEpisode, SearchEntry } from "./types";
 
 const dataDir = path.join(process.cwd(), "public", "data");
 
@@ -28,6 +28,14 @@ export function getAllEssays(): Essay[] {
 
 export function getEssay(slug: string): Essay | undefined {
   return getAllEssays().find((essay) => essay.slug === slug);
+}
+
+export function getAllPodcastEpisodes(): PodcastEpisode[] {
+  return readJson<PodcastEpisode[]>("podcast.json");
+}
+
+export function getPodcastEpisode(slug: string): PodcastEpisode | undefined {
+  return getAllPodcastEpisodes().find((episode) => episode.slug === slug);
 }
 
 export function getNote(slug: string): Note | undefined {

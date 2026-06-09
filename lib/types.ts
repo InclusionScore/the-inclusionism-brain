@@ -56,3 +56,16 @@ export type Essay = {
   content: string;
   relatedNotes: EssayRelatedNote[];
 };
+
+export type PodcastEpisode = {
+  slug: string;
+  title: string;
+  date: string;
+  description: string;
+  link: string;
+  source: string;
+  audioUrl: string;
+  audioType: string;
+  duration: string;
+  relatedNotes: EssayRelatedNote[];
+};

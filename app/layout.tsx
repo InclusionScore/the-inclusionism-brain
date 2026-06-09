@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GitBranch, Library, MessageSquareText, Newspaper, Search } from "lucide-react";
+import { GitBranch, Headphones, Library, MessageSquareText, Newspaper, Search } from "lucide-react";
 import { siteConfig, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -45,6 +45,7 @@ const nav = [
   { href: "/graph", label: "Graph", icon: GitBranch },
   { href: "/notes", label: "Canon", icon: Search },
   { href: "/essays", label: "Essays", icon: Newspaper },
+  { href: "/podcast", label: "Podcast", icon: Headphones },
   { href: "/debate", label: "Debate", icon: MessageSquareText },
   { href: "/pest", label: "PEST", icon: Library }
 ];

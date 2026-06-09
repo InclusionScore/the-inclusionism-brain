@@ -7,6 +7,7 @@ const root = process.cwd();
 const vaultDir = path.join(root, "vault");
 const outDir = path.join(root, "public", "data");
 const defaultSubstackFeedUrl = "https://jamesfeltonkeith.substack.com/feed";
+const defaultPodcastFeedUrl = "https://anchor.fm/s/ff971f94/podcast/rss";
 const categories = [
   "Foundations",
   "Data Systems",
@@ -136,11 +137,18 @@ function tagValue(item, tag) {
   return match ? decodeEntities(match[1]).trim() : "";
 }
 
+function tagAttribute(item, tag, attribute) {
+  const match = item.match(new RegExp(`<${tag}\\s+([^>]*)>`, "i"));
+  if (!match) return "";
+  const attrMatch = match[1].match(new RegExp(`${attribute}=["']([^"']+)["']`, "i"));
+  return attrMatch ? decodeEntities(attrMatch[1]).trim() : "";
+}
+
 function itemBlocks(xml) {
   return [...xml.matchAll(/<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/gi)].map((match) => match[1]);
 }
 
-function essaySlug(title, link) {
+function feedSlug(title, link) {
   try {
     const url = new URL(link);
     const last = url.pathname.split("/").filter(Boolean).pop();
@@ -156,9 +164,9 @@ function noteTerms(note) {
   return names.flatMap((name) => String(name).toLowerCase().split(/[^a-z0-9]+/)).filter((term) => term.length > 3 && !stopWords.has(term));
 }
 
-function relatedNotesForEssay(essayText, notes) {
-  const text = essayText.toLowerCase();
-  const linkedTitles = new Set([...essayText.matchAll(wikiRe)].map((match) => match[1].trim().toLowerCase()));
+function relatedNotesForText(sourceText, notes) {
+  const text = sourceText.toLowerCase();
+  const linkedTitles = new Set([...sourceText.matchAll(wikiRe)].map((match) => match[1].trim().toLowerCase()));
 
   return notes
     .map((note) => {
@@ -215,7 +223,7 @@ async function importEssays(notes) {
       const rawContent = tagValue(item, "content:encoded") || tagValue(item, "description");
       const content = stripHtml(rawContent);
       const summary = stripHtml(tagValue(item, "description")) || content;
-      const slug = essaySlug(title, link);
+      const slug = feedSlug(title, link);
 
       return {
         slug,
@@ -225,7 +233,7 @@ async function importEssays(notes) {
         link,
         source,
         content,
-        relatedNotes: relatedNotesForEssay(`${title}\n\n${content}`, notes)
+        relatedNotes: relatedNotesForText(`${title}\n\n${content}`, notes)
       };
     }).filter((essay) => essay.title && essay.link);
   } catch (error) {
@@ -239,6 +247,59 @@ async function importEssays(notes) {
       }
     } catch {
       // No previous essay index exists yet.
+    }
+    return [];
+  }
+}
+
+async function importPodcastEpisodes(notes) {
+  const feedUrl = process.env.PODCAST_RSS_URL || process.env.NEXT_PUBLIC_PODCAST_RSS_URL || defaultPodcastFeedUrl;
+
+  try {
+    const response = await fetch(feedUrl, {
+      headers: {
+        "User-Agent": "Inclusionism content importer"
+      }
+    });
+    if (!response.ok) throw new Error(`Podcast RSS feed returned ${response.status}`);
+
+    const xml = await response.text();
+    const source = tagValue(xml, "title") || "Podcast";
+    return itemBlocks(xml).map((item) => {
+      const title = stripHtml(tagValue(item, "title"));
+      const link = tagValue(item, "link") || tagValue(item, "guid");
+      const date = tagValue(item, "pubDate") || tagValue(item, "dc:date") || new Date().toISOString();
+      const rawDescription = tagValue(item, "content:encoded") || tagValue(item, "description") || tagValue(item, "itunes:summary");
+      const description = stripHtml(rawDescription);
+      const audioUrl = tagAttribute(item, "enclosure", "url");
+      const audioType = tagAttribute(item, "enclosure", "type");
+      const duration = tagValue(item, "itunes:duration");
+      const slug = feedSlug(title, link || audioUrl);
+
+      return {
+        slug,
+        title,
+        date: new Date(date).toISOString(),
+        description: description.replace(/\s+/g, " ").trim(),
+        link,
+        source,
+        audioUrl,
+        audioType,
+        duration,
+        relatedNotes: relatedNotesForText(`${title}\n\n${description}`, notes)
+      };
+    }).filter((episode) => episode.title && (episode.link || episode.audioUrl));
+  } catch (error) {
+    console.warn(`Could not import podcast RSS feed: ${error.message}`);
+    try {
+      const existing = await fs.readFile(path.join(outDir, "podcast.json"), "utf8");
+      const episodes = JSON.parse(existing);
+      if (Array.isArray(episodes)) {
+        console.warn(`Preserving ${episodes.length} previously imported podcast episodes.`);
+        return episodes;
+      }
+    } catch {
+      // No previous podcast index exists yet.
     }
     return [];
   }
@@ -321,11 +382,13 @@ const search = notes.map((note) => ({
 }));
 
 const essays = await importEssays(notes);
+const podcastEpisodes = await importPodcastEpisodes(notes);
 
 await fs.mkdir(outDir, { recursive: true });
 await fs.writeFile(path.join(outDir, "notes.json"), JSON.stringify(notes.sort((a, b) => a.title.localeCompare(b.title)), null, 2));
 await fs.writeFile(path.join(outDir, "graph.json"), JSON.stringify(graph, null, 2));
 await fs.writeFile(path.join(outDir, "search.json"), JSON.stringify(search.sort((a, b) => a.title.localeCompare(b.title)), null, 2));
 await fs.writeFile(path.join(outDir, "essays.json"), JSON.stringify(essays.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()), null, 2));
+await fs.writeFile(path.join(outDir, "podcast.json"), JSON.stringify(podcastEpisodes.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()), null, 2));
 
-console.log(`Built ${notes.length} notes, ${links.length} graph edges, and ${essays.length} essays.`);
+console.log(`Built ${notes.length} notes, ${links.length} graph edges, ${essays.length} essays, and ${podcastEpisodes.length} podcast episodes.`);
