@@ -10,24 +10,24 @@ const lenses = [
 
 export default function PestPage() {
   return (
-    <main className="mx-auto max-w-7xl px-4 py-10 sm:px-6">
-      <p className="text-sm uppercase tracking-[0.3em] text-signal">PEST Lens</p>
-      <h1 className="mt-3 text-4xl font-semibold">Political, economic, sociocultural, and technological questions.</h1>
-      <p className="mt-4 max-w-3xl text-slate-300">
+    <main className="brain-grid mx-auto max-w-7xl px-4 py-10 sm:px-6">
+      <p className="brand-kicker">PEST Lens</p>
+      <h1 className="brand-title mt-3 max-w-5xl text-5xl leading-none sm:text-8xl">Political, economic, sociocultural, and technological questions.</h1>
+      <p className="mt-5 max-w-3xl border-l-4 border-red pl-5 text-white/70">
         Use the four lenses to inspect how Inclusionism talks about power, ownership, identity, intelligence, and civilizational legitimacy.
       </p>
-      <div className="mt-8 grid gap-5 md:grid-cols-2">
+      <div className="mt-10 grid gap-x-8 gap-y-10 md:grid-cols-2">
         {lenses.map((lens) => {
           const notes = searchNotes(lens.query, 5);
           return (
-            <section key={lens.name} className="rounded-md border border-white/10 bg-panel/70 p-5">
-              <p className="text-sm text-signal">{lens.name}</p>
-              <h2 className="mt-2 text-2xl font-semibold">{lens.prompt}</h2>
-              <div className="mt-4 space-y-2">
+            <section key={lens.name} className="border-t-4 border-signal pt-5">
+              <p className="text-xs font-black uppercase tracking-[0.28em] text-red">{lens.name}</p>
+              <h2 className="brand-title mt-3 text-4xl leading-none">{lens.prompt}</h2>
+              <div className="mt-5 space-y-2">
                 {notes.map((note) => (
-                  <Link key={note.slug} href={`/notes/${note.slug}`} className="block rounded-md border border-white/10 bg-ink/60 p-3 hover:border-signal/60">
-                    <p className="font-medium">{note.title}</p>
-                    <p className="mt-1 line-clamp-2 text-sm leading-6 text-slate-400">{note.excerpt}</p>
+                  <Link key={note.slug} href={`/notes/${note.slug}`} className="block border border-white/15 bg-black p-4 hover:border-signal">
+                    <p className="brand-title text-2xl leading-none">{note.title}</p>
+                    <p className="mt-2 line-clamp-2 text-sm leading-6 text-white/55">{note.excerpt}</p>
                   </Link>
                 ))}
               </div>

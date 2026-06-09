@@ -6,16 +6,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#070a0f",
-        panel: "#101620",
-        line: "#263242",
-        signal: "#8bd3dd",
-        gold: "#e7c76f",
-        moss: "#9ecf93",
-        rose: "#e68aa7"
+        ink: "#000000",
+        paper: "#ffffff",
+        panel: "#070707",
+        line: "#262626",
+        signal: "#0080fb",
+        red: "#e4300f",
+        gold: "#f4f0df",
+        smoke: "#b9b9b9"
       },
       boxShadow: {
-        glow: "0 0 50px rgba(139, 211, 221, 0.16)"
+        glow: "0 0 60px rgba(0, 128, 251, 0.22)",
+        redglow: "0 0 46px rgba(228, 48, 15, 0.18)"
       }
     }
   },

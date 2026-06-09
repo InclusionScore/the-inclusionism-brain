@@ -23,21 +23,23 @@ export default function SearchBox({ entries }: { entries: SearchEntry[] }) {
 
   return (
     <div>
-      <label className="flex items-center gap-3 rounded-md border border-white/10 bg-panel px-4 py-3">
+      <label className="flex items-center gap-3 border-2 border-white bg-black px-4 py-4 focus-within:border-signal">
         <Search className="text-signal" size={20} />
         <input
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Search value, agency, ownership, AI, democracy..."
-          className="w-full bg-transparent text-base outline-none placeholder:text-slate-500"
+          className="w-full bg-transparent text-base font-bold outline-none placeholder:text-white/35"
         />
       </label>
-      <div className="mt-6 grid gap-3 md:grid-cols-2">
+      <div className="mt-7 divide-y divide-white/15 border-y border-white/15">
         {results.map((entry) => (
-          <Link key={entry.slug} href={`/notes/${entry.slug}`} className="rounded-md border border-white/10 bg-panel/70 p-4 hover:border-signal/60">
-            <p className="text-xs text-signal">{entry.category}</p>
-            <h2 className="mt-2 text-lg font-semibold">{entry.title}</h2>
-            <p className="mt-2 line-clamp-3 text-sm leading-6 text-slate-300">{entry.excerpt}</p>
+          <Link key={entry.slug} href={`/notes/${entry.slug}`} className="grid gap-3 py-5 transition hover:bg-white hover:px-4 hover:text-black md:grid-cols-[220px_1fr]">
+            <p className="text-xs font-black uppercase tracking-[0.24em] text-signal">{entry.category}</p>
+            <div>
+              <h2 className="brand-title text-3xl leading-none">{entry.title}</h2>
+              <p className="mt-2 line-clamp-3 text-sm leading-6 opacity-70">{entry.excerpt}</p>
+            </div>
           </Link>
         ))}
       </div>

@@ -5,21 +5,33 @@ const dynamicChain = ["Interaction", "Value", "Recognition", "Agency", "Legitima
 
 export default function HomePage() {
   return (
-    <main className="brain-grid">
-      <section className="mx-auto flex min-h-[calc(100vh-65px)] max-w-7xl flex-col justify-center px-4 py-16 sm:px-6">
-        <div className="max-w-4xl">
-          <p className="text-sm uppercase tracking-[0.3em] text-signal">A living philosophy engine</p>
-          <h1 className="mt-5 text-5xl font-semibold tracking-tight sm:text-7xl">The Inclusionism Brain</h1>
-          <p className="mt-6 max-w-3xl text-xl leading-8 text-slate-300">
-            Explore, challenge, and debate a living framework for value, agency, equity, and belonging.
+    <main className="brain-grid blueprint overflow-hidden">
+      <section className="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1fr_420px] lg:items-center">
+        <div className="max-w-5xl">
+          <p className="brand-kicker">A living philosophy engine</p>
+          <h1 className="brand-title mt-5 max-w-5xl text-5xl leading-[0.9] sm:text-8xl lg:text-9xl">The Inclusionism Brain</h1>
+          <p className="mt-7 max-w-3xl text-2xl font-bold leading-9 text-white">
+            A framework for value, agency, legitimacy, fairness, and belonging.
           </p>
-          <p className="mt-5 max-w-4xl text-base leading-7 text-slate-400">
-            Inclusionism is a framework for understanding how differentiated agents generate value through interaction and how civilizations
-            recognize, attribute, distribute, and legitimate that value.
+          <p className="mt-5 max-w-4xl border-l-4 border-signal pl-5 text-base leading-7 text-white/70 sm:text-lg">
+            Inclusionism explains how differentiated agents generate value through interaction, and how civilizations recognize, attribute,
+            distribute, and legitimate that value.
           </p>
         </div>
 
-        <div className="mt-10 grid gap-3 md:grid-cols-3">
+        <div className="ink-panel brand-rule p-5 lg:p-6">
+          <p className="text-xs font-black uppercase tracking-[0.32em] text-red">Core dynamic</p>
+          <div className="mt-5 grid gap-2">
+            {dynamicChain.map((item, index) => (
+              <div key={item} className="grid grid-cols-[1fr_auto] items-center border-b border-white/15 py-2 last:border-b-0">
+                <span className="brand-title text-xl sm:text-2xl">{item}</span>
+                {index < dynamicChain.length - 1 && <span className="text-2xl font-black text-signal">→</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="grid gap-3 md:grid-cols-3 lg:col-span-2">
           {[
             { href: "/graph", label: "Explore the Graph", icon: GitBranch },
             { href: "/notes", label: "Read the Canon", icon: Library },
@@ -27,23 +39,12 @@ export default function HomePage() {
           ].map((action) => {
             const Icon = action.icon;
             return (
-              <Link key={action.href} href={action.href} className="group rounded-md border border-white/10 bg-panel/80 p-6 hover:border-signal/70">
-                <Icon className="text-signal" size={28} />
-                <span className="mt-8 block text-2xl font-semibold">{action.label}</span>
+              <Link key={action.href} href={action.href} className="group ink-panel p-6 transition hover:-translate-y-1 hover:border-signal hover:shadow-glow">
+                <Icon className="text-signal" size={30} />
+                <span className="brand-title mt-8 block text-3xl">{action.label}</span>
               </Link>
             );
           })}
-        </div>
-
-        <div className="mt-12 rounded-md border border-white/10 bg-ink/70 p-4">
-          <div className="flex flex-wrap items-center gap-2">
-            {dynamicChain.map((item, index) => (
-              <div key={item} className="flex items-center gap-2">
-                <span className="rounded-md border border-signal/30 bg-signal/10 px-3 py-2 text-sm font-medium text-slate-100">{item}</span>
-                {index < dynamicChain.length - 1 && <span className="text-gold">→</span>}
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </main>

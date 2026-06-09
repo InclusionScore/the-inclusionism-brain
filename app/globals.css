@@ -4,6 +4,11 @@
 
 :root {
   color-scheme: dark;
+  --jfk-blue: #0080fb;
+  --jfk-red: #e4300f;
+  --jfk-black: #000000;
+  --jfk-white: #ffffff;
+  --jfk-line: rgba(255, 255, 255, 0.14);
 }
 
 * {
@@ -11,17 +16,18 @@
 }
 
 html {
-  background: #070a0f;
+  background: #000000;
 }
 
 body {
   min-height: 100vh;
   margin: 0;
   background:
-    radial-gradient(circle at 20% 0%, rgba(139, 211, 221, 0.12), transparent 32rem),
-    radial-gradient(circle at 80% 20%, rgba(231, 199, 111, 0.08), transparent 28rem),
-    #070a0f;
-  color: #e9eef4;
+    linear-gradient(90deg, rgba(0, 128, 251, 0.13), transparent 22rem),
+    radial-gradient(circle at 78% 8%, rgba(228, 48, 15, 0.12), transparent 28rem),
+    #000000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -30,13 +36,81 @@ a {
 
 .brain-grid {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
-  background-size: 32px 32px;
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.brand-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.brand-kicker {
+  color: var(--jfk-blue);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+}
+
+.brand-rule {
+  border-top: 2px solid var(--jfk-blue);
+  border-bottom: 2px solid var(--jfk-red);
+}
+
+.blueprint {
+  position: relative;
+}
+
+.blueprint::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(120deg, transparent 0 47%, rgba(0, 128, 251, 0.24) 47.2% 47.45%, transparent 47.7%),
+    radial-gradient(circle at 16% 30%, rgba(0, 128, 251, 0.16), transparent 18rem),
+    radial-gradient(circle at 82% 62%, rgba(228, 48, 15, 0.11), transparent 16rem);
+  opacity: 0.9;
+}
+
+.ink-panel {
+  border: 1px solid var(--jfk-line);
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.hard-button {
+  border: 2px solid var(--jfk-white);
+  background: var(--jfk-white);
+  color: var(--jfk-black);
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.hard-button:hover {
+  border-color: var(--jfk-blue);
+  background: var(--jfk-blue);
+  color: var(--jfk-white);
+}
+
+.outline-button {
+  border: 1px solid var(--jfk-line);
+  color: var(--jfk-white);
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.outline-button:hover {
+  border-color: var(--jfk-blue);
+  color: var(--jfk-blue);
 }
 
 .prose-invert a {
-  color: #8bd3dd;
+  color: #0080fb;
   text-decoration: none;
 }
 
