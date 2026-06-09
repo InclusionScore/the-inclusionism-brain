@@ -56,9 +56,9 @@ export default function EssaysPage() {
         </div>
       ) : (
         <section className="ink-panel brand-rule mt-10 p-6">
-          <h2 className="brand-title text-4xl leading-none">Substack feed not configured yet.</h2>
+          <h2 className="brand-title text-4xl leading-none">No essays imported yet.</h2>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-white/65">
-            Add `SUBSTACK_RSS_URL` in Vercel, then redeploy. The importer will create essay pages from the feed and connect them to related canon notes.
+            The app imports essays from James Felton Keith's Substack feed at build time. If this state appears in production, redeploy or check that the feed is reachable.
           </p>
         </section>
       )}

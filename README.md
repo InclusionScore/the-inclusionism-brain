@@ -51,10 +51,16 @@ Supported wikilink forms include:
 
 ## Essays / Substack RSS
 
-Set this environment variable to import essays from Substack at build time:
+The app imports essays from James Felton Keith's Substack feed by default:
 
 ```bash
-SUBSTACK_RSS_URL=https://your-substack.substack.com/feed
+https://jamesfeltonkeith.substack.com/feed
+```
+
+To override the feed, set this environment variable:
+
+```bash
+SUBSTACK_RSS_URL=https://jamesfeltonkeith.substack.com/feed
 ```
 
 The build writes `public/data/essays.json`. Each imported essay gets:
@@ -64,7 +70,7 @@ The build writes `public/data/essays.json`. Each imported essay gets:
 - related canon notes matched by terms and Obsidian-style wikilinks
 - Debate Mode links for “Debate this essay” and “Suggest Canon Updates”
 
-If `SUBSTACK_RSS_URL` is missing or the feed cannot be reached, the app still builds and shows an empty-state message on `/essays`.
+If the feed cannot be reached, the app still builds and shows an empty-state message on `/essays`.
 
 ## Debate API
 
@@ -109,7 +115,7 @@ When `OPENAI_API_KEY` is present, the route sends the user question plus retriev
 4. Use the default build command: `npm run build`.
 5. The build command runs `npm run build:content` before `next build`.
 6. Add `OPENAI_API_KEY` in Vercel Environment Variables to enable AI Debate Mode.
-7. Add `SUBSTACK_RSS_URL` in Vercel Environment Variables to import Substack essays.
+7. Optional: add `SUBSTACK_RSS_URL` in Vercel Environment Variables if you want to override the default Substack feed.
 
 ## Recommended Next Steps
 

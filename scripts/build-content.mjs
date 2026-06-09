@@ -6,6 +6,7 @@ import slugify from "slugify";
 const root = process.cwd();
 const vaultDir = path.join(root, "vault");
 const outDir = path.join(root, "public", "data");
+const defaultSubstackFeedUrl = "https://jamesfeltonkeith.substack.com/feed";
 const categories = [
   "Foundations",
   "Data Systems",
@@ -195,11 +196,7 @@ function relatedNotesForEssay(essayText, notes) {
 }
 
 async function importEssays(notes) {
-  const feedUrl = process.env.SUBSTACK_RSS_URL || process.env.NEXT_PUBLIC_SUBSTACK_RSS_URL;
-  if (!feedUrl) {
-    console.log("No SUBSTACK_RSS_URL configured. Built 0 essays.");
-    return [];
-  }
+  const feedUrl = process.env.SUBSTACK_RSS_URL || process.env.NEXT_PUBLIC_SUBSTACK_RSS_URL || defaultSubstackFeedUrl;
 
   try {
     const response = await fetch(feedUrl, {
@@ -233,6 +230,16 @@ async function importEssays(notes) {
     }).filter((essay) => essay.title && essay.link);
   } catch (error) {
     console.warn(`Could not import Substack RSS feed: ${error.message}`);
+    try {
+      const existing = await fs.readFile(path.join(outDir, "essays.json"), "utf8");
+      const essays = JSON.parse(existing);
+      if (Array.isArray(essays)) {
+        console.warn(`Preserving ${essays.length} previously imported essays.`);
+        return essays;
+      }
+    } catch {
+      // No previous essay index exists yet.
+    }
     return [];
   }
 }
