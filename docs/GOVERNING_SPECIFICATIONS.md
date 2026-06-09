@@ -34,7 +34,7 @@ How can civilizations maximize meaningful participation while preserving agency,
 
 - Public-facing product name: `Inclusionism`
 - Exploratory knowledge interface descriptor: `Inclusionism`
-- Primary symbol: `>=` visually represents the Inclusionism symbol `≥`
+- Primary symbol: `≥`
 - Symbol meaning: participation, legitimacy, recognition, and equitable consideration within systems.
 
 When naming or labeling public surfaces, use `Inclusionism`.
@@ -138,7 +138,7 @@ Spacing and hierarchy:
 
 Iconography:
 
-- Prefer simple line icons and the `≥` / `>=` Inclusionism symbol.
+- Prefer simple line icons and the `≥` Inclusionism symbol.
 - Do not over-decorate with generic app icons.
 
 Imagery:
