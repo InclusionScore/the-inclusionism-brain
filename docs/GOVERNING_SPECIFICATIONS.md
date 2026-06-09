@@ -33,11 +33,11 @@ How can civilizations maximize meaningful participation while preserving agency,
 ## Product Identity
 
 - Public-facing product name: `Inclusionism`
-- Current app/project descriptor: `The Inclusionism Brain`
+- Exploratory knowledge interface descriptor: `Inclusionism`
 - Primary symbol: `>=` visually represents the Inclusionism symbol `≥`
 - Symbol meaning: participation, legitimacy, recognition, and equitable consideration within systems.
 
-When naming or labeling public surfaces, prefer `Inclusionism` over generic product language. Use `The Inclusionism Brain` when referring specifically to the exploratory knowledge interface.
+When naming or labeling public surfaces, use `Inclusionism`.
 
 ## Comparative Philosophy
 

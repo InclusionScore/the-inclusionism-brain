@@ -1,4 +1,19 @@
+import type { Metadata } from "next";
 import DebateForm from "@/components/DebateForm";
+import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: metadataTitle("Debate"),
+  description: "Challenge, critique, and refine Inclusionism with responses grounded in the canon.",
+  alternates: { canonical: siteUrl("/debate") },
+  openGraph: {
+    title: socialTitle("Debate"),
+    description: "Challenge, critique, and refine Inclusionism with responses grounded in the canon.",
+    url: siteUrl("/debate"),
+    siteName: siteConfig.name,
+    images: ["/brand/og-image.png"]
+  }
+};
 
 export default function DebatePage() {
   return (

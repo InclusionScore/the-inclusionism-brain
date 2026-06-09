@@ -1,9 +1,36 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllNotes, getNote, renderNoteMarkdown } from "@/lib/content";
+import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 
 export function generateStaticParams() {
   return getAllNotes().map((note) => ({ slug: note.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const note = getNote(slug);
+  if (!note) return {};
+
+  return {
+    title: metadataTitle(note.title),
+    description: note.excerpt || siteConfig.description,
+    alternates: { canonical: siteUrl(`/notes/${note.slug}`) },
+    openGraph: {
+      title: socialTitle(note.title),
+      description: note.excerpt || siteConfig.description,
+      url: siteUrl(`/notes/${note.slug}`),
+      siteName: siteConfig.name,
+      images: ["/brand/og-image.png"]
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: socialTitle(note.title),
+      description: note.excerpt || siteConfig.description,
+      images: ["/brand/og-image.png"]
+    }
+  };
 }
 
 export default async function NotePage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,11 +1,44 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { GitBranch, Library, MessageSquareText, Search } from "lucide-react";
+import { siteConfig, siteUrl } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "The Inclusionism Brain",
-  description: "Explore, challenge, and debate a living framework for value, agency, equity, and belonging."
+  metadataBase: new URL(siteUrl()),
+  title: {
+    default: siteConfig.title,
+    template: `%s | ${siteConfig.name}`
+  },
+  description: siteConfig.description,
+  applicationName: siteConfig.name,
+  authors: [{ name: "Inclusionism" }],
+  creator: "Inclusionism",
+  publisher: "Inclusionism",
+  alternates: {
+    canonical: siteUrl()
+  },
+  openGraph: {
+    title: siteConfig.title,
+    description: siteConfig.description,
+    url: siteUrl(),
+    siteName: siteConfig.name,
+    type: "website",
+    images: [
+      {
+        url: "/brand/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Inclusionism"
+      }
+    ]
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: ["/brand/og-image.png"]
+  }
 };
 
 const nav = [
@@ -22,10 +55,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="sticky top-0 z-40 border-b border-white/15 bg-black/90 backdrop-blur-xl">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
             <Link href="/" className="flex items-center gap-3">
-              <span className="grid h-10 w-10 place-items-center border-2 border-white bg-white text-[0.7rem] font-black leading-none text-black">
-                JFK
+              <span className="grid h-10 w-10 place-items-center border-2 border-white bg-white text-2xl font-black leading-none text-black" aria-label="Inclusionism logo">
+                ≥
               </span>
-              <span className="brand-title text-lg leading-none tracking-wide">The Inclusionism Brain</span>
+              <span className="brand-title text-lg leading-none tracking-wide">Inclusionism</span>
             </Link>
             <nav className="flex gap-1">
               {nav.map((item) => {

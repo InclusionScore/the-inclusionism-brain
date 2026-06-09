@@ -85,7 +85,7 @@ async function generateAiDebate(userQuestion: string, relevantNotes: RetrievedNo
         {
           role: "developer",
           content: [
-            "You are Debate Mode for The Inclusionism Brain.",
+            "You are Debate Mode for Inclusionism.",
             "Use only the retrieved Inclusionism note excerpts as source material.",
             "Do not treat Inclusionism as democratic socialism, libertarianism, or generic DEI.",
             "Frame Inclusionism around interaction, value emergence, recognition, agency, legitimacy, fairness, belonging, equity, ownership, participation, civilization, AI, and intelligence.",

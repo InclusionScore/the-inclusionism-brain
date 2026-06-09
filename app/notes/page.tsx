@@ -1,5 +1,20 @@
+import type { Metadata } from "next";
 import SearchBox from "@/components/SearchBox";
 import { getSearchIndex } from "@/lib/content";
+import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: metadataTitle("Canon"),
+  description: "Read and search the Inclusionism canon: notes, backlinks, concepts, and internal wikilinks.",
+  alternates: { canonical: siteUrl("/notes") },
+  openGraph: {
+    title: socialTitle("Canon"),
+    description: "Read and search the Inclusionism canon: notes, backlinks, concepts, and internal wikilinks.",
+    url: siteUrl("/notes"),
+    siteName: siteConfig.name,
+    images: ["/brand/og-image.png"]
+  }
+};
 
 export default function NotesPage() {
   return (

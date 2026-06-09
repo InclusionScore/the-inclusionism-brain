@@ -9,7 +9,7 @@ export default function HomePage() {
       <section className="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1fr_420px] lg:items-center">
         <div className="max-w-5xl">
           <p className="brand-kicker">A living philosophy engine</p>
-          <h1 className="brand-title mt-5 max-w-5xl text-5xl leading-[0.9] sm:text-8xl lg:text-9xl">The Inclusionism Brain</h1>
+          <h1 className="brand-title mt-5 max-w-5xl text-5xl leading-[0.9] sm:text-8xl lg:text-9xl">Inclusionism</h1>
           <p className="mt-7 max-w-3xl text-2xl font-bold leading-9 text-white">
             A framework for value, agency, legitimacy, fairness, and belonging.
           </p>

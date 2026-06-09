@@ -1,5 +1,20 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { searchNotes } from "@/lib/content";
+import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: metadataTitle("PEST Lens"),
+  description: "Explore Inclusionism through political, economic, sociocultural, and technological questions.",
+  alternates: { canonical: siteUrl("/pest") },
+  openGraph: {
+    title: socialTitle("PEST Lens"),
+    description: "Explore Inclusionism through political, economic, sociocultural, and technological questions.",
+    url: siteUrl("/pest"),
+    siteName: siteConfig.name,
+    images: ["/brand/og-image.png"]
+  }
+};
 
 const lenses = [
   { name: "Political", prompt: "What does Inclusionism say about democracy?", query: "democracy governance legitimacy participation citizenship" },
