@@ -5,8 +5,9 @@ import { Send } from "lucide-react";
 import { FormEvent, useState } from "react";
 
 type DebateResponse = {
+  disclaimer?: string;
   sections: Record<string, string | string[]>;
-  relevantNotes: { slug: string; title: string; category: string; excerpt: string }[];
+  relevantNotes: { slug: string; title: string; category: string; excerpt: string; url?: string }[];
 };
 
 export default function DebateForm() {
@@ -45,10 +46,22 @@ export default function DebateForm() {
       </form>
       {answer && (
         <div className="mt-8 divide-y divide-white/15 border-y border-white/15">
+          {answer.disclaimer ? <p className="py-4 text-xs leading-5 text-white/55">{answer.disclaimer}</p> : null}
           {Object.entries(answer.sections).map(([name, value]) => (
             <section key={name} className="grid gap-3 py-6 md:grid-cols-[260px_1fr]">
               <h2 className="brand-title text-3xl leading-none text-signal">{name}</h2>
-              {Array.isArray(value) ? (
+              {name === "Relevant Notes" && answer.relevantNotes.length > 0 ? (
+                <ul className="space-y-2 text-sm leading-6">
+                  {answer.relevantNotes.map((note) => (
+                    <li key={note.slug}>
+                      <Link href={note.url || `/notes/${note.slug}`} className="text-white/75 underline decoration-signal/60 underline-offset-4 hover:text-signal">
+                        {note.title}
+                      </Link>
+                      <span className="text-white/45"> - {note.category}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : Array.isArray(value) ? (
                 <ul className="list-disc space-y-2 pl-5 text-sm leading-6 text-white/75">
                   {value.map((item) => <li key={item}>{item}</li>)}
                 </ul>
@@ -58,10 +71,10 @@ export default function DebateForm() {
             </section>
           ))}
           <section className="py-6">
-            <h2 className="brand-title text-3xl leading-none text-red">Retrieved Notes</h2>
+            <h2 className="brand-title text-3xl leading-none text-red">Source Excerpts</h2>
             <div className="mt-4 grid gap-3 md:grid-cols-2">
               {answer.relevantNotes.map((note) => (
-                <Link key={note.slug} href={`/notes/${note.slug}`} className="border border-white/15 bg-black p-4 hover:border-signal">
+                <Link key={note.slug} href={note.url || `/notes/${note.slug}`} className="border border-white/15 bg-black p-4 hover:border-signal">
                   <p className="text-xs font-black uppercase tracking-[0.22em] text-signal">{note.category}</p>
                   <p className="brand-title mt-2 text-2xl leading-none">{note.title}</p>
                   <p className="mt-2 line-clamp-2 text-xs leading-5 text-white/55">{note.excerpt}</p>
