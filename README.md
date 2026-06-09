@@ -2,6 +2,10 @@
 
 A public Next.js knowledge app for exploring, reading, and debating the Inclusionism markdown vault.
 
+Before changing design, navigation, branding, or feature direction, read:
+
+- `docs/GOVERNING_SPECIFICATIONS.md`
+
 The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, and generates:
 
 - `public/data/notes.json`
