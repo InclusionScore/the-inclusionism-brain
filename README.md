@@ -12,7 +12,7 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 
 - Obsidian-style graph view with category filters and backlink-weighted nodes
 - Canon reader with markdown rendering, clickable wikilinks, backlinks, related notes, and search
-- Debate Inclusionism page with a local structured response placeholder
+- Debate Inclusionism page with local retrieval, OpenAI responses when configured, and a local fallback
 - PEST Lens page for political, economic, sociocultural, and technological exploration
 - Dark, graph-centered public interface
 
@@ -54,7 +54,7 @@ Body:
 }
 ```
 
-The first version searches local notes and returns a structured response:
+The route searches local notes and returns a structured response:
 
 - Inclusionist Position
 - Strongest Critique
@@ -63,13 +63,19 @@ The first version searches local notes and returns a structured response:
 - Open Questions
 - Suggested Canon Updates
 
-No model key is required. Later, add an AI backend by setting:
+No model key is required. To enable real AI mode, set:
 
 ```bash
 OPENAI_API_KEY=...
 ```
 
-The route already detects the variable and is designed as the integration point.
+Optional model override:
+
+```bash
+OPENAI_MODEL=gpt-4.1-mini
+```
+
+When `OPENAI_API_KEY` is present, the route sends the user question plus retrieved note excerpts to the OpenAI Responses API. When the key is missing or the API call fails, it falls back to the local structured response.
 
 ## Vercel Deployment
 
@@ -78,11 +84,11 @@ The route already detects the variable and is designed as the integration point.
 3. Keep the default install command: `npm install`.
 4. Use the default build command: `npm run build`.
 5. The build command runs `npm run build:content` before `next build`.
-6. Add `OPENAI_API_KEY` later only when replacing the local Debate placeholder with a real model call.
+6. Add `OPENAI_API_KEY` in Vercel Environment Variables to enable AI Debate Mode.
 
 ## Recommended Next Steps
 
-- Add a real retrieval augmented generation flow in `/api/debate`.
+- Expand retrieval with embeddings or note-level tags for stronger Debate Mode grounding.
 - Add note-level PEST tags or frontmatter to improve filtering beyond folder categories.
 - Add graph clustering and saved views for major concept maps.
 - Add canonical debate threads for unresolved tensions in ownership, recognition, legitimacy, and AI intelligence.

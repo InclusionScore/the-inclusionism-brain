@@ -6,7 +6,7 @@ export default function DebatePage() {
       <p className="text-sm uppercase tracking-[0.3em] text-signal">Debate Inclusionism</p>
       <h1 className="mt-3 text-4xl font-semibold">Challenge the canon without flattening it.</h1>
       <p className="mt-4 max-w-3xl text-slate-300">
-        This mode treats the markdown vault as source material. The first version uses local retrieval and structured placeholders so an AI backend can be added later with `OPENAI_API_KEY`.
+        This mode retrieves relevant notes from the markdown vault, then uses OpenAI when `OPENAI_API_KEY` is configured. Without a key, it falls back to a local structured response.
       </p>
       <div className="mt-8">
         <DebateForm />
