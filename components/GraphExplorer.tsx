@@ -19,6 +19,13 @@ const palette: Record<string, string> = {
   "Maps of Content": "#e4300f"
 };
 
+type CanvasNode = GraphNode & { x: number; y: number };
+type CanvasLink = { source: CanvasNode | string; target: CanvasNode | string };
+
+function nodeSize(node: GraphNode) {
+  return Math.max(7, Math.sqrt((node.backlinks || 0) + 2) * 4.2);
+}
+
 export default function GraphExplorer({ graph }: { graph: GraphData }) {
   const [category, setCategory] = useState("All");
   const [selected, setSelected] = useState<GraphNode | null>(null);
@@ -52,31 +59,75 @@ export default function GraphExplorer({ graph }: { graph: GraphData }) {
             </button>
           ))}
         </div>
+        <div className="pointer-events-none absolute inset-0 z-0 opacity-50">
+          <div className="absolute left-1/2 top-0 h-full w-px bg-signal/20" />
+          <div className="absolute left-0 top-1/2 h-px w-full bg-signal/20" />
+        </div>
         <ForceGraph2D
           graphData={filtered}
           backgroundColor="rgba(0,0,0,0)"
           nodeId="id"
           nodeLabel={(node) => (node as GraphNode).title}
           nodeRelSize={4}
-          nodeVal={(node) => Math.max(3, Math.sqrt(((node as GraphNode).backlinks || 0) + 2) * 4)}
-          linkColor={() => "rgba(255, 255, 255, 0.2)"}
-          linkWidth={0.55}
-          nodeCanvasObject={(node, ctx, globalScale) => {
-            const item = node as GraphNode & { x: number; y: number };
-            const radius = Math.max(4, Math.sqrt(item.backlinks + 2) * 2.5);
-            const color = palette[item.category] || "#0080fb";
+          nodeVal={(node) => nodeSize(node as GraphNode)}
+          linkColor={() => "rgba(255, 255, 255, 0)"}
+          linkWidth={0}
+          linkCanvasObject={(link, ctx, globalScale) => {
+            const item = link as CanvasLink;
+            if (typeof item.source === "string" || typeof item.target === "string") return;
+            const source = item.source;
+            const target = item.target;
+            const midX = source.x + (target.x - source.x) * 0.5;
+            const alpha = Math.max(0.16, Math.min(0.42, 0.28 / Math.sqrt(globalScale)));
+
+            ctx.save();
             ctx.beginPath();
-            ctx.arc(item.x, item.y, radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = color;
-            ctx.shadowBlur = color === "#e4300f" ? 24 : 18;
+            ctx.moveTo(source.x, source.y);
+            ctx.lineTo(midX, source.y);
+            ctx.lineTo(midX, target.y);
+            ctx.lineTo(target.x, target.y);
+            ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
+            ctx.lineWidth = Math.max(0.55, 1 / globalScale);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.moveTo(midX - 2 / globalScale, source.y);
+            ctx.lineTo(midX + 2 / globalScale, source.y);
+            ctx.moveTo(midX - 2 / globalScale, target.y);
+            ctx.lineTo(midX + 2 / globalScale, target.y);
+            ctx.strokeStyle = "rgba(0,128,251,0.22)";
+            ctx.stroke();
+            ctx.restore();
+          }}
+          nodeCanvasObject={(node, ctx, globalScale) => {
+            const item = node as CanvasNode;
+            const size = nodeSize(item);
+            const half = size / 2;
+            const color = palette[item.category] || "#0080fb";
+
+            ctx.save();
+            ctx.shadowBlur = color === "#e4300f" ? 12 : 9;
             ctx.shadowColor = color;
-            ctx.fill();
+            ctx.fillStyle = color;
+            ctx.fillRect(item.x - half, item.y - half, size, size);
+
             ctx.shadowBlur = 0;
+            ctx.lineWidth = Math.max(1, 1.4 / globalScale);
+            ctx.strokeStyle = color === "#ffffff" ? "rgba(0,0,0,0.82)" : "rgba(255,255,255,0.86)";
+            ctx.strokeRect(item.x - half, item.y - half, size, size);
+
+            if (item.backlinks > 8) {
+              const outer = size + 5;
+              ctx.strokeStyle = "rgba(0,128,251,0.55)";
+              ctx.strokeRect(item.x - outer / 2, item.y - outer / 2, outer, outer);
+            }
+
             if (globalScale > 1.8) {
               ctx.font = `900 ${12 / globalScale}px Arial Narrow, Arial, sans-serif`;
               ctx.fillStyle = "rgba(255,255,255,0.92)";
-              ctx.fillText(item.title, item.x + radius + 2, item.y + 3);
+              ctx.fillText(item.title, item.x + half + 3, item.y + 4);
             }
+            ctx.restore();
           }}
           onNodeClick={(node) => setSelected(node as GraphNode)}
         />
@@ -85,7 +136,7 @@ export default function GraphExplorer({ graph }: { graph: GraphData }) {
         <p className="brand-kicker">Obsidian-style graph</p>
         <h1 className="brand-title mt-3 text-4xl leading-none xl:text-5xl">Explore<br />the Canon</h1>
         <p className="mt-4 border-l-4 border-red pl-4 text-sm leading-6 text-white/70">
-          Each note is a node. Wikilinks become edges. Node size follows backlinks, revealing which concepts the canon recognizes most often.
+          Each note is a square block. Wikilinks become engineered paths. Node size follows backlinks, revealing which concepts act as load-bearing structures in the canon.
         </p>
         <div className="ink-panel mt-7 p-5">
           {selected ? (
