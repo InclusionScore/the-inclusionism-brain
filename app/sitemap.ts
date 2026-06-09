@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
 import { getAllEssays, getAllNotes, getAllPodcastEpisodes } from "@/lib/content";
+import { frameworkComparisons } from "@/lib/frameworks";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ["", "/graph", "/notes", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
+  const staticRoutes = ["", "/graph", "/compare", "/notes", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
     url: siteUrl(path || "/"),
     lastModified: new Date()
   }));
@@ -23,5 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(episode.date)
   }));
 
-  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes];
+  const compareRoutes = frameworkComparisons.map((framework) => ({
+    url: siteUrl(`/compare/${framework.slug}`),
+    lastModified: new Date()
+  }));
+
+  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes];
 }

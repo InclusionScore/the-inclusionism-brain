@@ -18,6 +18,7 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 ## Features
 
 - Obsidian-style graph view with category filters and backlink-weighted nodes
+- Compare Frameworks section for political, economic, and future-oriented comparisons
 - Canon reader with markdown rendering, clickable wikilinks, backlinks, related notes, and search
 - Essays section that imports Substack RSS posts and connects think pieces to related canon notes
 - Podcast section that imports RSS episodes, audio links, and related canon notes

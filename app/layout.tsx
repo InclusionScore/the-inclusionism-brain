@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { GitBranch, Headphones, Library, MessageSquareText, Newspaper, Search } from "lucide-react";
+import { GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper, Search } from "lucide-react";
 import { siteConfig, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -43,6 +43,7 @@ export const metadata: Metadata = {
 
 const nav = [
   { href: "/graph", label: "Graph", icon: GitBranch },
+  { href: "/compare", label: "Compare", icon: GitCompareArrows },
   { href: "/notes", label: "Canon", icon: Search },
   { href: "/essays", label: "Essays", icon: Newspaper },
   { href: "/podcast", label: "Podcast", icon: Headphones },
