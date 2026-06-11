@@ -26,7 +26,30 @@ function nodeSize(node: GraphNode) {
   return Math.max(7, Math.sqrt((node.backlinks || 0) + 2) * 4.2);
 }
 
-export default function GraphExplorer({ graph }: { graph: GraphData }) {
+type GraphLabels = {
+  kicker: string;
+  title: string;
+  description: string;
+  select: string;
+  all: string;
+  backlinks: string;
+  outgoing: string;
+  openNote: string;
+};
+
+const defaultLabels: GraphLabels = {
+  kicker: "Obsidian-style graph",
+  title: "Explore the Canon",
+  description:
+    "Each note is a square block. Wikilinks become engineered paths. Node size follows backlinks, revealing which concepts act as load-bearing structures in the canon.",
+  select: "Select a node to inspect its role in the Inclusionist knowledge graph.",
+  all: "All",
+  backlinks: "backlinks",
+  outgoing: "outgoing links",
+  openNote: "Open note"
+};
+
+export default function GraphExplorer({ graph, labels = defaultLabels, noteHrefPrefix = "/notes" }: { graph: GraphData; labels?: GraphLabels; noteHrefPrefix?: string }) {
   const [category, setCategory] = useState("All");
   const [selected, setSelected] = useState<GraphNode | null>(null);
 
@@ -55,7 +78,7 @@ export default function GraphExplorer({ graph }: { graph: GraphData }) {
                   : "border-white/20 bg-black/80 text-white/70 hover:border-white hover:text-white"
               }`}
             >
-              {item}
+              {item === "All" ? labels.all : item}
             </button>
           ))}
         </div>
@@ -133,10 +156,10 @@ export default function GraphExplorer({ graph }: { graph: GraphData }) {
         />
       </section>
       <aside className="border-t border-white/15 bg-black p-5 lg:border-l lg:border-t-0 lg:p-7">
-        <p className="brand-kicker">Obsidian-style graph</p>
-        <h1 className="brand-title mt-3 text-4xl leading-none xl:text-5xl">Explore<br />the Canon</h1>
+        <p className="brand-kicker">{labels.kicker}</p>
+        <h1 className="brand-title mt-3 text-4xl leading-none xl:text-5xl">{labels.title}</h1>
         <p className="mt-4 border-l-4 border-red pl-4 text-sm leading-6 text-white/70">
-          Each note is a square block. Wikilinks become engineered paths. Node size follows backlinks, revealing which concepts act as load-bearing structures in the canon.
+          {labels.description}
         </p>
         <div className="ink-panel mt-7 p-5">
           {selected ? (
@@ -145,14 +168,14 @@ export default function GraphExplorer({ graph }: { graph: GraphData }) {
               <h2 className="brand-title mt-3 text-4xl leading-none">{selected.title}</h2>
               <p className="mt-4 text-sm leading-6 text-white/70">{selected.excerpt || "No excerpt available."}</p>
               <p className="mt-5 text-xs font-bold uppercase tracking-wider text-white/45">
-                {selected.backlinks} backlinks · {selected.links} outgoing links
+                {selected.backlinks} {labels.backlinks} · {selected.links} {labels.outgoing}
               </p>
-              <Link href={`/notes/${selected.id}`} className="hard-button mt-6 inline-flex px-4 py-3 text-xs">
-                Open note
+              <Link href={`${noteHrefPrefix}/${selected.id}`} className="hard-button mt-6 inline-flex px-4 py-3 text-xs">
+                {labels.openNote}
               </Link>
             </>
           ) : (
-            <p className="text-sm leading-6 text-white/70">Select a node to inspect its role in the Inclusionist knowledge graph.</p>
+            <p className="text-sm leading-6 text-white/70">{labels.select}</p>
           )}
         </div>
       </aside>

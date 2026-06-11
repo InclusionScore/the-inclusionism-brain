@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllEssays, getAllPodcastEpisodes, getReadableNotes } from "@/lib/content";
 import { frameworkComparisons } from "@/lib/frameworks";
+import { localePath, locales } from "@/lib/i18n";
 import { issueLandings } from "@/lib/issues";
 import { siteUrl } from "@/lib/site";
 
@@ -35,5 +36,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date()
   }));
 
-  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes, ...issueRoutes];
+  const localizedStaticRoutes = locales.flatMap((locale) =>
+    ["", "/what-is-inclusionism", "/issues", "/graph", "/compare", "/notes", "/debate"].map((path) => ({
+      url: siteUrl(localePath(locale, path || "/")),
+      lastModified: new Date()
+    }))
+  );
+
+  const localizedIssueRoutes = locales.flatMap((locale) =>
+    issueLandings.map((issue) => ({
+      url: siteUrl(localePath(locale, `/issues/${issue.slug}`)),
+      lastModified: new Date()
+    }))
+  );
+
+  const localizedNoteRoutes = locales.flatMap((locale) =>
+    getReadableNotes().map((note) => ({
+      url: siteUrl(localePath(locale, `/notes/${note.slug}`)),
+      lastModified: new Date()
+    }))
+  );
+
+  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes, ...issueRoutes, ...localizedStaticRoutes, ...localizedIssueRoutes, ...localizedNoteRoutes];
 }

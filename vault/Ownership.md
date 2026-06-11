@@ -60,6 +60,8 @@ Healthy ownership systems balance:
 - [[Universal Basic Ownership]]
 - [[Relational Attribution]]
 - [[Intelligence Ownership]]
+- [[Collective Intelligence Capital]]
+- [[Data Dividend]]
 
 ---
 

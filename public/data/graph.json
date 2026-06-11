@@ -12,78 +12,6 @@
   ],
   "nodes": [
     {
-      "id": "01-foundationsownership",
-      "title": "Ownership",
-      "category": "Foundations",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Ownership Ownership allocates authority, responsibility, and participation rights over value-generating systems."
-    },
-    {
-      "id": "01-foundationsparticipation",
-      "title": "Participation",
-      "category": "Foundations",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Participation Participation is the foundational act through which agents engage systems and generate data, coordination, identity, and value."
-    },
-    {
-      "id": "01-foundationsvalue",
-      "title": "Value",
-      "category": "Foundations",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Value Value emerges through interpreted transformational interactions between systems, participants, and environments."
-    },
-    {
-      "id": "02-data-systemsdata-ontology",
-      "title": "Data Ontology",
-      "category": "Data Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Data Ontology Data → Information → Interpretation → Knowledge → Intelligence → Value → Wisdom."
-    },
-    {
-      "id": "02-data-systemsinformation-metabolism",
-      "title": "Information Metabolism",
-      "category": "Data Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Information Metabolism Civilization functions through informational generation, exchange, interpretation, and adaptation."
-    },
-    {
-      "id": "02-data-systemsparticipation-precedes-ownership",
-      "title": "Participation Precedes Ownership",
-      "category": "Data Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Participation Precedes Ownership Participation generates the basis for legitimate ownership claims."
-    },
-    {
-      "id": "02-data-systemspersonal-data",
-      "title": "Personal Data",
-      "category": "Data Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Personal Data Personal data is the observable residue of participation and interaction."
-    },
-    {
-      "id": "03-economicsai-economies",
-      "title": "AI Economies",
-      "category": "Economics",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "AI Economies Economic systems increasingly shaped by AI, automation, and collective intelligence."
-    },
-    {
-      "id": "03-economicsdata-dividend",
-      "title": "Data Dividend",
-      "category": "Economics",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Data Dividend Participants share in value generated from data derived from participation."
-    },
-    {
       "id": "03-economicseconomic-inclusion",
       "title": "Economic Inclusion",
       "category": "Economics",
@@ -100,276 +28,12 @@
       "excerpt": "Economic Mobility The capacity to improve one's participation and ownership position."
     },
     {
-      "id": "03-economicslabor",
-      "title": "Labor",
-      "category": "Economics",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Labor One mechanism of participation, but not the only source of value generation."
-    },
-    {
-      "id": "03-economicsuniversal-basic-ownership",
-      "title": "Universal Basic Ownership",
-      "category": "Economics",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Universal Basic Ownership UBO distributes ownership participation rather than only redistributing income."
-    },
-    {
-      "id": "03-economicsvalue-distribution",
-      "title": "Value Distribution",
-      "category": "Economics",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Value Distribution How value, ownership, and opportunity are allocated throughout civilization."
-    },
-    {
-      "id": "04-governancedemocracy",
-      "title": "Democracy",
-      "category": "Governance",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Democracy A legitimacy architecture based on distributed participation."
-    },
-    {
-      "id": "04-governanceinformation-manipulation",
-      "title": "Information Manipulation",
-      "category": "Governance",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Information Manipulation The shaping of informational environments to influence behavior and coordination."
-    },
-    {
-      "id": "04-governancelegitimacy",
-      "title": "Legitimacy",
-      "category": "Governance",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Legitimacy Accepted authority arising from trust, participation, and fairness."
-    },
-    {
-      "id": "04-governancetechnocracy",
-      "title": "Technocracy",
-      "category": "Governance",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Technocracy Governance centered on expertise, optimization, and technical authority."
-    },
-    {
-      "id": "05-human-systemsbelonging",
-      "title": "Belonging",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Belonging The experience of recognition and participation within communities."
-    },
-    {
-      "id": "05-human-systemscaste",
-      "title": "Caste",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Caste A rigid participation and status hierarchy."
-    },
-    {
-      "id": "05-human-systemsclass",
-      "title": "Class",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Class A stratification system based on resources, ownership, and participation capacity."
-    },
-    {
-      "id": "05-human-systemsequality",
-      "title": "Equality",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Equality Equal legitimacy, dignity, protection, and access to foundational systems."
-    },
-    {
-      "id": "05-human-systemsequity",
-      "title": "Equity",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Equity Adaptive measures that create meaningful participation capacity."
-    },
-    {
-      "id": "05-human-systemshuman-meaning",
-      "title": "Human Meaning",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Human Meaning Purpose, significance, contribution, and narrative coherence."
-    },
-    {
-      "id": "05-human-systemsidentity",
-      "title": "Identity",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Identity Persistent informational continuity across participation and recognition."
-    },
-    {
-      "id": "05-human-systemspersonhood",
-      "title": "Personhood",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Personhood Recognition of agency, responsibility, and moral consideration."
-    },
-    {
-      "id": "05-human-systemspluralism",
-      "title": "Pluralism",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Pluralism The coexistence of multiple identities, beliefs, and meaning systems."
-    },
-    {
-      "id": "05-human-systemsrace",
-      "title": "Race",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Race A socially constructed stratification and identity system."
-    },
-    {
-      "id": "05-human-systemsrecognition",
-      "title": "Recognition",
-      "category": "Human Systems",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Recognition Acknowledgment of identity, participation, and personhood."
-    },
-    {
-      "id": "06-civilizationcivilization",
-      "title": "Civilization",
-      "category": "Civilization",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Civilization An informational coordination metabolism."
-    },
-    {
-      "id": "06-civilizationglobal-coordination",
-      "title": "Global Coordination",
-      "category": "Civilization",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Global Coordination Planetary-scale synchronization of action and governance."
-    },
-    {
-      "id": "06-civilizationmesh-regions",
-      "title": "Mesh Regions",
-      "category": "Civilization",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Mesh Regions Networked zones of belonging and coordination not limited by geography."
-    },
-    {
-      "id": "06-civilizationnetworks",
-      "title": "Networks",
-      "category": "Civilization",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Networks Structures through which information, trust, and value propagate."
-    },
-    {
-      "id": "06-civilizationoptimization",
-      "title": "Optimization",
-      "category": "Civilization",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Optimization The pursuit of efficiency and desired outcomes within systems."
-    },
-    {
-      "id": "06-civilizationstratification-systems",
-      "title": "Stratification Systems",
-      "category": "Civilization",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Stratification Systems Race, class, caste, and other participation-distribution systems."
-    },
-    {
-      "id": "07-ai-and-intelligenceai-governance",
-      "title": "AI Governance",
-      "category": "AI and Intelligence",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "AI Governance The governance of AI systems, data, participation, and intelligence infrastructure."
-    },
-    {
-      "id": "07-ai-and-intelligencecollective-intelligence-capital",
-      "title": "Collective Intelligence Capital",
-      "category": "AI and Intelligence",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Collective Intelligence Capital The accumulated knowledge and creativity embedded in civilization."
-    },
-    {
-      "id": "07-ai-and-intelligencecollective-intelligence",
-      "title": "Collective Intelligence",
-      "category": "AI and Intelligence",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Collective Intelligence Intelligence emerging from networked participation."
-    },
-    {
-      "id": "07-ai-and-intelligenceintelligence-infrastructure",
-      "title": "Intelligence Infrastructure",
-      "category": "AI and Intelligence",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Intelligence Infrastructure Systems that generate and distribute knowledge and intelligence."
-    },
-    {
-      "id": "07-ai-and-intelligenceintelligence-ownership",
-      "title": "Intelligence Ownership",
-      "category": "AI and Intelligence",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Intelligence Ownership Ownership and participation rights over intelligence-producing systems."
-    },
-    {
-      "id": "08-inclusionism-corecivilizational-tensions",
-      "title": "Civilizational Tensions",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Civilizational Tensions Coordination vs Pluralism, Optimization vs Meaning, Transparency vs Privacy, etc."
-    },
-    {
       "id": "08-inclusionism-coreinclusionism",
       "title": "Inclusionism",
       "category": "Inclusionism Core",
-      "backlinks": 1,
+      "backlinks": 2,
       "links": 0,
       "excerpt": "Inclusionism A framework for participatory civilization, value emergence, ownership distribution, and collective intelligence."
-    },
-    {
-      "id": "09-maps-of-contentcivilization-moc",
-      "title": "Civilization MOC",
-      "category": "Maps of Content",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Civilization MOC Map of civilization-related concepts."
-    },
-    {
-      "id": "09-maps-of-contentdata-systems-moc",
-      "title": "Data Systems MOC",
-      "category": "Maps of Content",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Data Systems MOC Map of data, information, and value-emergence concepts."
-    },
-    {
-      "id": "09-maps-of-contentinclusionism-moc",
-      "title": "Inclusionism MOC",
-      "category": "Maps of Content",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Inclusionism MOC Master navigation map for the Inclusionism Canon."
     },
     {
       "id": "ai-economies",
@@ -383,8 +47,8 @@
       "id": "ai-governance",
       "title": "AI Governance",
       "category": "Inclusionism Core",
-      "backlinks": 20,
-      "links": 6,
+      "backlinks": 21,
+      "links": 9,
       "excerpt": "AI Governance Definition Systems for coordinating the development, deployment, and alignment of artificial intelligence. --- Inclusionist Perspective AI systems should maximize distributed participation, transparency, and adaptive flourishing. --- Relationship"
     },
     {
@@ -407,7 +71,7 @@
       "id": "agency",
       "title": "# Agency",
       "category": "Inclusionism Core",
-      "backlinks": 31,
+      "backlinks": 36,
       "links": 5,
       "excerpt": "# Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents"
     },
@@ -439,8 +103,8 @@
       "id": "belonging",
       "title": "Belonging",
       "category": "Inclusionism Core",
-      "backlinks": 36,
-      "links": 7,
+      "backlinks": 40,
+      "links": 9,
       "excerpt": "Belonging Definition The condition that emerges when an agent's existence, participation, agency, and value are recognized within a system. --- Inclusionist Perspective Belonging is not merely acceptance. Belonging is the experience of being recognized as a le"
     },
     {
@@ -492,28 +156,12 @@
       "excerpt": "Civilization MOC Map-of-Content Civilizational Structure - Civilization - Networks - Governance - Collective Intelligence --- Adaptive Systems - Adaptation - Resilience - Feedback Loops - Emergence --- Failure Modes - Collapse - Fragility - Distrust - Coordina"
     },
     {
-      "id": "civilization-as-information-metabolism",
-      "title": "Civilization as Information Metabolism",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Civilization as Information Metabolism Thesis Civilization functions as a metabolic system of informational exchange, coordination, adaptation, and value emergence. --- Inclusionist Perspective Human civilization increasingly operates through: - data exchange "
-    },
-    {
       "id": "civilization",
       "title": "# Civilization",
       "category": "Inclusionism Core",
-      "backlinks": 36,
+      "backlinks": 37,
       "links": 8,
       "excerpt": "# Civilization Definition A large-scale coordination system through which agents organize interactions, value creation, participation, belonging, and governance. --- Inclusionist Perspective Civilizations are systems for managing interactions among differentia"
-    },
-    {
-      "id": "civilizational-tensions",
-      "title": "Civilizational Tensions",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Civilizational Tensions | Tension | Description | |---|---| | Coordination vs Pluralism | Synchronization versus diversity | | Connectivity vs Sovereignty | Networks versus autonomy | | Optimization vs Humanity | Efficiency versus meaning | | Transparency vs P"
     },
     {
       "id": "class",
@@ -543,7 +191,7 @@
       "id": "collective-intelligence-capital",
       "title": "# Collective Intelligence Capital",
       "category": "Inclusionism Core",
-      "backlinks": 3,
+      "backlinks": 6,
       "links": 5,
       "excerpt": "# Collective Intelligence Capital Definition The accumulated knowledge, creativity, culture, expertise, participation, and problem-solving capacity embedded within civilizations. --- Inclusionist Perspective No advanced intelligence system emerges from a singl"
     },
@@ -644,14 +292,6 @@
       "excerpt": "Core Dynamics Value Dynamics Value Emergence Transaction Coordination Participation --- Civilizational Dynamics Networks Governance Collective Intelligence Coordination Capacity --- Technological Dynamics Technology Automation AI Governance Distributed Intelli"
     },
     {
-      "id": "core-tensions",
-      "title": "Core Tensions",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Core Tensions | Tension | Description | |---|---| | Inclusion vs Efficiency | Broad participation can increase coordination complexity | | Centralization vs Decentralization | Efficiency versus distributed resilience | | Automation vs Meaning | Productivity ve"
-    },
-    {
       "id": "cost-of-belonging",
       "title": "Cost of Belonging",
       "category": "Inclusionism Core",
@@ -660,18 +300,10 @@
       "excerpt": "Cost of Belonging Definition The social, economic, cultural, informational, or behavioral requirements necessary to gain and maintain membership within a belonging system. --- Inclusionist Perspective Belonging systems compete partially through differences in "
     },
     {
-      "id": "current-questions",
-      "title": "Current Questions",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Current Questions - Can value be mathematically modeled? - Is inclusion thermodynamically efficient? - What is the relationship between consciousness and transaction? - Is civilization fundamentally a coordination system? - Can AI increase collective agency? -"
-    },
-    {
       "id": "data-dividend",
       "title": "# Data Dividend",
       "category": "Inclusionism Core",
-      "backlinks": 5,
+      "backlinks": 6,
       "links": 6,
       "excerpt": "# Data Dividend Definition A mechanism through which individuals receive value derived from data generated through their participation in social, economic, technological, or informational systems. --- Inclusionist Perspective Personal data emerges through inte"
     },
@@ -682,14 +314,6 @@
       "backlinks": 0,
       "links": 8,
       "excerpt": "Data Ontology Definition A layered framework describing how raw interaction becomes meaning, intelligence, coordination, and value within civilization. --- Inclusionist Hierarchy Data Observable residue generated through interaction. --- Information Structured"
-    },
-    {
-      "id": "data-systems-moc",
-      "title": "Data Systems MOC",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Data Systems MOC Map of data, information, and value-emergence concepts."
     },
     {
       "id": "data-as-labor",
@@ -743,7 +367,7 @@
       "id": "differentiation",
       "title": "Differentiation",
       "category": "Inclusionism Core",
-      "backlinks": 2,
+      "backlinks": 3,
       "links": 8,
       "excerpt": "Differentiation Definition The process through which agents become distinct from one another through identity, behavior, capability, knowledge, perspective, or participation. --- Inclusionist Perspective Differentiation is one of the primary sources of value e"
     },
@@ -823,7 +447,7 @@
       "id": "exclusion",
       "title": "Exclusion",
       "category": "Inclusionism Core",
-      "backlinks": 7,
+      "backlinks": 10,
       "links": 6,
       "excerpt": "Exclusion Definition The restriction of meaningful participation within systems of coordination and value creation. --- Inclusionist Principle Exclusion reduces adaptive intelligence and system-wide value generation. --- Inclusionist Perspective Exclusion redu"
     },
@@ -831,7 +455,7 @@
       "id": "fairness",
       "title": "Fairness",
       "category": "Inclusionism Core",
-      "backlinks": 2,
+      "backlinks": 4,
       "links": 6,
       "excerpt": "Fairness Definition The perception that value, participation, opportunity, responsibility, and outcomes are being distributed in a legitimate manner. --- Inclusionist Perspective Fairness emerges from legitimacy. Legitimacy emerges from agency. Agency emerges "
     },
@@ -882,6 +506,14 @@
       "backlinks": 40,
       "links": 6,
       "excerpt": "# Governance Definition The processes through which systems coordinate participation, authority, decision-making, value distribution, and collective action. --- Inclusionist Perspective Governance is the management of participation at scale. --- Core Principle"
+    },
+    {
+      "id": "harmony-versus-unity",
+      "title": "Harmony versus Unity",
+      "category": "Inclusionism Core",
+      "backlinks": 3,
+      "links": 8,
+      "excerpt": "Harmony versus Unity Common Assumption Most political philosophies seek unity. Unity often implies sameness. Shared beliefs. Shared culture. Shared Identity. Shared norms. Inclusionist View Harmony is superior to unity. Harmony requires Differentiation. A choi"
     },
     {
       "id": "health",
@@ -940,11 +572,19 @@
       "excerpt": "Identification Definition The process through which agents recognize, acknowledge, and incorporate one another into their understanding of a shared system. --- Inclusionist Perspective Identification is the bridge between witnessing and belonging. --- Core Pri"
     },
     {
+      "id": "identity-maturation-theory",
+      "title": "Identity Maturation Theory",
+      "category": "Inclusionism Core",
+      "backlinks": 5,
+      "links": 10,
+      "excerpt": "Identity Maturation Theory Core Proposition Identity is not a problem to be solved. Identity is a developmental reality. The challenge facing modern societies is not the existence of identity but the maturation of identity. Developmental Stages Stage 1: Suppre"
+    },
+    {
       "id": "identity",
       "title": "# Identity",
       "category": "Inclusionism Core",
-      "backlinks": 27,
-      "links": 6,
+      "backlinks": 31,
+      "links": 9,
       "excerpt": "# Identity Definition The persistent pattern through which an agent understands itself and is understood by others across time. --- Inclusionist Perspective Identity is neither purely individual nor purely social. Identity emerges through the ongoing interacti"
     },
     {
@@ -988,14 +628,6 @@
       "excerpt": "Inclusionism Canon v1.0 Foundational Axiom We have intrinsic value. We derive that value through our interactions with one another. We are entitled to equity in the value that proliferates from those interactions. --- Inclusionist Social Dynamic Interaction → "
     },
     {
-      "id": "inclusionism-open-problems",
-      "title": "Inclusionism Open Problems",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Inclusionism Open Problems Foundational Problems - Can value be formalized mathematically? - Is consciousness necessary for value? - Is information fundamentally physical? --- Civilizational Problems - Can democracies scale coordination? - What governance stru"
-    },
-    {
       "id": "inclusionism-thesis",
       "title": "Inclusionism Thesis",
       "category": "Inclusionism Core",
@@ -1004,19 +636,11 @@
       "excerpt": "Inclusionism Thesis Core Claim Human civilization is evolving from industrial extraction systems toward networked coordination systems. --- Foundational Premise Value emerges through recognized transformational interactions between conscious systems. --- Inclu"
     },
     {
-      "id": "inclusionism-vocabulary",
-      "title": "Inclusionism Vocabulary",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Inclusionism Vocabulary Core Terms - Agency - Participation - Connectivity - Coordination - Inclusion - Emergence - Ownership - Belonging - Intelligence - Networks - Adaptation - Civilization --- Economic Terms - Data-as-Labor - Post-Industrial Economics - Own"
-    },
-    {
       "id": "inclusionism",
       "title": "Inclusionism",
       "category": "Inclusionism Core",
       "backlinks": 0,
-      "links": 10,
+      "links": 13,
       "excerpt": "Inclusionism This canon is a living framework rather than a finished doctrine. Its purpose is to explore how value emerges through interaction and how civilizations recognize, attribute, distribute, and legitimate that value. The ideas contained herein are int"
     },
     {
@@ -1050,14 +674,6 @@
       "backlinks": 3,
       "links": 6,
       "excerpt": "Information Manipulation Definition The intentional shaping, distortion, filtering, amplification, suppression, or weaponization of informational flows in order to influence perception, coordination, behavior, or legitimacy. --- Inclusionist Perspective Civili"
-    },
-    {
-      "id": "information-metabolism",
-      "title": "Information Metabolism",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Information Metabolism Definition The process through which civilizations generate, exchange, interpret, and adapt through continuous informational flows. --- Inclusionist Perspective Civilization behaves like an informational metabolism. Participation generat"
     },
     {
       "id": "information",
@@ -1103,7 +719,7 @@
       "id": "intelligence-ownership",
       "title": "# Intelligence Ownership",
       "category": "Inclusionism Core",
-      "backlinks": 4,
+      "backlinks": 6,
       "links": 6,
       "excerpt": "# Intelligence Ownership Definition The ownership, governance, participation rights, and value claims associated with intelligence-producing systems. --- Inclusionist Perspective As intelligence increasingly becomes collective, computational, and networked, ow"
     },
@@ -1111,7 +727,7 @@
       "id": "intelligence",
       "title": "Intelligence",
       "category": "Inclusionism Core",
-      "backlinks": 1,
+      "backlinks": 2,
       "links": 6,
       "excerpt": "Intelligence Definition The capacity of systems to model environments, adapt behavior, and optimize outcomes. --- Inclusionist Perspective Intelligence scales through connectivity, participation, and coordinated information exchange. --- Relationships - Collec"
     },
@@ -1119,7 +735,7 @@
       "id": "interaction",
       "title": "Interaction",
       "category": "Inclusionism Core",
-      "backlinks": 5,
+      "backlinks": 7,
       "links": 6,
       "excerpt": "Interaction Definition The exchange, influence, observation, participation, or relationship between agents, systems, or environments. --- Inclusionist Perspective Interaction is the mechanism through which value emerges. Without interaction there can be existe"
     },
@@ -1151,25 +767,9 @@
       "id": "legitimacy",
       "title": "Legitimacy",
       "category": "Inclusionism Core",
-      "backlinks": 7,
+      "backlinks": 13,
       "links": 7,
       "excerpt": "Legitimacy Definition The recognized validity of authority, participation, ownership, governance, or value distribution within a system. --- Inclusionist Perspective Legitimacy emerges when participants believe systems accurately recognize reality. --- Core Pr"
-    },
-    {
-      "id": "maps-of-civilization",
-      "title": "Maps of Civilization",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Maps of Civilization Industrial Civilization Extraction → Production → Labor → Consumption → Hierarchy --- Network Civilization Participation → Connectivity → Coordination → Intelligence → Adaptation --- Value Emergence Energy → Transformation → Information → "
-    },
-    {
-      "id": "maps-of-inclusionism",
-      "title": "Maps of Inclusionism",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Maps of Inclusionism Core Flows Energy → Transformation → Information → Recognition → Value → Coordination → Civilization --- Civilizational Dynamics Inclusion → Participation → Connectivity → Collective Intelligence → Adaptive Capacity → Flourishing --- Failu"
     },
     {
       "id": "meaning",
@@ -1271,17 +871,9 @@
       "id": "ownership",
       "title": "# Ownership",
       "category": "Inclusionism Core",
-      "backlinks": 35,
-      "links": 8,
+      "backlinks": 36,
+      "links": 10,
       "excerpt": "# Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-genera"
-    },
-    {
-      "id": "participation-precedes-ownership-2",
-      "title": "Participation Precedes Ownership",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Participation Precedes Ownership Participation generates the basis for legitimate ownership claims."
     },
     {
       "id": "participation-precedes-ownership",
@@ -1312,7 +904,7 @@
       "title": "Personhood",
       "category": "Inclusionism Core",
       "backlinks": 4,
-      "links": 5,
+      "links": 8,
       "excerpt": "Personhood Definition The recognized status of an entity as a participant possessing identity, agency, and moral consideration. --- Inclusionist Perspective AI, biological systems, institutions, and future intelligences may challenge traditional boundaries of "
     },
     {
@@ -1335,7 +927,7 @@
       "id": "pluralism",
       "title": "# Pluralism",
       "category": "Inclusionism Core",
-      "backlinks": 11,
+      "backlinks": 15,
       "links": 6,
       "excerpt": "# Pluralism Definition The coexistence of multiple identities, beliefs, perspectives, cultures, and forms of participation within a shared system. --- Inclusionist Perspective Pluralism preserves differentiation. Differentiation creates the possibility of new "
     },
@@ -1383,8 +975,8 @@
       "id": "recognition",
       "title": "# Recognition",
       "category": "Inclusionism Core",
-      "backlinks": 9,
-      "links": 6,
+      "backlinks": 15,
+      "links": 8,
       "excerpt": "# Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful "
     },
     {
@@ -1392,7 +984,7 @@
       "title": "Relational Attribution",
       "category": "Inclusionism Core",
       "backlinks": 8,
-      "links": 7,
+      "links": 9,
       "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi"
     },
     {
@@ -1444,6 +1036,14 @@
       "excerpt": "Stratification Systems Definition Structures that distribute participation, legitimacy, agency, ownership, mobility, and recognition unevenly across civilizations. --- Inclusionist Perspective Stratification systems influence: - coordination capacity - social "
     },
     {
+      "id": "superintelligence",
+      "title": "Superintelligence",
+      "category": "Inclusionism Core",
+      "backlinks": 2,
+      "links": 9,
+      "excerpt": "Superintelligence Definition An Intelligence that exceeds human cognitive capabilities across most or all domains. --- Inclusionist Perspective Superintelligence is not inherently valuable or dangerous. The critical question is whether Agency remains broadly d"
+    },
+    {
       "id": "technocracy",
       "title": "Technocracy",
       "category": "Inclusionism Core",
@@ -1474,6 +1074,14 @@
       "backlinks": 2,
       "links": 5,
       "excerpt": "Terms of Trust Definition Shared agreements governing informational exchange, participation, transparency, and coordination within systems. --- Inclusionist Perspective Future societies require trust architectures rather than purely coercive governance systems"
+    },
+    {
+      "id": "the-problem-isnt-identity",
+      "title": "The Problem Isn't Identity",
+      "category": "Inclusionism Core",
+      "backlinks": 1,
+      "links": 7,
+      "excerpt": "The Problem Isn't Identity Inclusionist Thesis The problem is not Identity. The problem is immature identity. Examples White nationalism is immature identity. Black supremacy is immature identity. Religious fundamentalism is immature identity. Ethnonationalism"
     },
     {
       "id": "thermodynamic-economics",
@@ -1524,12 +1132,12 @@
       "excerpt": "# Universal Basic Ownership Definition A framework in which individuals possess baseline ownership participation within civilization-scale value-generating systems. --- Inclusionist Perspective Universal Basic Ownership expands beyond income redistribution by "
     },
     {
-      "id": "unresolved-contradictions",
-      "title": "Unresolved Contradictions",
+      "id": "universalism-as-an-outcome-of-identity",
+      "title": "Universalism as an Outcome of Identity",
       "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 0,
-      "excerpt": "Unresolved Contradictions - Can inclusion become coercive? - Does hyperconnectivity reduce individuality? - Can AI centralize power while increasing efficiency? - Is decentralization always beneficial? - Can civilizations optimize too aggressively? - Is value "
+      "backlinks": 5,
+      "links": 9,
+      "excerpt": "Universalism as an Outcome of Identity Conventional View Identity and universalism are opposites. Identity must decrease for universalism to emerge. Identity → Universalism Inclusionist View Universalism emerges from mature identity. Suppressed Identity → Reco"
     },
     {
       "id": "value-distribution-systems",
@@ -1543,8 +1151,8 @@
       "id": "value-distribution",
       "title": "# Value Distribution",
       "category": "Inclusionism Core",
-      "backlinks": 11,
-      "links": 6,
+      "backlinks": 12,
+      "links": 8,
       "excerpt": "# Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. T"
     },
     {
@@ -1632,6 +1240,18 @@
     {
       "source": "ai-governance",
       "target": "ownership"
+    },
+    {
+      "source": "ai-governance",
+      "target": "superintelligence"
+    },
+    {
+      "source": "ai-governance",
+      "target": "intelligence-ownership"
+    },
+    {
+      "source": "ai-governance",
+      "target": "collective-intelligence-capital"
     },
     {
       "source": "adaptation",
@@ -1796,6 +1416,14 @@
     {
       "source": "belonging",
       "target": "civilization"
+    },
+    {
+      "source": "belonging",
+      "target": "harmony-versus-unity"
+    },
+    {
+      "source": "belonging",
+      "target": "universalism-as-an-outcome-of-identity"
     },
     {
       "source": "caste",
@@ -3098,6 +2726,38 @@
       "target": "ownership"
     },
     {
+      "source": "harmony-versus-unity",
+      "target": "identity"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "differentiation"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "interaction"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "recognition"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "agency"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "pluralism"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "belonging"
+    },
+    {
+      "source": "harmony-versus-unity",
+      "target": "08-inclusionism-coreinclusionism"
+    },
+    {
       "source": "health",
       "target": "human-flourishing"
     },
@@ -3302,6 +2962,46 @@
       "target": "community"
     },
     {
+      "source": "identity-maturation-theory",
+      "target": "identity"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "recognition"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "legitimacy"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "agency"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "exclusion"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "pluralism"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "harmony-versus-unity"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "universalism-as-an-outcome-of-identity"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "belonging"
+    },
+    {
+      "source": "identity-maturation-theory",
+      "target": "fairness"
+    },
+    {
       "source": "identity",
       "target": "witnessing"
     },
@@ -3324,6 +3024,18 @@
     {
       "source": "identity",
       "target": "participation"
+    },
+    {
+      "source": "identity",
+      "target": "identity-maturation-theory"
+    },
+    {
+      "source": "identity",
+      "target": "universalism-as-an-outcome-of-identity"
+    },
+    {
+      "source": "identity",
+      "target": "the-problem-isnt-identity"
     },
     {
       "source": "incentive-structures",
@@ -3592,6 +3304,18 @@
     {
       "source": "inclusionism",
       "target": "code-of-equity"
+    },
+    {
+      "source": "inclusionism",
+      "target": "harmony-versus-unity"
+    },
+    {
+      "source": "inclusionism",
+      "target": "identity-maturation-theory"
+    },
+    {
+      "source": "inclusionism",
+      "target": "universalism-as-an-outcome-of-identity"
     },
     {
       "source": "inclusionist-social-dynamic",
@@ -4334,6 +4058,14 @@
       "target": "intelligence-ownership"
     },
     {
+      "source": "ownership",
+      "target": "collective-intelligence-capital"
+    },
+    {
+      "source": "ownership",
+      "target": "data-dividend"
+    },
+    {
       "source": "participation-precedes-ownership",
       "target": "ownership"
     },
@@ -4432,6 +4164,18 @@
     {
       "source": "personhood",
       "target": "ai-governance"
+    },
+    {
+      "source": "personhood",
+      "target": "identity-maturation-theory"
+    },
+    {
+      "source": "personhood",
+      "target": "superintelligence"
+    },
+    {
+      "source": "personhood",
+      "target": "legitimacy"
     },
     {
       "source": "physics-of-belonging",
@@ -4618,6 +4362,14 @@
       "target": "value"
     },
     {
+      "source": "recognition",
+      "target": "identity-maturation-theory"
+    },
+    {
+      "source": "recognition",
+      "target": "universalism-as-an-outcome-of-identity"
+    },
+    {
       "source": "relational-attribution",
       "target": "value"
     },
@@ -4644,6 +4396,14 @@
     {
       "source": "relational-attribution",
       "target": "universal-basic-ownership"
+    },
+    {
+      "source": "relational-attribution",
+      "target": "value-distribution"
+    },
+    {
+      "source": "relational-attribution",
+      "target": "recognition"
     },
     {
       "source": "religious-freedom",
@@ -4830,6 +4590,42 @@
       "target": "caste"
     },
     {
+      "source": "superintelligence",
+      "target": "intelligence"
+    },
+    {
+      "source": "superintelligence",
+      "target": "agency"
+    },
+    {
+      "source": "superintelligence",
+      "target": "exclusion"
+    },
+    {
+      "source": "superintelligence",
+      "target": "civilization"
+    },
+    {
+      "source": "superintelligence",
+      "target": "ai-governance"
+    },
+    {
+      "source": "superintelligence",
+      "target": "collective-intelligence-capital"
+    },
+    {
+      "source": "superintelligence",
+      "target": "intelligence-ownership"
+    },
+    {
+      "source": "superintelligence",
+      "target": "ownership"
+    },
+    {
+      "source": "superintelligence",
+      "target": "legitimacy"
+    },
+    {
       "source": "technocracy",
       "target": "governance"
     },
@@ -4924,6 +4720,34 @@
     {
       "source": "terms-of-trust",
       "target": "networks"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "identity"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "exclusion"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "belonging"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "pluralism"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "recognition"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "agency"
+    },
+    {
+      "source": "the-problem-isnt-identity",
+      "target": "legitimacy"
     },
     {
       "source": "thermodynamic-economics",
@@ -5066,6 +4890,42 @@
       "target": "ai-economies"
     },
     {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "identity"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "recognition"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "identity-maturation-theory"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "pluralism"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "interaction"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "belonging"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "agency"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "legitimacy"
+    },
+    {
+      "source": "universalism-as-an-outcome-of-identity",
+      "target": "fairness"
+    },
+    {
       "source": "value-distribution-systems",
       "target": "value-distribution"
     },
@@ -5112,6 +4972,14 @@
     {
       "source": "value-distribution",
       "target": "universal-basic-ownership"
+    },
+    {
+      "source": "value-distribution",
+      "target": "recognition"
+    },
+    {
+      "source": "value-distribution",
+      "target": "legitimacy"
     },
     {
       "source": "value-emergence",

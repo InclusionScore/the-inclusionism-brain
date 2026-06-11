@@ -39,10 +39,14 @@ Unrecognized participation often produces unrecognized value.
 - [[Equity]]
     
 - [[Value]]
+
+- [[Identity Maturation Theory]]
+
+- [[Universalism as an Outcome of Identity]]
     
 
 ---
 
 ## Core Question
 
-What forms of participation remain unseen by existing systems? 
+What forms of participation remain unseen by existing systems?

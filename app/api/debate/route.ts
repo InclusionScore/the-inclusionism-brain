@@ -103,7 +103,17 @@ function normalizeSections(sections: DebateSections, relevantNotes: RetrievedNot
   };
 }
 
+function responseLanguage(question: string) {
+  const normalized = question.toLowerCase();
+  if (/[¿¡]| de la | que | con | para | por | una | el | los | las | cómo | qué /.test(normalized)) return "Spanish";
+  if (/ qu[’']| avec | pour | une | les | des | pourquoi | légitim| appartenance|équité/.test(normalized)) return "French";
+  if (/ der | die | das | und | nicht | mit | für | warum | eigentum|zugehörigkeit/.test(normalized)) return "German";
+  if (/ção|ções| você | com | para | uma | que | propriedade|pertencimento|legitimidade/.test(normalized)) return "Portuguese";
+  return "English";
+}
+
 async function generateAiDebate(userQuestion: string, relevantNotes: RetrievedNote[]) {
+  const language = responseLanguage(userQuestion);
   const noteContext = relevantNotes
     .map((note, index) => {
       return [
@@ -136,7 +146,8 @@ async function generateAiDebate(userQuestion: string, relevantNotes: RetrievedNo
             "Do not merely agree with the user. Steelman the critique and help refine the canon.",
             "Do not invent canon claims when relevant notes are missing or thin.",
             "If the excerpts are insufficient, say so plainly in the substantive sections and identify what the canon still needs.",
-            "Cite relevant notes by title and URL where applicable."
+            "Cite relevant notes by title and URL where applicable.",
+            `Respond in ${language} unless the user explicitly asks for another language. Keep section names in English exactly as required by the JSON schema, but translate the section content.`
           ].join(" ")
         },
         {

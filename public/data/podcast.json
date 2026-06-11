@@ -1004,10 +1004,28 @@
         "reason": "term match: identity"
       },
       {
+        "slug": "identity-maturation-theory",
+        "title": "Identity Maturation Theory",
+        "category": "Inclusionism Core",
+        "reason": "term match: identity"
+      },
+      {
         "slug": "post-industrial-economics",
         "title": "Post-Industrial Economics",
         "category": "Inclusionism Core",
         "reason": "term match: post"
+      },
+      {
+        "slug": "the-problem-isnt-identity",
+        "title": "The Problem Isn't Identity",
+        "category": "Inclusionism Core",
+        "reason": "term match: identity"
+      },
+      {
+        "slug": "universalism-as-an-outcome-of-identity",
+        "title": "Universalism as an Outcome of Identity",
+        "category": "Inclusionism Core",
+        "reason": "term match: identity"
       }
     ]
   },

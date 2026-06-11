@@ -74,6 +74,10 @@ Belonging is therefore layered rather than singular.
 - [[Community]]
     
 - [[Civilization]]
+
+- [[Harmony versus Unity]]
+
+- [[Universalism as an Outcome of Identity]]
     
 
 ---

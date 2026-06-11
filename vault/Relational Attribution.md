@@ -41,6 +41,10 @@ Future civilizations may become increasingly capable of understanding how value 
 - [[Data Dividend]]
     
 - [[Universal Basic Ownership]]
+
+- [[Value Distribution]]
+
+- [[Recognition]]
     
 
 ---

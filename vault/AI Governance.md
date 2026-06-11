@@ -17,6 +17,9 @@ AI systems should maximize distributed participation, transparency, and adaptive
 - [[Technology]]
 - [[Participation]]
 - [[Ownership]]
+- [[Superintelligence]]
+- [[Intelligence Ownership]]
+- [[Collective Intelligence Capital]]
 
 ---
 

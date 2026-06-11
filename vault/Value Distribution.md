@@ -54,6 +54,10 @@ Failures in value distribution often manifest as:
 - [[Relational Attribution]]
     
 - [[Universal Basic Ownership]]
+
+- [[Recognition]]
+
+- [[Legitimacy]]
     
 
 ---

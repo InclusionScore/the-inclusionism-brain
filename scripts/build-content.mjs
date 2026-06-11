@@ -373,6 +373,14 @@ const candidateNotes = notes.filter((note) => note.status === "Candidate");
 const readableNotes = notes.filter((note) => readableStatuses.has(note.status));
 const canonSlugs = new Set(canonNotes.map((note) => note.slug));
 const readableSlugs = new Set(readableNotes.map((note) => note.slug));
+const canonDegree = new Map(canonNotes.map((note) => [note.slug, 0]));
+for (const link of links) {
+  if (!canonSlugs.has(link.source) || !canonSlugs.has(link.target)) continue;
+  canonDegree.set(link.source, (canonDegree.get(link.source) || 0) + 1);
+  canonDegree.set(link.target, (canonDegree.get(link.target) || 0) + 1);
+}
+const graphNotes = canonNotes.filter((note) => (canonDegree.get(note.slug) || 0) > 0);
+const graphSlugs = new Set(graphNotes.map((note) => note.slug));
 
 function noteForOutput(note, allowedSlugs) {
   return {
@@ -384,7 +392,7 @@ function noteForOutput(note, allowedSlugs) {
 
 const graph = {
   categories,
-  nodes: canonNotes.map((note) => ({
+  nodes: graphNotes.map((note) => ({
     id: note.slug,
     title: note.title,
     category: note.category,
@@ -392,7 +400,7 @@ const graph = {
     links: note.links.filter((link) => canonSlugs.has(link.slug)).length,
     excerpt: note.excerpt
   })),
-  links: links.filter((link) => canonSlugs.has(link.source) && canonSlugs.has(link.target))
+  links: links.filter((link) => graphSlugs.has(link.source) && graphSlugs.has(link.target))
 };
 
 const search = canonNotes.map((note) => ({

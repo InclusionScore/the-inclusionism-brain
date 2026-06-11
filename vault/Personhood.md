@@ -16,3 +16,6 @@ AI, biological systems, institutions, and future intelligences may challenge tra
 - [[Consciousness]]
 - [[Self Sovereignty]]
 - [[AI Governance]]
+- [[Identity Maturation Theory]]
+- [[Superintelligence]]
+- [[Legitimacy]]

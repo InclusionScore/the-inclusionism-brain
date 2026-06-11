@@ -10,7 +10,23 @@ type DebateResponse = {
   relevantNotes: { slug: string; title: string; category: string; excerpt: string; url?: string }[];
 };
 
-export default function DebateForm({ initialQuestion = "" }: { initialQuestion?: string }) {
+type DebateLabels = {
+  prompt: string;
+  placeholder: string;
+  submit: string;
+  loading: string;
+  sourceExcerpts: string;
+};
+
+const defaultLabels: DebateLabels = {
+  prompt: "What part of Inclusionism do you disagree with?",
+  placeholder: "Example: Does Universal Basic Ownership risk weakening individual liberty or productive incentives?",
+  submit: "Generate debate brief",
+  loading: "Reading the canon...",
+  sourceExcerpts: "Source Excerpts"
+};
+
+export default function DebateForm({ initialQuestion = "", labels = defaultLabels }: { initialQuestion?: string; labels?: DebateLabels }) {
   const [question, setQuestion] = useState(initialQuestion);
   const [loading, setLoading] = useState(false);
   const [answer, setAnswer] = useState<DebateResponse | null>(null);
@@ -31,17 +47,17 @@ export default function DebateForm({ initialQuestion = "" }: { initialQuestion?:
   return (
     <div>
       <form onSubmit={submit} className="ink-panel brand-rule p-5 shadow-redglow sm:p-7">
-        <label className="brand-title block text-4xl leading-none">What part of Inclusionism do you disagree with?</label>
+        <label className="brand-title block text-4xl leading-none">{labels.prompt}</label>
         <textarea
           value={question}
           onChange={(event) => setQuestion(event.target.value)}
           rows={5}
           className="mt-5 w-full border-2 border-white/25 bg-black p-4 text-base leading-7 outline-none placeholder:text-white/35 focus:border-signal"
-          placeholder="Example: Does Universal Basic Ownership risk weakening individual liberty or productive incentives?"
+          placeholder={labels.placeholder}
         />
         <button className="hard-button mt-4 inline-flex items-center gap-2 px-5 py-3 text-xs disabled:opacity-60" disabled={loading}>
           <Send size={17} />
-          {loading ? "Reading the canon..." : "Generate debate brief"}
+          {loading ? labels.loading : labels.submit}
         </button>
       </form>
       {answer && (
@@ -71,7 +87,7 @@ export default function DebateForm({ initialQuestion = "" }: { initialQuestion?:
             </section>
           ))}
           <section className="py-6">
-            <h2 className="brand-title text-3xl leading-none text-red">Source Excerpts</h2>
+            <h2 className="brand-title text-3xl leading-none text-red">{labels.sourceExcerpts}</h2>
             <div className="mt-4 grid gap-3 md:grid-cols-2">
               {answer.relevantNotes.map((note) => (
                 <Link key={note.slug} href={note.url || `/notes/${note.slug}`} className="border border-white/15 bg-black p-4 hover:border-signal">
