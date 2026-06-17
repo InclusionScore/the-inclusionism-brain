@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Explore the Inclusionism canon as a blueprint-like network of concepts, notes, and wikilinks.",
     url: siteUrl("/graph"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

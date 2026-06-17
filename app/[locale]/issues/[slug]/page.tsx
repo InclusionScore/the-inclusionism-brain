@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: issue.description,
       url: siteUrl(localePath(locale, `/issues/${issue.slug}`)),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }

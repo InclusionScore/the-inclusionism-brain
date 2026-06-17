@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   authors: [{ name: "Inclusionism" }],
   creator: "Inclusionism",
   publisher: "Inclusionism",
+  icons: {
+    icon: "/icon.png",
+    apple: "/apple-icon.png"
+  },
   alternates: {
     canonical: siteUrl()
   },
@@ -27,9 +31,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/brand/og-image.png",
-        width: 1200,
-        height: 630,
+        url: "/brand/inclusionism-logo-border.png",
+        width: 1080,
+        height: 1080,
         alt: "Inclusionism"
       }
     ]
@@ -38,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 
@@ -53,7 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "Organization",
               name: "Inclusionism",
               url: siteUrl("/"),
-              logo: siteUrl("/icon.svg"),
+              logo: siteUrl("/brand/inclusionism-logo-border.png"),
               description: siteConfig.description
             },
             {

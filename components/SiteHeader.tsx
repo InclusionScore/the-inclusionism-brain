@@ -38,8 +38,8 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-white/12 bg-black/92 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-2.5 sm:px-5">
         <Link href={localePath(locale, "/")} className="flex shrink-0 items-center gap-2.5">
-          <span className="grid h-8 w-8 place-items-center border border-white bg-white text-xl font-black leading-none text-black sm:h-9 sm:w-9" aria-label="Inclusionism logo">
-            ≥
+          <span className="grid h-8 w-8 place-items-center overflow-hidden border border-signal bg-black sm:h-9 sm:w-9" aria-label="Inclusionism logo">
+            <img src="/brand/inclusionism-logo-border.png" alt="" className="h-full w-full object-cover" />
           </span>
           <span className="brand-title text-base leading-none tracking-wide sm:text-lg">Inclusionism</span>
         </Link>

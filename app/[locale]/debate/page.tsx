@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: labels.meta.debate,
       url: siteUrl(localePath(locale, "/debate")),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }

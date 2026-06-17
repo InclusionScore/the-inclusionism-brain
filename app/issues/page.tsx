@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Explore Inclusionism through major AI, democracy, economics, ownership, legitimacy, belonging, race, class, and future questions.",
     url: siteUrl("/issues"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

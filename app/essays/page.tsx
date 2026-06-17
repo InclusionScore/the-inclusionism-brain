@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Read Inclusionism essays and connect think pieces back to the evolving canon.",
     url: siteUrl("/essays"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

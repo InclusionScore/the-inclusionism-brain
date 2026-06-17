@@ -23,13 +23,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: episode.description || siteConfig.description,
       url: siteUrl(`/podcast/${episode.slug}`),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle(episode.title),
       description: episode.description || siteConfig.description,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }

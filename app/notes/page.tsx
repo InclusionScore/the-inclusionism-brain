@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Read and search the Inclusionism canon: notes, backlinks, concepts, and internal wikilinks.",
     url: siteUrl("/notes"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

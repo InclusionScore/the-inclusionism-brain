@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: labels.meta.notes,
       url: siteUrl(localePath(locale, "/notes")),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }

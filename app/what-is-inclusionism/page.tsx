@@ -24,14 +24,14 @@ export const metadata: Metadata = {
       "A civilizational framework for recognizing, attributing, and returning value as meaningful agency.",
     url: siteUrl("/what-is-inclusionism"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   },
   twitter: {
     card: "summary_large_image",
     title: socialTitle("What Is Inclusionism?"),
     description:
       "A theory of how value and agency should remain connected.",
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

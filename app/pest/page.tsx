@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Explore Inclusionism through political, economic, sociocultural, and technological questions.",
     url: siteUrl("/pest"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

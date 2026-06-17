@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: labels.meta.home,
       url: siteUrl(localePath(locale, "/what-is-inclusionism")),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }

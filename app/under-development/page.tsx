@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "Candidate Inclusionism notes that are visible for review but not yet settled canon.",
     url: siteUrl("/under-development"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

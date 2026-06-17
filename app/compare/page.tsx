@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Compare Inclusionism with political, economic, and future-oriented frameworks across value, attribution, ownership, agency, equity, and belonging.",
     url: siteUrl("/compare"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

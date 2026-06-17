@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Challenge, critique, and refine Inclusionism with responses grounded in the canon.",
     url: siteUrl("/debate"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

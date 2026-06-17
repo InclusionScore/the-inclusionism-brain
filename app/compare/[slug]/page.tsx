@@ -25,13 +25,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
       url: siteUrl(`/compare/${framework.slug}`),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle(`Inclusionism vs ${framework.name}`),
       description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }

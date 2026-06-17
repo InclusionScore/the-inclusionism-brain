@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Listen to spoken Inclusionism think pieces and connect episodes back to the evolving canon.",
     url: siteUrl("/podcast"),
     siteName: siteConfig.name,
-    images: ["/brand/og-image.png"]
+    images: ["/brand/inclusionism-logo-border.png"]
   }
 };
 

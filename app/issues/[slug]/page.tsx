@@ -26,13 +26,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: issue.description,
       url: siteUrl(`/issues/${issue.slug}`),
       siteName: siteConfig.name,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle(issue.seoTitle),
       description: issue.description,
-      images: ["/brand/og-image.png"]
+      images: ["/brand/inclusionism-logo-border.png"]
     }
   };
 }
