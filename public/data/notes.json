@@ -1,183 +1,5 @@
 [
   {
-    "slug": "agency",
-    "title": "# Agency",
-    "path": "Agency.md",
-    "category": "Inclusionism Core",
-    "content": "# # Agency\n\n## Definition\n\nThe capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination.\n\n---\n\n## Inclusionist Perspective\n\nAgency is one of the primary expressions of value.\n\nValue becomes meaningful when agents possess the capacity to act upon it.\n\n---\n\n## Core Principle\n\nEnhancement becomes self-defeating when it destroys the agency it was intended to expand.\n\n---\n\n## Inclusionist Perspective\n\nIntelligence is valuable because it expands agency.\n\nOptimization is valuable when it expands agency.\n\nParticipation is meaningful when it includes agency.\n\n---\n\n## Civilizational Importance\n\nCivilizations increase in value when they increase the number of agents capable of meaningful participation.\n\nCivilizations decrease in value when agency becomes increasingly concentrated regardless of gains in efficiency or intelligence.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Participation]]\n    \n- [[Ownership]]\n    \n- [[Human Meaning]]\n    \n- [[Transhumanism]]\n    \n- [[Artificial Intelligence]]\n    \n- [[Belonging]]\n    \n\n---\n\n## Candidate Law\n\nCivilizations increase in value when they expand meaningful agency.",
-    "excerpt": "# Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents",
-    "status": "Canon",
-    "links": [
-      {
-        "slug": "value",
-        "title": "# Value"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "human-meaning",
-        "title": "# Human Meaning"
-      },
-      {
-        "slug": "belonging",
-        "title": "Belonging"
-      }
-    ],
-    "backlinks": [
-      {
-        "slug": "belonging",
-        "title": "Belonging"
-      },
-      {
-        "slug": "civilization",
-        "title": "# Civilization"
-      },
-      {
-        "slug": "consciousness",
-        "title": "Consciousness"
-      },
-      {
-        "slug": "coordinated-efficiency",
-        "title": "# Coordinated Efficiency"
-      },
-      {
-        "slug": "core-dynamics",
-        "title": "Core Dynamics"
-      },
-      {
-        "slug": "democracy",
-        "title": "# Democracy"
-      },
-      {
-        "slug": "differentiation",
-        "title": "Differentiation"
-      },
-      {
-        "slug": "fairness",
-        "title": "Fairness"
-      },
-      {
-        "slug": "fifth-freedom",
-        "title": "Fifth Freedom"
-      },
-      {
-        "slug": "governance",
-        "title": "# Governance"
-      },
-      {
-        "slug": "harmony-versus-unity",
-        "title": "Harmony versus Unity"
-      },
-      {
-        "slug": "human-enhancement",
-        "title": "Human Enhancement"
-      },
-      {
-        "slug": "human-meaning",
-        "title": "# Human Meaning"
-      },
-      {
-        "slug": "identity-maturation-theory",
-        "title": "Identity Maturation Theory"
-      },
-      {
-        "slug": "identity",
-        "title": "# Identity"
-      },
-      {
-        "slug": "inclusionism-canon-v10-moc",
-        "title": "Inclusionism Canon v1.0"
-      },
-      {
-        "slug": "inclusionism",
-        "title": "Inclusionism"
-      },
-      {
-        "slug": "inclusionist-social-dynamic",
-        "title": "Inclusionist Social Dynamic"
-      },
-      {
-        "slug": "individual-liberty",
-        "title": "Individual Liberty"
-      },
-      {
-        "slug": "intelligence-ownership",
-        "title": "# Intelligence Ownership"
-      },
-      {
-        "slug": "interaction",
-        "title": "Interaction"
-      },
-      {
-        "slug": "ownership-distribution",
-        "title": "Ownership Distribution"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "participation-precedes-ownership",
-        "title": "Participation Precedes Ownership"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "personhood",
-        "title": "Personhood"
-      },
-      {
-        "slug": "pluralism",
-        "title": "# Pluralism"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "self-sovereignty",
-        "title": "Self Sovereignty"
-      },
-      {
-        "slug": "social-mobility",
-        "title": "Social Mobility"
-      },
-      {
-        "slug": "superintelligence",
-        "title": "Superintelligence"
-      },
-      {
-        "slug": "the-problem-isnt-identity",
-        "title": "The Problem Isn't Identity"
-      },
-      {
-        "slug": "transaction",
-        "title": "Transaction"
-      },
-      {
-        "slug": "universal-basic-ownership",
-        "title": "# Universal Basic Ownership"
-      },
-      {
-        "slug": "universalism-as-an-outcome-of-identity",
-        "title": "Universalism as an Outcome of Identity"
-      },
-      {
-        "slug": "value",
-        "title": "# Value"
-      }
-    ],
-    "aliases": []
-  },
-  {
     "slug": "ai-economies",
     "title": "# AI Economies",
     "path": "AI Economies.md",
@@ -188,11 +10,11 @@
     "links": [
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "universal-basic-ownership",
@@ -250,11 +72,11 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "governance",
@@ -474,7 +296,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "superintelligence",
@@ -564,7 +386,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -610,11 +432,11 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "universal-basic-ownership",
@@ -627,6 +449,10 @@
     ],
     "backlinks": [
       {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
         "slug": "inclusionism-canon-v10-moc",
         "title": "Inclusionism Canon v1.0"
       },
@@ -636,7 +462,11 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
       },
       {
         "slug": "relational-attribution",
@@ -649,6 +479,10 @@
       {
         "slug": "value-distribution-systems",
         "title": "Value Distribution Systems"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
       }
     ],
     "aliases": []
@@ -672,7 +506,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "legitimacy",
@@ -736,113 +570,11 @@
     "aliases": []
   },
   {
-    "slug": "equity",
-    "title": "# Equity",
-    "path": "Equity.md",
-    "category": "Inclusionism Core",
-    "content": "# # Equity\n\n## Definition\n\nThe distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents.\n\n---\n\n## Inclusionist Perspective\n\nEquity is the tangible evidence that a system has recognized participation in value creation.\n\n---\n\n## Core Principle\n\nIndividuals are entitled to equity in the value that proliferates from their interactions with others.\n\n---\n\n## Inclusionist Perspective\n\nEquity is not identical outcomes.\n\nEquity is not uniformity.\n\nEquity is not the elimination of differentiation.\n\nEquity is the continual improvement of civilization's ability to recognize, attribute, and distribute value generated through interaction.\n\n---\n\n## Relational Attribution\n\nAs civilizations become better at understanding how value emerges, they should become better at understanding individual and collective contributions.\n\nRelational value does not eliminate individual ownership.\n\nIt creates a need for increasingly sophisticated attribution.\n\n---\n\n## Inclusionist Perspective\n\nEquity serves as evidence that participation, agency, and value have been recognized within a system.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Ownership]]\n    \n- [[Participation]]\n    \n- [[Belonging]]\n    \n- [[Relational Attribution]]\n    \n- [[Code of Equity]]\n    \n- [[Universal Basic Ownership]]\n    \n\n---\n\n## Core Question\n\nHow should value generated through interaction be distributed among participating agents?",
-    "excerpt": "# Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has re",
-    "status": "Canon",
-    "links": [
-      {
-        "slug": "value",
-        "title": "# Value"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "belonging",
-        "title": "Belonging"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "code-of-equity",
-        "title": "Code of Equity"
-      },
-      {
-        "slug": "universal-basic-ownership",
-        "title": "# Universal Basic Ownership"
-      }
-    ],
-    "backlinks": [
-      {
-        "slug": "code-of-equity",
-        "title": "Code of Equity"
-      },
-      {
-        "slug": "equality",
-        "title": "Equality"
-      },
-      {
-        "slug": "fairness",
-        "title": "Fairness"
-      },
-      {
-        "slug": "human-enhancement",
-        "title": "Human Enhancement"
-      },
-      {
-        "slug": "inclusion",
-        "title": "Inclusion"
-      },
-      {
-        "slug": "inclusionism-canon-v10-moc",
-        "title": "Inclusionism Canon v1.0"
-      },
-      {
-        "slug": "inclusionism",
-        "title": "Inclusionism"
-      },
-      {
-        "slug": "inequality",
-        "title": "Inequality"
-      },
-      {
-        "slug": "legitimacy",
-        "title": "Legitimacy"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "recognition",
-        "title": "# Recognition"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "value-distribution-systems",
-        "title": "Value Distribution Systems"
-      },
-      {
-        "slug": "value-distribution",
-        "title": "# Value Distribution"
-      },
-      {
-        "slug": "value",
-        "title": "# Value"
-      }
-    ],
-    "aliases": []
-  },
-  {
     "slug": "governance",
     "title": "# Governance",
     "path": "Governance.md",
     "category": "Inclusionism Core",
-    "content": "# # Governance\n\n## Definition\n\nThe processes through which systems coordinate participation, authority, decision-making, value distribution, and collective action.\n\n---\n\n## Inclusionist Perspective\n\nGovernance is the management of participation at scale.\n\n---\n\n## Core Principle\n\nGovernance exists to coordinate interactions among differentiated agents.\n\n---\n\n## Inclusionist Perspective\n\nEvery governance system must answer:\n\n- Who participates?\n    \n- Who decides?\n    \n- Who benefits?\n    \n- Who belongs?\n    \n- How is legitimacy established?\n    \n\n---\n\n## Inclusionist Perspective\n\nFuture governance systems may increasingly rely upon:\n\n- collective intelligence\n    \n- networked participation\n    \n- AI-assisted coordination\n    \n- dynamic representation\n    \n\n---\n\n## Relationships\n\n- [[Civilization]]\n    \n- [[Democracy]]\n    \n- [[Agency]]\n    \n- [[Participation]]\n    \n- [[Legitimacy]]\n    \n- [[Ownership]]\n    \n\n---\n\n## Core Question\n\nHow can governance preserve agency while increasing coordination?",
+    "content": "# # Governance\n\n## Definition\n\nThe processes through which systems coordinate participation, authority, decision-making, value distribution, and collective action.\n\n---\n\n## Inclusionist Perspective\n\nGovernance is the management of participation at scale.\n\n---\n\n## Core Principle\n\nGovernance exists to coordinate interactions among differentiated agents.\n\n---\n\n## Inclusionist Perspective\n\nEvery governance system must answer:\n\n- Who participates?\n    \n- Who decides?\n    \n- Who benefits?\n    \n- Who belongs?\n    \n- How is legitimacy established?\n    \n\n---\n\n## Inclusionist Perspective\n\nFuture governance systems may increasingly rely upon:\n\n- collective intelligence\n    \n- networked participation\n    \n- AI-assisted coordination\n    \n- dynamic representation\n    \n\n---\n\n## Relationships\n\n- [[Civilization]]\n    \n- [[Democracy]]\n    \n- [[Agency]]\n    \n- [[Participation]]\n    \n- [[Legitimacy]]\n    \n- [[Ownership]]\n\n- [[Privacy]]\n\n- [[Personal Data]]\n\n- [[Value Distribution]]\n    \n\n---\n\n## Core Question\n\nHow can governance preserve agency while increasing coordination?",
     "excerpt": "# Governance Definition The processes through which systems coordinate participation, authority, decision-making, value distribution, and collective action. --- Inclusionist Perspective Governance is the management of participation at scale. --- Core Principle",
     "status": "Canon",
     "links": [
@@ -856,7 +588,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -868,7 +600,19 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
       }
     ],
     "backlinks": [
@@ -1009,6 +753,10 @@
         "title": "Power"
       },
       {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
         "slug": "procreative-liberty",
         "title": "Procreative Liberty"
       },
@@ -1046,7 +794,7 @@
     "links": [
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -1068,7 +816,7 @@
     "backlinks": [
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "coordinated-efficiency",
@@ -1108,7 +856,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "belonging",
@@ -1278,15 +1026,15 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "intelligence-infrastructure",
@@ -1312,209 +1060,11 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "superintelligence",
         "title": "Superintelligence"
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "slug": "ownership",
-    "title": "# Ownership",
-    "path": "Ownership.md",
-    "category": "Inclusionism Core",
-    "content": "# # Ownership\n\n## Definition\n\nThe allocation of authority, responsibility, participation rights, and claims over value-generating systems.\n\n---\n\n## Inclusionist Perspective\n\nOwnership is not merely possession.\n\nOwnership is a relationship between agents and the value-generating systems in which they participate.\n\n---\n\n## Core Principle\n\nParticipation creates legitimate ownership claims.\n\n---\n\n## Inclusionist Perspective\n\nValue emerges relationally.\n\nOwnership should therefore reflect both:\n\n- individual differentiation\n- relational contribution\n\n---\n\n## Ownership and Agency\n\nOwnership is one mechanism through which civilizations distribute agency.\n\nThe concentration of ownership often produces the concentration of agency.\n\n---\n\n## Inclusionist Perspective\n\nHealthy ownership systems balance:\n\n- innovation incentives\n- participation legitimacy\n- agency distribution\n- value recognition\n\n---\n\n## Relationships\n\n- [[Value]]\n- [[Agency]]\n- [[Participation]]\n- [[Equity]]\n- [[Value Distribution]]\n- [[Universal Basic Ownership]]\n- [[Relational Attribution]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n- [[Data Dividend]]\n\n---\n\n## Core Question\n\nHow should ownership evolve as value becomes increasingly collective, informational, and AI-mediated?",
-    "excerpt": "# Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-genera",
-    "status": "Canon",
-    "links": [
-      {
-        "slug": "value",
-        "title": "# Value"
-      },
-      {
-        "slug": "agency",
-        "title": "# Agency"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "equity",
-        "title": "# Equity"
-      },
-      {
-        "slug": "value-distribution",
-        "title": "# Value Distribution"
-      },
-      {
-        "slug": "universal-basic-ownership",
-        "title": "# Universal Basic Ownership"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "intelligence-ownership",
-        "title": "# Intelligence Ownership"
-      },
-      {
-        "slug": "collective-intelligence-capital",
-        "title": "# Collective Intelligence Capital"
-      },
-      {
-        "slug": "data-dividend",
-        "title": "# Data Dividend"
-      }
-    ],
-    "backlinks": [
-      {
-        "slug": "ai-economies",
-        "title": "# AI Economies"
-      },
-      {
-        "slug": "ai-governance",
-        "title": "AI Governance"
-      },
-      {
-        "slug": "agency",
-        "title": "# Agency"
-      },
-      {
-        "slug": "automation",
-        "title": "Automation"
-      },
-      {
-        "slug": "centralization",
-        "title": "Centralization"
-      },
-      {
-        "slug": "choose-your-path",
-        "title": "Choose Your Path"
-      },
-      {
-        "slug": "civilization",
-        "title": "# Civilization"
-      },
-      {
-        "slug": "class",
-        "title": "Class"
-      },
-      {
-        "slug": "code-of-equity",
-        "title": "Code of Equity"
-      },
-      {
-        "slug": "data-dividend",
-        "title": "# Data Dividend"
-      },
-      {
-        "slug": "data-as-labor",
-        "title": "Data-as-Labor"
-      },
-      {
-        "slug": "equity",
-        "title": "# Equity"
-      },
-      {
-        "slug": "governance",
-        "title": "# Governance"
-      },
-      {
-        "slug": "how-to-explore-inclusionism",
-        "title": "How to Explore Inclusionism"
-      },
-      {
-        "slug": "incentive-structures",
-        "title": "Incentive Structures"
-      },
-      {
-        "slug": "inclusion-metrics",
-        "title": "Inclusion Metrics"
-      },
-      {
-        "slug": "inclusionism-canon-v10-moc",
-        "title": "Inclusionism Canon v1.0"
-      },
-      {
-        "slug": "inclusionism",
-        "title": "Inclusionism"
-      },
-      {
-        "slug": "individual-liberty",
-        "title": "Individual Liberty"
-      },
-      {
-        "slug": "intelligence-ownership",
-        "title": "# Intelligence Ownership"
-      },
-      {
-        "slug": "labor",
-        "title": "Labor"
-      },
-      {
-        "slug": "legitimacy",
-        "title": "Legitimacy"
-      },
-      {
-        "slug": "ownership-concentration",
-        "title": "Ownership Concentration"
-      },
-      {
-        "slug": "ownership-distribution",
-        "title": "Ownership Distribution"
-      },
-      {
-        "slug": "participation-precedes-ownership",
-        "title": "Participation Precedes Ownership"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "post-industrial-economics",
-        "title": "Post-Industrial Economics"
-      },
-      {
-        "slug": "power",
-        "title": "Power"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "self-sovereignty",
-        "title": "Self Sovereignty"
-      },
-      {
-        "slug": "start-here",
-        "title": "Start Here"
-      },
-      {
-        "slug": "superintelligence",
-        "title": "Superintelligence"
-      },
-      {
-        "slug": "universal-basic-ownership",
-        "title": "# Universal Basic Ownership"
-      },
-      {
-        "slug": "value-distribution-systems",
-        "title": "Value Distribution Systems"
-      },
-      {
-        "slug": "value-distribution",
-        "title": "# Value Distribution"
-      },
-      {
-        "slug": "value",
-        "title": "# Value"
       }
     ],
     "aliases": []
@@ -1550,7 +1100,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       }
     ],
     "backlinks": [
@@ -1644,11 +1194,11 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "identity-maturation-theory",
@@ -1714,7 +1264,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "witnessing",
@@ -1734,11 +1284,11 @@
     "links": [
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -1746,7 +1296,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "data-dividend",
@@ -1775,8 +1325,12 @@
         "title": "# Data Dividend"
       },
       {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "inclusionism-canon-v10-moc",
@@ -1796,7 +1350,11 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
       },
       {
         "slug": "relational-attribution",
@@ -1808,275 +1366,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "slug": "value",
-    "title": "# Value",
-    "path": "Value.md",
-    "category": "Inclusionism Core",
-    "content": "# # Value\n\n## Definition\n\nValue is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments.\n\n---\n\n## Inclusionist Perspective\n\nValue is not solely individual or collective.\n\nValue emerges relationally.\n\nInteractions create new forms of value that did not exist prior to the interaction itself.\n\n---\n\n## Core Principle\n\nExistence possesses intrinsic value.\n\nInteraction reveals, transforms, amplifies, and redistributes value.\n\n---\n\n## Relational Value Emergence\n\nThe fact that value emerges through relationships does not eliminate individual contribution.\n\nInstead, it creates a need for increasingly sophisticated methods of understanding how value emerged and how contributions should be recognized.\n\n---\n\n## Forms of Value\n\n- Economic Value\n    \n- Informational Value\n    \n- Social Value\n    \n- Cultural Value\n    \n- Political Value\n    \n- Emotional Value\n    \n- Civilizational Value\n    \n\n---\n\n## Inclusionist Perspective\n\nCivilizations become more legitimate as they improve their ability to recognize, attribute, and distribute value generated through interaction.\n\n---\n\n## Relationships\n\n- [[Interaction]]\n    \n- [[Witnessing]]\n    \n- [[Agency]]\n    \n- [[Participation]]\n    \n- [[Equity]]\n    \n- [[Ownership]]\n    \n- [[Value Distribution]]\n    \n- [[Relational Attribution]]",
-    "excerpt": "# Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Val",
-    "status": "Canon",
-    "links": [
-      {
-        "slug": "interaction",
-        "title": "Interaction"
-      },
-      {
-        "slug": "witnessing",
-        "title": "Witnessing"
-      },
-      {
-        "slug": "agency",
-        "title": "# Agency"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "equity",
-        "title": "# Equity"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "value-distribution",
-        "title": "# Value Distribution"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      }
-    ],
-    "backlinks": [
-      {
-        "slug": "agency",
-        "title": "# Agency"
-      },
-      {
-        "slug": "choose-your-path",
-        "title": "Choose Your Path"
-      },
-      {
-        "slug": "code-of-equity",
-        "title": "Code of Equity"
-      },
-      {
-        "slug": "connectivity",
-        "title": "Connectivity"
-      },
-      {
-        "slug": "consciousness",
-        "title": "Consciousness"
-      },
-      {
-        "slug": "data-dividend",
-        "title": "# Data Dividend"
-      },
-      {
-        "slug": "data-ontology",
-        "title": "Data Ontology"
-      },
-      {
-        "slug": "differentiation",
-        "title": "Differentiation"
-      },
-      {
-        "slug": "energy",
-        "title": "Energy"
-      },
-      {
-        "slug": "equity",
-        "title": "# Equity"
-      },
-      {
-        "slug": "fairness",
-        "title": "Fairness"
-      },
-      {
-        "slug": "how-to-explore-inclusionism",
-        "title": "How to Explore Inclusionism"
-      },
-      {
-        "slug": "incentive-structures",
-        "title": "Incentive Structures"
-      },
-      {
-        "slug": "inclusionism-canon-v10-moc",
-        "title": "Inclusionism Canon v1.0"
-      },
-      {
-        "slug": "inclusionism",
-        "title": "Inclusionism"
-      },
-      {
-        "slug": "inclusionist-social-dynamic",
-        "title": "Inclusionist Social Dynamic"
-      },
-      {
-        "slug": "information",
-        "title": "Information"
-      },
-      {
-        "slug": "interaction",
-        "title": "Interaction"
-      },
-      {
-        "slug": "interpretation",
-        "title": "Interpretation"
-      },
-      {
-        "slug": "labor",
-        "title": "Labor"
-      },
-      {
-        "slug": "meaning",
-        "title": "Meaning"
-      },
-      {
-        "slug": "ontology-clarifications",
-        "title": "Ontology Clarifications"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "recognition",
-        "title": "# Recognition"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "start-here",
-        "title": "Start Here"
-      },
-      {
-        "slug": "transaction",
-        "title": "Transaction"
-      },
-      {
-        "slug": "value-distribution",
-        "title": "# Value Distribution"
-      },
-      {
-        "slug": "value-emergence",
-        "title": "Value Emergence"
-      },
-      {
-        "slug": "value-objects",
-        "title": "Value Objects"
-      },
-      {
-        "slug": "witnessing",
-        "title": "Witnessing"
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "slug": "value-distribution",
-    "title": "# Value Distribution",
-    "path": "Value Distribution.md",
-    "category": "Inclusionism Core",
-    "content": "# # Value Distribution\n\n## Definition\n\nThe processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents.\n\n---\n\n## Inclusionist Perspective\n\nEvery civilization contains value distribution systems.\n\nThe central question is not whether value will be distributed.\n\nThe question is how accurately distribution reflects participation in value creation.\n\n---\n\n## Core Principle\n\nThe legitimacy of a civilization depends partly upon the legitimacy of its value distribution systems.\n\n---\n\n## Inclusionist Perspective\n\nFailures in value distribution often manifest as:\n\n- poverty\n    \n- exclusion\n    \n- instability\n    \n- concentration of power\n    \n- declining trust\n    \n- reduced participation\n    \n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Participation]]\n    \n- [[Relational Attribution]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Recognition]]\n\n- [[Legitimacy]]\n    \n\n---\n\n## Core Question\n\nHow should value generated through interaction be distributed among participating agents?",
-    "excerpt": "# Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. T",
-    "status": "Canon",
-    "links": [
-      {
-        "slug": "value",
-        "title": "# Value"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "equity",
-        "title": "# Equity"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "universal-basic-ownership",
-        "title": "# Universal Basic Ownership"
-      },
-      {
-        "slug": "recognition",
-        "title": "# Recognition"
-      },
-      {
-        "slug": "legitimacy",
-        "title": "Legitimacy"
-      }
-    ],
-    "backlinks": [
-      {
-        "slug": "ai-economies",
-        "title": "# AI Economies"
-      },
-      {
-        "slug": "equality",
-        "title": "Equality"
-      },
-      {
-        "slug": "incentive-structures",
-        "title": "Incentive Structures"
-      },
-      {
-        "slug": "inclusionism-canon-v10-moc",
-        "title": "Inclusionism Canon v1.0"
-      },
-      {
-        "slug": "innovation-incentives",
-        "title": "Innovation Incentives"
-      },
-      {
-        "slug": "intelligence-ownership",
-        "title": "# Intelligence Ownership"
-      },
-      {
-        "slug": "ownership-concentration",
-        "title": "Ownership Concentration"
-      },
-      {
-        "slug": "ownership",
-        "title": "# Ownership"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "universal-basic-ownership",
-        "title": "# Universal Basic Ownership"
-      },
-      {
-        "slug": "value-distribution-systems",
-        "title": "Value Distribution Systems"
-      },
-      {
-        "slug": "value",
-        "title": "# Value"
+        "title": "Value Distribution"
       }
     ],
     "aliases": []
@@ -2205,6 +1495,220 @@
     "aliases": []
   },
   {
+    "slug": "agency",
+    "title": "Agency",
+    "path": "Agency.md",
+    "category": "Inclusionism Core",
+    "content": "# Agency\n\n## Definition\n\nThe capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination.\n\n---\n\n## Inclusionist Perspective\n\nAgency is one of the primary expressions of value.\n\nValue becomes meaningful when agents possess the capacity to act upon it.\n\n---\n\n## Core Principle\n\nEnhancement becomes self-defeating when it destroys the agency it was intended to expand.\n\n---\n\n## Inclusionist Perspective\n\nIntelligence is valuable because it expands agency.\n\nOptimization is valuable when it expands agency.\n\nParticipation is meaningful when it includes agency.\n\n---\n\n## Civilizational Importance\n\nCivilizations increase in value when they increase the number of agents capable of meaningful participation.\n\nCivilizations decrease in value when agency becomes increasingly concentrated regardless of gains in efficiency or intelligence.\n\n## Exploitation as Agency Extraction\n\nExploitation is not only the extraction of [[Value]].\n\nIt is the extraction of future [[Agency]] from the agents whose participation, labor, data, identity, or relationships generate that value.\n\nA system becomes exploitative when it converts contribution into value while leaving contributors with reduced ownership, reduced self-determination, or reduced power to shape the systems they sustain.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Participation]]\n    \n- [[Ownership]]\n\n- [[Equity]]\n\n- [[Value Distribution]]\n\n- [[Ownership Concentration]]\n\n- [[Data-as-Labor]]\n    \n- [[Human Meaning]]\n    \n- [[Transhumanism]]\n    \n- [[Artificial Intelligence]]\n    \n- [[Belonging]]\n    \n\n---\n\n## Candidate Law\n\nCivilizations increase in value when they expand meaningful agency.",
+    "excerpt": "Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents p",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "ownership-concentration",
+        "title": "Ownership Concentration"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
+        "slug": "human-meaning",
+        "title": "# Human Meaning"
+      },
+      {
+        "slug": "belonging",
+        "title": "Belonging"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "belonging",
+        "title": "Belonging"
+      },
+      {
+        "slug": "civilization",
+        "title": "# Civilization"
+      },
+      {
+        "slug": "consciousness",
+        "title": "Consciousness"
+      },
+      {
+        "slug": "coordinated-efficiency",
+        "title": "# Coordinated Efficiency"
+      },
+      {
+        "slug": "core-dynamics",
+        "title": "Core Dynamics"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
+        "slug": "democracy",
+        "title": "# Democracy"
+      },
+      {
+        "slug": "differentiation",
+        "title": "Differentiation"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "fairness",
+        "title": "Fairness"
+      },
+      {
+        "slug": "fifth-freedom",
+        "title": "Fifth Freedom"
+      },
+      {
+        "slug": "governance",
+        "title": "# Governance"
+      },
+      {
+        "slug": "harmony-versus-unity",
+        "title": "Harmony versus Unity"
+      },
+      {
+        "slug": "human-enhancement",
+        "title": "Human Enhancement"
+      },
+      {
+        "slug": "human-meaning",
+        "title": "# Human Meaning"
+      },
+      {
+        "slug": "identity-maturation-theory",
+        "title": "Identity Maturation Theory"
+      },
+      {
+        "slug": "identity",
+        "title": "# Identity"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "inclusionism",
+        "title": "Inclusionism"
+      },
+      {
+        "slug": "inclusionist-social-dynamic",
+        "title": "Inclusionist Social Dynamic"
+      },
+      {
+        "slug": "individual-liberty",
+        "title": "Individual Liberty"
+      },
+      {
+        "slug": "intelligence-ownership",
+        "title": "# Intelligence Ownership"
+      },
+      {
+        "slug": "interaction",
+        "title": "Interaction"
+      },
+      {
+        "slug": "ownership-distribution",
+        "title": "Ownership Distribution"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "personhood",
+        "title": "Personhood"
+      },
+      {
+        "slug": "pluralism",
+        "title": "# Pluralism"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "social-mobility",
+        "title": "Social Mobility"
+      },
+      {
+        "slug": "superintelligence",
+        "title": "Superintelligence"
+      },
+      {
+        "slug": "the-problem-isnt-identity",
+        "title": "The Problem Isn't Identity"
+      },
+      {
+        "slug": "transaction",
+        "title": "Transaction"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      },
+      {
+        "slug": "universalism-as-an-outcome-of-identity",
+        "title": "Universalism as an Outcome of Identity"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      }
+    ],
+    "aliases": []
+  },
+  {
     "slug": "03-economicsai-economies",
     "title": "AI Economies",
     "path": "03 Economics/AI Economies.md",
@@ -2233,7 +1737,7 @@
     "title": "AI Governance",
     "path": "AI Governance.md",
     "category": "Inclusionism Core",
-    "content": "# AI Governance\n\n## Definition\nSystems for coordinating the development, deployment, and alignment of artificial intelligence.\n\n---\n\n## Inclusionist Perspective\nAI systems should maximize distributed participation, transparency, and adaptive flourishing.\n\n---\n\n## Relationships\n- [[Governance]]\n- [[Automation]]\n- [[Collective Intelligence]]\n- [[Technology]]\n- [[Participation]]\n- [[Ownership]]\n- [[Superintelligence]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n\n---\n\n## Questions\n- Who governs AI systems?\n- Can AI increase collective intelligence?\n- How should AI distribute value?\n\n---\n\n## Inclusionist Concern\nAI systems may strengthen or weaken democracy depending on how informational flows, participation, and coordination power are distributed.",
+    "content": "# AI Governance\n\n## Definition\nSystems for coordinating the development, deployment, and alignment of artificial intelligence.\n\n---\n\n## Inclusionist Perspective\nAI systems should maximize distributed participation, transparency, and adaptive flourishing.\n\n---\n\n## Relationships\n- [[Governance]]\n- [[Automation]]\n- [[Collective Intelligence]]\n- [[Technology]]\n- [[Participation]]\n- [[Ownership]]\n- [[Personal Data]]\n- [[Privacy]]\n- [[Data-as-Labor]]\n- [[Superintelligence]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n\n---\n\n## Questions\n- Who governs AI systems?\n- Can AI increase collective intelligence?\n- How should AI distribute value?\n\n---\n\n## Inclusionist Concern\nAI systems may strengthen or weaken democracy depending on how informational flows, participation, and coordination power are distributed.",
     "excerpt": "AI Governance Definition Systems for coordinating the development, deployment, and alignment of artificial intelligence. --- Inclusionist Perspective AI systems should maximize distributed participation, transparency, and adaptive flourishing. --- Relationship",
     "status": "Canon",
     "links": [
@@ -2259,7 +1763,19 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
       },
       {
         "slug": "superintelligence",
@@ -2344,6 +1860,10 @@
         "title": "Post-Industrial Economics"
       },
       {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
         "slug": "start-here",
         "title": "Start Here"
       },
@@ -2423,7 +1943,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
@@ -2525,7 +2045,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "community",
@@ -2547,7 +2067,7 @@
     "backlinks": [
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "belonging-systems",
@@ -2591,7 +2111,7 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "exclusion",
@@ -2856,7 +2376,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "automation",
@@ -2894,11 +2414,11 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
@@ -3150,7 +2670,7 @@
     "links": [
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "labor",
@@ -3220,15 +2740,15 @@
     "links": [
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
@@ -3246,7 +2766,7 @@
     "backlinks": [
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "inclusionism-canon-v10-moc",
@@ -3531,7 +3051,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "participation",
@@ -3589,11 +3109,11 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "interpretation",
@@ -4011,7 +3531,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "entropy",
@@ -4099,13 +3619,25 @@
     "title": "Data",
     "path": "Data.md",
     "category": "Inclusionism Core",
-    "content": "# Data\n\n## Definition\nInformation generated through the existence, behavior, interaction, and identification of individuals or systems.\n\n---\n\n## Inclusionist Perspective\nData is the connective tissue of network civilization and the micro-unit through which agency, identity, and value become visible.\n\n---\n\n## Relationships\n- [[Information]]\n- [[Data-as-Labor]]\n- [[Identity]]\n- [[Value Emergence]]\n- [[Transaction]]\n- [[Self Sovereignty]]\n\n---\n\n## Questions\n- Is all data derivative of personal data?\n- Who owns data produced through interaction?\n- Can data become a unit of participation?",
+    "content": "# Data\n\n## Definition\nInformation generated through the existence, behavior, interaction, and identification of individuals or systems.\n\n---\n\n## Inclusionist Perspective\nData is the connective tissue of network civilization and the micro-unit through which agency, identity, and value become visible.\n\n## Data Lineage\n\nData has lineage.\n\nIt carries traces of the agents, contexts, interactions, environments, and transformations that produced it.\n\nData lineage matters because [[Relational Attribution]] becomes impossible when data is detached from the people, systems, and relationships that generated it.\n\nWithout lineage, data can become a vehicle for hidden [[Value Distribution]] and unrecognized extraction.\n\n---\n\n## Relationships\n- [[Information]]\n- [[Personal Data]]\n- [[Data-as-Labor]]\n- [[Identity]]\n- [[Value Emergence]]\n- [[Relational Attribution]]\n- [[Value Distribution]]\n- [[Transaction]]\n- [[Self Sovereignty]]\n- [[Privacy]]\n\n---\n\n## Questions\n- Is all data derivative of personal data?\n- Who owns data produced through interaction?\n- Can data become a unit of participation?",
     "excerpt": "Data Definition Information generated through the existence, behavior, interaction, and identification of individuals or systems. --- Inclusionist Perspective Data is the connective tissue of network civilization and the micro-unit through which agency, identi",
     "status": "Canon",
     "links": [
       {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
         "slug": "information",
         "title": "Information"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
       },
       {
         "slug": "data-as-labor",
@@ -4126,12 +3658,20 @@
       {
         "slug": "self-sovereignty",
         "title": "Self Sovereignty"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
       }
     ],
     "backlinks": [
       {
         "slug": "data-ontology",
         "title": "Data Ontology"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
       },
       {
         "slug": "degrees-of-data",
@@ -4148,6 +3688,22 @@
       {
         "slug": "personal-data",
         "title": "Personal Data"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
       }
     ],
     "aliases": []
@@ -4203,7 +3759,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "meaning",
@@ -4250,17 +3806,45 @@
     "title": "Data-as-Labor",
     "path": "Data-as-Labor.md",
     "category": "Inclusionism Core",
-    "content": "# Data-as-Labor\n\n## Definition\nThe recognition that human-generated data contributes economic value and should participate in systems of ownership and compensation.\n\n---\n\n## Inclusionist Perspective\nData production is a form of participation within networked economies.\n\n---\n\n## Relationships\n- [[Ownership]]\n- [[Participation]]\n- [[Post-Industrial Economics]]\n- [[AI Governance]]\n- [[Value Emergence]]\n- [[Automation]]\n\n---\n\n## Core Principle\nAgency within digital economies requires participation in the ownership of generated value.\n\n---\n\n## Questions\n- Who owns behavioral data?\n- Can data labor become compensable?\n- Should AI-generated value be socially distributed?",
-    "excerpt": "Data-as-Labor Definition The recognition that human-generated data contributes economic value and should participate in systems of ownership and compensation. --- Inclusionist Perspective Data production is a form of participation within networked economies. -",
+    "content": "# Data-as-Labor\n\n## Definition\nThe recognition that human-generated data contributes economic value and should participate in systems of ownership and compensation.\n\n---\n\n## Inclusionist Perspective\nData production is a form of participation within networked economies.\n\nData-as-Labor is useful but incomplete.\n\nData is not only labor.\n\nIt may also be [[Personal Data]], identity extension, relational evidence, and the basis for [[Relational Attribution]].\n\nThe Inclusionist question is not only whether data should be compensated, but whether data contributors retain [[Agency]] and [[Ownership]] in the systems their data helps build.\n\n---\n\n## Relationships\n- [[Ownership]]\n- [[Participation]]\n- [[Personal Data]]\n- [[Data]]\n- [[Relational Attribution]]\n- [[Value Distribution]]\n- [[Universal Basic Ownership]]\n- [[Data Dividend]]\n- [[Post-Industrial Economics]]\n- [[AI Governance]]\n- [[Value Emergence]]\n- [[Automation]]\n\n---\n\n## Core Principle\nAgency within digital economies requires participation in the ownership of generated value.\n\n---\n\n## Questions\n- Who owns behavioral data?\n- Can data labor become compensable?\n- Should AI-generated value be socially distributed?",
+    "excerpt": "Data-as-Labor Definition The recognition that human-generated data contributes economic value and should participate in systems of ownership and compensation. --- Inclusionist Perspective Data production is a form of participation within networked economies. D",
     "status": "Canon",
     "links": [
       {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
         "title": "Participation"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      },
+      {
+        "slug": "data-dividend",
+        "title": "# Data Dividend"
       },
       {
         "slug": "post-industrial-economics",
@@ -4280,6 +3864,14 @@
       }
     ],
     "backlinks": [
+      {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
       {
         "slug": "class",
         "title": "Class"
@@ -4475,7 +4067,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -4491,7 +4083,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       }
     ],
     "backlinks": [
@@ -4804,7 +4396,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "transaction",
@@ -4940,7 +4532,7 @@
     "links": [
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "participation",
@@ -4952,7 +4544,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "democracy",
@@ -4989,6 +4581,124 @@
     "status": "Canon",
     "links": [],
     "backlinks": [],
+    "aliases": []
+  },
+  {
+    "slug": "equity",
+    "title": "Equity",
+    "path": "Equity.md",
+    "category": "Inclusionism Core",
+    "content": "# Equity\n\n## Definition\n\nThe distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents.\n\n---\n\n## Inclusionist Perspective\n\nEquity is the tangible evidence that a system has recognized participation in value creation.\n\n---\n\n## Core Principle\n\nIndividuals are entitled to equity in the value that proliferates from their interactions with others.\n\nAgency is the measure of equity.\n\nA system is not equitable merely because it distributes resources.\n\nIt becomes more equitable when participants gain meaningful [[Agency]] over the systems that shape their lives, recognize their contributions, and distribute value produced through their participation.\n\n---\n\n## Inclusionist Perspective\n\nEquity is not identical outcomes.\n\nEquity is not uniformity.\n\nEquity is not the elimination of differentiation.\n\nEquity is the continual improvement of civilization's ability to recognize, attribute, and distribute value generated through interaction.\n\n---\n\n## Relational Attribution\n\nAs civilizations become better at understanding how value emerges, they should become better at understanding individual and collective contributions.\n\nRelational value does not eliminate individual ownership.\n\nIt creates a need for increasingly sophisticated attribution.\n\n---\n\n## Inclusionist Perspective\n\nEquity serves as evidence that participation, agency, and value have been recognized within a system.\n\nEquity therefore links [[Value]], [[Relational Attribution]], [[Ownership]], and [[Fairness]].\n\nIf value is recognized but agency does not expand, equity remains incomplete.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Ownership]]\n    \n- [[Participation]]\n\n- [[Agency]]\n\n- [[Fairness]]\n    \n- [[Belonging]]\n    \n- [[Relational Attribution]]\n    \n- [[Code of Equity]]\n    \n- [[Universal Basic Ownership]]\n    \n\n---\n\n## Core Question\n\nHow should value generated through interaction be distributed among participating agents?",
+    "excerpt": "Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has reco",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "fairness",
+        "title": "Fairness"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "belonging",
+        "title": "Belonging"
+      },
+      {
+        "slug": "code-of-equity",
+        "title": "Code of Equity"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "code-of-equity",
+        "title": "Code of Equity"
+      },
+      {
+        "slug": "equality",
+        "title": "Equality"
+      },
+      {
+        "slug": "fairness",
+        "title": "Fairness"
+      },
+      {
+        "slug": "human-enhancement",
+        "title": "Human Enhancement"
+      },
+      {
+        "slug": "inclusion",
+        "title": "Inclusion"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "inclusionism",
+        "title": "Inclusionism"
+      },
+      {
+        "slug": "inequality",
+        "title": "Inequality"
+      },
+      {
+        "slug": "legitimacy",
+        "title": "Legitimacy"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "recognition",
+        "title": "# Recognition"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "value-distribution-systems",
+        "title": "Value Distribution Systems"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      }
+    ],
     "aliases": []
   },
   {
@@ -5088,7 +4798,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "belonging",
@@ -5096,14 +4806,18 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       }
     ],
     "backlinks": [
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
       {
         "slug": "identity-maturation-theory",
         "title": "Identity Maturation Theory"
@@ -5188,7 +4902,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "identity",
@@ -5396,7 +5110,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "pluralism",
@@ -5537,11 +5251,11 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
@@ -5614,7 +5328,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "health",
@@ -5622,7 +5336,7 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       }
     ],
     "backlinks": [
@@ -5812,7 +5526,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "exclusion",
@@ -5878,11 +5592,11 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "governance",
@@ -5890,7 +5604,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       }
     ],
     "backlinks": [
@@ -5924,7 +5638,7 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "networks",
@@ -5982,7 +5696,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "connectivity",
@@ -6036,7 +5750,7 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "interaction",
@@ -6048,7 +5762,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -6060,11 +5774,11 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "civilization",
@@ -6126,7 +5840,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "interaction",
@@ -6138,7 +5852,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "fairness",
@@ -6170,11 +5884,11 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "code-of-equity",
@@ -6186,7 +5900,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "value-distribution-systems",
@@ -6352,7 +6066,7 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "recognition",
@@ -6360,7 +6074,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "legitimacy",
@@ -6389,7 +6103,7 @@
     "links": [
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -6397,7 +6111,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "belonging",
@@ -6467,7 +6181,7 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "governance",
@@ -6497,7 +6211,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "energy",
@@ -6735,7 +6449,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "democracy",
@@ -6906,11 +6620,11 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -6948,7 +6662,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "witnessing",
@@ -7022,7 +6736,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "identity",
@@ -7072,11 +6786,11 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "automation",
@@ -7138,11 +6852,11 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "democracy",
@@ -7208,7 +6922,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       }
     ],
     "aliases": []
@@ -7252,7 +6966,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "identity",
@@ -7778,7 +7492,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "intelligence",
@@ -7929,6 +7643,220 @@
     "aliases": []
   },
   {
+    "slug": "ownership",
+    "title": "Ownership",
+    "path": "Ownership.md",
+    "category": "Inclusionism Core",
+    "content": "# Ownership\n\n## Definition\n\nThe allocation of authority, responsibility, participation rights, and claims over value-generating systems.\n\n---\n\n## Inclusionist Perspective\n\nOwnership is not merely possession.\n\nOwnership is a relationship between agents and the value-generating systems in which they participate.\n\n---\n\n## Core Principle\n\nParticipation creates legitimate ownership claims.\n\nOwnership follows contribution.\n\nContributors should hold meaningful claims in the systems, institutions, datasets, economies, and intelligence infrastructures they help create.\n\nThis does not mean every contribution creates identical ownership.\n\nIt means that ownership becomes less legitimate as it separates from [[Participation]], [[Relational Attribution]], and [[Value Distribution]].\n\n---\n\n## Inclusionist Perspective\n\nValue emerges relationally.\n\nOwnership should therefore reflect both:\n\n- individual differentiation\n- relational contribution\n\n---\n\n## Ownership and Agency\n\nOwnership is one mechanism through which civilizations distribute agency.\n\nThe concentration of ownership often produces the concentration of agency.\n\n---\n\n## Inclusionist Perspective\n\nHealthy ownership systems balance:\n\n- innovation incentives\n- participation legitimacy\n- agency distribution\n- value recognition\n\n---\n\n## Relationships\n\n- [[Value]]\n- [[Agency]]\n- [[Participation]]\n- [[Equity]]\n- [[Value Distribution]]\n- [[Universal Basic Ownership]]\n- [[Relational Attribution]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n- [[Data Dividend]]\n\n- [[Participation Precedes Ownership]]\n\n- [[Personal Data]]\n\n---\n\n## Core Question\n\nHow should ownership evolve as value becomes increasingly collective, informational, and AI-mediated?",
+    "excerpt": "Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-generati",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      },
+      {
+        "slug": "intelligence-ownership",
+        "title": "# Intelligence Ownership"
+      },
+      {
+        "slug": "collective-intelligence-capital",
+        "title": "# Collective Intelligence Capital"
+      },
+      {
+        "slug": "data-dividend",
+        "title": "# Data Dividend"
+      },
+      {
+        "slug": "participation-precedes-ownership-2",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "ai-economies",
+        "title": "# AI Economies"
+      },
+      {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "automation",
+        "title": "Automation"
+      },
+      {
+        "slug": "centralization",
+        "title": "Centralization"
+      },
+      {
+        "slug": "choose-your-path",
+        "title": "Choose Your Path"
+      },
+      {
+        "slug": "civilization",
+        "title": "# Civilization"
+      },
+      {
+        "slug": "class",
+        "title": "Class"
+      },
+      {
+        "slug": "code-of-equity",
+        "title": "Code of Equity"
+      },
+      {
+        "slug": "data-dividend",
+        "title": "# Data Dividend"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "governance",
+        "title": "# Governance"
+      },
+      {
+        "slug": "how-to-explore-inclusionism",
+        "title": "How to Explore Inclusionism"
+      },
+      {
+        "slug": "incentive-structures",
+        "title": "Incentive Structures"
+      },
+      {
+        "slug": "inclusion-metrics",
+        "title": "Inclusion Metrics"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "inclusionism",
+        "title": "Inclusionism"
+      },
+      {
+        "slug": "individual-liberty",
+        "title": "Individual Liberty"
+      },
+      {
+        "slug": "intelligence-ownership",
+        "title": "# Intelligence Ownership"
+      },
+      {
+        "slug": "labor",
+        "title": "Labor"
+      },
+      {
+        "slug": "legitimacy",
+        "title": "Legitimacy"
+      },
+      {
+        "slug": "ownership-concentration",
+        "title": "Ownership Concentration"
+      },
+      {
+        "slug": "ownership-distribution",
+        "title": "Ownership Distribution"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "post-industrial-economics",
+        "title": "Post-Industrial Economics"
+      },
+      {
+        "slug": "power",
+        "title": "Power"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here"
+      },
+      {
+        "slug": "superintelligence",
+        "title": "Superintelligence"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      },
+      {
+        "slug": "value-distribution-systems",
+        "title": "Value Distribution Systems"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      }
+    ],
+    "aliases": []
+  },
+  {
     "slug": "ownership-concentration",
     "title": "Ownership Concentration",
     "path": "Ownership Concentration.md",
@@ -7939,11 +7867,11 @@
     "links": [
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "universal-basic-ownership",
@@ -7980,6 +7908,10 @@
     ],
     "backlinks": [
       {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
         "slug": "innovation-incentives",
         "title": "Innovation Incentives"
       }
@@ -7997,11 +7929,11 @@
     "links": [
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -8059,7 +7991,7 @@
     "links": [
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "inclusion",
@@ -8071,7 +8003,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "connectivity",
@@ -8079,7 +8011,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       }
     ],
     "backlinks": [
@@ -8097,7 +8029,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "algorithmic-stratification",
@@ -8233,7 +8165,7 @@
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "exclusion",
@@ -8341,7 +8273,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation-precedes-ownership",
@@ -8405,7 +8337,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "value-emergence",
@@ -8417,7 +8349,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       }
     ],
     "aliases": []
@@ -8443,7 +8375,12 @@
     "excerpt": "Participation Precedes Ownership Participation generates the basis for legitimate ownership claims.",
     "status": "Canon",
     "links": [],
-    "backlinks": [],
+    "backlinks": [
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      }
+    ],
     "aliases": []
   },
   {
@@ -8451,13 +8388,29 @@
     "title": "Participation Precedes Ownership",
     "path": "Participation Precedes Ownership.md",
     "category": "Inclusionism Core",
-    "content": "# Participation Precedes Ownership\n\n```markdown\n# Participation Precedes Ownership\n\n## Inclusionist Principle\nParticipation in systems precedes claims of ownership over systems.\n\n---\n\n## Explanation\nIndividuals and entities generate value through:\n- existence\n- interaction\n- labor\n- data generation\n- coordination\n- contribution\n\nOwnership systems emerge afterward as mechanisms for organizing claims over value.\n\n---\n\n## Inclusionist Perspective\nCivilizations become unstable when participation and ownership become disconnected.\n\n---\n\n# Relationships\n- [[Ownership]]\n- [[Participation]]\n- [[Value Emergence]]\n- [[Personal Data]]\n- [[Data-as-Labor]]\n- [[Agency]]\n\n---\n\n# Questions\n- Should participation automatically generate ownership rights?\n- Can ownership exist legitimately without participation?\n- How should AI-era ownership evolve?",
-    "excerpt": "Participation Precedes Ownership ```markdown Participation Precedes Ownership Inclusionist Principle Participation in systems precedes claims of ownership over systems. --- Explanation Individuals and entities generate value through: - existence - interaction ",
+    "content": "# Participation Precedes Ownership\n\n## Inclusionist Principle\nParticipation in systems precedes claims of ownership over systems.\n\n---\n\n## Explanation\nIndividuals and entities generate value through:\n- existence\n- interaction\n- labor\n- data generation\n- coordination\n- contribution\n\nOwnership systems emerge afterward as mechanisms for organizing claims over value.\n\nContribution creates a legitimate claim, not an automatic entitlement to identical ownership.\n\nThe strength and form of that claim depends on [[Relational Attribution]], [[Value Distribution]], [[Agency]], and the degree to which the contributor is affected by the system they help produce.\n\n---\n\n## Inclusionist Perspective\nCivilizations become unstable when participation and ownership become disconnected.\n\nWhen contributors are structurally separated from the value, governance, or agency produced by their participation, ownership becomes extractive rather than legitimate.\n\n---\n\n# Relationships\n- [[Value]]\n- [[Ownership]]\n- [[Participation]]\n- [[Value Emergence]]\n- [[Relational Attribution]]\n- [[Value Distribution]]\n- [[Personal Data]]\n- [[Data-as-Labor]]\n- [[Agency]]\n- [[Equity]]\n- [[Universal Basic Ownership]]\n\n---\n\n# Questions\n- Should participation automatically generate ownership rights?\n- Can ownership exist legitimately without participation?\n- How should AI-era ownership evolve?",
+    "excerpt": "Participation Precedes Ownership Inclusionist Principle Participation in systems precedes claims of ownership over systems. --- Explanation Individuals and entities generate value through: - existence - interaction - labor - data generation - coordination - co",
     "status": "Canon",
     "links": [
       {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
@@ -8476,8 +8429,12 @@
         "title": "Data-as-Labor"
       },
       {
-        "slug": "agency",
-        "title": "# Agency"
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
       }
     ],
     "backlinks": [],
@@ -8500,10 +8457,34 @@
     "title": "Personal Data",
     "path": "Personal Data.md",
     "category": "Inclusionism Core",
-    "content": "# Personal Data\n\n## Definition\nPersonal data is metadata that derives from living and non-living individuals through existence, interaction, participation, and transaction within systems.\n\n---\n\n## Inclusionist Perspective\nAll data is a derivative of personal data because all data originates from interactions involving identifiable entities, systems, environments, or participants.\n\nData is not merely stored information.\n\nData is the observable residue of relational existence.\n\n---\n\n## Core Principle\nParticipation generates data.\n\n---\n\n## Inclusionist Perspective\nExistence within civilization inevitably produces informational traces.\n\nThese traces:\n- enable coordination\n- influence value emergence\n- shape institutions\n- train AI systems\n- construct identity\n- influence governance\n\n---\n\n## Relationships\n- [[Data]]\n- [[Information]]\n- [[Participation]]\n- [[Transaction]]\n- [[Identity]]\n- [[Self Sovereignty]]\n- [[Value Emergence]]\n- [[Data-as-Labor]]\n\n---\n\n## Core Questions\n- Is all data relational?\n- Can data exist without interaction?\n- Should participants own data derived from their existence?\n- Is personal data a form of labor?\n- Can civilization function without personal data exchange?",
+    "content": "# Personal Data\n\n## Definition\nPersonal data is metadata that derives from living and non-living individuals through existence, interaction, participation, and transaction within systems.\n\n---\n\n## Inclusionist Perspective\nAll data is a derivative of personal data because all data originates from interactions involving identifiable entities, systems, environments, or participants.\n\nData is not merely stored information.\n\nData is the observable residue of relational existence.\n\nPersonal data can function as a human extension.\n\nIt extends [[Identity]], [[Agency]], memory, behavior, relationships, and social presence into informational systems.\n\nFor that reason, personal data should not be treated only as a commodity or exhaust.\n\nIt is also a site of [[Self Sovereignty]], [[Privacy]], [[Relational Attribution]], and potential [[Ownership]] claims.\n\n---\n\n## Core Principle\nParticipation generates data.\n\n---\n\n## Inclusionist Perspective\nExistence within civilization inevitably produces informational traces.\n\nThese traces:\n- enable coordination\n- influence value emergence\n- shape institutions\n- train AI systems\n- construct identity\n- influence governance\n\n---\n\n## Relationships\n- [[Data]]\n- [[Information]]\n- [[Participation]]\n- [[Transaction]]\n- [[Identity]]\n- [[Self Sovereignty]]\n- [[Privacy]]\n- [[Ownership]]\n- [[Relational Attribution]]\n- [[Data Dividend]]\n- [[Value Emergence]]\n- [[Data-as-Labor]]\n\n---\n\n## Core Questions\n- Is all data relational?\n- Can data exist without interaction?\n- Should participants own data derived from their existence?\n- Is personal data a form of labor?\n- Can civilization function without personal data exchange?",
     "excerpt": "Personal Data Definition Personal data is metadata that derives from living and non-living individuals through existence, interaction, participation, and transaction within systems. --- Inclusionist Perspective All data is a derivative of personal data because",
     "status": "Canon",
     "links": [
+      {
+        "slug": "identity",
+        "title": "# Identity"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
       {
         "slug": "data",
         "title": "Data"
@@ -8521,12 +8502,8 @@
         "title": "Transaction"
       },
       {
-        "slug": "identity",
-        "title": "# Identity"
-      },
-      {
-        "slug": "self-sovereignty",
-        "title": "Self Sovereignty"
+        "slug": "data-dividend",
+        "title": "# Data Dividend"
       },
       {
         "slug": "value-emergence",
@@ -8539,12 +8516,24 @@
     ],
     "backlinks": [
       {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
         "slug": "collective-intelligence-capital",
         "title": "# Collective Intelligence Capital"
       },
       {
         "slug": "data-dividend",
         "title": "# Data Dividend"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
       },
       {
         "slug": "degrees-of-data",
@@ -8555,8 +8544,16 @@
         "title": "Fifth Freedom"
       },
       {
+        "slug": "governance",
+        "title": "# Governance"
+      },
+      {
         "slug": "missing-notes-tracker",
         "title": "Missing Notes Tracker"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
       },
       {
         "slug": "participation-precedes-ownership",
@@ -8565,6 +8562,22 @@
       {
         "slug": "privacy",
         "title": "Privacy"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
       }
     ],
     "aliases": []
@@ -8596,7 +8609,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "consciousness",
@@ -8724,7 +8737,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "ai-governance",
@@ -8790,7 +8803,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "participation",
@@ -8818,21 +8831,41 @@
     "title": "Privacy",
     "path": "Privacy.md",
     "category": "Inclusionism Core",
-    "content": "# Privacy\n\n## Definition\nThe capacity of individuals or systems to regulate informational exposure, interpretation, and access.\n\n---\n\n## Inclusionist Perspective\nPrivacy is not secrecy.\n\nPrivacy is sovereignty over informational existence.\n\n---\n\n## Relationships\n- [[Personal Data]]\n- [[Self Sovereignty]]\n- [[Identity]]\n- [[Transparency]]\n- [[Terms of Trust]]",
-    "excerpt": "Privacy Definition The capacity of individuals or systems to regulate informational exposure, interpretation, and access. --- Inclusionist Perspective Privacy is not secrecy. Privacy is sovereignty over informational existence. --- Relationships - Personal Dat",
+    "content": "# Privacy\n\n## Definition\nThe capacity of individuals or systems to regulate informational exposure, interpretation, and access.\n\n---\n\n## Inclusionist Perspective\nPrivacy is not secrecy.\n\nPrivacy is sovereignty over informational existence.\n\n## Informational Self-Determination\n\nInformational self-determination is the capacity of agents to understand, contest, govern, and benefit from the data trails that extend from their lives.\n\nIt connects [[Privacy]] to [[Agency]], [[Self Sovereignty]], [[Personal Data]], [[Data]], [[Governance]], and [[AI Governance]].\n\nPrivacy protects agency when it prevents informational systems from defining, predicting, extracting from, or governing people without legitimate participation.\n\n---\n\n## Relationships\n- [[Personal Data]]\n- [[Data]]\n- [[Self Sovereignty]]\n- [[Agency]]\n- [[Identity]]\n- [[Ownership]]\n- [[Governance]]\n- [[AI Governance]]\n- [[Transparency]]\n- [[Terms of Trust]]",
+    "excerpt": "Privacy Definition The capacity of individuals or systems to regulate informational exposure, interpretation, and access. --- Inclusionist Perspective Privacy is not secrecy. Privacy is sovereignty over informational existence. Informational Self-Determination",
     "status": "Canon",
     "links": [
       {
-        "slug": "personal-data",
-        "title": "Personal Data"
+        "slug": "agency",
+        "title": "Agency"
       },
       {
         "slug": "self-sovereignty",
         "title": "Self Sovereignty"
       },
       {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
+        "slug": "governance",
+        "title": "# Governance"
+      },
+      {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
         "slug": "identity",
         "title": "# Identity"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
       },
       {
         "slug": "transparency",
@@ -8845,12 +8878,32 @@
     ],
     "backlinks": [
       {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
         "slug": "fifth-freedom",
         "title": "Fifth Freedom"
       },
       {
+        "slug": "governance",
+        "title": "# Governance"
+      },
+      {
         "slug": "missing-notes-tracker",
         "title": "Missing Notes Tracker"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
       },
       {
         "slug": "terms-of-trust",
@@ -8980,13 +9033,21 @@
     "title": "Relational Attribution",
     "path": "Relational Attribution.md",
     "category": "Inclusionism Core",
-    "content": "# Relational Attribution\n\n## Definition\n\nThe process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.\n\n---\n\n## Inclusionist Perspective\n\nRelational value does not eliminate individual contribution.\n\nIt creates a need for increasingly sophisticated methods of understanding contribution.\n\n---\n\n## Core Principle\n\nThe fact that value emerges through relationships increases the importance of attribution.\n\n---\n\n## Inclusionist Perspective\n\nFuture civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Interaction]]\n    \n- [[Agency]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Data Dividend]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Value Distribution]]\n\n- [[Recognition]]\n    \n\n---\n\n## Core Question\n\nHow accurately can civilizations identify participation in value creation?",
+    "content": "# Relational Attribution\n\n## Definition\n\nThe process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.\n\n---\n\n## Inclusionist Perspective\n\nRelational value does not eliminate individual contribution.\n\nIt creates a need for increasingly sophisticated methods of understanding contribution.\n\n---\n\n## Core Principle\n\nThe fact that value emerges through relationships increases the importance of attribution.\n\n---\n\n## Inclusionist Perspective\n\nFuture civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.\n\nIn informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Interaction]]\n    \n- [[Agency]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Data Dividend]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Value Distribution]]\n\n- [[Recognition]]\n\n- [[Data]]\n\n- [[Personal Data]]\n    \n\n---\n\n## Core Question\n\nHow accurately can civilizations identify participation in value creation?",
     "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi",
     "status": "Canon",
     "links": [
       {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "interaction",
@@ -8994,15 +9055,15 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "data-dividend",
@@ -9014,7 +9075,7 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "recognition",
@@ -9031,8 +9092,16 @@
         "title": "# Data Dividend"
       },
       {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "inclusionism-canon-v10-moc",
@@ -9040,7 +9109,15 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
       },
       {
         "slug": "value-distribution-systems",
@@ -9048,11 +9125,11 @@
       },
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       }
     ],
     "aliases": []
@@ -9178,10 +9255,14 @@
     "title": "Self Sovereignty",
     "path": "Self Sovereignty.md",
     "category": "Inclusionism Core",
-    "content": "# Self Sovereignty\n\n## Definition\nThe capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks.\n\n---\n\n## Inclusionist Perspective\nHealthy civilizations balance collective coordination with individual sovereignty.\n\n---\n\n## Relationships\n- [[Identity]]\n- [[Participation]]\n- [[Distributed Governance]]\n- [[Ownership]]\n- [[Agency]]\n- [[Decentralization]]\n\n---\n\n## Questions\n- Can self sovereignty exist within hyperconnected systems?\n- How should digital identity evolve?\n- What threatens sovereignty in AI societies?",
+    "content": "# Self Sovereignty\n\n## Definition\nThe capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks.\n\n---\n\n## Inclusionist Perspective\nHealthy civilizations balance collective coordination with individual sovereignty.\n\nSelf sovereignty increasingly depends on informational self-determination.\n\nAgents cannot maintain meaningful sovereignty when their [[Personal Data]], digital identity, behavioral traces, and data lineage are controlled entirely by external systems.\n\n---\n\n## Relationships\n- [[Identity]]\n- [[Participation]]\n- [[Personal Data]]\n- [[Privacy]]\n- [[Data]]\n- [[Distributed Governance]]\n- [[Ownership]]\n- [[Agency]]\n- [[Decentralization]]\n\n---\n\n## Questions\n- Can self sovereignty exist within hyperconnected systems?\n- How should digital identity evolve?\n- What threatens sovereignty in AI societies?",
     "excerpt": "Self Sovereignty Definition The capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks. --- Inclusionist Perspective Healthy civilizations balance collective coordination with individual sovereignty.",
     "status": "Canon",
     "links": [
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
       {
         "slug": "identity",
         "title": "# Identity"
@@ -9191,16 +9272,24 @@
         "title": "Participation"
       },
       {
+        "slug": "privacy",
+        "title": "Privacy"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
         "slug": "distributed-governance",
         "title": "Distributed Governance"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "decentralization",
@@ -9274,7 +9363,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       }
     ],
     "backlinks": [],
@@ -9303,7 +9392,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "value-emergence",
@@ -9311,7 +9400,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "post-industrial-economics",
@@ -9429,7 +9518,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "exclusion",
@@ -9453,7 +9542,7 @@
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "legitimacy",
@@ -9758,7 +9847,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "legitimacy",
@@ -9830,7 +9919,7 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "energy",
@@ -9842,7 +9931,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "participation",
@@ -10118,7 +10207,7 @@
       },
       {
         "slug": "agency",
-        "title": "# Agency"
+        "title": "Agency"
       },
       {
         "slug": "legitimacy",
@@ -10178,6 +10267,192 @@
     "aliases": []
   },
   {
+    "slug": "value",
+    "title": "Value",
+    "path": "Value.md",
+    "category": "Inclusionism Core",
+    "content": "# Value\n\n## Definition\n\nValue is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments.\n\n---\n\n## Inclusionist Perspective\n\nValue is not solely individual or collective.\n\nValue emerges relationally.\n\nInteractions create new forms of value that did not exist prior to the interaction itself.\n\n---\n\n## Core Principle\n\nExistence possesses intrinsic value.\n\nInteraction reveals, transforms, amplifies, and redistributes value.\n\n---\n\n## Relational Value Emergence\n\nThe fact that value emerges through relationships does not eliminate individual contribution.\n\nInstead, it creates a need for increasingly sophisticated methods of understanding how value emerged and how contributions should be recognized.\n\nValue therefore requires [[Relational Attribution]].\n\nWithout attribution, value can be generated by one set of agents while being owned, interpreted, or governed by another.\n\nThis is one pathway through which [[Value Distribution]] becomes illegitimate.\n\n---\n\n## Forms of Value\n\n- Economic Value\n    \n- Informational Value\n    \n- Social Value\n    \n- Cultural Value\n    \n- Political Value\n    \n- Emotional Value\n    \n- Civilizational Value\n    \n\n---\n\n## Inclusionist Perspective\n\nCivilizations become more legitimate as they improve their ability to recognize, attribute, and distribute value generated through interaction.\n\n---\n\n## Relationships\n\n- [[Interaction]]\n    \n- [[Witnessing]]\n    \n- [[Agency]]\n    \n- [[Participation]]\n    \n- [[Equity]]\n    \n- [[Ownership]]\n    \n- [[Value Distribution]]\n    \n- [[Relational Attribution]]\n\n- [[Data]]\n\n- [[Personal Data]]",
+    "excerpt": "Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Value",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "interaction",
+        "title": "Interaction"
+      },
+      {
+        "slug": "witnessing",
+        "title": "Witnessing"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "choose-your-path",
+        "title": "Choose Your Path"
+      },
+      {
+        "slug": "code-of-equity",
+        "title": "Code of Equity"
+      },
+      {
+        "slug": "connectivity",
+        "title": "Connectivity"
+      },
+      {
+        "slug": "consciousness",
+        "title": "Consciousness"
+      },
+      {
+        "slug": "data-dividend",
+        "title": "# Data Dividend"
+      },
+      {
+        "slug": "data-ontology",
+        "title": "Data Ontology"
+      },
+      {
+        "slug": "differentiation",
+        "title": "Differentiation"
+      },
+      {
+        "slug": "energy",
+        "title": "Energy"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "fairness",
+        "title": "Fairness"
+      },
+      {
+        "slug": "how-to-explore-inclusionism",
+        "title": "How to Explore Inclusionism"
+      },
+      {
+        "slug": "incentive-structures",
+        "title": "Incentive Structures"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "inclusionism",
+        "title": "Inclusionism"
+      },
+      {
+        "slug": "inclusionist-social-dynamic",
+        "title": "Inclusionist Social Dynamic"
+      },
+      {
+        "slug": "information",
+        "title": "Information"
+      },
+      {
+        "slug": "interaction",
+        "title": "Interaction"
+      },
+      {
+        "slug": "interpretation",
+        "title": "Interpretation"
+      },
+      {
+        "slug": "labor",
+        "title": "Labor"
+      },
+      {
+        "slug": "meaning",
+        "title": "Meaning"
+      },
+      {
+        "slug": "ontology-clarifications",
+        "title": "Ontology Clarifications"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "recognition",
+        "title": "# Recognition"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "start-here",
+        "title": "Start Here"
+      },
+      {
+        "slug": "transaction",
+        "title": "Transaction"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "value-emergence",
+        "title": "Value Emergence"
+      },
+      {
+        "slug": "value-objects",
+        "title": "Value Objects"
+      },
+      {
+        "slug": "witnessing",
+        "title": "Witnessing"
+      }
+    ],
+    "aliases": []
+  },
+  {
     "slug": "03-economicsvalue-distribution",
     "title": "Value Distribution",
     "path": "03 Economics/Value Distribution.md",
@@ -10187,6 +10462,132 @@
     "status": "Canon",
     "links": [],
     "backlinks": [],
+    "aliases": []
+  },
+  {
+    "slug": "value-distribution",
+    "title": "Value Distribution",
+    "path": "Value Distribution.md",
+    "category": "Inclusionism Core",
+    "content": "# Value Distribution\n\n## Definition\n\nThe processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents.\n\n---\n\n## Inclusionist Perspective\n\nEvery civilization contains value distribution systems.\n\nThe central question is not whether value will be distributed.\n\nThe question is how accurately distribution reflects participation in value creation.\n\n---\n\n## Core Principle\n\nThe legitimacy of a civilization depends partly upon the legitimacy of its value distribution systems.\n\n---\n\n## Inclusionist Perspective\n\nFailures in value distribution often manifest as:\n\n- poverty\n    \n- exclusion\n    \n- instability\n    \n- concentration of power\n    \n- declining trust\n    \n- reduced participation\n    \n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Participation]]\n    \n- [[Relational Attribution]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Recognition]]\n\n- [[Legitimacy]]\n\n- [[Agency]]\n\n- [[Personal Data]]\n\n- [[Data Dividend]]\n    \n\n---\n\n## Core Question\n\nHow should value generated through interaction be distributed among participating agents?",
+    "excerpt": "Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. The",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      },
+      {
+        "slug": "recognition",
+        "title": "# Recognition"
+      },
+      {
+        "slug": "legitimacy",
+        "title": "Legitimacy"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "personal-data",
+        "title": "Personal Data"
+      },
+      {
+        "slug": "data-dividend",
+        "title": "# Data Dividend"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "ai-economies",
+        "title": "# AI Economies"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "data-as-labor",
+        "title": "Data-as-Labor"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
+        "slug": "equality",
+        "title": "Equality"
+      },
+      {
+        "slug": "governance",
+        "title": "# Governance"
+      },
+      {
+        "slug": "incentive-structures",
+        "title": "Incentive Structures"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "innovation-incentives",
+        "title": "Innovation Incentives"
+      },
+      {
+        "slug": "intelligence-ownership",
+        "title": "# Intelligence Ownership"
+      },
+      {
+        "slug": "ownership-concentration",
+        "title": "Ownership Concentration"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "participation-precedes-ownership",
+        "title": "Participation Precedes Ownership"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "universal-basic-ownership",
+        "title": "# Universal Basic Ownership"
+      },
+      {
+        "slug": "value-distribution-systems",
+        "title": "Value Distribution Systems"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      }
+    ],
     "aliases": []
   },
   {
@@ -10200,15 +10601,15 @@
     "links": [
       {
         "slug": "value-distribution",
-        "title": "# Value Distribution"
+        "title": "Value Distribution"
       },
       {
         "slug": "ownership",
-        "title": "# Ownership"
+        "title": "Ownership"
       },
       {
         "slug": "equity",
-        "title": "# Equity"
+        "title": "Equity"
       },
       {
         "slug": "relational-attribution",
@@ -10246,7 +10647,7 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "transaction",
@@ -10332,7 +10733,7 @@
     "links": [
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "networks",
@@ -10394,7 +10795,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       },
       {
         "slug": "belonging",
@@ -10428,7 +10829,7 @@
       },
       {
         "slug": "value",
-        "title": "# Value"
+        "title": "Value"
       }
     ],
     "aliases": []

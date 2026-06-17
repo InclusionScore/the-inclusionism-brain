@@ -1,4 +1,4 @@
-# # Ownership
+# Ownership
 
 ## Definition
 
@@ -17,6 +17,14 @@ Ownership is a relationship between agents and the value-generating systems in w
 ## Core Principle
 
 Participation creates legitimate ownership claims.
+
+Ownership follows contribution.
+
+Contributors should hold meaningful claims in the systems, institutions, datasets, economies, and intelligence infrastructures they help create.
+
+This does not mean every contribution creates identical ownership.
+
+It means that ownership becomes less legitimate as it separates from [[Participation]], [[Relational Attribution]], and [[Value Distribution]].
 
 ---
 
@@ -62,6 +70,10 @@ Healthy ownership systems balance:
 - [[Intelligence Ownership]]
 - [[Collective Intelligence Capital]]
 - [[Data Dividend]]
+
+- [[Participation Precedes Ownership]]
+
+- [[Personal Data]]
 
 ---
 

@@ -24,6 +24,8 @@ The fact that value emerges through relationships increases the importance of at
 
 Future civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.
 
+In informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.
+
 ---
 
 ## Relationships
@@ -45,6 +47,10 @@ Future civilizations may become increasingly capable of understanding how value 
 - [[Value Distribution]]
 
 - [[Recognition]]
+
+- [[Data]]
+
+- [[Personal Data]]
     
 
 ---

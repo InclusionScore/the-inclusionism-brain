@@ -1,4 +1,4 @@
-# # Agency
+# Agency
 
 ## Definition
 
@@ -36,6 +36,14 @@ Civilizations increase in value when they increase the number of agents capable 
 
 Civilizations decrease in value when agency becomes increasingly concentrated regardless of gains in efficiency or intelligence.
 
+## Exploitation as Agency Extraction
+
+Exploitation is not only the extraction of [[Value]].
+
+It is the extraction of future [[Agency]] from the agents whose participation, labor, data, identity, or relationships generate that value.
+
+A system becomes exploitative when it converts contribution into value while leaving contributors with reduced ownership, reduced self-determination, or reduced power to shape the systems they sustain.
+
 ---
 
 ## Relationships
@@ -45,6 +53,14 @@ Civilizations decrease in value when agency becomes increasingly concentrated re
 - [[Participation]]
     
 - [[Ownership]]
+
+- [[Equity]]
+
+- [[Value Distribution]]
+
+- [[Ownership Concentration]]
+
+- [[Data-as-Labor]]
     
 - [[Human Meaning]]
     

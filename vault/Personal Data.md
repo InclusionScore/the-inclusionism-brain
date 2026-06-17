@@ -12,6 +12,14 @@ Data is not merely stored information.
 
 Data is the observable residue of relational existence.
 
+Personal data can function as a human extension.
+
+It extends [[Identity]], [[Agency]], memory, behavior, relationships, and social presence into informational systems.
+
+For that reason, personal data should not be treated only as a commodity or exhaust.
+
+It is also a site of [[Self Sovereignty]], [[Privacy]], [[Relational Attribution]], and potential [[Ownership]] claims.
+
 ---
 
 ## Core Principle
@@ -39,6 +47,10 @@ These traces:
 - [[Transaction]]
 - [[Identity]]
 - [[Self Sovereignty]]
+- [[Privacy]]
+- [[Ownership]]
+- [[Relational Attribution]]
+- [[Data Dividend]]
 - [[Value Emergence]]
 - [[Data-as-Labor]]
 

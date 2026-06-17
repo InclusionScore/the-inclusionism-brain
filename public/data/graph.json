@@ -47,8 +47,8 @@
       "id": "ai-governance",
       "title": "AI Governance",
       "category": "Inclusionism Core",
-      "backlinks": 21,
-      "links": 9,
+      "backlinks": 22,
+      "links": 12,
       "excerpt": "AI Governance Definition Systems for coordinating the development, deployment, and alignment of artificial intelligence. --- Inclusionist Perspective AI systems should maximize distributed participation, transparency, and adaptive flourishing. --- Relationship"
     },
     {
@@ -69,11 +69,11 @@
     },
     {
       "id": "agency",
-      "title": "# Agency",
+      "title": "Agency",
       "category": "Inclusionism Core",
-      "backlinks": 36,
-      "links": 5,
-      "excerpt": "# Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents"
+      "backlinks": 41,
+      "links": 9,
+      "excerpt": "Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents p"
     },
     {
       "id": "algorithmic-stratification",
@@ -303,7 +303,7 @@
       "id": "data-dividend",
       "title": "# Data Dividend",
       "category": "Inclusionism Core",
-      "backlinks": 6,
+      "backlinks": 9,
       "links": 6,
       "excerpt": "# Data Dividend Definition A mechanism through which individuals receive value derived from data generated through their participation in social, economic, technological, or informational systems. --- Inclusionist Perspective Personal data emerges through inte"
     },
@@ -319,16 +319,16 @@
       "id": "data-as-labor",
       "title": "Data-as-Labor",
       "category": "Inclusionism Core",
-      "backlinks": 7,
-      "links": 6,
-      "excerpt": "Data-as-Labor Definition The recognition that human-generated data contributes economic value and should participate in systems of ownership and compensation. --- Inclusionist Perspective Data production is a form of participation within networked economies. -"
+      "backlinks": 9,
+      "links": 13,
+      "excerpt": "Data-as-Labor Definition The recognition that human-generated data contributes economic value and should participate in systems of ownership and compensation. --- Inclusionist Perspective Data production is a form of participation within networked economies. D"
     },
     {
       "id": "data",
       "title": "Data",
       "category": "Inclusionism Core",
-      "backlinks": 5,
-      "links": 6,
+      "backlinks": 10,
+      "links": 10,
       "excerpt": "Data Definition Information generated through the existence, behavior, interaction, and identification of individuals or systems. --- Inclusionist Perspective Data is the connective tissue of network civilization and the micro-unit through which agency, identi"
     },
     {
@@ -437,11 +437,11 @@
     },
     {
       "id": "equity",
-      "title": "# Equity",
+      "title": "Equity",
       "category": "Inclusionism Core",
-      "backlinks": 15,
-      "links": 7,
-      "excerpt": "# Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has re"
+      "backlinks": 17,
+      "links": 9,
+      "excerpt": "Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has reco"
     },
     {
       "id": "exclusion",
@@ -455,7 +455,7 @@
       "id": "fairness",
       "title": "Fairness",
       "category": "Inclusionism Core",
-      "backlinks": 4,
+      "backlinks": 5,
       "links": 6,
       "excerpt": "Fairness Definition The perception that value, participation, opportunity, responsibility, and outcomes are being distributed in a legitimate manner. --- Inclusionist Perspective Fairness emerges from legitimacy. Legitimacy emerges from agency. Agency emerges "
     },
@@ -503,8 +503,8 @@
       "id": "governance",
       "title": "# Governance",
       "category": "Inclusionism Core",
-      "backlinks": 40,
-      "links": 6,
+      "backlinks": 41,
+      "links": 9,
       "excerpt": "# Governance Definition The processes through which systems coordinate participation, authority, decision-making, value distribution, and collective action. --- Inclusionist Perspective Governance is the management of participation at scale. --- Core Principle"
     },
     {
@@ -855,7 +855,7 @@
       "id": "ownership-concentration",
       "title": "Ownership Concentration",
       "category": "Inclusionism Core",
-      "backlinks": 1,
+      "backlinks": 2,
       "links": 10,
       "excerpt": "Ownership Concentration Definition The accumulation of ownership, productive assets, informational infrastructure, technological leverage, or coordination power within a relatively small portion of civilization. --- Inclusionist Perspective Ownership concentra"
     },
@@ -869,19 +869,27 @@
     },
     {
       "id": "ownership",
-      "title": "# Ownership",
+      "title": "Ownership",
       "category": "Inclusionism Core",
-      "backlinks": 36,
-      "links": 10,
-      "excerpt": "# Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-genera"
+      "backlinks": 38,
+      "links": 12,
+      "excerpt": "Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-generati"
+    },
+    {
+      "id": "participation-precedes-ownership-2",
+      "title": "Participation Precedes Ownership",
+      "category": "Inclusionism Core",
+      "backlinks": 1,
+      "links": 0,
+      "excerpt": "Participation Precedes Ownership Participation generates the basis for legitimate ownership claims."
     },
     {
       "id": "participation-precedes-ownership",
       "title": "Participation Precedes Ownership",
       "category": "Inclusionism Core",
       "backlinks": 0,
-      "links": 6,
-      "excerpt": "Participation Precedes Ownership ```markdown Participation Precedes Ownership Inclusionist Principle Participation in systems precedes claims of ownership over systems. --- Explanation Individuals and entities generate value through: - existence - interaction "
+      "links": 11,
+      "excerpt": "Participation Precedes Ownership Inclusionist Principle Participation in systems precedes claims of ownership over systems. --- Explanation Individuals and entities generate value through: - existence - interaction - labor - data generation - coordination - co"
     },
     {
       "id": "participation",
@@ -895,8 +903,8 @@
       "id": "personal-data",
       "title": "Personal Data",
       "category": "Inclusionism Core",
-      "backlinks": 7,
-      "links": 8,
+      "backlinks": 16,
+      "links": 13,
       "excerpt": "Personal Data Definition Personal data is metadata that derives from living and non-living individuals through existence, interaction, participation, and transaction within systems. --- Inclusionist Perspective All data is a derivative of personal data because"
     },
     {
@@ -951,9 +959,9 @@
       "id": "privacy",
       "title": "Privacy",
       "category": "Inclusionism Core",
-      "backlinks": 4,
-      "links": 5,
-      "excerpt": "Privacy Definition The capacity of individuals or systems to regulate informational exposure, interpretation, and access. --- Inclusionist Perspective Privacy is not secrecy. Privacy is sovereignty over informational existence. --- Relationships - Personal Dat"
+      "backlinks": 9,
+      "links": 10,
+      "excerpt": "Privacy Definition The capacity of individuals or systems to regulate informational exposure, interpretation, and access. --- Inclusionist Perspective Privacy is not secrecy. Privacy is sovereignty over informational existence. Informational Self-Determination"
     },
     {
       "id": "procreative-liberty",
@@ -983,8 +991,8 @@
       "id": "relational-attribution",
       "title": "Relational Attribution",
       "category": "Inclusionism Core",
-      "backlinks": 8,
-      "links": 9,
+      "backlinks": 12,
+      "links": 11,
       "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi"
     },
     {
@@ -1008,7 +1016,7 @@
       "title": "Self Sovereignty",
       "category": "Inclusionism Core",
       "backlinks": 9,
-      "links": 6,
+      "links": 9,
       "excerpt": "Self Sovereignty Definition The capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks. --- Inclusionist Perspective Healthy civilizations balance collective coordination with individual sovereignty."
     },
     {
@@ -1127,7 +1135,7 @@
       "id": "universal-basic-ownership",
       "title": "# Universal Basic Ownership",
       "category": "Inclusionism Core",
-      "backlinks": 13,
+      "backlinks": 15,
       "links": 6,
       "excerpt": "# Universal Basic Ownership Definition A framework in which individuals possess baseline ownership participation within civilization-scale value-generating systems. --- Inclusionist Perspective Universal Basic Ownership expands beyond income redistribution by "
     },
@@ -1149,11 +1157,11 @@
     },
     {
       "id": "value-distribution",
-      "title": "# Value Distribution",
+      "title": "Value Distribution",
       "category": "Inclusionism Core",
-      "backlinks": 12,
-      "links": 8,
-      "excerpt": "# Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. T"
+      "backlinks": 17,
+      "links": 11,
+      "excerpt": "Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. The"
     },
     {
       "id": "value-emergence",
@@ -1173,11 +1181,11 @@
     },
     {
       "id": "value",
-      "title": "# Value",
+      "title": "Value",
       "category": "Inclusionism Core",
-      "backlinks": 32,
-      "links": 8,
-      "excerpt": "# Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Val"
+      "backlinks": 33,
+      "links": 10,
+      "excerpt": "Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Value"
     },
     {
       "id": "what-is-inclusionism",
@@ -1240,6 +1248,18 @@
     {
       "source": "ai-governance",
       "target": "ownership"
+    },
+    {
+      "source": "ai-governance",
+      "target": "personal-data"
+    },
+    {
+      "source": "ai-governance",
+      "target": "privacy"
+    },
+    {
+      "source": "ai-governance",
+      "target": "data-as-labor"
     },
     {
       "source": "ai-governance",
@@ -1308,6 +1328,22 @@
     {
       "source": "agency",
       "target": "ownership"
+    },
+    {
+      "source": "agency",
+      "target": "equity"
+    },
+    {
+      "source": "agency",
+      "target": "value-distribution"
+    },
+    {
+      "source": "agency",
+      "target": "ownership-concentration"
+    },
+    {
+      "source": "agency",
+      "target": "data-as-labor"
     },
     {
       "source": "agency",
@@ -2151,11 +2187,39 @@
     },
     {
       "source": "data-as-labor",
+      "target": "personal-data"
+    },
+    {
+      "source": "data-as-labor",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "data-as-labor",
+      "target": "agency"
+    },
+    {
+      "source": "data-as-labor",
       "target": "ownership"
     },
     {
       "source": "data-as-labor",
       "target": "participation"
+    },
+    {
+      "source": "data-as-labor",
+      "target": "data"
+    },
+    {
+      "source": "data-as-labor",
+      "target": "value-distribution"
+    },
+    {
+      "source": "data-as-labor",
+      "target": "universal-basic-ownership"
+    },
+    {
+      "source": "data-as-labor",
+      "target": "data-dividend"
     },
     {
       "source": "data-as-labor",
@@ -2175,7 +2239,19 @@
     },
     {
       "source": "data",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "data",
+      "target": "value-distribution"
+    },
+    {
+      "source": "data",
       "target": "information"
+    },
+    {
+      "source": "data",
+      "target": "personal-data"
     },
     {
       "source": "data",
@@ -2196,6 +2272,10 @@
     {
       "source": "data",
       "target": "self-sovereignty"
+    },
+    {
+      "source": "data",
+      "target": "privacy"
     },
     {
       "source": "decentralization",
@@ -2519,11 +2599,23 @@
     },
     {
       "source": "equity",
+      "target": "agency"
+    },
+    {
+      "source": "equity",
       "target": "value"
     },
     {
       "source": "equity",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "equity",
       "target": "ownership"
+    },
+    {
+      "source": "equity",
+      "target": "fairness"
     },
     {
       "source": "equity",
@@ -2532,10 +2624,6 @@
     {
       "source": "equity",
       "target": "belonging"
-    },
-    {
-      "source": "equity",
-      "target": "relational-attribution"
     },
     {
       "source": "equity",
@@ -2724,6 +2812,18 @@
     {
       "source": "governance",
       "target": "ownership"
+    },
+    {
+      "source": "governance",
+      "target": "privacy"
+    },
+    {
+      "source": "governance",
+      "target": "personal-data"
+    },
+    {
+      "source": "governance",
+      "target": "value-distribution"
     },
     {
       "source": "harmony-versus-unity",
@@ -4027,6 +4127,18 @@
     },
     {
       "source": "ownership",
+      "target": "participation"
+    },
+    {
+      "source": "ownership",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "ownership",
+      "target": "value-distribution"
+    },
+    {
+      "source": "ownership",
       "target": "value"
     },
     {
@@ -4035,23 +4147,11 @@
     },
     {
       "source": "ownership",
-      "target": "participation"
-    },
-    {
-      "source": "ownership",
       "target": "equity"
     },
     {
       "source": "ownership",
-      "target": "value-distribution"
-    },
-    {
-      "source": "ownership",
       "target": "universal-basic-ownership"
-    },
-    {
-      "source": "ownership",
-      "target": "relational-attribution"
     },
     {
       "source": "ownership",
@@ -4064,6 +4164,30 @@
     {
       "source": "ownership",
       "target": "data-dividend"
+    },
+    {
+      "source": "ownership",
+      "target": "participation-precedes-ownership-2"
+    },
+    {
+      "source": "ownership",
+      "target": "personal-data"
+    },
+    {
+      "source": "participation-precedes-ownership",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "participation-precedes-ownership",
+      "target": "value-distribution"
+    },
+    {
+      "source": "participation-precedes-ownership",
+      "target": "agency"
+    },
+    {
+      "source": "participation-precedes-ownership",
+      "target": "value"
     },
     {
       "source": "participation-precedes-ownership",
@@ -4087,7 +4211,11 @@
     },
     {
       "source": "participation-precedes-ownership",
-      "target": "agency"
+      "target": "equity"
+    },
+    {
+      "source": "participation-precedes-ownership",
+      "target": "universal-basic-ownership"
     },
     {
       "source": "participation",
@@ -4115,6 +4243,30 @@
     },
     {
       "source": "personal-data",
+      "target": "identity"
+    },
+    {
+      "source": "personal-data",
+      "target": "agency"
+    },
+    {
+      "source": "personal-data",
+      "target": "self-sovereignty"
+    },
+    {
+      "source": "personal-data",
+      "target": "privacy"
+    },
+    {
+      "source": "personal-data",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "personal-data",
+      "target": "ownership"
+    },
+    {
+      "source": "personal-data",
       "target": "data"
     },
     {
@@ -4131,11 +4283,7 @@
     },
     {
       "source": "personal-data",
-      "target": "identity"
-    },
-    {
-      "source": "personal-data",
-      "target": "self-sovereignty"
+      "target": "data-dividend"
     },
     {
       "source": "personal-data",
@@ -4271,7 +4419,7 @@
     },
     {
       "source": "privacy",
-      "target": "personal-data"
+      "target": "agency"
     },
     {
       "source": "privacy",
@@ -4279,7 +4427,27 @@
     },
     {
       "source": "privacy",
+      "target": "personal-data"
+    },
+    {
+      "source": "privacy",
+      "target": "data"
+    },
+    {
+      "source": "privacy",
+      "target": "governance"
+    },
+    {
+      "source": "privacy",
+      "target": "ai-governance"
+    },
+    {
+      "source": "privacy",
       "target": "identity"
+    },
+    {
+      "source": "privacy",
+      "target": "ownership"
     },
     {
       "source": "privacy",
@@ -4371,6 +4539,14 @@
     },
     {
       "source": "relational-attribution",
+      "target": "data"
+    },
+    {
+      "source": "relational-attribution",
+      "target": "personal-data"
+    },
+    {
+      "source": "relational-attribution",
       "target": "value"
     },
     {
@@ -4451,11 +4627,23 @@
     },
     {
       "source": "self-sovereignty",
+      "target": "personal-data"
+    },
+    {
+      "source": "self-sovereignty",
       "target": "identity"
     },
     {
       "source": "self-sovereignty",
       "target": "participation"
+    },
+    {
+      "source": "self-sovereignty",
+      "target": "privacy"
+    },
+    {
+      "source": "self-sovereignty",
+      "target": "data"
     },
     {
       "source": "self-sovereignty",
@@ -4982,6 +5170,18 @@
       "target": "legitimacy"
     },
     {
+      "source": "value-distribution",
+      "target": "agency"
+    },
+    {
+      "source": "value-distribution",
+      "target": "personal-data"
+    },
+    {
+      "source": "value-distribution",
+      "target": "data-dividend"
+    },
+    {
       "source": "value-emergence",
       "target": "value"
     },
@@ -5023,6 +5223,14 @@
     },
     {
       "source": "value",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "value",
+      "target": "value-distribution"
+    },
+    {
+      "source": "value",
       "target": "interaction"
     },
     {
@@ -5047,11 +5255,11 @@
     },
     {
       "source": "value",
-      "target": "value-distribution"
+      "target": "data"
     },
     {
       "source": "value",
-      "target": "relational-attribution"
+      "target": "personal-data"
     },
     {
       "source": "witnessing",

@@ -1,4 +1,4 @@
-# # Value Distribution
+# Value Distribution
 
 ## Definition
 
@@ -58,6 +58,12 @@ Failures in value distribution often manifest as:
 - [[Recognition]]
 
 - [[Legitimacy]]
+
+- [[Agency]]
+
+- [[Personal Data]]
+
+- [[Data Dividend]]
     
 
 ---

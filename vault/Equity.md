@@ -1,4 +1,4 @@
-# # Equity
+# Equity
 
 ## Definition
 
@@ -15,6 +15,12 @@ Equity is the tangible evidence that a system has recognized participation in va
 ## Core Principle
 
 Individuals are entitled to equity in the value that proliferates from their interactions with others.
+
+Agency is the measure of equity.
+
+A system is not equitable merely because it distributes resources.
+
+It becomes more equitable when participants gain meaningful [[Agency]] over the systems that shape their lives, recognize their contributions, and distribute value produced through their participation.
 
 ---
 
@@ -44,6 +50,10 @@ It creates a need for increasingly sophisticated attribution.
 
 Equity serves as evidence that participation, agency, and value have been recognized within a system.
 
+Equity therefore links [[Value]], [[Relational Attribution]], [[Ownership]], and [[Fairness]].
+
+If value is recognized but agency does not expand, equity remains incomplete.
+
 ---
 
 ## Relationships
@@ -53,6 +63,10 @@ Equity serves as evidence that participation, agency, and value have been recogn
 - [[Ownership]]
     
 - [[Participation]]
+
+- [[Agency]]
+
+- [[Fairness]]
     
 - [[Belonging]]
     

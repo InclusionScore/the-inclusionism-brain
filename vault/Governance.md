@@ -63,6 +63,12 @@ Future governance systems may increasingly rely upon:
 - [[Legitimacy]]
     
 - [[Ownership]]
+
+- [[Privacy]]
+
+- [[Personal Data]]
+
+- [[Value Distribution]]
     
 
 ---
