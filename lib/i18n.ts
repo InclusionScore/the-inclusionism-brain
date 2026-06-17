@@ -46,13 +46,22 @@ export const t = {
     home: {
       kicker: "A living philosophy engine",
       title: "Inclusionism",
-      subtitle: "A theory of how value and agency should remain connected.",
-      description:
-        "Value emerges through interaction. Equity requires that value be recognized, attributed, and returned as ownership, participation, influence, and self-determination to the agents and communities who help create it.",
+      subtitle: "A Code of Equity",
+      description: "A guided doorway into a canon about value, agency, ownership, legitimacy, and belonging.",
       graph: "Explore the Graph",
+      introduction: "Read the Introduction",
+      canon: "Explore the Canon",
       issues: "Explore Issues",
       essays: "Read the Essays",
-      podcast: "Hear the Podcast"
+      podcast: "Hear the Podcast",
+      startHere: "Start Here",
+      narrative: [
+        "A civilization is built through participation.",
+        "Every interaction creates value.",
+        "Value becomes meaningful when it is recognized and attributed.",
+        "A just society returns value as agency to the people and communities who help create it.",
+        "Inclusionism is a code of equity built around that idea."
+      ]
     },
     graph: {
       kicker: "Obsidian-style graph",
@@ -118,13 +127,22 @@ export const t = {
     home: {
       kicker: "Un motor vivo de filosofía",
       title: "Inclusionism",
-      subtitle: "Una teoría de cómo el valor y la agencia deben permanecer conectados.",
-      description:
-        "El valor emerge mediante la interacción. La equidad exige que el valor sea reconocido, atribuido y devuelto como propiedad, participación, influencia y autodeterminación a los agentes y comunidades que ayudan a crearlo.",
+      subtitle: "Un código de equidad",
+      description: "Una entrada guiada a un canon sobre valor, agencia, propiedad, legitimidad y pertenencia.",
       graph: "Explorar el grafo",
+      introduction: "Leer la introducción",
+      canon: "Explorar el canon",
       issues: "Explorar temas",
       essays: "Leer ensayos",
-      podcast: "Escuchar podcast"
+      podcast: "Escuchar podcast",
+      startHere: "Empezar aquí",
+      narrative: [
+        "Una civilización se construye mediante la participación.",
+        "Cada interacción crea valor.",
+        "El valor se vuelve significativo cuando se reconoce y se atribuye.",
+        "Una sociedad justa devuelve valor como agencia a las personas y comunidades que ayudan a crearlo.",
+        "Inclusionism es un código de equidad construido alrededor de esa idea."
+      ]
     },
     graph: {
       kicker: "Grafo estilo Obsidian",
@@ -187,13 +205,22 @@ export const t = {
     home: {
       kicker: "Un moteur philosophique vivant",
       title: "Inclusionism",
-      subtitle: "Une théorie de la manière dont la valeur et l’agence doivent rester connectées.",
-      description:
-        "La valeur émerge par l’interaction. L’équité exige que cette valeur soit reconnue, attribuée et rendue sous forme de propriété, participation, influence et autodétermination aux agents et communautés qui contribuent à la créer.",
+      subtitle: "Un code d’équité",
+      description: "Une entrée guidée vers un canon sur la valeur, l’agence, la propriété, la légitimité et l’appartenance.",
       graph: "Explorer le graphe",
+      introduction: "Lire l’introduction",
+      canon: "Explorer le canon",
       issues: "Explorer les enjeux",
       essays: "Lire les essais",
-      podcast: "Écouter le podcast"
+      podcast: "Écouter le podcast",
+      startHere: "Commencer ici",
+      narrative: [
+        "Une civilisation se construit par la participation.",
+        "Chaque interaction crée de la valeur.",
+        "La valeur devient signifiante lorsqu’elle est reconnue et attribuée.",
+        "Une société juste rend la valeur comme agence aux personnes et communautés qui contribuent à la créer.",
+        "Inclusionism est un code d’équité construit autour de cette idée."
+      ]
     },
     graph: {
       kicker: "Graphe style Obsidian",
@@ -255,13 +282,22 @@ export const t = {
     home: {
       kicker: "Eine lebendige Philosophie-Maschine",
       title: "Inclusionism",
-      subtitle: "Eine Theorie darüber, wie Wert und Agency verbunden bleiben sollten.",
-      description:
-        "Wert entsteht durch Interaktion. Equity verlangt, dass Wert anerkannt, zugeschrieben und als Eigentum, Teilhabe, Einfluss und Selbstbestimmung an die Akteure und Gemeinschaften zurückgegeben wird, die ihn miterschaffen.",
+      subtitle: "Ein Code of Equity",
+      description: "Ein geführter Einstieg in einen Kanon über Wert, Agency, Eigentum, Legitimität und Zugehörigkeit.",
       graph: "Graph erkunden",
+      introduction: "Einführung lesen",
+      canon: "Kanon erkunden",
       issues: "Themen erkunden",
       essays: "Essays lesen",
-      podcast: "Podcast hören"
+      podcast: "Podcast hören",
+      startHere: "Hier beginnen",
+      narrative: [
+        "Eine Zivilisation wird durch Teilhabe gebaut.",
+        "Jede Interaktion schafft Wert.",
+        "Wert wird bedeutungsvoll, wenn er anerkannt und zugeschrieben wird.",
+        "Eine gerechte Gesellschaft gibt Wert als Agency an die Menschen und Gemeinschaften zurück, die ihn miterschaffen.",
+        "Inclusionism ist ein Code of Equity, der um diese Idee gebaut ist."
+      ]
     },
     graph: {
       kicker: "Graph im Obsidian-Stil",
@@ -323,13 +359,22 @@ export const t = {
     home: {
       kicker: "Um motor filosófico vivo",
       title: "Inclusionism",
-      subtitle: "Uma teoria de como valor e agência devem permanecer conectados.",
-      description:
-        "O valor emerge por meio da interação. A equidade exige que o valor seja reconhecido, atribuído e devolvido como propriedade, participação, influência e autodeterminação aos agentes e comunidades que ajudam a criá-lo.",
+      subtitle: "Um código de equidade",
+      description: "Uma entrada guiada para um cânone sobre valor, agência, propriedade, legitimidade e pertencimento.",
       graph: "Explorar o grafo",
+      introduction: "Ler a introdução",
+      canon: "Explorar o cânone",
       issues: "Explorar temas",
       essays: "Ler ensaios",
-      podcast: "Ouvir podcast"
+      podcast: "Ouvir podcast",
+      startHere: "Comece aqui",
+      narrative: [
+        "Uma civilização é construída por meio da participação.",
+        "Toda interação cria valor.",
+        "O valor se torna significativo quando é reconhecido e atribuído.",
+        "Uma sociedade justa devolve valor como agência às pessoas e comunidades que ajudam a criá-lo.",
+        "Inclusionism é um código de equidade construído em torno dessa ideia."
+      ]
     },
     graph: {
       kicker: "Grafo estilo Obsidian",

@@ -1,55 +1,61 @@
 import Link from "next/link";
-import { Compass, GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper } from "lucide-react";
-
-const dynamicChain = ["Interaction", "Value", "Recognition", "Attribution", "Ownership", "Agency", "Equity", "Legitimacy", "Belonging"];
+import { ArrowRight, BookOpen, GitBranch, Library } from "lucide-react";
+import GraphPreview from "@/components/GraphPreview";
+import { getGraph } from "@/lib/content";
 
 export default function HomePage() {
+  const graph = getGraph();
+
   return (
     <main className="brain-grid blueprint overflow-hidden">
-      <section className="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1fr_420px] lg:items-center">
-        <div className="max-w-5xl">
+      <section className="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:py-12">
+        <div className="relative z-10 max-w-4xl">
           <p className="brand-kicker">A living philosophy engine</p>
-          <h1 className="brand-title mt-5 max-w-5xl text-5xl leading-[0.9] sm:text-8xl lg:text-9xl">Inclusionism</h1>
-          <p className="mt-7 max-w-3xl text-2xl font-bold leading-9 text-white">
-            A theory of how value and agency should remain connected.
+          <h1 className="brand-title mt-5 max-w-5xl text-6xl leading-[0.85] sm:text-8xl lg:text-9xl">Inclusionism</h1>
+          <p className="mt-5 brand-title text-4xl leading-none text-signal sm:text-6xl">A Code of Equity</p>
+          <p className="mt-6 max-w-2xl text-lg font-bold leading-8 text-white/80 sm:text-xl">
+            A guided doorway into a canon about value, agency, ownership, legitimacy, and belonging.
           </p>
-          <p className="mt-5 max-w-4xl border-l-4 border-signal pl-5 text-base leading-7 text-white/70 sm:text-lg">
-            Value emerges through interaction. Equity requires that value be recognized, attributed, and returned as ownership, participation,
-            influence, and self-determination to the agents and communities who help create it.
-          </p>
-        </div>
-
-        <div className="ink-panel brand-rule p-5 lg:p-6">
-          <p className="text-xs font-black uppercase tracking-[0.32em] text-red">Core dynamic</p>
-          <div className="mt-5 grid gap-2">
-            {dynamicChain.map((item, index) => (
-              <div key={item} className="grid grid-cols-[1fr_auto] items-center border-b border-white/15 py-2 last:border-b-0">
-                <span className="brand-title text-xl sm:text-2xl">{item}</span>
-                {index < dynamicChain.length - 1 && <span className="text-2xl font-black text-signal">→</span>}
-              </div>
-            ))}
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/graph" className="hard-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+              <GitBranch size={17} />
+              Explore the Graph
+            </Link>
+            <Link href="/what-is-inclusionism" className="outline-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+              <BookOpen size={17} />
+              Read the Introduction
+            </Link>
+            <Link href="/notes" className="outline-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+              <Library size={17} />
+              Explore the Canon
+            </Link>
           </div>
         </div>
 
-        <div className="grid gap-3 md:grid-cols-3 lg:col-span-2">
-          {[
-            { href: "/what-is-inclusionism", label: "What Is Inclusionism?", icon: Compass },
-            { href: "/graph", label: "Explore the Graph", icon: GitBranch },
-            { href: "/compare", label: "Compare Frameworks", icon: GitCompareArrows },
-            { href: "/issues", label: "Explore Issues", icon: Library },
-            { href: "/notes", label: "Read the Canon", icon: Library },
-            { href: "/essays", label: "Read the Essays", icon: Newspaper },
-            { href: "/podcast", label: "Hear the Podcast", icon: Headphones },
-            { href: "/debate", label: "Debate Inclusionism", icon: MessageSquareText }
-          ].map((action) => {
-            const Icon = action.icon;
-            return (
-              <Link key={action.href} href={action.href} className="group ink-panel p-6 transition hover:-translate-y-1 hover:border-signal hover:shadow-glow">
-                <Icon className="text-signal" size={30} />
-                <span className="brand-title mt-8 block text-3xl">{action.label}</span>
-              </Link>
-            );
-          })}
+        <div className="relative z-10">
+          <GraphPreview graph={graph} />
+        </div>
+      </section>
+
+      <section className="relative mx-auto max-w-7xl px-4 pb-16 sm:px-6">
+        <div className="grid gap-4 border-y border-white/15 py-8 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div className="max-w-4xl">
+            {[
+              "A civilization is built through participation.",
+              "Every interaction creates value.",
+              "Value becomes meaningful when it is recognized and attributed.",
+              "A just society returns value as agency to the people and communities who help create it.",
+              "Inclusionism is a code of equity built around that idea."
+            ].map((line) => (
+              <p key={line} className="brand-title border-b border-white/10 py-3 text-3xl leading-none text-white last:border-b-0 sm:text-5xl">
+                {line}
+              </p>
+            ))}
+          </div>
+          <Link href="/what-is-inclusionism" className="outline-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+            Start Here
+            <ArrowRight size={16} />
+          </Link>
         </div>
       </section>
     </main>

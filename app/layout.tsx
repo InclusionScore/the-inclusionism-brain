@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
+import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { siteConfig, siteUrl } from "@/lib/site";
 import "./globals.css";
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <SiteHeader />
         {children}
+        <SiteFooter />
       </body>
     </html>
   );
