@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useRouter } from "next/navigation";
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { GraphData, GraphNode } from "@/lib/types";
 
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), { ssr: false });
@@ -29,6 +29,9 @@ function previewNodeSize(node: GraphNode) {
 
 export default function GraphPreview({ graph, href = "/graph" }: { graph: GraphData; href?: string }) {
   const router = useRouter();
+  const frameRef = useRef<HTMLDivElement | null>(null);
+  const [hovered, setHovered] = useState<GraphNode | null>(null);
+  const [dimensions, setDimensions] = useState({ width: 320, height: 300 });
 
   const previewGraph = useMemo(() => {
     const spineSet = new Set(spine);
@@ -56,27 +59,50 @@ export default function GraphPreview({ graph, href = "/graph" }: { graph: GraphD
 
   const spineSet = useMemo(() => new Set(spine), []);
 
+  useEffect(() => {
+    const frame = frameRef.current;
+    if (!frame) return;
+
+    const update = () => {
+      const rect = frame.getBoundingClientRect();
+      setDimensions({
+        width: Math.max(280, Math.floor(rect.width)),
+        height: Math.max(240, Math.floor(rect.height))
+      });
+    };
+
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(frame);
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <button
-      type="button"
-      onClick={() => router.push(href)}
-      className="group relative block min-h-[360px] w-full overflow-hidden border border-white/20 bg-black text-left shadow-glow transition hover:border-signal focus:outline-none focus:ring-2 focus:ring-signal md:min-h-[470px]"
-      aria-label="Open the full Inclusionism graph"
+    <div
+      ref={frameRef}
+      className="group relative h-[275px] min-w-0 max-w-[calc(100vw-2rem)] overflow-hidden border border-white/20 bg-black shadow-glow transition hover:border-signal sm:h-[320px] sm:max-w-full lg:h-[355px]"
+      aria-label="Interactive preview of the Inclusionism graph"
     >
       <div className="pointer-events-none absolute inset-0 z-10 bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,rgba(0,0,0,0.8)_100%)]" />
       <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-24 bg-gradient-to-b from-black to-transparent" />
       <div className="pointer-events-none absolute inset-0 z-0 opacity-50 brain-grid" />
       <ForceGraph2D
         graphData={previewGraph}
+        width={dimensions.width}
+        height={dimensions.height}
         backgroundColor="rgba(0,0,0,0)"
         nodeId="id"
+        nodeLabel={(node) => (node as GraphNode).title}
         nodeRelSize={4}
-        cooldownTicks={90}
-        d3VelocityDecay={0.34}
+        cooldownTicks={140}
+        d3VelocityDecay={0.25}
         linkColor={() => "rgba(255, 255, 255, 0)"}
         linkWidth={0}
         enableZoomInteraction={false}
         enablePanInteraction={false}
+        onNodeHover={(node) => setHovered((node as GraphNode | null) || null)}
+        onNodeClick={() => router.push(href)}
+        onBackgroundClick={() => router.push(href)}
         nodeCanvasObject={(node, ctx, globalScale) => {
           const item = node as CanvasNode;
           const isSpine = spineSet.has(item.id);
@@ -123,14 +149,16 @@ export default function GraphPreview({ graph, href = "/graph" }: { graph: GraphD
           ctx.restore();
         }}
       />
-      <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-20 p-5 sm:p-7">
-        <p className="brand-kicker">Live canon graph</p>
-        <p className="brand-title mt-2 max-w-xl text-4xl leading-none sm:text-5xl">A civilization map built from linked ideas.</p>
-        <p className="mt-4 max-w-xl text-sm leading-6 text-white/70">
-          Open the full graph to follow the pathways from connectivity to belonging.
+      <div className="pointer-events-none absolute bottom-0 left-0 right-0 z-20 max-w-full p-4 sm:p-7">
+        <p className="text-[0.68rem] font-black uppercase tracking-[0.28em] text-signal">Live canon graph</p>
+        <p className="mt-2 max-w-xs text-sm font-semibold leading-5 text-white sm:max-w-[28rem] sm:text-lg sm:leading-6">
+          {hovered ? hovered.title : "A living window into the Inclusionism canon."}
         </p>
-        <span className="hard-button mt-5 inline-flex px-4 py-3 text-xs">Explore the Graph</span>
+        <p className="mt-2 max-w-xs text-[0.72rem] leading-5 text-white/60 sm:max-w-[28rem]">
+          Drag nodes, hover to inspect, or click into the full graph experience.
+        </p>
+        <span className="hard-button mt-4 inline-flex px-3 py-2 text-[0.68rem]">Explore the Graph</span>
       </div>
-    </button>
+    </div>
   );
 }

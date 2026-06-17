@@ -37,43 +37,43 @@ export default async function LocalizedHomePage({ params }: { params: Promise<{ 
 
   return (
     <main className="brain-grid blueprint overflow-hidden">
-      <section className="relative mx-auto grid min-h-[calc(100vh-65px)] max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:py-12">
-        <div className="relative z-10 max-w-4xl">
+      <section className="relative mx-auto grid max-w-7xl gap-7 px-4 py-7 sm:px-6 md:py-9 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
+        <div className="relative z-10 min-w-0 max-w-[calc(100vw-2rem)] sm:max-w-3xl">
           <p className="brand-kicker">{labels.home.kicker}</p>
-          <h1 className="brand-title mt-5 max-w-5xl text-6xl leading-[0.85] sm:text-8xl lg:text-9xl">{labels.home.title}</h1>
-          <p className="mt-5 brand-title text-4xl leading-none text-signal sm:text-6xl">{labels.home.subtitle}</p>
-          <p className="mt-6 max-w-2xl text-lg font-bold leading-8 text-white/80 sm:text-xl">{labels.home.description}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href={localePath(locale as Locale, "/graph")} className="hard-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+          <h1 className="brand-title mt-4 max-w-4xl text-4xl leading-[0.95] sm:text-6xl lg:text-7xl">{labels.home.title}</h1>
+          <p className="mt-4 text-2xl font-black leading-tight text-signal sm:text-3xl">{labels.home.subtitle}</p>
+          <p className="mt-4 max-w-xs text-base font-semibold leading-7 text-white/78 sm:max-w-2xl sm:text-lg">{labels.home.description}</p>
+          <div className="mt-6 grid max-w-xs gap-3 sm:flex sm:max-w-none sm:flex-wrap">
+            <Link href={localePath(locale as Locale, "/graph")} className="hard-button inline-flex w-full items-center justify-center gap-2 px-4 py-3 text-[0.72rem] sm:w-auto">
               <GitBranch size={17} />
               {labels.home.graph}
             </Link>
-            <Link href={localePath(locale as Locale, "/what-is-inclusionism")} className="outline-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+            <Link href={localePath(locale as Locale, "/what-is-inclusionism")} className="outline-button inline-flex w-full items-center justify-center gap-2 px-4 py-3 text-[0.72rem] sm:w-auto">
               <BookOpen size={17} />
               {labels.home.introduction}
             </Link>
-            <Link href={localePath(locale as Locale, "/notes")} className="outline-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+            <Link href={localePath(locale as Locale, "/notes")} className="outline-button inline-flex w-full items-center justify-center gap-2 px-4 py-3 text-[0.72rem] sm:w-auto">
               <Library size={17} />
               {labels.home.canon}
             </Link>
           </div>
         </div>
 
-        <div className="relative z-10">
+        <div className="relative z-10 min-w-0 max-w-[calc(100vw-2rem)] sm:max-w-none">
           <GraphPreview graph={graph} href={localePath(locale as Locale, "/graph")} />
         </div>
       </section>
 
-      <section className="relative mx-auto max-w-7xl px-4 pb-16 sm:px-6">
-        <div className="grid gap-4 border-y border-white/15 py-8 lg:grid-cols-[1fr_auto] lg:items-end">
-          <div className="max-w-4xl">
+      <section className="relative mx-auto max-w-7xl px-4 pb-12 sm:px-6">
+        <div className="grid gap-5 border-y border-white/15 py-7 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div className="max-w-xs sm:max-w-3xl">
             {labels.home.narrative.map((line) => (
-              <p key={line} className="brand-title border-b border-white/10 py-3 text-3xl leading-none text-white last:border-b-0 sm:text-5xl">
+              <p key={line} className="border-b border-white/10 py-3 text-lg font-semibold leading-7 text-white/88 last:border-b-0 sm:text-2xl sm:leading-9">
                 {line}
               </p>
             ))}
           </div>
-          <Link href={localePath(locale as Locale, "/what-is-inclusionism")} className="outline-button inline-flex items-center gap-2 px-5 py-3 text-xs">
+          <Link href={localePath(locale as Locale, "/what-is-inclusionism")} className="outline-button inline-flex w-fit items-center gap-2 px-4 py-3 text-[0.72rem]">
             {labels.home.startHere}
             <ArrowRight size={16} />
           </Link>

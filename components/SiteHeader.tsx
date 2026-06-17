@@ -35,25 +35,25 @@ export default function SiteHeader() {
   const basePath = pathWithoutLocale(pathname);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/15 bg-black/90 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
-        <Link href={localePath(locale, "/")} className="flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center border-2 border-white bg-white text-2xl font-black leading-none text-black" aria-label="Inclusionism logo">
+    <header className="sticky top-0 z-40 border-b border-white/12 bg-black/92 backdrop-blur-xl">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-2 px-3 py-2.5 sm:px-5">
+        <Link href={localePath(locale, "/")} className="flex shrink-0 items-center gap-2.5">
+          <span className="grid h-8 w-8 place-items-center border border-white bg-white text-xl font-black leading-none text-black sm:h-9 sm:w-9" aria-label="Inclusionism logo">
             ≥
           </span>
-          <span className="brand-title text-lg leading-none tracking-wide">Inclusionism</span>
+          <span className="brand-title text-base leading-none tracking-wide sm:text-lg">Inclusionism</span>
         </Link>
-        <nav className="flex flex-1 justify-end gap-1 overflow-x-auto">
+        <nav className="flex flex-1 justify-end gap-0.5 overflow-x-auto">
           {nav.map((item) => {
             const Icon = item.icon;
             return (
               <Link
                 key={item.href}
                 href={localePath(locale, item.href)}
-                className="flex items-center gap-2 border border-transparent px-3 py-2 text-xs font-bold uppercase tracking-wider text-white/70 hover:border-signal hover:text-white"
+                className="flex items-center gap-1.5 border border-transparent px-2 py-2 text-[0.66rem] font-bold uppercase tracking-[0.12em] text-white/62 hover:border-signal hover:text-white lg:px-2.5"
               >
-                <Icon size={16} />
-                <span className="hidden sm:inline">{labels.nav[item.key]}</span>
+                <Icon size={15} />
+                <span className="hidden xl:inline">{labels.nav[item.key]}</span>
               </Link>
             );
           })}
@@ -66,7 +66,7 @@ export default function SiteHeader() {
             const next = event.target.value as Locale;
             window.location.href = localePath(next, basePath);
           }}
-          className="border border-white/20 bg-black px-2 py-2 text-xs font-black uppercase text-white outline-none hover:border-signal"
+          className="max-w-20 border border-white/20 bg-black px-1.5 py-2 text-[0.66rem] font-black uppercase text-white outline-none hover:border-signal sm:max-w-none sm:px-2"
         >
           {locales.map((item) => (
             <option key={item} value={item}>{localeNames[item]}</option>

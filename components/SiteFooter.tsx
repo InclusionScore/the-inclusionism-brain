@@ -24,19 +24,19 @@ export default function SiteFooter() {
   const locale = localeFromPath(pathname);
 
   return (
-    <footer className="border-t border-white/10 bg-black/80">
-      <div className="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-8 text-xs text-white/42 sm:px-6 md:flex-row md:items-center md:justify-between">
-        <nav className="flex flex-wrap gap-x-5 gap-y-3">
+    <footer className="border-t border-white/8 bg-black/70">
+      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-6 text-[0.68rem] text-white/35 sm:px-6 md:flex-row md:items-center md:justify-between">
+        <nav className="flex flex-wrap gap-x-4 gap-y-2">
           {links.map((item) => {
             const href = item.href.endsWith(".xml") ? item.href : localePath(locale, item.href);
             return (
-              <Link key={`${item.label}-${item.href}`} href={href} className="font-bold uppercase tracking-[0.18em] hover:text-signal">
+              <Link key={`${item.label}-${item.href}`} href={href} className="font-semibold uppercase tracking-[0.14em] hover:text-signal">
                 {item.label}
               </Link>
             );
           })}
         </nav>
-        <p className="font-bold uppercase tracking-[0.18em]">© Keith Institute</p>
+        <p className="font-semibold uppercase tracking-[0.14em]">© Keith Institute</p>
       </div>
     </footer>
   );
