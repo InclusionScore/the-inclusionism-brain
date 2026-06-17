@@ -110,14 +110,13 @@ export default async function FrameworkComparisonPage({ params }: { params: Prom
         <p className="brand-kicker">Compare / {framework.group}</p>
         <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">Inclusionism vs {framework.name}</h1>
         <p className="mt-6 max-w-3xl border-l-4 border-red pl-5 text-lg leading-8 text-white/70">
-          Inclusionism is a framework for understanding how differentiated agents generate value through interaction and how civilizations recognize,
-          attribute, distribute, and legitimate that value. This comparison tests whether it explains more than {framework.name} without flattening the
-          other framework into a simple left-right spectrum.
+          Inclusionism is a theory of how value and agency should remain connected. This comparison tests whether it explains more than {framework.name}
+          without flattening the other framework into a simple left-right spectrum.
         </p>
 
         <section className="mt-10 border-y border-white/15 py-5">
-          <p className="text-xs font-black uppercase tracking-[0.32em] text-red">Interaction → Value → Recognition → Agency → Legitimacy → Fairness → Belonging</p>
-          <div className="mt-4 grid gap-2 sm:grid-cols-7">
+          <p className="text-xs font-black uppercase tracking-[0.32em] text-red">Interaction → Value → Recognition → Attribution → Ownership → Agency → Equity → Legitimacy → Belonging</p>
+          <div className="mt-4 grid gap-2 sm:grid-cols-3 lg:grid-cols-9">
             {dynamicChain.map((item) => (
               <div key={item} className="border border-white/15 bg-black p-3">
                 <span className="brand-title text-xl leading-none">{item}</span>

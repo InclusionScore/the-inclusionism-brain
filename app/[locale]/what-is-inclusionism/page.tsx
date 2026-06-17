@@ -41,7 +41,7 @@ export default async function LocalizedWhatIsPage({ params }: { params: Promise<
       <p className="mt-5 max-w-3xl text-sm leading-6 text-white/55">{labels.common.sourceLanguage}</p>
       <section className="mt-10 border-y border-white/15 py-6">
         <p className="text-xs font-black uppercase tracking-[0.32em] text-red">{labels.common.coreDynamic}</p>
-        <div className="mt-4 grid gap-2 md:grid-cols-7">
+        <div className="mt-4 grid gap-2 md:grid-cols-3 lg:grid-cols-9">
           {dynamicChain.map((item) => (
             <div key={item} className="grid min-h-24 border border-white/15 bg-black p-3">
               <span className="brand-title text-2xl leading-none">{item}</span>

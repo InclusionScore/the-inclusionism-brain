@@ -8,7 +8,7 @@ import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 export const metadata: Metadata = {
   title: metadataTitle("What Is Inclusionism?"),
   description:
-    "Inclusionism is a civilizational framework for value, agency, legitimacy, fairness, ownership, and belonging in the age of AI, democracy, data, and economic transformation.",
+    "Inclusionism is a theory of how value and agency should remain connected across ownership, equity, legitimacy, fairness, and belonging.",
   keywords: [
     "what is Inclusionism",
     "value and agency",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: socialTitle("What Is Inclusionism?"),
     description:
-      "A civilizational framework for understanding how differentiated agents generate value through interaction and how societies legitimate that value.",
+      "A civilizational framework for recognizing, attributing, and returning value as meaningful agency.",
     url: siteUrl("/what-is-inclusionism"),
     siteName: siteConfig.name,
     images: ["/brand/og-image.png"]
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: socialTitle("What Is Inclusionism?"),
     description:
-      "A civilizational framework for value, agency, legitimacy, fairness, ownership, and belonging.",
+      "A theory of how value and agency should remain connected.",
     images: ["/brand/og-image.png"]
   }
 };
@@ -69,7 +69,7 @@ export default function WhatIsInclusionismPage() {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text:
-                    "Inclusionism is a framework for understanding how differentiated agents generate value through interaction and how civilizations recognize, attribute, distribute, and legitimate that value."
+                    "Inclusionism is a theory of how value and agency should remain connected. Value emerges through interaction; equity requires that value be recognized, attributed, and returned as ownership, participation, influence, and self-determination to the agents and communities who help create it."
                 }
               },
               {
@@ -88,13 +88,13 @@ export default function WhatIsInclusionismPage() {
       <p className="brand-kicker">Flagship Explainer</p>
       <h1 className="brand-title mt-3 max-w-6xl text-5xl leading-none sm:text-8xl">What Is Inclusionism?</h1>
       <p className="mt-6 max-w-4xl border-l-4 border-signal pl-5 text-xl font-bold leading-9 text-white">
-        Inclusionism is a framework for understanding how differentiated agents generate value through interaction and how civilizations recognize, attribute,
-        distribute, and legitimate that value.
+        Inclusionism is a theory of how value and agency should remain connected. Value emerges through interaction; equity requires that value be
+        recognized, attributed, and returned as ownership, participation, influence, and self-determination to the agents and communities who help create it.
       </p>
 
       <section className="mt-10 border-y border-white/15 py-6">
         <p className="text-xs font-black uppercase tracking-[0.32em] text-red">Core Dynamic</p>
-        <div className="mt-4 grid gap-2 md:grid-cols-7">
+        <div className="mt-4 grid gap-2 md:grid-cols-3 lg:grid-cols-9">
           {dynamicChain.map((item, index) => (
             <div key={item} className="grid min-h-24 border border-white/15 bg-black p-3">
               <span className="brand-title text-2xl leading-none">{item}</span>
@@ -107,8 +107,8 @@ export default function WhatIsInclusionismPage() {
       <section className="mt-10 grid gap-6 md:grid-cols-3">
         {[
           ["Not Just Politics", "Inclusionism is not merely socialism, democratic socialism, liberalism, capitalism, or progressivism. It is a broader account of how civilizations decide whose value counts."],
-          ["A Theory Of Value", "It asks how value emerges from interaction among people, institutions, data systems, AI, communities, and other agents."],
-          ["A Test Of Legitimacy", "It tests whether recognition, ownership, governance, and belonging are fair enough to make a system legitimate."]
+          ["A Value-Agency Theory", "It asks whether value generated through interaction is returned as meaningful agency to the contributors who help create it."],
+          ["A Code Of Equity", "It tests whether recognition, attribution, ownership, governance, and belonging are fair enough to make a system legitimate."]
         ].map(([title, body]) => (
           <div key={title} className="border border-white/15 bg-black p-5">
             <h2 className="brand-title text-4xl leading-none text-signal">{title}</h2>

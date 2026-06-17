@@ -86,7 +86,7 @@ export default async function IssuePage({ params }: { params: Promise<{ slug: st
 
         <section className="mt-10">
           <p className="text-xs font-black uppercase tracking-[0.32em] text-red">Social Dynamic</p>
-          <div className="mt-4 grid gap-2 sm:grid-cols-7">
+          <div className="mt-4 grid gap-2 sm:grid-cols-3 lg:grid-cols-9">
             {dynamicChain.map((item) => (
               <div key={item} className="border border-white/15 bg-black p-3">
                 <span className="brand-title text-xl leading-none">{item}</span>

@@ -40,7 +40,7 @@ export const comparisonAxes = [
   { key: "technological", label: "Technological", left: "optimization", right: "agency" }
 ] as const;
 
-export const dynamicChain = ["Interaction", "Value", "Recognition", "Agency", "Legitimacy", "Fairness", "Belonging"];
+export const dynamicChain = ["Interaction", "Value", "Recognition", "Attribution", "Ownership", "Agency", "Equity", "Legitimacy", "Belonging"];
 
 const political: FrameworkComparison[] = [
   makeComparison({

@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Inclusionism",
   title: "Inclusionism",
-  description: "Explore, challenge, and debate a living framework for value, agency, legitimacy, fairness, and belonging.",
+  description: "Explore, challenge, and debate a living theory of how value and agency should remain connected.",
   domains: ["inclusionism.org", "www.inclusionism.org", "brain.inclusionism.org"]
 };
 

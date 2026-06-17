@@ -4,6 +4,8 @@
 
 A framework for recognizing, attributing, distributing, and legitimizing value generated through interaction.
 
+Inclusionism is a Code of Equity: a framework for recognizing, attributing, distributing, and legitimizing value so that the agents and communities who contribute to its creation receive meaningful [[Ownership]], [[Participation]], influence, and self-determination in the systems they help create.
+
 ---
 
 ## Historical Origin
@@ -27,6 +29,8 @@ A Code of Equity asks:
 ## Core Principle
 
 Equity is the tangible evidence that participation has been recognized.
+
+Equity is the code that keeps [[Value]] and [[Agency]] connected.
 
 ---
 

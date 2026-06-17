@@ -71,7 +71,7 @@
       "id": "agency",
       "title": "Agency",
       "category": "Inclusionism Core",
-      "backlinks": 41,
+      "backlinks": 42,
       "links": 9,
       "excerpt": "Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents p"
     },
@@ -176,8 +176,8 @@
       "title": "Code of Equity",
       "category": "Inclusionism Core",
       "backlinks": 3,
-      "links": 6,
-      "excerpt": "Code of Equity Definition A framework for recognizing, attributing, distributing, and legitimizing value generated through interaction. --- Historical Origin Inclusionism originally described itself as a \"Code of Equity\" in contrast to traditional discussions "
+      "links": 7,
+      "excerpt": "Code of Equity Definition A framework for recognizing, attributing, distributing, and legitimizing value generated through interaction. Inclusionism is a Code of Equity: a framework for recognizing, attributing, distributing, and legitimizing value so that the"
     },
     {
       "id": "collapse",
@@ -1703,7 +1703,11 @@
     },
     {
       "source": "code-of-equity",
-      "target": "equity"
+      "target": "ownership"
+    },
+    {
+      "source": "code-of-equity",
+      "target": "participation"
     },
     {
       "source": "code-of-equity",
@@ -1711,11 +1715,11 @@
     },
     {
       "source": "code-of-equity",
-      "target": "ownership"
+      "target": "agency"
     },
     {
       "source": "code-of-equity",
-      "target": "participation"
+      "target": "equity"
     },
     {
       "source": "code-of-equity",
@@ -2599,15 +2603,7 @@
     },
     {
       "source": "equity",
-      "target": "agency"
-    },
-    {
-      "source": "equity",
       "target": "value"
-    },
-    {
-      "source": "equity",
-      "target": "relational-attribution"
     },
     {
       "source": "equity",
@@ -2615,11 +2611,19 @@
     },
     {
       "source": "equity",
-      "target": "fairness"
+      "target": "participation"
     },
     {
       "source": "equity",
-      "target": "participation"
+      "target": "agency"
+    },
+    {
+      "source": "equity",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "equity",
+      "target": "fairness"
     },
     {
       "source": "equity",
@@ -3371,23 +3375,11 @@
     },
     {
       "source": "inclusionism",
-      "target": "interaction"
-    },
-    {
-      "source": "inclusionism",
-      "target": "witnessing"
-    },
-    {
-      "source": "inclusionism",
       "target": "agency"
     },
     {
       "source": "inclusionism",
-      "target": "participation"
-    },
-    {
-      "source": "inclusionism",
-      "target": "belonging"
+      "target": "interaction"
     },
     {
       "source": "inclusionism",
@@ -3396,6 +3388,18 @@
     {
       "source": "inclusionism",
       "target": "ownership"
+    },
+    {
+      "source": "inclusionism",
+      "target": "participation"
+    },
+    {
+      "source": "inclusionism",
+      "target": "witnessing"
+    },
+    {
+      "source": "inclusionism",
+      "target": "belonging"
     },
     {
       "source": "inclusionism",

@@ -12,6 +12,8 @@ Agency is one of the primary expressions of value.
 
 Value becomes meaningful when agents possess the capacity to act upon it.
 
+Inclusionism treats [[Agency]] as the return path of recognized [[Value]].
+
 ---
 
 ## Core Principle

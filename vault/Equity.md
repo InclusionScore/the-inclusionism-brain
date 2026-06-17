@@ -18,6 +18,8 @@ Individuals are entitled to equity in the value that proliferates from their int
 
 Agency is the measure of equity.
 
+Equity is achieved when [[Value]] is recognized, attributed, and returned to contributing agents and communities as meaningful [[Ownership]], [[Participation]], influence, and self-determination.
+
 A system is not equitable merely because it distributes resources.
 
 It becomes more equitable when participants gain meaningful [[Agency]] over the systems that shape their lives, recognize their contributions, and distribute value produced through their participation.

@@ -46,9 +46,9 @@ export const t = {
     home: {
       kicker: "A living philosophy engine",
       title: "Inclusionism",
-      subtitle: "A framework for value, agency, legitimacy, fairness, and belonging.",
+      subtitle: "A theory of how value and agency should remain connected.",
       description:
-        "Inclusionism explains how differentiated agents generate value through interaction, and how civilizations recognize, attribute, distribute, and legitimate that value.",
+        "Value emerges through interaction. Equity requires that value be recognized, attributed, and returned as ownership, participation, influence, and self-determination to the agents and communities who help create it.",
       graph: "Explore the Graph",
       issues: "Explore Issues",
       essays: "Read the Essays",
@@ -95,7 +95,7 @@ export const t = {
       technological: "Technological"
     },
     meta: {
-      home: "Explore, challenge, and debate a living framework for value, agency, legitimacy, fairness, and belonging.",
+      home: "Explore, challenge, and debate a living theory of how value and agency should remain connected.",
       graph: "Explore the Inclusionism canon as a blueprint-like network of concepts, notes, and wikilinks.",
       notes: "Read and search the Inclusionism canon: notes, backlinks, concepts, and internal wikilinks.",
       debate: "Challenge, critique, and refine Inclusionism with responses grounded in the canon.",
@@ -118,9 +118,9 @@ export const t = {
     home: {
       kicker: "Un motor vivo de filosofía",
       title: "Inclusionism",
-      subtitle: "Un marco para valor, agencia, legitimidad, equidad y pertenencia.",
+      subtitle: "Una teoría de cómo el valor y la agencia deben permanecer conectados.",
       description:
-        "Inclusionism explica cómo agentes diferenciados generan valor mediante la interacción, y cómo las civilizaciones reconocen, atribuyen, distribuyen y legitiman ese valor.",
+        "El valor emerge mediante la interacción. La equidad exige que el valor sea reconocido, atribuido y devuelto como propiedad, participación, influencia y autodeterminación a los agentes y comunidades que ayudan a crearlo.",
       graph: "Explorar el grafo",
       issues: "Explorar temas",
       essays: "Leer ensayos",
@@ -164,7 +164,7 @@ export const t = {
       technological: "Tecnológico"
     },
     meta: {
-      home: "Explora, desafía y debate un marco vivo para valor, agencia, legitimidad, equidad y pertenencia.",
+      home: "Explora, desafía y debate una teoría viva de cómo el valor y la agencia deben permanecer conectados.",
       graph: "Explora el canon de Inclusionism como una red de conceptos y wikilinks.",
       notes: "Lee y busca en el canon de Inclusionism.",
       debate: "Desafía, critica y refina Inclusionism con respuestas basadas en el canon.",
@@ -187,9 +187,9 @@ export const t = {
     home: {
       kicker: "Un moteur philosophique vivant",
       title: "Inclusionism",
-      subtitle: "Un cadre pour la valeur, l’agence, la légitimité, l’équité et l’appartenance.",
+      subtitle: "Une théorie de la manière dont la valeur et l’agence doivent rester connectées.",
       description:
-        "Inclusionism explique comment des agents différenciés génèrent de la valeur par l’interaction, et comment les civilisations reconnaissent, attribuent, distribuent et légitiment cette valeur.",
+        "La valeur émerge par l’interaction. L’équité exige que cette valeur soit reconnue, attribuée et rendue sous forme de propriété, participation, influence et autodétermination aux agents et communautés qui contribuent à la créer.",
       graph: "Explorer le graphe",
       issues: "Explorer les enjeux",
       essays: "Lire les essais",
@@ -232,7 +232,7 @@ export const t = {
       technological: "Technologique"
     },
     meta: {
-      home: "Explorer, contester et débattre un cadre vivant pour valeur, agence, légitimité, équité et appartenance.",
+      home: "Explorer, contester et débattre une théorie vivante de la manière dont la valeur et l’agence doivent rester connectées.",
       graph: "Explorer le canon d’Inclusionism comme réseau de concepts et wikilinks.",
       notes: "Lire et rechercher dans le canon d’Inclusionism.",
       debate: "Contester, critiquer et affiner Inclusionism avec des réponses fondées sur le canon.",
@@ -255,9 +255,9 @@ export const t = {
     home: {
       kicker: "Eine lebendige Philosophie-Maschine",
       title: "Inclusionism",
-      subtitle: "Ein Rahmen für Wert, Agency, Legitimität, Fairness und Zugehörigkeit.",
+      subtitle: "Eine Theorie darüber, wie Wert und Agency verbunden bleiben sollten.",
       description:
-        "Inclusionism erklärt, wie differenzierte Akteure durch Interaktion Wert erzeugen und wie Zivilisationen diesen Wert anerkennen, zuschreiben, verteilen und legitimieren.",
+        "Wert entsteht durch Interaktion. Equity verlangt, dass Wert anerkannt, zugeschrieben und als Eigentum, Teilhabe, Einfluss und Selbstbestimmung an die Akteure und Gemeinschaften zurückgegeben wird, die ihn miterschaffen.",
       graph: "Graph erkunden",
       issues: "Themen erkunden",
       essays: "Essays lesen",
@@ -300,7 +300,7 @@ export const t = {
       technological: "Technologisch"
     },
     meta: {
-      home: "Erkunden, hinterfragen und debattieren Sie einen lebendigen Rahmen für Wert, Agency, Legitimität, Fairness und Zugehörigkeit.",
+      home: "Erkunden, hinterfragen und debattieren Sie eine lebendige Theorie darüber, wie Wert und Agency verbunden bleiben sollten.",
       graph: "Erkunden Sie den Inclusionism-Kanon als Netzwerk von Konzepten und Wikilinks.",
       notes: "Lesen und durchsuchen Sie den Inclusionism-Kanon.",
       debate: "Hinterfragen, kritisieren und verfeinern Sie Inclusionism mit kanonbasierten Antworten.",
@@ -323,9 +323,9 @@ export const t = {
     home: {
       kicker: "Um motor filosófico vivo",
       title: "Inclusionism",
-      subtitle: "Uma estrutura para valor, agência, legitimidade, justiça e pertencimento.",
+      subtitle: "Uma teoria de como valor e agência devem permanecer conectados.",
       description:
-        "Inclusionism explica como agentes diferenciados geram valor por meio da interação e como civilizações reconhecem, atribuem, distribuem e legitimam esse valor.",
+        "O valor emerge por meio da interação. A equidade exige que o valor seja reconhecido, atribuído e devolvido como propriedade, participação, influência e autodeterminação aos agentes e comunidades que ajudam a criá-lo.",
       graph: "Explorar o grafo",
       issues: "Explorar temas",
       essays: "Ler ensaios",
@@ -368,7 +368,7 @@ export const t = {
       technological: "Tecnológico"
     },
     meta: {
-      home: "Explore, desafie e debata uma estrutura viva para valor, agência, legitimidade, justiça e pertencimento.",
+      home: "Explore, desafie e debata uma teoria viva de como valor e agência devem permanecer conectados.",
       graph: "Explore o cânone de Inclusionism como uma rede de conceitos e wikilinks.",
       notes: "Leia e pesquise o cânone de Inclusionism.",
       debate: "Desafie, critique e refine Inclusionism com respostas baseadas no cânone.",

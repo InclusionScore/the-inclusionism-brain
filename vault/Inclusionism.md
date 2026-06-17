@@ -12,6 +12,12 @@ Participation is part of the philosophy itself.
 
 Inclusionism is a framework for understanding how differentiated agents generate value through interaction and how civilizations recognize, attribute, distribute, and legitimate that value.
 
+Inclusionism is also a theory of how [[Value]] and [[Agency]] should remain connected.
+
+Value emerges through [[Interaction]].
+
+[[Equity]] requires that value be recognized, attributed, and returned as [[Ownership]], [[Participation]], influence, and self-determination to the agents and communities who help create it.
+
 ---
 
 ## Foundational Axiom

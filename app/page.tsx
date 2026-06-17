@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Compass, GitBranch, GitCompareArrows, Headphones, Library, MessageSquareText, Newspaper } from "lucide-react";
 
-const dynamicChain = ["Interaction", "Value", "Recognition", "Agency", "Legitimacy", "Fairness", "Belonging"];
+const dynamicChain = ["Interaction", "Value", "Recognition", "Attribution", "Ownership", "Agency", "Equity", "Legitimacy", "Belonging"];
 
 export default function HomePage() {
   return (
@@ -11,11 +11,11 @@ export default function HomePage() {
           <p className="brand-kicker">A living philosophy engine</p>
           <h1 className="brand-title mt-5 max-w-5xl text-5xl leading-[0.9] sm:text-8xl lg:text-9xl">Inclusionism</h1>
           <p className="mt-7 max-w-3xl text-2xl font-bold leading-9 text-white">
-            A framework for value, agency, legitimacy, fairness, and belonging.
+            A theory of how value and agency should remain connected.
           </p>
           <p className="mt-5 max-w-4xl border-l-4 border-signal pl-5 text-base leading-7 text-white/70 sm:text-lg">
-            Inclusionism explains how differentiated agents generate value through interaction, and how civilizations recognize, attribute,
-            distribute, and legitimate that value.
+            Value emerges through interaction. Equity requires that value be recognized, attributed, and returned as ownership, participation,
+            influence, and self-determination to the agents and communities who help create it.
           </p>
         </div>
 
