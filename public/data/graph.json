@@ -71,7 +71,7 @@
       "id": "agency",
       "title": "Agency",
       "category": "Inclusionism Core",
-      "backlinks": 43,
+      "backlinks": 44,
       "links": 9,
       "excerpt": "Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents p"
     },
@@ -463,9 +463,9 @@
       "id": "feedback-loops",
       "title": "Feedback Loops",
       "category": "Inclusionism Core",
-      "backlinks": 2,
-      "links": 5,
-      "excerpt": "Feedback Loops Definition Recursive processes where system outputs influence future system behavior. --- Inclusionist Perspective Civilizations evolve through reinforcing and balancing feedback loops. --- Relationships - Adaptation - Coordination - Networks - "
+      "backlinks": 3,
+      "links": 7,
+      "excerpt": "Feedback Loops Definition Recursive processes where system outputs influence future system behavior. --- Inclusionist Perspective Civilizations evolve through reinforcing and balancing feedback loops. Feedback mechanisms are also practices of Recognition. They"
     },
     {
       "id": "fifth-freedom",
@@ -600,8 +600,8 @@
       "title": "Inclusion Metrics",
       "category": "Inclusionism Core",
       "backlinks": 0,
-      "links": 6,
-      "excerpt": "Inclusion Metrics Definition Systems for measuring participation, connectivity, agency, ownership, and access within civilizations. --- Inclusionist Perspective What civilizations measure shapes what civilizations optimize. --- Relationships - Participation - "
+      "links": 8,
+      "excerpt": "Inclusion Metrics Definition Systems for measuring participation, connectivity, agency, ownership, and access within civilizations. --- Inclusionist Perspective What civilizations measure shapes what civilizations optimize. Inclusion metrics should begin with "
     },
     {
       "id": "inclusion",
@@ -767,7 +767,7 @@
       "id": "legitimacy",
       "title": "Legitimacy",
       "category": "Inclusionism Core",
-      "backlinks": 14,
+      "backlinks": 15,
       "links": 7,
       "excerpt": "Legitimacy Definition The recognized validity of authority, participation, ownership, governance, or value distribution within a system. --- Inclusionist Perspective Legitimacy emerges when participants believe systems accurately recognize reality. --- Core Pr"
     },
@@ -895,9 +895,9 @@
       "id": "participation",
       "title": "Participation",
       "category": "Inclusionism Core",
-      "backlinks": 84,
-      "links": 6,
-      "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. --- Relationships - Agency - Inclusion - Governance - Value - Connectivit"
+      "backlinks": 85,
+      "links": 7,
+      "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. Participation becomes governable only when institutions can recognize who"
     },
     {
       "id": "personal-data",
@@ -981,19 +981,19 @@
     },
     {
       "id": "recognition",
-      "title": "# Recognition",
+      "title": "Recognition",
       "category": "Inclusionism Core",
-      "backlinks": 16,
-      "links": 8,
-      "excerpt": "# Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful "
+      "backlinks": 19,
+      "links": 11,
+      "excerpt": "Recognition Definition The institutional and relational act of seeing that an agent exists, participates, contributes, is affected, or belongs within a system. --- Inclusionist Perspective Recognition transforms Witnessing into social legitimacy. Recognition i"
     },
     {
       "id": "relational-attribution",
       "title": "Relational Attribution",
       "category": "Inclusionism Core",
-      "backlinks": 13,
+      "backlinks": 14,
       "links": 11,
-      "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi"
+      "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. Relational Attribution depends on Recognition clearly enough to know who participated "
     },
     {
       "id": "religious-freedom",
@@ -1435,15 +1435,15 @@
     },
     {
       "source": "belonging",
+      "target": "recognition"
+    },
+    {
+      "source": "belonging",
       "target": "identity"
     },
     {
       "source": "belonging",
       "target": "identification"
-    },
-    {
-      "source": "belonging",
-      "target": "recognition"
     },
     {
       "source": "belonging",
@@ -2695,6 +2695,10 @@
     },
     {
       "source": "feedback-loops",
+      "target": "recognition"
+    },
+    {
+      "source": "feedback-loops",
       "target": "adaptation"
     },
     {
@@ -2712,6 +2716,10 @@
     {
       "source": "feedback-loops",
       "target": "collective-intelligence"
+    },
+    {
+      "source": "feedback-loops",
+      "target": "participation"
     },
     {
       "source": "fifth-freedom",
@@ -3171,6 +3179,10 @@
     },
     {
       "source": "inclusion-metrics",
+      "target": "recognition"
+    },
+    {
+      "source": "inclusion-metrics",
       "target": "participation"
     },
     {
@@ -3192,6 +3204,10 @@
     {
       "source": "inclusion-metrics",
       "target": "value-emergence"
+    },
+    {
+      "source": "inclusion-metrics",
+      "target": "feedback-loops"
     },
     {
       "source": "inclusion",
@@ -4231,6 +4247,10 @@
     },
     {
       "source": "participation",
+      "target": "recognition"
+    },
+    {
+      "source": "participation",
       "target": "agency"
     },
     {
@@ -4523,7 +4543,15 @@
     },
     {
       "source": "recognition",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "recognition",
       "target": "identification"
+    },
+    {
+      "source": "recognition",
+      "target": "agency"
     },
     {
       "source": "recognition",
@@ -4543,11 +4571,19 @@
     },
     {
       "source": "recognition",
+      "target": "legitimacy"
+    },
+    {
+      "source": "recognition",
       "target": "identity-maturation-theory"
     },
     {
       "source": "recognition",
       "target": "universalism-as-an-outcome-of-identity"
+    },
+    {
+      "source": "relational-attribution",
+      "target": "recognition"
     },
     {
       "source": "relational-attribution",
@@ -4588,10 +4624,6 @@
     {
       "source": "relational-attribution",
       "target": "value-distribution"
-    },
-    {
-      "source": "relational-attribution",
-      "target": "recognition"
     },
     {
       "source": "religious-freedom",

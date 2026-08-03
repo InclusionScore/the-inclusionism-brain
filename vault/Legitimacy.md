@@ -18,6 +18,8 @@ Recognition produces legitimacy.
 
 Persistent misrecognition produces instability.
 
+Legitimacy therefore depends on institutional sight: the capacity to identify participants, understand relationships, and recognize contributions without reducing people to demographic categories. See [[Recognition#Recognition Requires Seeing People]].
+
 ---
 
 ## Inclusionist Perspective

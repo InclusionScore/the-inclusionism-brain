@@ -332,7 +332,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "pluralism",
@@ -852,7 +852,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "identification",
@@ -1167,116 +1167,6 @@
       {
         "slug": "universalism-as-an-outcome-of-identity",
         "title": "Universalism as an Outcome of Identity"
-      }
-    ],
-    "aliases": []
-  },
-  {
-    "slug": "recognition",
-    "title": "# Recognition",
-    "path": "Recognition.md",
-    "category": "Inclusionism Core",
-    "content": "# # Recognition\n\n## Definition\n\nThe acknowledgment that an agent exists, participates, contributes, or belongs within a system.\n\n---\n\n## Inclusionist Perspective\n\nRecognition transforms witnessing into social legitimacy.\n\n---\n\n## Core Principle\n\nParticipation becomes meaningful when it is recognized.\n\n---\n\n## Inclusionist Perspective\n\nMany forms of exclusion emerge not from hostility but from failures of recognition.\n\nUnrecognized participation often produces unrecognized value.\n\n---\n\n## Relationships\n\n- [[Witnessing]]\n    \n- [[Identification]]\n    \n- [[Participation]]\n    \n- [[Belonging]]\n    \n- [[Equity]]\n    \n- [[Value]]\n\n- [[Identity Maturation Theory]]\n\n- [[Universalism as an Outcome of Identity]]\n    \n\n---\n\n## Core Question\n\nWhat forms of participation remain unseen by existing systems?",
-    "excerpt": "# Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful ",
-    "status": "Canon",
-    "links": [
-      {
-        "slug": "witnessing",
-        "title": "Witnessing"
-      },
-      {
-        "slug": "identification",
-        "title": "Identification"
-      },
-      {
-        "slug": "participation",
-        "title": "Participation"
-      },
-      {
-        "slug": "belonging",
-        "title": "Belonging"
-      },
-      {
-        "slug": "equity",
-        "title": "Equity"
-      },
-      {
-        "slug": "value",
-        "title": "Value"
-      },
-      {
-        "slug": "identity-maturation-theory",
-        "title": "Identity Maturation Theory"
-      },
-      {
-        "slug": "universalism-as-an-outcome-of-identity",
-        "title": "Universalism as an Outcome of Identity"
-      }
-    ],
-    "backlinks": [
-      {
-        "slug": "belonging",
-        "title": "Belonging"
-      },
-      {
-        "slug": "community",
-        "title": "# Community"
-      },
-      {
-        "slug": "fairness",
-        "title": "Fairness"
-      },
-      {
-        "slug": "harmony-versus-unity",
-        "title": "Harmony versus Unity"
-      },
-      {
-        "slug": "identification",
-        "title": "Identification"
-      },
-      {
-        "slug": "identity-maturation-theory",
-        "title": "Identity Maturation Theory"
-      },
-      {
-        "slug": "identity",
-        "title": "# Identity"
-      },
-      {
-        "slug": "inclusionism-canon-v10-moc",
-        "title": "Inclusionism Canon v1.0"
-      },
-      {
-        "slug": "inclusionist-social-dynamic",
-        "title": "Inclusionist Social Dynamic"
-      },
-      {
-        "slug": "legitimacy",
-        "title": "Legitimacy"
-      },
-      {
-        "slug": "relational-attribution",
-        "title": "Relational Attribution"
-      },
-      {
-        "slug": "the-problem-isnt-identity",
-        "title": "The Problem Isn't Identity"
-      },
-      {
-        "slug": "toward-a-physics-of-value",
-        "title": "Toward a Physics of Value"
-      },
-      {
-        "slug": "universalism-as-an-outcome-of-identity",
-        "title": "Universalism as an Outcome of Identity"
-      },
-      {
-        "slug": "value-distribution",
-        "title": "Value Distribution"
-      },
-      {
-        "slug": "witnessing",
-        "title": "Witnessing"
       }
     ],
     "aliases": []
@@ -1682,6 +1572,10 @@
         "title": "Privacy"
       },
       {
+        "slug": "recognition",
+        "title": "Recognition"
+      },
+      {
         "slug": "relational-attribution",
         "title": "Relational Attribution"
       },
@@ -2047,10 +1941,14 @@
     "title": "Belonging",
     "path": "Belonging.md",
     "category": "Inclusionism Core",
-    "content": "# Belonging\n\n## Definition\n\nThe condition that emerges when an agent's existence, participation, agency, and value are recognized within a system.\n\n---\n\n## Inclusionist Perspective\n\nBelonging is not merely acceptance.\n\nBelonging is the experience of being recognized as a legitimate participant within a community, system, or civilization.\n\n---\n\n## Core Principle\n\nBelonging emerges from successful recognition.\n\nIt cannot be imposed.\n\nIt cannot be manufactured through rhetoric alone.\n\n---\n\n## Inclusionist Perspective\n\nIndividuals are at their best when they identify with a community.\n\nCommunities are at their best when they identify all of their individuals.\n\nEvery newly recognized individual alters the community performing the recognition.\n\n---\n\n## Nested Belonging\n\nIndividuals simultaneously participate in multiple overlapping communities.\n\nExamples include:\n\n- family\n    \n- neighborhood\n    \n- profession\n    \n- culture\n    \n- nation\n    \n- civilization\n    \n- digital communities\n    \n\nBelonging is therefore layered rather than singular.\n\n---\n\n## Relationships\n\n- [[Identity]]\n    \n- [[Identification]]\n    \n- [[Recognition]]\n    \n- [[Participation]]\n    \n- [[Agency]]\n    \n- [[Community]]\n    \n- [[Civilization]]\n\n- [[Harmony versus Unity]]\n\n- [[Universalism as an Outcome of Identity]]\n    \n\n---\n\n## Inclusionist Question\n\nHow can systems continuously expand recognition without losing coherence?",
+    "content": "# Belonging\n\n## Definition\n\nThe condition that emerges when an agent's existence, participation, agency, and value are recognized within a system.\n\n---\n\n## Inclusionist Perspective\n\nBelonging is not merely acceptance.\n\nBelonging is the experience of being recognized as a legitimate participant within a community, system, or civilization.\n\n---\n\n## Core Principle\n\nBelonging emerges from successful recognition.\n\nIt cannot be imposed.\n\nIt cannot be manufactured through rhetoric alone.\n\nBelonging requires being seen as a meaningful participant, not merely classified as a demographic presence. See [[Recognition#Recognition Requires Seeing People]].\n\n---\n\n## Inclusionist Perspective\n\nIndividuals are at their best when they identify with a community.\n\nCommunities are at their best when they identify all of their individuals.\n\nEvery newly recognized individual alters the community performing the recognition.\n\n---\n\n## Nested Belonging\n\nIndividuals simultaneously participate in multiple overlapping communities.\n\nExamples include:\n\n- family\n    \n- neighborhood\n    \n- profession\n    \n- culture\n    \n- nation\n    \n- civilization\n    \n- digital communities\n    \n\nBelonging is therefore layered rather than singular.\n\n---\n\n## Relationships\n\n- [[Identity]]\n    \n- [[Identification]]\n    \n- [[Recognition]]\n    \n- [[Participation]]\n    \n- [[Agency]]\n    \n- [[Community]]\n    \n- [[Civilization]]\n\n- [[Harmony versus Unity]]\n\n- [[Universalism as an Outcome of Identity]]\n    \n\n---\n\n## Inclusionist Question\n\nHow can systems continuously expand recognition without losing coherence?",
     "excerpt": "Belonging Definition The condition that emerges when an agent's existence, participation, agency, and value are recognized within a system. --- Inclusionist Perspective Belonging is not merely acceptance. Belonging is the experience of being recognized as a le",
     "status": "Canon",
     "links": [
+      {
+        "slug": "recognition",
+        "title": "Recognition"
+      },
       {
         "slug": "identity",
         "title": "# Identity"
@@ -2058,10 +1956,6 @@
       {
         "slug": "identification",
         "title": "Identification"
-      },
-      {
-        "slug": "recognition",
-        "title": "# Recognition"
       },
       {
         "slug": "participation",
@@ -2223,7 +2117,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "religious-freedom",
@@ -4712,7 +4606,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "relational-attribution",
@@ -4826,7 +4720,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "agency",
@@ -4878,10 +4772,14 @@
     "title": "Feedback Loops",
     "path": "Feedback Loops.md",
     "category": "Inclusionism Core",
-    "content": "# Feedback Loops\n\n## Definition\nRecursive processes where system outputs influence future system behavior.\n\n---\n\n## Inclusionist Perspective\nCivilizations evolve through reinforcing and balancing feedback loops.\n\n---\n\n## Relationships\n- [[Adaptation]]\n- [[Coordination]]\n- [[Networks]]\n- [[Governance]]\n- [[Collective Intelligence]]\n- [[Emergence]]\n\n---\n\n## Questions\n- What feedback loops destabilize civilizations?\n- Can AI accelerate feedback cycles?\n- What loops reinforce inclusion?",
-    "excerpt": "Feedback Loops Definition Recursive processes where system outputs influence future system behavior. --- Inclusionist Perspective Civilizations evolve through reinforcing and balancing feedback loops. --- Relationships - Adaptation - Coordination - Networks - ",
+    "content": "# Feedback Loops\n\n## Definition\nRecursive processes where system outputs influence future system behavior.\n\n---\n\n## Inclusionist Perspective\nCivilizations evolve through reinforcing and balancing feedback loops.\n\nFeedback mechanisms are also practices of [[Recognition]]. They allow people affected by a system to make hidden participation, risk, value, and consequence visible to the institution.\n\n---\n\n## Relationships\n- [[Adaptation]]\n- [[Coordination]]\n- [[Networks]]\n- [[Governance]]\n- [[Collective Intelligence]]\n- [[Emergence]]\n- [[Recognition]]\n- [[Participation]]\n\n---\n\n## Questions\n- What feedback loops destabilize civilizations?\n- Can AI accelerate feedback cycles?\n- What loops reinforce inclusion?",
+    "excerpt": "Feedback Loops Definition Recursive processes where system outputs influence future system behavior. --- Inclusionist Perspective Civilizations evolve through reinforcing and balancing feedback loops. Feedback mechanisms are also practices of Recognition. They",
     "status": "Canon",
     "links": [
+      {
+        "slug": "recognition",
+        "title": "Recognition"
+      },
       {
         "slug": "adaptation",
         "title": "Adaptation"
@@ -4901,6 +4799,10 @@
       {
         "slug": "collective-intelligence",
         "title": "Collective Intelligence"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
       }
     ],
     "backlinks": [
@@ -4911,6 +4813,10 @@
       {
         "slug": "core-dynamics",
         "title": "Core Dynamics"
+      },
+      {
+        "slug": "inclusion-metrics",
+        "title": "Inclusion Metrics"
       }
     ],
     "aliases": []
@@ -5142,7 +5048,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "agency",
@@ -5484,7 +5390,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "witnessing",
@@ -5518,7 +5424,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "witnessing",
@@ -5554,7 +5460,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "legitimacy",
@@ -5604,7 +5510,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "universalism-as-an-outcome-of-identity",
@@ -5722,10 +5628,14 @@
     "title": "Inclusion Metrics",
     "path": "Inclusion Metrics.md",
     "category": "Inclusionism Core",
-    "content": "# Inclusion Metrics\n\n## Definition\nSystems for measuring participation, connectivity, agency, ownership, and access within civilizations.\n\n---\n\n## Inclusionist Perspective\nWhat civilizations measure shapes what civilizations optimize.\n\n---\n\n## Relationships\n- [[Participation]]\n- [[Ownership]]\n- [[Connectivity]]\n- [[Governance]]\n- [[Human Flourishing]]\n- [[Value Emergence]]\n\n---\n\n## Questions\n- Can inclusion become quantifiable?\n- What metrics distort civilization?\n- Can AI improve societal measurement?",
-    "excerpt": "Inclusion Metrics Definition Systems for measuring participation, connectivity, agency, ownership, and access within civilizations. --- Inclusionist Perspective What civilizations measure shapes what civilizations optimize. --- Relationships - Participation - ",
+    "content": "# Inclusion Metrics\n\n## Definition\nSystems for measuring participation, connectivity, agency, ownership, and access within civilizations.\n\n---\n\n## Inclusionist Perspective\nWhat civilizations measure shapes what civilizations optimize.\n\nInclusion metrics should begin with recognition rather than judgment. They help institutions see services, participants, relationships, contributions, risks, and feedback before they claim to evaluate fairness. See [[Recognition#Recognition Requires Seeing People]].\n\n---\n\n## Relationships\n- [[Participation]]\n- [[Ownership]]\n- [[Connectivity]]\n- [[Governance]]\n- [[Human Flourishing]]\n- [[Value Emergence]]\n- [[Recognition]]\n- [[Feedback Loops]]\n\n---\n\n## Questions\n- Can inclusion become quantifiable?\n- What metrics distort civilization?\n- Can AI improve societal measurement?",
+    "excerpt": "Inclusion Metrics Definition Systems for measuring participation, connectivity, agency, ownership, and access within civilizations. --- Inclusionist Perspective What civilizations measure shapes what civilizations optimize. Inclusion metrics should begin with ",
     "status": "Canon",
     "links": [
+      {
+        "slug": "recognition",
+        "title": "Recognition"
+      },
       {
         "slug": "participation",
         "title": "Participation"
@@ -5749,6 +5659,10 @@
       {
         "slug": "value-emergence",
         "title": "Value Emergence"
+      },
+      {
+        "slug": "feedback-loops",
+        "title": "Feedback Loops"
       }
     ],
     "backlinks": [],
@@ -5904,7 +5818,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "community",
@@ -6106,7 +6020,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "agency",
@@ -6878,13 +6792,13 @@
     "title": "Legitimacy",
     "path": "Legitimacy.md",
     "category": "Inclusionism Core",
-    "content": "## Legitimacy\n\n## Definition\n\nThe recognized validity of authority, participation, ownership, governance, or value distribution within a system.\n\n---\n\n## Inclusionist Perspective\n\nLegitimacy emerges when participants believe systems accurately recognize reality.\n\n---\n\n## Core Principle\n\nRecognition produces legitimacy.\n\nPersistent misrecognition produces instability.\n\n---\n\n## Inclusionist Perspective\n\nCivilizations derive legitimacy from their ability to:\n\n- recognize participation\n    \n- attribute value\n    \n- distribute opportunity\n    \n- preserve agency\n    \n- establish belonging\n    \n\n---\n\n## Relationships\n\n- [[Recognition]]\n    \n- [[Participation]]\n    \n- [[Equity]]\n    \n- [[Ownership]]\n    \n- [[Democracy]]\n    \n- [[Governance]]\n    \n- [[Civilization]]\n    \n\n---\n\n## Core Question\n\nWhat makes participants believe a system is fair, accurate, and worthy of trust?",
+    "content": "## Legitimacy\n\n## Definition\n\nThe recognized validity of authority, participation, ownership, governance, or value distribution within a system.\n\n---\n\n## Inclusionist Perspective\n\nLegitimacy emerges when participants believe systems accurately recognize reality.\n\n---\n\n## Core Principle\n\nRecognition produces legitimacy.\n\nPersistent misrecognition produces instability.\n\nLegitimacy therefore depends on institutional sight: the capacity to identify participants, understand relationships, and recognize contributions without reducing people to demographic categories. See [[Recognition#Recognition Requires Seeing People]].\n\n---\n\n## Inclusionist Perspective\n\nCivilizations derive legitimacy from their ability to:\n\n- recognize participation\n    \n- attribute value\n    \n- distribute opportunity\n    \n- preserve agency\n    \n- establish belonging\n    \n\n---\n\n## Relationships\n\n- [[Recognition]]\n    \n- [[Participation]]\n    \n- [[Equity]]\n    \n- [[Ownership]]\n    \n- [[Democracy]]\n    \n- [[Governance]]\n    \n- [[Civilization]]\n    \n\n---\n\n## Core Question\n\nWhat makes participants believe a system is fair, accurate, and worthy of trust?",
     "excerpt": "Legitimacy Definition The recognized validity of authority, participation, ownership, governance, or value distribution within a system. --- Inclusionist Perspective Legitimacy emerges when participants believe systems accurately recognize reality. --- Core Pr",
     "status": "Canon",
     "links": [
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "participation",
@@ -6947,6 +6861,10 @@
       {
         "slug": "personhood",
         "title": "Personhood"
+      },
+      {
+        "slug": "recognition",
+        "title": "Recognition"
       },
       {
         "slug": "superintelligence",
@@ -8033,10 +7951,14 @@
     "title": "Participation",
     "path": "Participation.md",
     "category": "Inclusionism Core",
-    "content": "# Participation\n\n## Definition\nActive engagement in systems of value creation, governance, or coordination.\n\n---\n\n## Inclusionist Principle\nCivilizations flourish when participation scales broadly.\n\n---\n\n## Relationships\n- [[Agency]]\n- [[Inclusion]]\n- [[Governance]]\n- [[Value]]\n- [[Connectivity]]\n- [[Ownership]]\n\n---\n\n## Questions\n- What prevents participation?\n- Can participation become measurable?\n- How should AI affect participation?",
-    "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. --- Relationships - Agency - Inclusion - Governance - Value - Connectivit",
+    "content": "# Participation\n\n## Definition\nActive engagement in systems of value creation, governance, or coordination.\n\n---\n\n## Inclusionist Principle\nCivilizations flourish when participation scales broadly.\n\nParticipation becomes governable only when institutions can recognize who is participating, how they are participating, and what consequences their participation produces. See [[Recognition#Recognition Requires Seeing People]].\n\n---\n\n## Relationships\n- [[Agency]]\n- [[Inclusion]]\n- [[Governance]]\n- [[Value]]\n- [[Connectivity]]\n- [[Ownership]]\n- [[Recognition]]\n\n---\n\n## Questions\n- What prevents participation?\n- Can participation become measurable?\n- How should AI affect participation?",
+    "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. Participation becomes governable only when institutions can recognize who",
     "status": "Canon",
     "links": [
+      {
+        "slug": "recognition",
+        "title": "Recognition"
+      },
       {
         "slug": "agency",
         "title": "Agency"
@@ -8220,6 +8142,10 @@
         "title": "Exclusion"
       },
       {
+        "slug": "feedback-loops",
+        "title": "Feedback Loops"
+      },
+      {
         "slug": "governance",
         "title": "# Governance"
       },
@@ -8349,7 +8275,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "resilience",
@@ -9073,11 +8999,145 @@
     "title": "Recognition",
     "path": "05 Human Systems/Recognition.md",
     "category": "Human Systems",
-    "content": "# Recognition\n\nAcknowledgment of identity, participation, and personhood.",
-    "excerpt": "Recognition Acknowledgment of identity, participation, and personhood.",
+    "content": "# Recognition\n\nAcknowledgment of identity, participation, contribution, consequence, and personhood.\n\nThis folder note points to the fuller canon entry: [[Recognition]].\n\nSee also [[Recognition#Recognition Requires Seeing People]].",
+    "excerpt": "Recognition Acknowledgment of identity, participation, contribution, consequence, and personhood. This folder note points to the fuller canon entry: Recognition. See also Recognition.",
     "status": "Canon",
     "links": [],
     "backlinks": [],
+    "aliases": []
+  },
+  {
+    "slug": "recognition",
+    "title": "Recognition",
+    "path": "Recognition.md",
+    "category": "Inclusionism Core",
+    "content": "# Recognition\n\n## Definition\n\nThe institutional and relational act of seeing that an agent exists, participates, contributes, is affected, or belongs within a system.\n\n---\n\n## Inclusionist Perspective\n\nRecognition transforms [[Witnessing]] into social legitimacy.\n\nRecognition is not merely symbolic affirmation. It is the discipline through which systems learn who is present, how people participate, what relationships shape them, which contributions they make, which risks they carry, and how value moves through the system.\n\n---\n\n## Core Principle\n\nParticipation becomes meaningful when it is recognized.\n\nRecognition precedes [[Relational Attribution]] because institutions must first understand who participated before they can attribute value, risk, responsibility, or benefit.\n\n---\n\n## Inclusionist Perspective\n\nMany forms of exclusion emerge not from hostility but from failures of recognition.\n\nUnrecognized participation often produces unrecognized value.\n\nInstitutions cannot govern people they refuse to see.\n\nIdentity provides context for recognition, but it does not determine moral worth. Seeing identity is not the same as judging identity. [[Identification]] is not discrimination when it is used to understand participation, contribution, consequence, and agency rather than to deny dignity or fix status.\n\n## Recognition Requires Seeing People\n\nRecognition is sometimes confused with acknowledging diversity, naming demographic categories, or performing symbolic inclusion. Inclusionism uses the term more rigorously. Recognition is the institutional discipline of accurately identifying participants, understanding relationships, observing contributions, witnessing interactions, and seeing how value and risk are distributed.\n\nTo recognize a person is not merely to notice that they belong to a category. It is to understand how they are situated inside a living system. A person participates through labor, care, data, memory, creativity, coordination, risk, trust, consumption, dissent, dependency, and repair. These forms of participation are often invisible to institutions that only see formal roles, titles, transactions, or credentials.\n\nRecognition therefore requires identification. Institutions must know who is present, who is affected, who contributes, who depends on whom, and who bears consequences. Identification is not discrimination. Discrimination uses identity to exclude, rank, diminish, or predetermine worth. Recognition uses identity as relational information: context that helps institutions understand participation, contribution, consequence, and [[Agency]].\n\nSeeing is not judging. A just institution does not pretend that identity, lineage, location, class, race, gender, disability, language, data traces, or institutional position are irrelevant. It also does not reduce a person to any of those facts. Identity provides context; it does not determine moral worth.\n\nThis is why recognition is prior to [[Relational Attribution]]. A system cannot attribute value accurately if it does not first see who participated in creating it. It cannot distribute opportunity fairly if it does not understand who was excluded from participation. It cannot assign responsibility legitimately if it cannot distinguish contribution from coercion, consent from dependency, or formal membership from actual agency.\n\nInclusionScore's methodology begins from this same philosophical premise. An organizational assessment starts with a Service Catalog because an institution must first learn what it actually does, who it serves, who participates in each service, and where value and risk travel. A Service Catalog is not merely an operational inventory. It is an act of institutional self-recognition.\n\nFeedback Mechanisms extend that recognition outward. They allow participants, workers, communities, users, and affected groups to make hidden experience visible to the institution. Feedback is not only a measurement tool. It is a practice of institutional sight: a way for organizations to recognize themselves through the people they affect.\n\nTogether, Service Catalogs and Feedback Mechanisms teach organizations how to see. They reveal whether formal structures match lived reality, whether value is being recognized where it actually emerges, whether risks are accumulating out of sight, and whether participants possess enough agency to shape the systems they help sustain.\n\nRecognition is therefore not a soft virtue added after governance. It is a precondition of governance. To govern for the people, an institution must first see the people.\n\n---\n\n## Relationships\n\n- [[Witnessing]]\n    \n- [[Identification]]\n    \n- [[Participation]]\n    \n- [[Belonging]]\n    \n- [[Equity]]\n    \n- [[Value]]\n\n- [[Relational Attribution]]\n\n- [[Agency]]\n\n- [[Legitimacy]]\n\n- [[Identity Maturation Theory]]\n\n- [[Universalism as an Outcome of Identity]]\n    \n\n---\n\n## Core Question\n\nWhat forms of participation remain unseen by existing systems?",
+    "excerpt": "Recognition Definition The institutional and relational act of seeing that an agent exists, participates, contributes, is affected, or belongs within a system. --- Inclusionist Perspective Recognition transforms Witnessing into social legitimacy. Recognition i",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "witnessing",
+        "title": "Witnessing"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "identification",
+        "title": "Identification"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "belonging",
+        "title": "Belonging"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
+        "slug": "legitimacy",
+        "title": "Legitimacy"
+      },
+      {
+        "slug": "identity-maturation-theory",
+        "title": "Identity Maturation Theory"
+      },
+      {
+        "slug": "universalism-as-an-outcome-of-identity",
+        "title": "Universalism as an Outcome of Identity"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "belonging",
+        "title": "Belonging"
+      },
+      {
+        "slug": "community",
+        "title": "# Community"
+      },
+      {
+        "slug": "fairness",
+        "title": "Fairness"
+      },
+      {
+        "slug": "feedback-loops",
+        "title": "Feedback Loops"
+      },
+      {
+        "slug": "harmony-versus-unity",
+        "title": "Harmony versus Unity"
+      },
+      {
+        "slug": "identification",
+        "title": "Identification"
+      },
+      {
+        "slug": "identity-maturation-theory",
+        "title": "Identity Maturation Theory"
+      },
+      {
+        "slug": "identity",
+        "title": "# Identity"
+      },
+      {
+        "slug": "inclusion-metrics",
+        "title": "Inclusion Metrics"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "inclusionist-social-dynamic",
+        "title": "Inclusionist Social Dynamic"
+      },
+      {
+        "slug": "legitimacy",
+        "title": "Legitimacy"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "the-problem-isnt-identity",
+        "title": "The Problem Isn't Identity"
+      },
+      {
+        "slug": "toward-a-physics-of-value",
+        "title": "Toward a Physics of Value"
+      },
+      {
+        "slug": "universalism-as-an-outcome-of-identity",
+        "title": "Universalism as an Outcome of Identity"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "witnessing",
+        "title": "Witnessing"
+      }
+    ],
     "aliases": []
   },
   {
@@ -9085,10 +9145,14 @@
     "title": "Relational Attribution",
     "path": "Relational Attribution.md",
     "category": "Inclusionism Core",
-    "content": "# Relational Attribution\n\n## Definition\n\nThe process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.\n\n---\n\n## Inclusionist Perspective\n\nRelational value does not eliminate individual contribution.\n\nIt creates a need for increasingly sophisticated methods of understanding contribution.\n\n---\n\n## Core Principle\n\nThe fact that value emerges through relationships increases the importance of attribution.\n\n---\n\n## Inclusionist Perspective\n\nFuture civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.\n\nIn informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Interaction]]\n    \n- [[Agency]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Data Dividend]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Value Distribution]]\n\n- [[Recognition]]\n\n- [[Data]]\n\n- [[Personal Data]]\n    \n\n---\n\n## Core Question\n\nHow accurately can civilizations identify participation in value creation?",
-    "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi",
+    "content": "# Relational Attribution\n\n## Definition\n\nThe process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.\n\nRelational Attribution depends on [[Recognition#Recognition Requires Seeing People|Recognition that sees people]] clearly enough to know who participated before it claims to explain who contributed.\n\n---\n\n## Inclusionist Perspective\n\nRelational value does not eliminate individual contribution.\n\nIt creates a need for increasingly sophisticated methods of understanding contribution.\n\n---\n\n## Core Principle\n\nThe fact that value emerges through relationships increases the importance of attribution.\n\n---\n\n## Inclusionist Perspective\n\nFuture civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.\n\nIn informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Interaction]]\n    \n- [[Agency]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Data Dividend]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Value Distribution]]\n\n- [[Recognition]]\n\n- [[Data]]\n\n- [[Personal Data]]\n    \n\n---\n\n## Core Question\n\nHow accurately can civilizations identify participation in value creation?",
+    "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. Relational Attribution depends on Recognition clearly enough to know who participated ",
     "status": "Canon",
     "links": [
+      {
+        "slug": "recognition",
+        "title": "Recognition"
+      },
       {
         "slug": "data",
         "title": "Data"
@@ -9128,10 +9192,6 @@
       {
         "slug": "value-distribution",
         "title": "Value Distribution"
-      },
-      {
-        "slug": "recognition",
-        "title": "# Recognition"
       }
     ],
     "backlinks": [
@@ -9170,6 +9230,10 @@
       {
         "slug": "personal-data",
         "title": "Personal Data"
+      },
+      {
+        "slug": "recognition",
+        "title": "Recognition"
       },
       {
         "slug": "toward-a-physics-of-value",
@@ -9899,7 +9963,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "agency",
@@ -9983,7 +10047,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "ownership",
@@ -10308,7 +10372,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "identity-maturation-theory",
@@ -10358,7 +10422,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       }
     ],
     "aliases": []
@@ -10540,7 +10604,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "relational-attribution",
@@ -10624,7 +10688,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "legitimacy",
@@ -10912,7 +10976,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "identification",
@@ -10950,7 +11014,7 @@
       },
       {
         "slug": "recognition",
-        "title": "# Recognition"
+        "title": "Recognition"
       },
       {
         "slug": "value",
