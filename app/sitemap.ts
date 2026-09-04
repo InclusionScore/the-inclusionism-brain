@@ -1,11 +1,15 @@
 import type { MetadataRoute } from "next";
-import { getAllEssays, getAllPodcastEpisodes, getReadableNotes } from "@/lib/content";
+import { getEditorialEssays, getEditorialPodcastEpisodes, getReadableNotes } from "@/lib/content";
 import { frameworkComparisons } from "@/lib/frameworks";
 import { localePath, locales } from "@/lib/i18n";
 import { issueLandings } from "@/lib/issues";
 import { siteUrl } from "@/lib/site";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const revalidate = 3600;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const essays = await getEditorialEssays();
+  const podcastEpisodes = await getEditorialPodcastEpisodes();
   const staticRoutes = ["", "/what-is-inclusionism", "/issues", "/graph", "/compare", "/notes", "/under-development", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
     url: siteUrl(path || "/"),
     lastModified: new Date()
@@ -16,12 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date()
   }));
 
-  const essayRoutes = getAllEssays().map((essay) => ({
+  const essayRoutes = essays.map((essay) => ({
     url: siteUrl(`/essays/${essay.slug}`),
     lastModified: new Date(essay.date)
   }));
 
-  const podcastRoutes = getAllPodcastEpisodes().map((episode) => ({
+  const podcastRoutes = podcastEpisodes.map((episode) => ({
     url: siteUrl(`/podcast/${episode.slug}`),
     lastModified: new Date(episode.date)
   }));

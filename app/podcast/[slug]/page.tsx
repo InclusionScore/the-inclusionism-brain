@@ -2,16 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExternalLink, MessageSquareText, PenLine } from "lucide-react";
-import { getAllPodcastEpisodes, getPodcastEpisode } from "@/lib/content";
+import { getEditorialPodcastEpisode } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 
-export function generateStaticParams() {
-  return getAllPodcastEpisodes().map((episode) => ({ slug: episode.slug }));
-}
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const episode = getPodcastEpisode(slug);
+  const episode = await getEditorialPodcastEpisode(slug);
   if (!episode) return {};
 
   return {
@@ -52,7 +50,7 @@ function canonUpdatePrompt(title: string, description: string) {
 
 export default async function PodcastEpisodePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const episode = getPodcastEpisode(slug);
+  const episode = await getEditorialPodcastEpisode(slug);
   if (!episode) notFound();
 
   return (

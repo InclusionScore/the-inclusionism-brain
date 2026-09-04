@@ -2,16 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExternalLink, MessageSquareText, PenLine } from "lucide-react";
-import { getAllEssays, getEssay } from "@/lib/content";
+import { getEditorialEssay } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 
-export function generateStaticParams() {
-  return getAllEssays().map((essay) => ({ slug: essay.slug }));
-}
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const essay = getEssay(slug);
+  const essay = await getEditorialEssay(slug);
   if (!essay) return {};
 
   return {
@@ -52,7 +50,7 @@ function canonUpdatePrompt(title: string, excerpt: string) {
 
 export default async function EssayPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const essay = getEssay(slug);
+  const essay = await getEditorialEssay(slug);
   if (!essay) notFound();
 
   return (

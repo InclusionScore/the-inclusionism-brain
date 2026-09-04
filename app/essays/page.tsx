@@ -1,8 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ExternalLink } from "lucide-react";
-import { getAllEssays } from "@/lib/content";
+import { getEditorialEssays } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: metadataTitle("Essays"),
@@ -21,8 +23,8 @@ function formatDate(value: string) {
   return new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric" }).format(new Date(value));
 }
 
-export default function EssaysPage() {
-  const essays = getAllEssays();
+export default async function EssaysPage() {
+  const essays = await getEditorialEssays();
 
   return (
     <main className="brain-grid mx-auto max-w-7xl px-4 py-10 sm:px-6">
@@ -58,7 +60,7 @@ export default function EssaysPage() {
         <section className="ink-panel brand-rule mt-10 p-6">
           <h2 className="brand-title text-4xl leading-none">No essays imported yet.</h2>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-white/65">
-            The app imports essays from James Felton Keith's Substack feed at build time. If this state appears in production, redeploy or check that the feed is reachable.
+            Essays refresh from the Substack feed automatically. If this state appears in production, check the feed URL and Vercel function logs.
           </p>
         </section>
       )}

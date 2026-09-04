@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { marked } from "marked";
+import { fetchEssaysFeed, fetchPodcastFeed } from "./editorial-feeds.js";
 import type { Essay, GraphData, Note, PodcastEpisode, SearchEntry } from "./types";
 
 const dataDir = path.join(process.cwd(), "public", "data");
@@ -44,6 +45,22 @@ export function getAllPodcastEpisodes(): PodcastEpisode[] {
 
 export function getPodcastEpisode(slug: string): PodcastEpisode | undefined {
   return getAllPodcastEpisodes().find((episode) => episode.slug === slug);
+}
+
+export async function getEditorialEssays(): Promise<Essay[]> {
+  return fetchEssaysFeed({ notes: getAllNotes(), fallback: getAllEssays() }) as Promise<Essay[]>;
+}
+
+export async function getEditorialEssay(slug: string): Promise<Essay | undefined> {
+  return (await getEditorialEssays()).find((essay) => essay.slug === slug);
+}
+
+export async function getEditorialPodcastEpisodes(): Promise<PodcastEpisode[]> {
+  return fetchPodcastFeed({ notes: getAllNotes(), fallback: getAllPodcastEpisodes() }) as Promise<PodcastEpisode[]>;
+}
+
+export async function getEditorialPodcastEpisode(slug: string): Promise<PodcastEpisode | undefined> {
+  return (await getEditorialPodcastEpisodes()).find((episode) => episode.slug === slug);
 }
 
 export function getNote(slug: string): Note | undefined {

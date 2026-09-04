@@ -1,8 +1,10 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ExternalLink, Headphones } from "lucide-react";
-import { getAllPodcastEpisodes } from "@/lib/content";
+import { getEditorialPodcastEpisodes } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
+
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: metadataTitle("Podcast"),
@@ -21,8 +23,8 @@ function formatDate(value: string) {
   return new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric" }).format(new Date(value));
 }
 
-export default function PodcastPage() {
-  const episodes = getAllPodcastEpisodes();
+export default async function PodcastPage() {
+  const episodes = await getEditorialPodcastEpisodes();
 
   return (
     <main className="brain-grid mx-auto max-w-7xl px-4 py-10 sm:px-6">
@@ -61,7 +63,7 @@ export default function PodcastPage() {
         <section className="ink-panel brand-rule mt-10 p-6">
           <h2 className="brand-title text-4xl leading-none">No podcast episodes imported yet.</h2>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-white/65">
-            The app imports episodes from the podcast RSS feed at build time. If this state appears in production, redeploy or check that the feed is reachable.
+            Podcast episodes refresh from the RSS feed automatically. If this state appears in production, check the feed URL and Vercel function logs.
           </p>
         </section>
       )}

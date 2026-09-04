@@ -13,8 +13,8 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 - `public/data/candidate-notes.json`
 - `public/data/graph.json`
 - `public/data/search.json`
-- `public/data/essays.json`
-- `public/data/podcast.json`
+- `public/data/essays.json` as deployment fallback content
+- `public/data/podcast.json` as deployment fallback content
 
 ## Features
 
@@ -24,8 +24,8 @@ The app ingests the Obsidian-style vault in `vault/`, parses `[[wikilinks]]`, an
 - Compare Frameworks section for political, economic, and future-oriented comparisons
 - Canon reader with markdown rendering, clickable wikilinks, backlinks, related notes, and search
 - Canon Workflow support for Draft, Candidate, Canon, and Deprecated notes
-- Essays section that imports Substack RSS posts and connects think pieces to related canon notes
-- Podcast section that imports RSS episodes, audio links, and related canon notes
+- Essays section that refreshes Substack RSS posts through server-side revalidation and connects think pieces to related canon notes
+- Podcast section that refreshes RSS episodes through server-side revalidation, audio links, and related canon notes
 - Debate Inclusionism page with local retrieval, OpenAI responses when configured, and a local fallback
 - PEST Lens page for political, economic, sociocultural, and technological exploration
 - Dark, graph-centered public interface
@@ -107,7 +107,7 @@ SEO support includes:
 
 ## Essays / Substack RSS
 
-The app imports essays from James Felton Keith's Substack feed by default:
+The app refreshes essays from James Felton Keith's Substack feed by default:
 
 ```bash
 https://jamesfeltonkeith.substack.com/feed
@@ -119,18 +119,20 @@ To override the feed, set this environment variable:
 SUBSTACK_RSS_URL=https://jamesfeltonkeith.substack.com/feed
 ```
 
-The build writes `public/data/essays.json`. Each imported essay gets:
+The Essays list, essay detail routes, and sitemap fetch the feed server-side using Next.js/Vercel cache revalidation. The default revalidation interval is one hour. Newly published essays should appear without a new Vercel deployment after the cache refreshes.
+
+`public/data/essays.json` remains as deployment fallback content if the upstream feed is temporarily unavailable. Each essay gets:
 
 - title, date, excerpt, and original Substack link
 - local detail page under `/essays/[slug]`
 - related canon notes matched by terms and Obsidian-style wikilinks
 - Debate Mode links for “Debate this essay” and “Suggest Canon Updates”
 
-If the feed cannot be reached, the app still builds and shows an empty-state message on `/essays`.
+If the feed cannot be reached, the app logs a server warning and falls back to the latest committed JSON snapshot.
 
 ## Podcast RSS
 
-The app imports podcast episodes from this RSS feed by default:
+The app refreshes podcast episodes from this RSS feed by default:
 
 ```bash
 https://anchor.fm/s/ff971f94/podcast/rss
@@ -142,14 +144,43 @@ To override the feed, set this environment variable:
 PODCAST_RSS_URL=https://anchor.fm/s/ff971f94/podcast/rss
 ```
 
-The build writes `public/data/podcast.json`. Each imported episode gets:
+The Podcast list, episode detail routes, and sitemap fetch the feed server-side using Next.js/Vercel cache revalidation. The default revalidation interval is one hour. Newly published episodes should appear without a new Vercel deployment after the cache refreshes.
 
-- title, date, description, audio URL, duration, and source link
+`public/data/podcast.json` remains as deployment fallback content if the upstream feed is temporarily unavailable. Each imported episode gets:
+
+- title, date, description, audio URL, duration, artwork when available, and source link
 - local detail page under `/podcast/[slug]`
 - related canon notes matched by terms and Obsidian-style wikilinks
 - Debate Mode links for “Debate this episode” and “Suggest Canon Updates”
 
-If the feed cannot be reached, the app preserves the last imported podcast index when available.
+If the feed cannot be reached, the app logs a server warning and falls back to the latest committed JSON snapshot.
+
+## Editorial Feed Revalidation
+
+Editorial feeds are cached with a one-hour revalidation interval:
+
+- Essays tag: `essays-feed`
+- Podcast tag: `podcast-feed`
+- Shared tag: `editorial-feeds`
+
+Optional manual invalidation is available through:
+
+```bash
+POST /api/revalidate-content
+```
+
+Set this server-only environment variable in Vercel to enable it:
+
+```bash
+CONTENT_REVALIDATE_SECRET=choose-a-long-random-secret
+```
+
+Then call the endpoint with the secret in a request header:
+
+```bash
+curl -X POST https://www.inclusionism.org/api/revalidate-content \
+  -H "x-revalidate-secret: $CONTENT_REVALIDATE_SECRET"
+```
 
 ## Debate API
 
@@ -196,6 +227,7 @@ When `OPENAI_API_KEY` is present, the route sends the user question plus retriev
 6. Add `OPENAI_API_KEY` in Vercel Environment Variables to enable AI Debate Mode.
 7. Optional: add `SUBSTACK_RSS_URL` in Vercel Environment Variables if you want to override the default Substack feed.
 8. Optional: add `PODCAST_RSS_URL` in Vercel Environment Variables if you want to override the default podcast feed.
+9. Optional: add `CONTENT_REVALIDATE_SECRET` if you want to manually invalidate editorial feed caches.
 
 ## Recommended Next Steps
 

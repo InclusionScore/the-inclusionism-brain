@@ -69,5 +69,6 @@ export type PodcastEpisode = {
   audioUrl: string;
   audioType: string;
   duration: string;
+  image?: string;
   relatedNotes: EssayRelatedNote[];
 };
