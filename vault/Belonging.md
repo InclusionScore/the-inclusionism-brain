@@ -22,6 +22,8 @@ It cannot be imposed.
 
 It cannot be manufactured through rhetoric alone.
 
+Belonging requires being seen as a meaningful participant, not merely classified as a demographic presence. See [[Recognition#Recognition Requires Seeing People]].
+
 ---
 
 ## Inclusionist Perspective

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1200" role="img" aria-labelledby="title desc">
+  <title id="title">The Evolution of Value</title>
+  <desc id="desc">A continuous feedback loop showing potential value, interaction, recognition, attribution, ownership, legitimacy, fairness, belonging, and new interactions.</desc>
+  <defs>
+    <style>
+      .bg{fill:#000}
+      .grid{stroke:#fff;stroke-opacity:.055;stroke-width:1}
+      .title{font-family:Impact,Arial Black,Arial,sans-serif;font-size:82px;letter-spacing:2px;fill:#fff}
+      .node{fill:#050505;stroke:#fff;stroke-opacity:.25;stroke-width:2}
+      .node-blue{stroke:#0080fb;stroke-width:4}
+      .node-red{stroke:#e4300f;stroke-width:4}
+      .label{font-family:Arial,Helvetica,sans-serif;font-size:28px;font-weight:900;fill:#fff}
+      .arrow{stroke:#0080fb;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .loop{stroke:#e4300f;stroke-width:6;stroke-linecap:round;stroke-dasharray:18 18;fill:none;opacity:.85}
+      .small{font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:700;letter-spacing:4px;fill:#0080fb}
+    </style>
+    <marker id="arrowhead" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#0080fb"/>
+    </marker>
+    <marker id="redhead" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#e4300f"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1400" height="1200"/>
+  <g>
+    <path class="grid" d="M0 100H1400M0 200H1400M0 300H1400M0 400H1400M0 500H1400M0 600H1400M0 700H1400M0 800H1400M0 900H1400M0 1000H1400M0 1100H1400"/>
+    <path class="grid" d="M100 0V1200M200 0V1200M300 0V1200M400 0V1200M500 0V1200M600 0V1200M700 0V1200M800 0V1200M900 0V1200M1000 0V1200M1100 0V1200M1200 0V1200M1300 0V1200"/>
+  </g>
+  <text class="small" x="700" y="72" text-anchor="middle">A CONTINUOUS FEEDBACK LOOP</text>
+  <text class="title" x="700" y="148" text-anchor="middle">THE EVOLUTION OF VALUE</text>
+  <path class="loop" marker-end="url(#redhead)" d="M310 282C140 370 105 755 310 940C525 1135 900 1120 1090 910C1270 710 1244 384 1090 282"/>
+  <g transform="translate(505 220)">
+    <rect class="node node-blue" width="390" height="82" rx="8"/>
+    <text class="label" x="195" y="52" text-anchor="middle">Potential Value</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M700 312V365"/>
+  <g transform="translate(505 378)">
+    <rect class="node" width="390" height="82" rx="8"/>
+    <text class="label" x="195" y="52" text-anchor="middle">Interaction</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M700 470V523"/>
+  <g transform="translate(505 536)">
+    <rect class="node node-red" width="390" height="82" rx="8"/>
+    <text class="label" x="195" y="52" text-anchor="middle">Recognition</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M700 628V681"/>
+  <g transform="translate(505 694)">
+    <rect class="node node-blue" width="390" height="82" rx="8"/>
+    <text class="label" x="195" y="52" text-anchor="middle">Attribution</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M700 786V839"/>
+  <g transform="translate(120 852)">
+    <rect class="node" width="300" height="76" rx="8"/>
+    <text class="label" x="150" y="49" text-anchor="middle">Ownership</text>
+  </g>
+  <g transform="translate(470 852)">
+    <rect class="node node-red" width="300" height="76" rx="8"/>
+    <text class="label" x="150" y="49" text-anchor="middle">Legitimacy</text>
+  </g>
+  <g transform="translate(820 852)">
+    <rect class="node" width="300" height="76" rx="8"/>
+    <text class="label" x="150" y="49" text-anchor="middle">Fairness</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M420 890H458"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M770 890H808"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M1120 890H1158"/>
+  <g transform="translate(1168 852)">
+    <rect class="node node-blue" width="180" height="76" rx="8"/>
+    <text class="label" x="90" y="49" text-anchor="middle">Belonging</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M1220 842C1185 705 1090 594 910 574"/>
+  <g transform="translate(90 1030)">
+    <rect class="node node-red" width="1220" height="82" rx="8"/>
+    <text class="label" x="610" y="52" text-anchor="middle">New Interactions</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M700 938V1017"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M280 1030C205 805 210 462 495 262"/>
+</svg>

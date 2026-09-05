@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800" role="img" aria-labelledby="title desc">
+  <title id="title">Toward a Physics of Value</title>
+  <desc id="desc">A vertical flow from existence through potential value, witnessed interaction, recognition, attribution, legitimate ownership, legitimacy, fairness, belonging, and expanded capacity for future value creation.</desc>
+  <defs>
+    <style>
+      .bg{fill:#000}
+      .grid{stroke:#fff;stroke-opacity:.055;stroke-width:1}
+      .rule-blue{stroke:#0080fb;stroke-width:5}
+      .rule-red{stroke:#e4300f;stroke-width:5}
+      .box{fill:#050505;stroke:#fff;stroke-opacity:.24;stroke-width:2}
+      .box-hot{fill:#050505;stroke:#0080fb;stroke-width:3}
+      .box-red{fill:#050505;stroke:#e4300f;stroke-width:3}
+      .title{font-family:Impact,Arial Black,Arial,sans-serif;font-size:78px;letter-spacing:2px;fill:#fff}
+      .label{font-family:Arial,Helvetica,sans-serif;font-size:34px;font-weight:800;fill:#fff}
+      .sub{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#fff;opacity:.68}
+      .arrow{stroke:#0080fb;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;fill:none}
+      .small{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#fff;opacity:.42}
+    </style>
+    <marker id="arrowhead" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto">
+      <path d="M2 2 L12 7 L2 12 Z" fill="#0080fb"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1200" height="1800"/>
+  <g>
+    <path class="grid" d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200M0 720H1200M0 810H1200M0 900H1200M0 990H1200M0 1080H1200M0 1170H1200M0 1260H1200M0 1350H1200M0 1440H1200M0 1530H1200M0 1620H1200M0 1710H1200"/>
+    <path class="grid" d="M90 0V1800M180 0V1800M270 0V1800M360 0V1800M450 0V1800M540 0V1800M630 0V1800M720 0V1800M810 0V1800M900 0V1800M990 0V1800M1080 0V1800"/>
+  </g>
+  <path class="rule-blue" d="M90 122H1110"/>
+  <path class="rule-red" d="M90 1680H1110"/>
+  <text class="title" x="600" y="92" text-anchor="middle">TOWARD A PHYSICS OF VALUE</text>
+  <text class="small" x="600" y="1725" text-anchor="middle">Inclusionism: emergence, recognition, attribution, legitimacy, fairness, belonging</text>
+  <g transform="translate(210 170)">
+    <rect class="box" width="780" height="112" rx="8"/>
+    <text class="label" x="390" y="70" text-anchor="middle">Existence</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 292V352"/>
+  <g transform="translate(210 365)">
+    <rect class="box-hot" width="780" height="126" rx="8"/>
+    <text class="label" x="390" y="55" text-anchor="middle">Potential Value</text>
+    <text class="sub" x="390" y="92" text-anchor="middle">Future recognition is possible</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 502V562"/>
+  <g transform="translate(210 575)">
+    <rect class="box" width="780" height="112" rx="8"/>
+    <text class="label" x="390" y="70" text-anchor="middle">Witnessed Interaction</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 697V757"/>
+  <g transform="translate(210 770)">
+    <rect class="box-red" width="780" height="112" rx="8"/>
+    <text class="label" x="390" y="70" text-anchor="middle">Recognition</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 892V952"/>
+  <g transform="translate(210 965)">
+    <rect class="box-hot" width="780" height="112" rx="8"/>
+    <text class="label" x="390" y="70" text-anchor="middle">Relational Attribution</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 1087V1147"/>
+  <g transform="translate(210 1160)">
+    <rect class="box" width="780" height="112" rx="8"/>
+    <text class="label" x="390" y="70" text-anchor="middle">Legitimate Ownership</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 1282V1342"/>
+  <g transform="translate(210 1355)">
+    <rect class="box-red" width="780" height="112" rx="8"/>
+    <text class="label" x="390" y="70" text-anchor="middle">Legitimacy</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M600 1477V1515"/>
+  <g transform="translate(110 1528)">
+    <rect class="box" width="300" height="94" rx="8"/>
+    <text class="label" x="150" y="60" text-anchor="middle">Fairness</text>
+  </g>
+  <g transform="translate(450 1528)">
+    <rect class="box-hot" width="300" height="94" rx="8"/>
+    <text class="label" x="150" y="60" text-anchor="middle">Belonging</text>
+  </g>
+  <g transform="translate(790 1528)">
+    <rect class="box-red" width="300" height="94" rx="8"/>
+    <text class="sub" x="150" y="38" text-anchor="middle">Expanded Capacity</text>
+    <text class="sub" x="150" y="70" text-anchor="middle">for Future Value Creation</text>
+  </g>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M410 1575H438"/>
+  <path class="arrow" marker-end="url(#arrowhead)" d="M750 1575H778"/>
+</svg>

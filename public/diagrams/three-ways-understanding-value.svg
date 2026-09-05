@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 940" role="img" aria-labelledby="title desc">
+  <title id="title">Three Ways of Understanding Value</title>
+  <desc id="desc">Three columns comparing physics, economics, and Inclusionism as lenses for understanding value.</desc>
+  <defs>
+    <style>
+      .bg{fill:#000}
+      .grid{stroke:#fff;stroke-opacity:.055;stroke-width:1}
+      .title{font-family:Impact,Arial Black,Arial,sans-serif;font-size:76px;letter-spacing:2px;fill:#fff}
+      .kicker{font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:900;letter-spacing:5px;fill:#0080fb}
+      .col{fill:#050505;stroke:#fff;stroke-opacity:.22;stroke-width:2}
+      .col-blue{stroke:#0080fb;stroke-width:4}
+      .col-red{stroke:#e4300f;stroke-width:4}
+      .head{font-family:Impact,Arial Black,Arial,sans-serif;font-size:48px;letter-spacing:1px;fill:#fff}
+      .item{font-family:Arial,Helvetica,sans-serif;font-size:31px;font-weight:700;fill:#fff;opacity:.82}
+      .line{stroke:#fff;stroke-opacity:.14;stroke-width:2}
+      .blue{fill:#0080fb}
+      .red{fill:#e4300f}
+      .white{fill:#fff}
+    </style>
+  </defs>
+  <rect class="bg" width="1500" height="940"/>
+  <g>
+    <path class="grid" d="M0 80H1500M0 160H1500M0 240H1500M0 320H1500M0 400H1500M0 480H1500M0 560H1500M0 640H1500M0 720H1500M0 800H1500M0 880H1500"/>
+    <path class="grid" d="M100 0V940M200 0V940M300 0V940M400 0V940M500 0V940M600 0V940M700 0V940M800 0V940M900 0V940M1000 0V940M1100 0V940M1200 0V940M1300 0V940M1400 0V940"/>
+  </g>
+  <text class="kicker" x="750" y="78" text-anchor="middle">RELATIONAL VALUE MAP</text>
+  <text class="title" x="750" y="150" text-anchor="middle">THREE WAYS OF UNDERSTANDING VALUE</text>
+  <g transform="translate(90 235)">
+    <rect class="col col-blue" width="400" height="560" rx="8"/>
+    <rect class="blue" x="0" y="0" width="400" height="8"/>
+    <text class="head" x="200" y="82" text-anchor="middle">PHYSICS</text>
+    <path class="line" d="M60 115H340"/>
+    <text class="item" x="200" y="174" text-anchor="middle">Existence</text>
+    <text class="item" x="200" y="234" text-anchor="middle">Matter</text>
+    <text class="item" x="200" y="294" text-anchor="middle">Energy</text>
+    <text class="item" x="200" y="354" text-anchor="middle">Space</text>
+    <text class="item" x="200" y="414" text-anchor="middle">Time</text>
+    <text class="item" x="200" y="474" text-anchor="middle">Observation</text>
+  </g>
+  <g transform="translate(550 235)">
+    <rect class="col" width="400" height="560" rx="8"/>
+    <rect class="white" x="0" y="0" width="400" height="8" opacity=".85"/>
+    <text class="head" x="200" y="82" text-anchor="middle">ECONOMICS</text>
+    <path class="line" d="M60 115H340"/>
+    <text class="item" x="200" y="174" text-anchor="middle">Scarcity</text>
+    <text class="item" x="200" y="234" text-anchor="middle">Production</text>
+    <text class="item" x="200" y="294" text-anchor="middle">Exchange</text>
+    <text class="item" x="200" y="354" text-anchor="middle">Price</text>
+    <text class="item" x="200" y="414" text-anchor="middle">Ownership</text>
+    <text class="item" x="200" y="474" text-anchor="middle">Markets</text>
+  </g>
+  <g transform="translate(1010 235)">
+    <rect class="col col-red" width="400" height="560" rx="8"/>
+    <rect class="red" x="0" y="0" width="400" height="8"/>
+    <text class="head" x="200" y="82" text-anchor="middle">INCLUSIONISM</text>
+    <path class="line" d="M60 115H340"/>
+    <text class="item" x="200" y="174" text-anchor="middle">Interaction</text>
+    <text class="item" x="200" y="234" text-anchor="middle">Recognition</text>
+    <text class="item" x="200" y="294" text-anchor="middle">Attribution</text>
+    <text class="item" x="200" y="354" text-anchor="middle">Agency</text>
+    <text class="item" x="200" y="414" text-anchor="middle">Legitimacy</text>
+    <text class="item" x="200" y="474" text-anchor="middle">Belonging</text>
+  </g>
+  <path d="M90 855H1410" stroke="#0080fb" stroke-width="4"/>
+  <path d="M90 874H1410" stroke="#e4300f" stroke-width="4"/>
+</svg>

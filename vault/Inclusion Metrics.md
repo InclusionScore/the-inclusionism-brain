@@ -8,6 +8,8 @@ Systems for measuring participation, connectivity, agency, ownership, and access
 ## Inclusionist Perspective
 What civilizations measure shapes what civilizations optimize.
 
+Inclusion metrics should begin with recognition rather than judgment. They help institutions see services, participants, relationships, contributions, risks, and feedback before they claim to evaluate fairness. See [[Recognition#Recognition Requires Seeing People]].
+
 ---
 
 ## Relationships
@@ -17,6 +19,8 @@ What civilizations measure shapes what civilizations optimize.
 - [[Governance]]
 - [[Human Flourishing]]
 - [[Value Emergence]]
+- [[Recognition]]
+- [[Feedback Loops]]
 
 ---
 

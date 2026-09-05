@@ -4,6 +4,8 @@
 
 The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.
 
+Relational Attribution depends on [[Recognition#Recognition Requires Seeing People|Recognition that sees people]] clearly enough to know who participated before it claims to explain who contributed.
+
 ---
 
 ## Inclusionist Perspective
