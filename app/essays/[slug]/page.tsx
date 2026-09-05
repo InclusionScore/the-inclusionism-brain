@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExternalLink, MessageSquareText, PenLine } from "lucide-react";
@@ -21,13 +22,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: essay.excerpt || siteConfig.description,
       url: siteUrl(`/essays/${essay.slug}`),
       siteName: siteConfig.name,
-      images: ["/brand/inclusionism-logo-border.png"]
+      images: [essay.heroImage || "/brand/inclusionism-logo-border.png"]
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle(essay.title),
       description: essay.excerpt || siteConfig.description,
-      images: ["/brand/inclusionism-logo-border.png"]
+      images: [essay.heroImage || "/brand/inclusionism-logo-border.png"]
     }
   };
 }
@@ -61,6 +62,13 @@ export default async function EssayPage({ params }: { params: Promise<{ slug: st
         <p className="mt-6 max-w-3xl border-l-4 border-signal pl-5 text-lg leading-8 text-white/70">
           {essay.excerpt}
         </p>
+        <figure className="relative mt-8 aspect-[16/9] overflow-hidden border border-white/15 bg-white/5">
+          {essay.heroImage ? (
+            <Image src={essay.heroImage} alt={essay.heroImageAlt || essay.title} fill priority sizes="(min-width: 1024px) 896px, 100vw" className="object-cover" />
+          ) : (
+            <div className="flex h-full items-center justify-center bg-black text-8xl font-black text-signal">≥</div>
+          )}
+        </figure>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href={`/debate?question=${encodeURIComponent(debatePrompt(essay.title, essay.excerpt))}`} className="hard-button inline-flex items-center gap-2 px-4 py-3 text-xs">
             <MessageSquareText size={16} />
@@ -70,7 +78,7 @@ export default async function EssayPage({ params }: { params: Promise<{ slug: st
             <PenLine size={16} />
             Suggest Canon Updates
           </Link>
-          <a href={essay.link} target="_blank" rel="noreferrer" className="outline-button inline-flex items-center gap-2 px-4 py-3 text-xs">
+          <a href={essay.canonicalUrl || essay.link} target="_blank" rel="noreferrer" className="outline-button inline-flex items-center gap-2 px-4 py-3 text-xs">
             <ExternalLink size={16} />
             Original Substack
           </a>

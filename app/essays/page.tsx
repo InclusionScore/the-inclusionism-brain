@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { ExternalLink } from "lucide-react";
 import { getEditorialEssays } from "@/lib/content";
@@ -37,13 +38,21 @@ export default async function EssaysPage() {
       {essays.length ? (
         <div className="mt-10 divide-y divide-white/15 border-y border-white/15">
           {essays.map((essay) => (
-            <article key={essay.slug} className="grid gap-5 py-7 md:grid-cols-[1fr_220px]">
+            <article key={essay.slug} className="grid gap-5 py-7 md:grid-cols-[220px_1fr_220px]">
+              <Link href={`/essays/${essay.slug}`} className="group relative aspect-[4/3] overflow-hidden border border-white/15 bg-white/5">
+                {essay.heroImage ? (
+                  <Image src={essay.heroImage} alt={essay.heroImageAlt || essay.title} fill sizes="(min-width: 768px) 220px, 100vw" className="object-cover transition duration-300 group-hover:scale-105" />
+                ) : (
+                  <div className="flex h-full items-center justify-center bg-black text-6xl font-black text-signal">≥</div>
+                )}
+              </Link>
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.28em] text-signal">{formatDate(essay.date)}</p>
                 <Link href={`/essays/${essay.slug}`} className="group mt-3 block">
                   <h2 className="brand-title text-4xl leading-none group-hover:text-signal sm:text-5xl">{essay.title}</h2>
                 </Link>
                 <p className="mt-4 max-w-3xl text-sm leading-6 text-white/65">{essay.excerpt}</p>
+                <p className="mt-3 text-xs font-bold uppercase tracking-wider text-white/40">{essay.sourceName || essay.source}</p>
               </div>
               <div className="flex flex-col gap-3 md:items-end">
                 <Link href={`/essays/${essay.slug}`} className="outline-button px-4 py-3 text-center text-xs">

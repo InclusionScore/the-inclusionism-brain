@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExternalLink, MessageSquareText, PenLine } from "lucide-react";
@@ -21,13 +22,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: episode.description || siteConfig.description,
       url: siteUrl(`/podcast/${episode.slug}`),
       siteName: siteConfig.name,
-      images: ["/brand/inclusionism-logo-border.png"]
+      images: [episode.episodeArtwork || episode.showArtwork || episode.image || "/brand/inclusionism-logo-border.png"]
     },
     twitter: {
       card: "summary_large_image",
       title: socialTitle(episode.title),
       description: episode.description || siteConfig.description,
-      images: ["/brand/inclusionism-logo-border.png"]
+      images: [episode.episodeArtwork || episode.showArtwork || episode.image || "/brand/inclusionism-logo-border.png"]
     }
   };
 }
@@ -62,7 +63,27 @@ export default async function PodcastEpisodePage({ params }: { params: Promise<{
           {episode.description.slice(0, 520)}
         </p>
 
-        {episode.audioUrl ? (
+        <figure className="relative mt-8 aspect-square max-w-xl overflow-hidden border border-white/15 bg-white/5">
+          {episode.episodeArtwork || episode.showArtwork || episode.image ? (
+            <Image src={episode.episodeArtwork || episode.showArtwork || episode.image || ""} alt={episode.title} fill priority sizes="(min-width: 1024px) 576px, 100vw" className="object-cover" />
+          ) : (
+            <div className="flex h-full items-center justify-center bg-black text-8xl font-black text-signal">≥</div>
+          )}
+        </figure>
+
+        {episode.spotifyEmbedUrl ? (
+          <div className="ink-panel brand-rule mt-8 p-3">
+            <iframe
+              title={`${episode.title} on Spotify`}
+              src={episode.spotifyEmbedUrl}
+              width="100%"
+              height="232"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+              className="block w-full border-0"
+            />
+          </div>
+        ) : episode.audioUrl ? (
           <div className="ink-panel brand-rule mt-8 p-4">
             <audio controls preload="metadata" src={episode.audioUrl} className="w-full">
               <a href={episode.audioUrl}>Listen to the episode audio.</a>
@@ -81,7 +102,7 @@ export default async function PodcastEpisodePage({ params }: { params: Promise<{
             Suggest Canon Updates
           </Link>
           {episode.link ? (
-            <a href={episode.link} target="_blank" rel="noreferrer" className="outline-button inline-flex items-center gap-2 px-4 py-3 text-xs">
+            <a href={episode.canonicalUrl || episode.link} target="_blank" rel="noreferrer" className="outline-button inline-flex items-center gap-2 px-4 py-3 text-xs">
               <ExternalLink size={16} />
               Source
             </a>

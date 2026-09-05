@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { ExternalLink, Headphones } from "lucide-react";
 import { getEditorialPodcastEpisodes } from "@/lib/content";
@@ -37,13 +38,21 @@ export default async function PodcastPage() {
       {episodes.length ? (
         <div className="mt-10 divide-y divide-white/15 border-y border-white/15">
           {episodes.map((episode) => (
-            <article key={episode.slug} className="grid gap-5 py-7 md:grid-cols-[1fr_240px]">
+            <article key={episode.slug} className="grid gap-5 py-7 md:grid-cols-[160px_1fr_240px]">
+              <Link href={`/podcast/${episode.slug}`} className="group relative aspect-square overflow-hidden border border-white/15 bg-white/5">
+                {episode.episodeArtwork || episode.showArtwork || episode.image ? (
+                  <Image src={episode.episodeArtwork || episode.showArtwork || episode.image || ""} alt={episode.title} fill sizes="(min-width: 768px) 160px, 100vw" className="object-cover transition duration-300 group-hover:scale-105" />
+                ) : (
+                  <div className="flex h-full items-center justify-center bg-black text-6xl font-black text-signal">≥</div>
+                )}
+              </Link>
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.28em] text-signal">{formatDate(episode.date)}</p>
                 <Link href={`/podcast/${episode.slug}`} className="group mt-3 block">
                   <h2 className="brand-title text-4xl leading-none group-hover:text-signal sm:text-5xl">{episode.title}</h2>
                 </Link>
                 <p className="mt-4 max-w-3xl text-sm leading-6 text-white/65">{episode.description.slice(0, 320)}</p>
+                <p className="mt-3 text-xs font-bold uppercase tracking-wider text-white/40">{episode.audioUrl ? "Audio episode" : "Podcast episode"} / {episode.sourceName || episode.source}</p>
               </div>
               <div className="flex flex-col gap-3 md:items-end">
                 <Link href={`/podcast/${episode.slug}`} className="outline-button inline-flex items-center justify-center gap-2 px-4 py-3 text-xs">

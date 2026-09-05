@@ -4,8 +4,10 @@ import {
   fetchEssaysFeed,
   fetchPodcastFeed,
   feedSlug,
+  normalizeMediaUrl,
   parseEssaysFeed,
-  parsePodcastFeed
+  parsePodcastFeed,
+  spotifyEmbedUrlFromLink
 } from "../lib/editorial-feeds.js";
 
 const notes = [
@@ -22,6 +24,7 @@ const essayXml = `
       <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
       <description><![CDATA[An older essay about [[Value]].]]></description>
       <content:encoded><![CDATA[Value and Agency emerge through interaction.]]></content:encoded>
+      <enclosure url="https://images.example.com/older.jpg" type="image/jpeg" />
     </item>
     <item>
       <title>New Recognition Essay</title>
@@ -39,6 +42,7 @@ const podcastXml = `
       <link>https://example.com/e/older</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
       <description>Older episode about Value.</description>
+      <itunes:image href="https://example.com/older-art.jpg" />
       <itunes:duration>12:34</itunes:duration>
       <enclosure url="https://example.com/older.mp3" type="audio/mpeg" />
     </item>
@@ -57,7 +61,32 @@ test("parses RSS essays and sorts newest first", () => {
   assert.equal(essays.length, 2);
   assert.equal(essays[0].slug, "new-recognition");
   assert.equal(essays[1].slug, "older-value");
+  assert.equal(essays[1].heroImage, "https://images.example.com/older.jpg");
   assert.ok(essays[1].relatedNotes.some((note) => note.slug === "value"));
+});
+
+test("falls back to Open Graph image when an essay feed item has no image", async () => {
+  const essays = await fetchEssaysFeed({
+    notes,
+    fallback: [],
+    feedUrl: "https://example.com/feed",
+    fetcher: async (url) => {
+      if (url === "https://example.com/feed") {
+        return new Response(`
+          <rss><channel><title>Substack</title>
+            <item>
+              <title>Open Graph Essay</title>
+              <link>https://example.com/p/open-graph</link>
+              <pubDate>Mon, 01 Jan 2026 10:00:00 GMT</pubDate>
+              <description>Essay without RSS image.</description>
+            </item>
+          </channel></rss>
+        `, { status: 200 });
+      }
+      return new Response('<html><head><meta property="og:image" content="https://images.example.com/og.jpg"></head></html>', { status: 200 });
+    }
+  });
+  assert.equal(essays[0].heroImage, "https://images.example.com/og.jpg");
 });
 
 test("filters malformed essay feed items", () => {
@@ -71,12 +100,49 @@ test("filters malformed essay feed items", () => {
   assert.deepEqual(essays.map((essay) => essay.slug), ["valid-item"]);
 });
 
+test("ignores malformed and unsupported essay image metadata", () => {
+  const essays = parseEssaysFeed(`
+    <rss><channel>
+      <item>
+        <title>Bad Image</title>
+        <link>https://example.com/p/bad-image</link>
+        <enclosure url="javascript:alert(1)" type="image/jpeg" />
+        <media:thumbnail url="data:image/svg+xml;base64,abc" />
+        <description><![CDATA[<img src="javascript:alert(1)">]]></description>
+      </item>
+    </channel></rss>
+  `, notes);
+  assert.equal(essays[0].heroImage, "");
+});
+
+test("unavailable canonical source page does not fail essay feed parsing", async () => {
+  const essays = await fetchEssaysFeed({
+    notes,
+    fallback: [],
+    feedUrl: "https://example.com/feed",
+    fetcher: async (url) => {
+      if (url === "https://example.com/feed") {
+        return new Response(`
+          <rss><channel><title>Substack</title>
+            <item><title>No Media</title><link>https://example.com/p/no-media</link><description>No media.</description></item>
+          </channel></rss>
+        `, { status: 200 });
+      }
+      return new Response("not found", { status: 404 });
+    }
+  });
+  assert.equal(essays[0].title, "No Media");
+  assert.equal(essays[0].heroImage, "");
+});
+
 test("parses podcast RSS and sorts newest first", () => {
   const episodes = parsePodcastFeed(podcastXml, notes);
   assert.equal(episodes.length, 2);
   assert.equal(episodes[0].slug, "newest");
   assert.equal(episodes[0].audioUrl, "https://example.com/newest.mp3");
+  assert.equal(episodes[0].showArtwork, "https://example.com/show.jpg");
   assert.equal(episodes[0].image, "https://example.com/show.jpg");
+  assert.equal(episodes[1].episodeArtwork, "https://example.com/older-art.jpg");
   assert.ok(episodes[0].relatedNotes.some((note) => note.slug === "agency"));
 });
 
@@ -89,6 +155,39 @@ test("filters malformed podcast feed items", () => {
     </channel></rss>
   `, notes);
   assert.deepEqual(episodes.map((episode) => episode.slug), ["validmp3"]);
+});
+
+test("derives only supported official Spotify episode embeds", () => {
+  assert.equal(
+    spotifyEmbedUrlFromLink("https://podcasters.spotify.com/pod/show/jamesfeltonkeith/episodes/Example-e3kgjhf"),
+    "https://open.spotify.com/embed/episode/3kgjhf"
+  );
+  assert.equal(
+    spotifyEmbedUrlFromLink("https://open.spotify.com/episode/1AbCdEF234"),
+    "https://open.spotify.com/embed/episode/1AbCdEF234"
+  );
+  assert.equal(spotifyEmbedUrlFromLink("https://example.com/watch/123"), "");
+});
+
+test("normalizes media URLs and rejects script/data URLs", () => {
+  assert.equal(normalizeMediaUrl("https://example.com/image.jpg"), "https://example.com/image.jpg");
+  assert.equal(normalizeMediaUrl("javascript:alert(1)"), "");
+  assert.equal(normalizeMediaUrl("data:text/html;base64,abc"), "");
+});
+
+test("rejects unsupported arbitrary iframe content from feed descriptions", () => {
+  const episodes = parsePodcastFeed(`
+    <rss><channel>
+      <item>
+        <title>Iframe Episode</title>
+        <link>https://example.com/e/iframe</link>
+        <description><![CDATA[<iframe src="https://evil.example/embed"></iframe>Real description.]]></description>
+        <enclosure url="https://example.com/audio.mp3" type="audio/mpeg" />
+      </item>
+    </channel></rss>
+  `, notes);
+  assert.equal(episodes[0].description.includes("<iframe"), false);
+  assert.equal(episodes[0].spotifyEmbedUrl, "");
 });
 
 test("feed fetch failure returns newest-first fallback content", async () => {
@@ -115,6 +214,7 @@ test("new essay can be discovered without deployment-time JSON", async () => {
     fetcher: async () => new Response(essayXml, { status: 200 })
   });
   assert.ok(essays.find((essay) => essay.slug === "new-recognition"));
+  assert.ok(essays.find((essay) => essay.slug === "older-value")?.heroImage);
 });
 
 test("new podcast episode can be discovered without deployment-time JSON", async () => {
@@ -125,6 +225,7 @@ test("new podcast episode can be discovered without deployment-time JSON", async
     fetcher: async () => new Response(podcastXml, { status: 200 })
   });
   assert.ok(episodes.find((episode) => episode.slug === "newest"));
+  assert.equal(episodes.find((episode) => episode.slug === "newest")?.showArtwork, "https://example.com/show.jpg");
 });
 
 test("dynamic detail route lookup can resolve newly fetched items", async () => {
