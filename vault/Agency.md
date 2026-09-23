@@ -67,6 +67,8 @@ A system becomes exploitative when it converts contribution into value while lea
 - [[Human Meaning]]
     
 - [[Transhumanism]]
+
+- [[Technological Constructivism]]
     
 - [[Artificial Intelligence]]
     

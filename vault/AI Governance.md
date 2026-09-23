@@ -8,6 +8,8 @@ Systems for coordinating the development, deployment, and alignment of artificia
 ## Inclusionist Perspective
 AI systems should maximize distributed participation, transparency, and adaptive flourishing.
 
+AI governance must account for the recursive relationship through which agents construct intelligence systems and those systems reconstruct the conditions of agency. See [[Technological Constructivism]].
+
 ---
 
 ## Relationships
@@ -23,6 +25,7 @@ AI systems should maximize distributed participation, transparency, and adaptive
 - [[Superintelligence]]
 - [[Intelligence Ownership]]
 - [[Collective Intelligence Capital]]
+- [[Technological Constructivism]]
 
 ---
 

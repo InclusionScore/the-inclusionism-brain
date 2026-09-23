@@ -75,6 +75,7 @@ Interaction
 
 # AI & Intelligence
 
+- [[Technological Constructivism]]
 - [[Collective Intelligence]]
 - [[Collective Intelligence Capital]]
 - [[AI Economies]]

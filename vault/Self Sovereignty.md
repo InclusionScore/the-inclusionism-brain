@@ -12,6 +12,8 @@ Self sovereignty increasingly depends on informational self-determination.
 
 Agents cannot maintain meaningful sovereignty when their [[Personal Data]], digital identity, behavioral traces, and data lineage are controlled entirely by external systems.
 
+Because technologies reconstruct the conditions under which agents act, self sovereignty also requires meaningful authority over technological mediation and self-construction. See [[Technological Constructivism]].
+
 ---
 
 ## Relationships
@@ -24,6 +26,7 @@ Agents cannot maintain meaningful sovereignty when their [[Personal Data]], digi
 - [[Ownership]]
 - [[Agency]]
 - [[Decentralization]]
+- [[Technological Constructivism]]
 
 ---
 

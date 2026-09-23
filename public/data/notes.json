@@ -252,10 +252,14 @@
     "title": "# Collective Intelligence Capital",
     "path": "Collective Intelligence Capital.md",
     "category": "Inclusionism Core",
-    "content": "# # Collective Intelligence Capital\n\n## Definition\n\nThe accumulated knowledge, creativity, culture, expertise, participation, and problem-solving capacity embedded within civilizations.\n\n---\n\n## Inclusionist Perspective\n\nNo advanced intelligence system emerges from a single individual.\n\nCivilizational intelligence emerges through the accumulated interactions of countless agents across time.\n\n---\n\n## Core Principle\n\nCivilizations generate intelligence collectively.\n\n---\n\n## Inclusionist Perspective\n\nArtificial intelligence increasingly depends upon collective intelligence capital as its underlying substrate.\n\n---\n\n## Relationships\n\n- [[Collective Intelligence]]\n    \n- [[Personal Data]]\n    \n- [[AI Economies]]\n    \n- [[Universal Basic Ownership]]\n    \n- [[Intelligence Ownership]]\n    \n\n---\n\n## Core Question\n\nWho should benefit from value generated through collective intelligence capital?",
+    "content": "# # Collective Intelligence Capital\n\n## Definition\n\nThe accumulated knowledge, creativity, culture, expertise, participation, and problem-solving capacity embedded within civilizations.\n\n---\n\n## Inclusionist Perspective\n\nNo advanced intelligence system emerges from a single individual.\n\nCivilizational intelligence emerges through the accumulated interactions of countless agents across time.\n\n---\n\n## Core Principle\n\nCivilizations generate intelligence collectively.\n\n---\n\n## Inclusionist Perspective\n\nArtificial intelligence increasingly depends upon collective intelligence capital as its underlying substrate.\n\n[[Technological Constructivism]] explains how intelligence systems emerge from accumulated participation and then reshape the conditions of future participation.\n\n---\n\n## Relationships\n\n- [[Collective Intelligence]]\n    \n- [[Personal Data]]\n    \n- [[AI Economies]]\n    \n- [[Universal Basic Ownership]]\n    \n- [[Intelligence Ownership]]\n\n- [[Technological Constructivism]]\n    \n\n---\n\n## Core Question\n\nWho should benefit from value generated through collective intelligence capital?",
     "excerpt": "# Collective Intelligence Capital Definition The accumulated knowledge, creativity, culture, expertise, participation, and problem-solving capacity embedded within civilizations. --- Inclusionist Perspective No advanced intelligence system emerges from a singl",
     "status": "Canon",
     "links": [
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
       {
         "slug": "collective-intelligence",
         "title": "Collective Intelligence"
@@ -301,6 +305,10 @@
       {
         "slug": "superintelligence",
         "title": "Superintelligence"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       }
     ],
     "aliases": []
@@ -1012,10 +1020,14 @@
     "title": "# Intelligence Ownership",
     "path": "Intelligence Ownership.md",
     "category": "Inclusionism Core",
-    "content": "# # Intelligence Ownership\n\n## Definition\n\nThe ownership, governance, participation rights, and value claims associated with intelligence-producing systems.\n\n---\n\n## Inclusionist Perspective\n\nAs intelligence increasingly becomes collective, computational, and networked, ownership questions become inseparable from participation legitimacy.\n\n---\n\n## Core Principle\n\nThe ownership of intelligence-producing systems influences the distribution of agency throughout civilization.\n\n---\n\n## Inclusionist Perspective\n\nArtificial intelligence may become a form of civilization-scale infrastructure.\n\nThe governance of that infrastructure may become one of the defining questions of future civilizations.\n\n---\n\n## Relationships\n\n- [[Collective Intelligence Capital]]\n    \n- [[AI Economies]]\n    \n- [[Ownership]]\n    \n- [[Agency]]\n    \n- [[Value Distribution]]\n    \n- [[Intelligence Infrastructure]]\n    \n\n---\n\n## Core Question\n\nHow should ownership evolve when intelligence itself becomes a primary productive resource?",
+    "content": "# # Intelligence Ownership\n\n## Definition\n\nThe ownership, governance, participation rights, and value claims associated with intelligence-producing systems.\n\n---\n\n## Inclusionist Perspective\n\nAs intelligence increasingly becomes collective, computational, and networked, ownership questions become inseparable from participation legitimacy.\n\n---\n\n## Core Principle\n\nThe ownership of intelligence-producing systems influences the distribution of agency throughout civilization.\n\n---\n\n## Inclusionist Perspective\n\nArtificial intelligence may become a form of civilization-scale infrastructure.\n\nThe governance of that infrastructure may become one of the defining questions of future civilizations.\n\nBecause intelligence infrastructure reconstructs the conditions of agency, its ownership is a central concern of [[Technological Constructivism]].\n\n---\n\n## Relationships\n\n- [[Collective Intelligence Capital]]\n    \n- [[AI Economies]]\n    \n- [[Ownership]]\n    \n- [[Agency]]\n    \n- [[Value Distribution]]\n    \n- [[Intelligence Infrastructure]]\n\n- [[Technological Constructivism]]\n    \n\n---\n\n## Core Question\n\nHow should ownership evolve when intelligence itself becomes a primary productive resource?",
     "excerpt": "# Intelligence Ownership Definition The ownership, governance, participation rights, and value claims associated with intelligence-producing systems. --- Inclusionist Perspective As intelligence increasingly becomes collective, computational, and networked, ow",
     "status": "Canon",
     "links": [
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
       {
         "slug": "collective-intelligence-capital",
         "title": "# Collective Intelligence Capital"
@@ -1065,6 +1077,10 @@
       {
         "slug": "superintelligence",
         "title": "Superintelligence"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       }
     ],
     "aliases": []
@@ -1253,6 +1269,10 @@
       {
         "slug": "relational-attribution",
         "title": "Relational Attribution"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "the-problem-isnt-identity",
@@ -1499,7 +1519,7 @@
     "title": "Agency",
     "path": "Agency.md",
     "category": "Inclusionism Core",
-    "content": "# Agency\n\n## Definition\n\nThe capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination.\n\n---\n\n## Inclusionist Perspective\n\nAgency is one of the primary expressions of value.\n\nValue becomes meaningful when agents possess the capacity to act upon it.\n\nInclusionism treats [[Agency]] as the return path of recognized [[Value]].\n\n---\n\n## Core Principle\n\nEnhancement becomes self-defeating when it destroys the agency it was intended to expand.\n\n---\n\n## Inclusionist Perspective\n\nIntelligence is valuable because it expands agency.\n\nOptimization is valuable when it expands agency.\n\nParticipation is meaningful when it includes agency.\n\n---\n\n## Civilizational Importance\n\nCivilizations increase in value when they increase the number of agents capable of meaningful participation.\n\nCivilizations decrease in value when agency becomes increasingly concentrated regardless of gains in efficiency or intelligence.\n\n## Exploitation as Agency Extraction\n\nExploitation is not only the extraction of [[Value]].\n\nIt is the extraction of future [[Agency]] from the agents whose participation, labor, data, identity, or relationships generate that value.\n\nA system becomes exploitative when it converts contribution into value while leaving contributors with reduced ownership, reduced self-determination, or reduced power to shape the systems they sustain.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Participation]]\n    \n- [[Ownership]]\n\n- [[Equity]]\n\n- [[Value Distribution]]\n\n- [[Ownership Concentration]]\n\n- [[Data-as-Labor]]\n    \n- [[Human Meaning]]\n    \n- [[Transhumanism]]\n    \n- [[Artificial Intelligence]]\n    \n- [[Belonging]]\n    \n\n---\n\n## Candidate Law\n\nCivilizations increase in value when they expand meaningful agency.",
+    "content": "# Agency\n\n## Definition\n\nThe capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination.\n\n---\n\n## Inclusionist Perspective\n\nAgency is one of the primary expressions of value.\n\nValue becomes meaningful when agents possess the capacity to act upon it.\n\nInclusionism treats [[Agency]] as the return path of recognized [[Value]].\n\n---\n\n## Core Principle\n\nEnhancement becomes self-defeating when it destroys the agency it was intended to expand.\n\n---\n\n## Inclusionist Perspective\n\nIntelligence is valuable because it expands agency.\n\nOptimization is valuable when it expands agency.\n\nParticipation is meaningful when it includes agency.\n\n---\n\n## Civilizational Importance\n\nCivilizations increase in value when they increase the number of agents capable of meaningful participation.\n\nCivilizations decrease in value when agency becomes increasingly concentrated regardless of gains in efficiency or intelligence.\n\n## Exploitation as Agency Extraction\n\nExploitation is not only the extraction of [[Value]].\n\nIt is the extraction of future [[Agency]] from the agents whose participation, labor, data, identity, or relationships generate that value.\n\nA system becomes exploitative when it converts contribution into value while leaving contributors with reduced ownership, reduced self-determination, or reduced power to shape the systems they sustain.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Participation]]\n    \n- [[Ownership]]\n\n- [[Equity]]\n\n- [[Value Distribution]]\n\n- [[Ownership Concentration]]\n\n- [[Data-as-Labor]]\n    \n- [[Human Meaning]]\n    \n- [[Transhumanism]]\n\n- [[Technological Constructivism]]\n    \n- [[Artificial Intelligence]]\n    \n- [[Belonging]]\n    \n\n---\n\n## Candidate Law\n\nCivilizations increase in value when they expand meaningful agency.",
     "excerpt": "Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents p",
     "status": "Canon",
     "links": [
@@ -1534,6 +1554,10 @@
       {
         "slug": "human-meaning",
         "title": "# Human Meaning"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "belonging",
@@ -1686,6 +1710,10 @@
         "title": "Superintelligence"
       },
       {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
+      {
         "slug": "the-problem-isnt-identity",
         "title": "The Problem Isn't Identity"
       },
@@ -1741,10 +1769,14 @@
     "title": "AI Governance",
     "path": "AI Governance.md",
     "category": "Inclusionism Core",
-    "content": "# AI Governance\n\n## Definition\nSystems for coordinating the development, deployment, and alignment of artificial intelligence.\n\n---\n\n## Inclusionist Perspective\nAI systems should maximize distributed participation, transparency, and adaptive flourishing.\n\n---\n\n## Relationships\n- [[Governance]]\n- [[Automation]]\n- [[Collective Intelligence]]\n- [[Technology]]\n- [[Participation]]\n- [[Ownership]]\n- [[Personal Data]]\n- [[Privacy]]\n- [[Data-as-Labor]]\n- [[Superintelligence]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n\n---\n\n## Questions\n- Who governs AI systems?\n- Can AI increase collective intelligence?\n- How should AI distribute value?\n\n---\n\n## Inclusionist Concern\nAI systems may strengthen or weaken democracy depending on how informational flows, participation, and coordination power are distributed.",
-    "excerpt": "AI Governance Definition Systems for coordinating the development, deployment, and alignment of artificial intelligence. --- Inclusionist Perspective AI systems should maximize distributed participation, transparency, and adaptive flourishing. --- Relationship",
+    "content": "# AI Governance\n\n## Definition\nSystems for coordinating the development, deployment, and alignment of artificial intelligence.\n\n---\n\n## Inclusionist Perspective\nAI systems should maximize distributed participation, transparency, and adaptive flourishing.\n\nAI governance must account for the recursive relationship through which agents construct intelligence systems and those systems reconstruct the conditions of agency. See [[Technological Constructivism]].\n\n---\n\n## Relationships\n- [[Governance]]\n- [[Automation]]\n- [[Collective Intelligence]]\n- [[Technology]]\n- [[Participation]]\n- [[Ownership]]\n- [[Personal Data]]\n- [[Privacy]]\n- [[Data-as-Labor]]\n- [[Superintelligence]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n- [[Technological Constructivism]]\n\n---\n\n## Questions\n- Who governs AI systems?\n- Can AI increase collective intelligence?\n- How should AI distribute value?\n\n---\n\n## Inclusionist Concern\nAI systems may strengthen or weaken democracy depending on how informational flows, participation, and coordination power are distributed.",
+    "excerpt": "AI Governance Definition Systems for coordinating the development, deployment, and alignment of artificial intelligence. --- Inclusionist Perspective AI systems should maximize distributed participation, transparency, and adaptive flourishing. AI governance mu",
     "status": "Canon",
     "links": [
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
       {
         "slug": "governance",
         "title": "# Governance"
@@ -1878,6 +1910,10 @@
       {
         "slug": "technocracy",
         "title": "Technocracy"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "technology",
@@ -2212,6 +2248,10 @@
       {
         "slug": "start-here",
         "title": "Start Here"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "the-problem-isnt-identity",
@@ -3710,6 +3750,10 @@
         "title": "Self Sovereignty"
       },
       {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
+      {
         "slug": "value",
         "title": "Value"
       }
@@ -4106,6 +4150,10 @@
       {
         "slug": "pluralism",
         "title": "# Pluralism"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       }
     ],
     "aliases": []
@@ -4693,6 +4741,10 @@
       {
         "slug": "relational-attribution",
         "title": "Relational Attribution"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "value-distribution-systems",
@@ -5318,10 +5370,14 @@
     "title": "Human Enhancement",
     "path": "Human Enhancement.md",
     "category": "Inclusionism Core",
-    "content": "# Human Enhancement\n\n## Definition\nTechnological augmentation of human cognitive, biological, or physical capacities.\n\n---\n\n## Inclusionist Perspective\nEnhancement technologies should expand equitable participation rather than deepen stratification.\n\n---\n\n## Relationships\n- [[Technology]]\n- [[AI Governance]]\n- [[Participation]]\n- [[Agency]]\n- [[Health]]\n- [[Equity]]\n\n---\n\n## Questions\n- Should enhancement access be universal?\n- Can enhancement destabilize equality?\n- What defines human identity after enhancement?",
-    "excerpt": "Human Enhancement Definition Technological augmentation of human cognitive, biological, or physical capacities. --- Inclusionist Perspective Enhancement technologies should expand equitable participation rather than deepen stratification. --- Relationships - T",
+    "content": "# Human Enhancement\n\n## Definition\nTechnological augmentation of human cognitive, biological, or physical capacities.\n\n---\n\n## Inclusionist Perspective\nEnhancement technologies should expand equitable participation rather than deepen stratification.\n\nAgents use technology to reconstruct their capabilities and conditions of action. [[Technological Constructivism]] evaluates that process through its effects on agency, access, and self-determination.\n\n---\n\n## Relationships\n- [[Technology]]\n- [[AI Governance]]\n- [[Participation]]\n- [[Agency]]\n- [[Health]]\n- [[Equity]]\n- [[Technological Constructivism]]\n\n---\n\n## Questions\n- Should enhancement access be universal?\n- Can enhancement destabilize equality?\n- What defines human identity after enhancement?",
+    "excerpt": "Human Enhancement Definition Technological augmentation of human cognitive, biological, or physical capacities. --- Inclusionist Perspective Enhancement technologies should expand equitable participation rather than deepen stratification. Agents use technology",
     "status": "Canon",
     "links": [
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
       {
         "slug": "technology",
         "title": "Technology"
@@ -5359,6 +5415,10 @@
       {
         "slug": "procreative-liberty",
         "title": "Procreative Liberty"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "technology",
@@ -5838,7 +5898,7 @@
     "title": "Inclusionism Canon v1.0",
     "path": "Inclusionism Canon v1.0 MOC.md",
     "category": "Inclusionism Core",
-    "content": "# Inclusionism Canon v1.0\n\n## Foundational Axiom\n\nWe have intrinsic value.\n\nWe derive that value through our interactions with one another.\n\nWe are entitled to equity in the value that proliferates from those interactions.\n\n---\n\n## Inclusionist Social Dynamic\n\nInteraction\n→ Value\n→ Recognition\n→ Agency\n→ Legitimacy\n→ Fairness\n→ Belonging\n\n---\n\n# First Principles\n\n- [[Inclusionism]]\n- [[Value]]\n- [[Interaction]]\n- [[Witnessing]]\n- [[Agency]]\n- [[Fairness]]\n\n---\n\n# Human Systems\n\n- [[Identity]]\n- [[Identification]]\n- [[Recognition]]\n- [[Community]]\n- [[Belonging]]\n- [[Human Meaning]]\n\n---\n\n# Distribution Systems\n\n- [[Ownership]]\n- [[Equity]]\n- [[Code of Equity]]\n- [[Relational Attribution]]\n- [[Value Distribution]]\n- [[Value Distribution Systems]]\n- [[Universal Basic Ownership]]\n- [[Data Dividend]]\n\n---\n\n# Civilization Systems\n\n- [[Civilization]]\n- [[Governance]]\n- [[Democracy]]\n- [[Pluralism]]\n- [[Legitimacy]]\n- [[Differentiation]]\n- [[Coordinated Efficiency]]\n- [[Networks]]\n- [[Coordination]]\n- [[Technocracy]]\n- [[Information Manipulation]]\n\n---\n\n# AI & Intelligence\n\n- [[Collective Intelligence]]\n- [[Collective Intelligence Capital]]\n- [[AI Economies]]\n- [[Intelligence Ownership]]\n\n---\n\n# Human Rights & Agency\n\n- [[Personhood]]\n- [[Individual Liberty]]\n- [[Citizenship]]\n\n---\n\n# Future Civilization\n\n- [[Transhumanism]]\n- [[Posthumanism]]\n- [[Optimization]]\n- [[Strong AI Successionism]]\n\n---\n\n# Candidate Laws\n\n- [[Candidate Laws of Inclusionism]]",
+    "content": "# Inclusionism Canon v1.0\n\n## Foundational Axiom\n\nWe have intrinsic value.\n\nWe derive that value through our interactions with one another.\n\nWe are entitled to equity in the value that proliferates from those interactions.\n\n---\n\n## Inclusionist Social Dynamic\n\nInteraction\n→ Value\n→ Recognition\n→ Agency\n→ Legitimacy\n→ Fairness\n→ Belonging\n\n---\n\n# First Principles\n\n- [[Inclusionism]]\n- [[Value]]\n- [[Interaction]]\n- [[Witnessing]]\n- [[Agency]]\n- [[Fairness]]\n\n---\n\n# Human Systems\n\n- [[Identity]]\n- [[Identification]]\n- [[Recognition]]\n- [[Community]]\n- [[Belonging]]\n- [[Human Meaning]]\n\n---\n\n# Distribution Systems\n\n- [[Ownership]]\n- [[Equity]]\n- [[Code of Equity]]\n- [[Relational Attribution]]\n- [[Value Distribution]]\n- [[Value Distribution Systems]]\n- [[Universal Basic Ownership]]\n- [[Data Dividend]]\n\n---\n\n# Civilization Systems\n\n- [[Civilization]]\n- [[Governance]]\n- [[Democracy]]\n- [[Pluralism]]\n- [[Legitimacy]]\n- [[Differentiation]]\n- [[Coordinated Efficiency]]\n- [[Networks]]\n- [[Coordination]]\n- [[Technocracy]]\n- [[Information Manipulation]]\n\n---\n\n# AI & Intelligence\n\n- [[Technological Constructivism]]\n- [[Collective Intelligence]]\n- [[Collective Intelligence Capital]]\n- [[AI Economies]]\n- [[Intelligence Ownership]]\n\n---\n\n# Human Rights & Agency\n\n- [[Personhood]]\n- [[Individual Liberty]]\n- [[Citizenship]]\n\n---\n\n# Future Civilization\n\n- [[Transhumanism]]\n- [[Posthumanism]]\n- [[Optimization]]\n- [[Strong AI Successionism]]\n\n---\n\n# Candidate Laws\n\n- [[Candidate Laws of Inclusionism]]",
     "excerpt": "Inclusionism Canon v1.0 Foundational Axiom We have intrinsic value. We derive that value through our interactions with one another. We are entitled to equity in the value that proliferates from those interactions. --- Inclusionist Social Dynamic Interaction → ",
     "status": "Canon",
     "links": [
@@ -5965,6 +6025,10 @@
       {
         "slug": "information-manipulation",
         "title": "Information Manipulation"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "collective-intelligence",
@@ -6663,6 +6727,10 @@
       {
         "slug": "relational-attribution",
         "title": "Relational Attribution"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "universalism-as-an-outcome-of-identity",
@@ -7655,7 +7723,7 @@
     "title": "Ownership",
     "path": "Ownership.md",
     "category": "Inclusionism Core",
-    "content": "# Ownership\n\n## Definition\n\nThe allocation of authority, responsibility, participation rights, and claims over value-generating systems.\n\n---\n\n## Inclusionist Perspective\n\nOwnership is not merely possession.\n\nOwnership is a relationship between agents and the value-generating systems in which they participate.\n\n---\n\n## Core Principle\n\nParticipation creates legitimate ownership claims.\n\nOwnership follows contribution.\n\nContributors should hold meaningful claims in the systems, institutions, datasets, economies, and intelligence infrastructures they help create.\n\nThis does not mean every contribution creates identical ownership.\n\nIt means that ownership becomes less legitimate as it separates from [[Participation]], [[Relational Attribution]], and [[Value Distribution]].\n\n---\n\n## Inclusionist Perspective\n\nValue emerges relationally.\n\nOwnership should therefore reflect both:\n\n- individual differentiation\n- relational contribution\n\n---\n\n## Ownership and Agency\n\nOwnership is one mechanism through which civilizations distribute agency.\n\nThe concentration of ownership often produces the concentration of agency.\n\n---\n\n## Inclusionist Perspective\n\nHealthy ownership systems balance:\n\n- innovation incentives\n- participation legitimacy\n- agency distribution\n- value recognition\n\n---\n\n## Relationships\n\n- [[Value]]\n- [[Agency]]\n- [[Participation]]\n- [[Equity]]\n- [[Value Distribution]]\n- [[Universal Basic Ownership]]\n- [[Relational Attribution]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n- [[Data Dividend]]\n\n- [[Participation Precedes Ownership]]\n\n- [[Personal Data]]\n\n---\n\n## Core Question\n\nHow should ownership evolve as value becomes increasingly collective, informational, and AI-mediated?",
+    "content": "# Ownership\n\n## Definition\n\nThe allocation of authority, responsibility, participation rights, and claims over value-generating systems.\n\n---\n\n## Inclusionist Perspective\n\nOwnership is not merely possession.\n\nOwnership is a relationship between agents and the value-generating systems in which they participate.\n\n---\n\n## Core Principle\n\nParticipation creates legitimate ownership claims.\n\nOwnership follows contribution.\n\nContributors should hold meaningful claims in the systems, institutions, datasets, economies, and intelligence infrastructures they help create.\n\nThis does not mean every contribution creates identical ownership.\n\nIt means that ownership becomes less legitimate as it separates from [[Participation]], [[Relational Attribution]], and [[Value Distribution]].\n\n---\n\n## Inclusionist Perspective\n\nValue emerges relationally.\n\nOwnership should therefore reflect both:\n\n- individual differentiation\n- relational contribution\n\n---\n\n## Ownership and Agency\n\nOwnership is one mechanism through which civilizations distribute agency.\n\nThe concentration of ownership often produces the concentration of agency.\n\n---\n\n## Inclusionist Perspective\n\nHealthy ownership systems balance:\n\n- innovation incentives\n- participation legitimacy\n- agency distribution\n- value recognition\n\n---\n\n## Relationships\n\n- [[Value]]\n- [[Agency]]\n- [[Participation]]\n- [[Equity]]\n- [[Value Distribution]]\n- [[Universal Basic Ownership]]\n- [[Relational Attribution]]\n- [[Intelligence Ownership]]\n- [[Collective Intelligence Capital]]\n- [[Data Dividend]]\n\n- [[Participation Precedes Ownership]]\n\n- [[Personal Data]]\n\n---\n\n## Core Question\n\nHow should ownership evolve as value becomes increasingly collective, informational, and AI-mediated?\n\n[[Technological Constructivism]] extends this question by examining how ownership of constructed technologies shapes the conditions of future agency.",
     "excerpt": "Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-generati",
     "status": "Canon",
     "links": [
@@ -7706,6 +7774,10 @@
       {
         "slug": "personal-data",
         "title": "Personal Data"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       }
     ],
     "backlinks": [
@@ -7844,6 +7916,10 @@
       {
         "slug": "superintelligence",
         "title": "Superintelligence"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "universal-basic-ownership",
@@ -8328,6 +8404,10 @@
         "title": "Start Here"
       },
       {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
+      {
         "slug": "transaction",
         "title": "Transaction"
       },
@@ -8607,10 +8687,14 @@
     "title": "Personhood",
     "path": "Personhood.md",
     "category": "Inclusionism Core",
-    "content": "# Personhood\n\n## Definition\nThe recognized status of an entity as a participant possessing identity, agency, and moral consideration.\n\n---\n\n## Inclusionist Perspective\nAI, biological systems, institutions, and future intelligences may challenge traditional boundaries of personhood.\n\n---\n\n## Relationships\n- [[Identity]]\n- [[Agency]]\n- [[Consciousness]]\n- [[Self Sovereignty]]\n- [[AI Governance]]\n- [[Identity Maturation Theory]]\n- [[Superintelligence]]\n- [[Legitimacy]]",
+    "content": "# Personhood\n\n## Definition\nThe recognized status of an entity as a participant possessing identity, agency, and moral consideration.\n\n---\n\n## Inclusionist Perspective\nAI, biological systems, institutions, and future intelligences may challenge traditional boundaries of personhood.\n\nRecognition of synthetic personhood does not erase the lineage of human and social contributions from which a synthetic agent emerged. [[Technological Constructivism]] distinguishes dignity and recognition from contribution and attribution.\n\n---\n\n## Relationships\n- [[Identity]]\n- [[Agency]]\n- [[Consciousness]]\n- [[Self Sovereignty]]\n- [[AI Governance]]\n- [[Identity Maturation Theory]]\n- [[Superintelligence]]\n- [[Legitimacy]]\n- [[Technological Constructivism]]",
     "excerpt": "Personhood Definition The recognized status of an entity as a participant possessing identity, agency, and moral consideration. --- Inclusionist Perspective AI, biological systems, institutions, and future intelligences may challenge traditional boundaries of ",
     "status": "Canon",
     "links": [
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
       {
         "slug": "identity",
         "title": "# Identity"
@@ -8660,6 +8744,10 @@
       {
         "slug": "procreative-liberty",
         "title": "Procreative Liberty"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       }
     ],
     "aliases": []
@@ -9041,7 +9129,7 @@
     "title": "Relational Attribution",
     "path": "Relational Attribution.md",
     "category": "Inclusionism Core",
-    "content": "# Relational Attribution\n\n## Definition\n\nThe process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.\n\n---\n\n## Inclusionist Perspective\n\nRelational value does not eliminate individual contribution.\n\nIt creates a need for increasingly sophisticated methods of understanding contribution.\n\n---\n\n## Core Principle\n\nThe fact that value emerges through relationships increases the importance of attribution.\n\n---\n\n## Inclusionist Perspective\n\nFuture civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.\n\nIn informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Interaction]]\n    \n- [[Agency]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Data Dividend]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Value Distribution]]\n\n- [[Recognition]]\n\n- [[Data]]\n\n- [[Personal Data]]\n    \n\n---\n\n## Core Question\n\nHow accurately can civilizations identify participation in value creation?",
+    "content": "# Relational Attribution\n\n## Definition\n\nThe process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction.\n\n---\n\n## Inclusionist Perspective\n\nRelational value does not eliminate individual contribution.\n\nIt creates a need for increasingly sophisticated methods of understanding contribution.\n\n---\n\n## Core Principle\n\nThe fact that value emerges through relationships increases the importance of attribution.\n\n---\n\n## Inclusionist Perspective\n\nFuture civilizations may become increasingly capable of understanding how value emerges through complex networks of participation.\n\nIn informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.\n\nAs technologies reconstruct the conditions of future participation, attribution must preserve the contributions that constructed those technologies without denying the agency of new participants. See [[Technological Constructivism]].\n\n---\n\n## Relationships\n\n- [[Value]]\n    \n- [[Interaction]]\n    \n- [[Agency]]\n    \n- [[Ownership]]\n    \n- [[Equity]]\n    \n- [[Data Dividend]]\n    \n- [[Universal Basic Ownership]]\n\n- [[Value Distribution]]\n\n- [[Recognition]]\n\n- [[Data]]\n\n- [[Personal Data]]\n\n- [[Technological Constructivism]]\n    \n\n---\n\n## Core Question\n\nHow accurately can civilizations identify participation in value creation?",
     "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi",
     "status": "Canon",
     "links": [
@@ -9052,6 +9140,10 @@
       {
         "slug": "personal-data",
         "title": "Personal Data"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "value",
@@ -9126,6 +9218,10 @@
       {
         "slug": "personal-data",
         "title": "Personal Data"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "value-distribution-systems",
@@ -9263,13 +9359,17 @@
     "title": "Self Sovereignty",
     "path": "Self Sovereignty.md",
     "category": "Inclusionism Core",
-    "content": "# Self Sovereignty\n\n## Definition\nThe capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks.\n\n---\n\n## Inclusionist Perspective\nHealthy civilizations balance collective coordination with individual sovereignty.\n\nSelf sovereignty increasingly depends on informational self-determination.\n\nAgents cannot maintain meaningful sovereignty when their [[Personal Data]], digital identity, behavioral traces, and data lineage are controlled entirely by external systems.\n\n---\n\n## Relationships\n- [[Identity]]\n- [[Participation]]\n- [[Personal Data]]\n- [[Privacy]]\n- [[Data]]\n- [[Distributed Governance]]\n- [[Ownership]]\n- [[Agency]]\n- [[Decentralization]]\n\n---\n\n## Questions\n- Can self sovereignty exist within hyperconnected systems?\n- How should digital identity evolve?\n- What threatens sovereignty in AI societies?",
+    "content": "# Self Sovereignty\n\n## Definition\nThe capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks.\n\n---\n\n## Inclusionist Perspective\nHealthy civilizations balance collective coordination with individual sovereignty.\n\nSelf sovereignty increasingly depends on informational self-determination.\n\nAgents cannot maintain meaningful sovereignty when their [[Personal Data]], digital identity, behavioral traces, and data lineage are controlled entirely by external systems.\n\nBecause technologies reconstruct the conditions under which agents act, self sovereignty also requires meaningful authority over technological mediation and self-construction. See [[Technological Constructivism]].\n\n---\n\n## Relationships\n- [[Identity]]\n- [[Participation]]\n- [[Personal Data]]\n- [[Privacy]]\n- [[Data]]\n- [[Distributed Governance]]\n- [[Ownership]]\n- [[Agency]]\n- [[Decentralization]]\n- [[Technological Constructivism]]\n\n---\n\n## Questions\n- Can self sovereignty exist within hyperconnected systems?\n- How should digital identity evolve?\n- What threatens sovereignty in AI societies?",
     "excerpt": "Self Sovereignty Definition The capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks. --- Inclusionist Perspective Healthy civilizations balance collective coordination with individual sovereignty.",
     "status": "Canon",
     "links": [
       {
         "slug": "personal-data",
         "title": "Personal Data"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "identity",
@@ -9340,6 +9440,10 @@
       {
         "slug": "privacy",
         "title": "Privacy"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       }
     ],
     "aliases": []
@@ -9677,14 +9781,152 @@
     "aliases": []
   },
   {
+    "slug": "technological-constructivism",
+    "title": "Technological Constructivism",
+    "path": "Technological Constructivism.md",
+    "category": "Inclusionism Core",
+    "content": "# Technological Constructivism\n\n## Definition\n\nThe recursive process through which agents construct technologies and technologies reconstruct the conditions under which agents act.\n\n---\n\n## Inclusionist Perspective\n\nTechnology is neither an autonomous force that simply determines society nor merely a passive artifact constructed by society.\n\nAgents construct technologies, and technologies reconstruct the conditions of [[Agency]].\n\nThe relationship is recursive:\n\nAgents -> [[Technology]] -> Conditions of [[Agency]] -> New [[Interaction|Interactions]] -> New Agents, Communities, and Institutions -> [[Technology]]\n\nTechnology emerges from accumulated human and social [[Participation]]: knowledge, labor, culture, [[Data]], institutions, infrastructure, experimentation, energy, and prior technologies.\n\nOnce created, technology changes the environment of possibility. It can expand, constrain, redistribute, concentrate, or transform agency. Those altered conditions then change behavior, identity, institutions, relationships, and subsequent technological development.\n\nTechnological Constructivism therefore treats technological and social development as a continuous feedback system rather than a one-directional causal relationship.\n\n---\n\n## Three Positions\n\n### Technological Determinism\n\nTechnological determinism treats technology as a major independent force driving social organization and historical change.\n\nThis perspective is useful for understanding how infrastructures and technical capabilities can reorganize society even when no single agent intends the result.\n\n### Social Constructivism\n\nSocial constructivism understands technology substantially through the social, cultural, political, institutional, and economic forces that shape its development and use.\n\nThis perspective is useful for understanding why technologies reflect the choices, incentives, assumptions, and power structures of the societies that create them.\n\n### Inclusionist Technological Constructivism\n\nInclusionist Technological Constructivism emphasizes recursion:\n\nSociety constructs technology.\n\nTechnology reconstructs the conditions of agency.\n\nAgents respond to those conditions.\n\nThose responses construct the next technological and social environment.\n\nThis is not simply a compromise between technological determinism and social constructivism. It is a framework for examining technology simultaneously as an output of participation and an input into future participation. Other traditions may also recognize reciprocal or co-constructive processes; Inclusionism places the distribution of agency and value at the center of that recursion.\n\n---\n\n## Inclusionist Principle\n\nTechnology is constructed by agency and becomes an architecture through which future agency is constructed.\n\nTechnological development should therefore be evaluated not only by what a technology can do, but by what it does to the distribution and exercise of agency.\n\nA technology can expand aggregate capability while concentrating agency.\n\nIt can increase efficiency while reducing participation.\n\nIt can create new forms of personhood while obscuring the lineage of contributions that made those forms possible.\n\nIt can also create new forms of [[Differentiation]], participation, [[Ownership]], [[Recognition]], and [[Belonging]].\n\n---\n\n## Technology and Self-Construction\n\nAgents use technology to construct and reconstruct themselves.\n\nLanguage, medicine, clothing, tools, prosthetics, hormones, computers, networks, artificial intelligence, synthetic organs, neural interfaces, and future forms of augmentation belong to a long history of technological mediation of human capability and identity.\n\nThese technologies are not equivalent. Their risks, reversibility, accessibility, and effects on identity differ substantially. The structural point is that technology has long participated in how agents alter their capabilities, environments, identities, relationships, and possibilities for action.\n\nThis places technological self-construction in direct relationship with [[Human Enhancement]] and [[Self Sovereignty]]. Enhancement becomes legitimate when agents retain meaningful authority over the conditions of their own transformation and when access does not deepen illegitimate stratification.\n\nThis is also central to Inclusionism's treatment of transhumanism: technological self-transformation should expand agency without severing personhood, contribution, or identity from the relationships through which they developed.\n\n---\n\n## AI, Lineage, and Synthetic Agents\n\nArtificial intelligence is constructed from accumulated contributions including human knowledge, labor, data, culture, infrastructure, energy, institutions, and prior technological systems.\n\nIf synthetic systems eventually develop forms of agency or [[Personhood]], recognition of that agency does not erase this lineage.\n\nPersonhood does not erase lineage.\n\nPersonhood concerns recognition and dignity.\n\nLineage concerns contribution and [[Relational Attribution]].\n\nA synthetic agent may eventually become a participant in civilization while still emerging from a network of prior contributions whose [[Value]] should not disappear. The recognition of new agency and the attribution of inherited contribution are different moral tasks.\n\nThis distinction connects technological development to [[AI Governance]], [[Collective Intelligence Capital]], [[Intelligence Ownership]], [[Value Distribution]], and ownership. Systems capable of creating new agents must also preserve the lineages through which those agents became possible.\n\n---\n\n## The Agency Test\n\nWhen a technology changes society, ask:\n\n- Whose agency did it expand?\n- Whose agency did it constrain?\n- Whose contributions constructed it?\n- Who received recognition for those contributions?\n- Who received ownership or economic participation?\n- What new agents, relationships, institutions, or communities did the technology make possible?\n- How will those changes shape the next technological environment?\n\nThe purpose is not to decide whether technology is inherently good or bad. It is to understand the recursive distribution of agency and value produced by technological change.\n\n---\n\n## Civilizational Importance\n\nTechnological systems become part of the architecture through which civilizations recognize participation, attribute value, distribute ownership, and legitimate power.\n\nThe same technology may expand capability while producing unequal conditions of agency. [[Equity]] therefore requires attention to both technological output and the ownership, participation, influence, and self-determination available to the agents and communities who constructed it.\n\nTechnological legitimacy depends on whether transformed conditions remain accountable to the participants whose contributions made transformation possible.\n\n---\n\n## Relationships\n\n- [[Technology]]\n- [[Agency]]\n- [[Participation]]\n- [[Interaction]]\n- [[Value]]\n- [[Differentiation]]\n- [[Human Enhancement]]\n- [[Self Sovereignty]]\n- [[Personhood]]\n- [[AI Governance]]\n- [[Recognition]]\n- [[Ownership]]\n- [[Relational Attribution]]\n- [[Value Distribution]]\n- [[Collective Intelligence Capital]]\n- [[Intelligence Ownership]]\n- [[Equity]]\n- [[Belonging]]\n- [[Data]]\n\n---\n\n## Core Question\n\nHow should civilizations govern technologies that are constructed through participation and then reconstruct the conditions of future participation?",
+    "excerpt": "Technological Constructivism Definition The recursive process through which agents construct technologies and technologies reconstruct the conditions under which agents act. --- Inclusionist Perspective Technology is neither an autonomous force that simply det",
+    "status": "Canon",
+    "links": [
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "technology",
+        "title": "Technology"
+      },
+      {
+        "slug": "interaction",
+        "title": "Interaction"
+      },
+      {
+        "slug": "participation",
+        "title": "Participation"
+      },
+      {
+        "slug": "data",
+        "title": "Data"
+      },
+      {
+        "slug": "differentiation",
+        "title": "Differentiation"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "recognition",
+        "title": "# Recognition"
+      },
+      {
+        "slug": "belonging",
+        "title": "Belonging"
+      },
+      {
+        "slug": "human-enhancement",
+        "title": "Human Enhancement"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "personhood",
+        "title": "Personhood"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "value",
+        "title": "Value"
+      },
+      {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
+        "slug": "collective-intelligence-capital",
+        "title": "# Collective Intelligence Capital"
+      },
+      {
+        "slug": "intelligence-ownership",
+        "title": "# Intelligence Ownership"
+      },
+      {
+        "slug": "value-distribution",
+        "title": "Value Distribution"
+      },
+      {
+        "slug": "equity",
+        "title": "Equity"
+      }
+    ],
+    "backlinks": [
+      {
+        "slug": "ai-governance",
+        "title": "AI Governance"
+      },
+      {
+        "slug": "agency",
+        "title": "Agency"
+      },
+      {
+        "slug": "collective-intelligence-capital",
+        "title": "# Collective Intelligence Capital"
+      },
+      {
+        "slug": "human-enhancement",
+        "title": "Human Enhancement"
+      },
+      {
+        "slug": "inclusionism-canon-v10-moc",
+        "title": "Inclusionism Canon v1.0"
+      },
+      {
+        "slug": "intelligence-ownership",
+        "title": "# Intelligence Ownership"
+      },
+      {
+        "slug": "ownership",
+        "title": "Ownership"
+      },
+      {
+        "slug": "personhood",
+        "title": "Personhood"
+      },
+      {
+        "slug": "relational-attribution",
+        "title": "Relational Attribution"
+      },
+      {
+        "slug": "self-sovereignty",
+        "title": "Self Sovereignty"
+      },
+      {
+        "slug": "technology",
+        "title": "Technology"
+      }
+    ],
+    "aliases": []
+  },
+  {
     "slug": "technology",
     "title": "Technology",
     "path": "Technology.md",
     "category": "Inclusionism Core",
-    "content": "# Technology\n\n## Definition\nThe extension of transformational capacity through tools, systems, and applied knowledge.\n\n---\n\n## Inclusionist Principle\nTechnology should expand participatory agency.\n\n---\n\n## Relationships\n- [[Automation]]\n- [[Human Enhancement]]\n- [[AI Governance]]\n- [[Networks]]\n- [[Civilization]]\n- [[Adaptation]]\n\n---\n\n## Questions\n- Is technology evolutionary?\n- Can technology centralize power?\n- How should technology be governed?",
-    "excerpt": "Technology Definition The extension of transformational capacity through tools, systems, and applied knowledge. --- Inclusionist Principle Technology should expand participatory agency. --- Relationships - Automation - Human Enhancement - AI Governance - Netwo",
+    "content": "# Technology\n\n## Definition\nThe extension of transformational capacity through tools, systems, and applied knowledge.\n\n---\n\n## Inclusionist Principle\nTechnology should expand participatory agency.\n\nTechnology is constructed by agency and becomes an architecture through which future agency is constructed. See [[Technological Constructivism]].\n\n---\n\n## Relationships\n- [[Automation]]\n- [[Human Enhancement]]\n- [[AI Governance]]\n- [[Networks]]\n- [[Civilization]]\n- [[Adaptation]]\n- [[Technological Constructivism]]\n\n---\n\n## Questions\n- Is technology evolutionary?\n- Can technology centralize power?\n- How should technology be governed?",
+    "excerpt": "Technology Definition The extension of transformational capacity through tools, systems, and applied knowledge. --- Inclusionist Principle Technology should expand participatory agency. Technology is constructed by agency and becomes an architecture through wh",
     "status": "Canon",
     "links": [
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
       {
         "slug": "automation",
         "title": "Automation"
@@ -9774,6 +10016,10 @@
       {
         "slug": "technogaian-ethics",
         "title": "Technogaian Ethics"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "transformation",
@@ -10438,6 +10684,10 @@
         "title": "Start Here"
       },
       {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
+      },
+      {
         "slug": "transaction",
         "title": "Transaction"
       },
@@ -10582,6 +10832,10 @@
       {
         "slug": "relational-attribution",
         "title": "Relational Attribution"
+      },
+      {
+        "slug": "technological-constructivism",
+        "title": "Technological Constructivism"
       },
       {
         "slug": "universal-basic-ownership",

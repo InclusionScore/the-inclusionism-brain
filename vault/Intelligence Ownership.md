@@ -24,6 +24,8 @@ Artificial intelligence may become a form of civilization-scale infrastructure.
 
 The governance of that infrastructure may become one of the defining questions of future civilizations.
 
+Because intelligence infrastructure reconstructs the conditions of agency, its ownership is a central concern of [[Technological Constructivism]].
+
 ---
 
 ## Relationships
@@ -39,6 +41,8 @@ The governance of that infrastructure may become one of the defining questions o
 - [[Value Distribution]]
     
 - [[Intelligence Infrastructure]]
+
+- [[Technological Constructivism]]
     
 
 ---

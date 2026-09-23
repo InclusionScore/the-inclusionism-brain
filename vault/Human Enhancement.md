@@ -8,6 +8,8 @@ Technological augmentation of human cognitive, biological, or physical capacitie
 ## Inclusionist Perspective
 Enhancement technologies should expand equitable participation rather than deepen stratification.
 
+Agents use technology to reconstruct their capabilities and conditions of action. [[Technological Constructivism]] evaluates that process through its effects on agency, access, and self-determination.
+
 ---
 
 ## Relationships
@@ -17,6 +19,7 @@ Enhancement technologies should expand equitable participation rather than deepe
 - [[Agency]]
 - [[Health]]
 - [[Equity]]
+- [[Technological Constructivism]]
 
 ---
 

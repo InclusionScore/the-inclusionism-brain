@@ -8,6 +8,8 @@ The extension of transformational capacity through tools, systems, and applied k
 ## Inclusionist Principle
 Technology should expand participatory agency.
 
+Technology is constructed by agency and becomes an architecture through which future agency is constructed. See [[Technological Constructivism]].
+
 ---
 
 ## Relationships
@@ -17,6 +19,7 @@ Technology should expand participatory agency.
 - [[Networks]]
 - [[Civilization]]
 - [[Adaptation]]
+- [[Technological Constructivism]]
 
 ---
 

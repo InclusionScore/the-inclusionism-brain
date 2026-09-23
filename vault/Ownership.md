@@ -80,3 +80,5 @@ Healthy ownership systems balance:
 ## Core Question
 
 How should ownership evolve as value becomes increasingly collective, informational, and AI-mediated?
+
+[[Technological Constructivism]] extends this question by examining how ownership of constructed technologies shapes the conditions of future agency.

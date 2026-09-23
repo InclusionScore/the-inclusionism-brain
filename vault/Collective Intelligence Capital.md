@@ -24,6 +24,8 @@ Civilizations generate intelligence collectively.
 
 Artificial intelligence increasingly depends upon collective intelligence capital as its underlying substrate.
 
+[[Technological Constructivism]] explains how intelligence systems emerge from accumulated participation and then reshape the conditions of future participation.
+
 ---
 
 ## Relationships
@@ -37,6 +39,8 @@ Artificial intelligence increasingly depends upon collective intelligence capita
 - [[Universal Basic Ownership]]
     
 - [[Intelligence Ownership]]
+
+- [[Technological Constructivism]]
     
 
 ---

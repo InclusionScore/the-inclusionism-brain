@@ -26,6 +26,8 @@ Future civilizations may become increasingly capable of understanding how value 
 
 In informational systems, attribution depends on preserving enough [[Data]] lineage to understand how [[Personal Data]], labor, interaction, and coordination contributed to value.
 
+As technologies reconstruct the conditions of future participation, attribution must preserve the contributions that constructed those technologies without denying the agency of new participants. See [[Technological Constructivism]].
+
 ---
 
 ## Relationships
@@ -51,6 +53,8 @@ In informational systems, attribution depends on preserving enough [[Data]] line
 - [[Data]]
 
 - [[Personal Data]]
+
+- [[Technological Constructivism]]
     
 
 ---
