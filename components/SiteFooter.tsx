@@ -9,6 +9,9 @@ const links = [
   { href: "/graph", label: "Graph" },
   { href: "/notes", label: "Canon" },
   { href: "/compare", label: "Compare" },
+  { href: "/ideas", label: "Ideas" },
+  { href: "/about/james-felton-keith", label: "Founder" },
+  { href: "/publications", label: "Publications" },
   { href: "/pest", label: "PEST" },
   { href: "/what-is-inclusionism", label: "About" },
   { href: "/sitemap.xml", label: "Sitemap" }

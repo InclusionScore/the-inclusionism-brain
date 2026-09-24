@@ -1,5 +1,12 @@
 import type { NextConfig } from "next";
 
+const canonicalSite = (
+  process.env.NEXT_PUBLIC_CANONICAL_URL ||
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  process.env.SITE_URL ||
+  "https://www.inclusionism.org"
+).replace(/\/$/, "");
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
@@ -11,22 +18,21 @@ const nextConfig: NextConfig = {
     ]
   },
   async redirects() {
-    if (process.env.FORCE_CANONICAL_HOST_REDIRECT !== "true") {
-      return [];
-    }
-
-    const canonicalHost = process.env.CANONICAL_HOST || "inclusionism.org";
     return [
       {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.inclusionism.org" }],
-        destination: `https://${canonicalHost}/:path*`,
+        source: "/en",
+        destination: "/",
+        permanent: true
+      },
+      {
+        source: "/en/:path*",
+        destination: "/:path*",
         permanent: true
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "brain.inclusionism.org" }],
-        destination: `https://${canonicalHost}/:path*`,
+        destination: `${canonicalSite}/:path*`,
         permanent: true
       }
     ];

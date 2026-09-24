@@ -10,6 +10,10 @@ export type Note = {
   category: string;
   content: string;
   excerpt: string;
+  description: string;
+  provenance?: string;
+  antecedents: string[];
+  dateModified?: string;
   status: "Draft" | "Candidate" | "Canon" | "Deprecated";
   links: NoteLink[];
   backlinks: NoteLink[];

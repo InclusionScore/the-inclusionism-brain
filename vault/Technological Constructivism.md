@@ -1,3 +1,12 @@
+---
+description: "Technological Constructivism is the Inclusionist theory that agents construct technologies and technologies recursively reconstruct the conditions of agency."
+provenance: "An Inclusionist concept developed by James Felton Keith. It builds upon, but is distinct from, technological determinism and social construction approaches to technology."
+antecedents:
+  - Technological Determinism
+  - Social Construction of Technology
+dateModified: 2026-09-23
+---
+
 # Technological Constructivism
 
 ## Definition

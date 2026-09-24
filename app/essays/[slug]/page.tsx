@@ -3,7 +3,9 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExternalLink, MessageSquareText, PenLine } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
 import { getEditorialEssay } from "@/lib/content";
+import { breadcrumb, entityIds } from "@/lib/entities";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 
 export const revalidate = 3600;
@@ -56,9 +58,35 @@ export default async function EssayPage({ params }: { params: Promise<{ slug: st
 
   return (
     <main className="mx-auto grid max-w-7xl gap-10 px-4 py-10 sm:px-6 lg:grid-cols-[1fr_360px]">
+      <JsonLd
+        data={[
+          {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "@id": siteUrl(`/essays/${essay.slug}#article`),
+            headline: essay.title,
+            description: essay.excerpt,
+            datePublished: essay.date,
+            dateModified: essay.date,
+            image: essay.heroImage || siteUrl("/brand/inclusionism-logo-border.png"),
+            author: { "@id": entityIds.jamesFeltonKeith },
+            publisher: { "@id": entityIds.keithInstitute },
+            mainEntityOfPage: siteUrl(`/essays/${essay.slug}`),
+            isPartOf: { "@id": entityIds.website },
+            isBasedOn: essay.canonicalUrl || essay.link
+          },
+          breadcrumb([
+            { name: "Essays", path: "/essays" },
+            { name: essay.title, path: `/essays/${essay.slug}` }
+          ])
+        ]}
+      />
       <article className="max-w-4xl">
         <p className="brand-kicker">Essay / {formatDate(essay.date)}</p>
         <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">{essay.title}</h1>
+        <p className="mt-4 text-sm text-white/50">
+          By <Link href="/about/james-felton-keith" rel="author" className="text-signal hover:underline">James Felton Keith</Link>
+        </p>
         <p className="mt-6 max-w-3xl border-l-4 border-signal pl-5 text-lg leading-8 text-white/70">
           {essay.excerpt}
         </p>

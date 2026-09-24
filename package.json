@@ -9,6 +9,7 @@
     "build:content": "node scripts/build-content.mjs",
     "lint": "eslint .",
     "test": "node --test",
+    "check:links": "node scripts/check-links.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

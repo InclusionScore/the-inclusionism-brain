@@ -89,7 +89,8 @@ export function searchNotes(query: string, limit = 8): SearchEntry[] {
 export function renderNoteMarkdown(note: Note, allNotes = note.status === "Canon" ? getAllNotes() : getReadableNotes()): string {
   const byTitle = new Map(allNotes.map((item) => [item.title.toLowerCase(), item]));
   const byFile = new Map(allNotes.map((item) => [item.path.split("/").pop()?.replace(/\.md$/i, "").toLowerCase(), item]));
-  const htmlReady = note.content.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (_, rawTarget: string, alias: string) => {
+  const withoutDuplicateTitle = note.content.replace(/^#\s+[^\n]+\n+/, "");
+  const htmlReady = withoutDuplicateTitle.replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (_, rawTarget: string, alias: string) => {
     const key = rawTarget.trim().toLowerCase();
     const target = byTitle.get(key) || byFile.get(key);
     const label = alias || rawTarget;

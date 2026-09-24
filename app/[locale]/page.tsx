@@ -7,6 +7,8 @@ import { getGraph } from "@/lib/content";
 import { isLocale, localePath, type Locale, t } from "@/lib/i18n";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return Object.keys(t).map((locale) => ({ locale }));
 }

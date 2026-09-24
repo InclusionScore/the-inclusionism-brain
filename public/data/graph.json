@@ -12,6 +12,70 @@
   ],
   "nodes": [
     {
+      "id": "ownership",
+      "title": "Ownership",
+      "category": "Inclusionism Core",
+      "backlinks": 39,
+      "links": 13,
+      "excerpt": "Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-generati"
+    },
+    {
+      "id": "participation",
+      "title": "Participation",
+      "category": "Inclusionism Core",
+      "backlinks": 85,
+      "links": 6,
+      "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. --- Relationships - Agency - Inclusion - Governance - Value - Connectivit"
+    },
+    {
+      "id": "value",
+      "title": "Value",
+      "category": "Inclusionism Core",
+      "backlinks": 34,
+      "links": 10,
+      "excerpt": "Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Value"
+    },
+    {
+      "id": "data-ontology",
+      "title": "Data Ontology",
+      "category": "Inclusionism Core",
+      "backlinks": 0,
+      "links": 8,
+      "excerpt": "Data Ontology Definition A layered framework describing how raw interaction becomes meaning, intelligence, coordination, and value within civilization. --- Inclusionist Hierarchy Data Observable residue generated through interaction. --- Information Structured"
+    },
+    {
+      "id": "participation-precedes-ownership",
+      "title": "Participation Precedes Ownership",
+      "category": "Inclusionism Core",
+      "backlinks": 1,
+      "links": 11,
+      "excerpt": "Participation Precedes Ownership Inclusionist Principle Participation in systems precedes claims of ownership over systems. --- Explanation Individuals and entities generate value through: - existence - interaction - labor - data generation - coordination - co"
+    },
+    {
+      "id": "personal-data",
+      "title": "Personal Data",
+      "category": "Inclusionism Core",
+      "backlinks": 16,
+      "links": 13,
+      "excerpt": "Personal Data Definition Personal data is metadata that derives from living and non-living individuals through existence, interaction, participation, and transaction within systems. --- Inclusionist Perspective All data is a derivative of personal data because"
+    },
+    {
+      "id": "ai-economies",
+      "title": "AI Economies",
+      "category": "Inclusionism Core",
+      "backlinks": 5,
+      "links": 5,
+      "excerpt": "# AI Economies Definition Economic systems in which artificial intelligence, automation, data, and computational infrastructure become primary mechanisms of value creation. --- Inclusionist Perspective AI economies increase the importance of attribution, owner"
+    },
+    {
+      "id": "data-dividend",
+      "title": "Data Dividend",
+      "category": "Inclusionism Core",
+      "backlinks": 9,
+      "links": 6,
+      "excerpt": "# Data Dividend Definition A mechanism through which individuals receive value derived from data generated through their participation in social, economic, technological, or informational systems. --- Inclusionist Perspective Personal data emerges through inte"
+    },
+    {
       "id": "03-economicseconomic-inclusion",
       "title": "Economic Inclusion",
       "category": "Economics",
@@ -28,20 +92,196 @@
       "excerpt": "Economic Mobility The capacity to improve one's participation and ownership position."
     },
     {
-      "id": "08-inclusionism-coreinclusionism",
-      "title": "Inclusionism",
+      "id": "labor",
+      "title": "Labor",
       "category": "Inclusionism Core",
-      "backlinks": 2,
-      "links": 0,
-      "excerpt": "Inclusionism A framework for participatory civilization, value emergence, ownership distribution, and collective intelligence."
+      "backlinks": 1,
+      "links": 8,
+      "excerpt": "Labor Definition The expenditure of physical, cognitive, emotional, creative, or relational effort toward production, coordination, maintenance, or value generation within systems. --- Inclusionist Perspective Labor is one mechanism through which individuals p"
     },
     {
-      "id": "ai-economies",
-      "title": "# AI Economies",
+      "id": "universal-basic-ownership",
+      "title": "Universal Basic Ownership",
+      "category": "Inclusionism Core",
+      "backlinks": 15,
+      "links": 6,
+      "excerpt": "# Universal Basic Ownership Definition A framework in which individuals possess baseline ownership participation within civilization-scale value-generating systems. --- Inclusionist Perspective Universal Basic Ownership expands beyond income redistribution by "
+    },
+    {
+      "id": "value-distribution",
+      "title": "Value Distribution",
+      "category": "Inclusionism Core",
+      "backlinks": 18,
+      "links": 11,
+      "excerpt": "Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. The"
+    },
+    {
+      "id": "democracy",
+      "title": "Democracy",
+      "category": "Inclusionism Core",
+      "backlinks": 11,
+      "links": 6,
+      "excerpt": "# Democracy Definition A governance system that distributes participation in collective decision-making among members of a community, society, or civilization. --- Inclusionist Perspective Democracy is not merely majority rule. Democracy is a mechanism for leg"
+    },
+    {
+      "id": "information-manipulation",
+      "title": "Information Manipulation",
+      "category": "Inclusionism Core",
+      "backlinks": 3,
+      "links": 6,
+      "excerpt": "Information Manipulation Definition The intentional shaping, distortion, filtering, amplification, suppression, or weaponization of informational flows in order to influence perception, coordination, behavior, or legitimacy. --- Inclusionist Perspective Civili"
+    },
+    {
+      "id": "legitimacy",
+      "title": "Legitimacy",
+      "category": "Inclusionism Core",
+      "backlinks": 13,
+      "links": 7,
+      "excerpt": "Legitimacy Definition The recognized validity of authority, participation, ownership, governance, or value distribution within a system. --- Inclusionist Perspective Legitimacy emerges when participants believe systems accurately recognize reality. --- Core Pr"
+    },
+    {
+      "id": "technocracy",
+      "title": "Technocracy",
+      "category": "Inclusionism Core",
+      "backlinks": 4,
+      "links": 8,
+      "excerpt": "Technocracy Definition A system of governance in which decision-making authority is concentrated among technical experts, institutions, algorithms, or optimization systems. --- Inclusionist Perspective Technocracy may improve coordination efficiency while simu"
+    },
+    {
+      "id": "belonging",
+      "title": "Belonging",
+      "category": "Inclusionism Core",
+      "backlinks": 41,
+      "links": 9,
+      "excerpt": "Belonging Definition The condition that emerges when an agent's existence, participation, agency, and value are recognized within a system. --- Inclusionist Perspective Belonging is not merely acceptance. Belonging is the experience of being recognized as a le"
+    },
+    {
+      "id": "caste",
+      "title": "Caste",
       "category": "Inclusionism Core",
       "backlinks": 5,
+      "links": 6,
+      "excerpt": "Caste Definition A rigid social stratification system in which participation, status, legitimacy, identity, and opportunity become inherited or structurally fixed across generations. --- Inclusionist Perspective Caste systems reduce adaptive capacity by constr"
+    },
+    {
+      "id": "class",
+      "title": "Class",
+      "category": "Inclusionism Core",
+      "backlinks": 8,
+      "links": 6,
+      "excerpt": "Class Definition A system of social and economic stratification based on differential access to resources, ownership, labor positioning, participation capacity, and institutional influence. --- Inclusionist Perspective Class structures shape how individuals pa"
+    },
+    {
+      "id": "equality",
+      "title": "Equality",
+      "category": "Inclusionism Core",
+      "backlinks": 1,
+      "links": 8,
+      "excerpt": "Equality Definition The condition in which individuals or groups possess similar status, treatment, rights, resources, opportunity, or participation within systems. --- Inclusionist Perspective Equality can increase fairness and reduce exclusion, but absolute "
+    },
+    {
+      "id": "equity",
+      "title": "Equity",
+      "category": "Inclusionism Core",
+      "backlinks": 18,
+      "links": 9,
+      "excerpt": "Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has reco"
+    },
+    {
+      "id": "human-meaning",
+      "title": "Human Meaning",
+      "category": "Inclusionism Core",
+      "backlinks": 4,
       "links": 5,
-      "excerpt": "# AI Economies Definition Economic systems in which artificial intelligence, automation, data, and computational infrastructure become primary mechanisms of value creation. --- Inclusionist Perspective AI economies increase the importance of attribution, owner"
+      "excerpt": "# Human Meaning Definition The experience of significance, purpose, contribution, belonging, and agency within reality. --- Inclusionist Perspective Meaning emerges through participation in systems that individuals perceive as valuable. --- Core Principle Agen"
+    },
+    {
+      "id": "identity",
+      "title": "Identity",
+      "category": "Inclusionism Core",
+      "backlinks": 31,
+      "links": 9,
+      "excerpt": "# Identity Definition The persistent pattern through which an agent understands itself and is understood by others across time. --- Inclusionist Perspective Identity is neither purely individual nor purely social. Identity emerges through the ongoing interacti"
+    },
+    {
+      "id": "personhood",
+      "title": "Personhood",
+      "category": "Inclusionism Core",
+      "backlinks": 5,
+      "links": 9,
+      "excerpt": "Personhood Definition The recognized status of an entity as a participant possessing identity, agency, and moral consideration. --- Inclusionist Perspective AI, biological systems, institutions, and future intelligences may challenge traditional boundaries of "
+    },
+    {
+      "id": "pluralism",
+      "title": "Pluralism",
+      "category": "Inclusionism Core",
+      "backlinks": 15,
+      "links": 6,
+      "excerpt": "# Pluralism Definition The coexistence of multiple identities, beliefs, perspectives, cultures, and forms of participation within a shared system. --- Inclusionist Perspective Pluralism preserves differentiation. Differentiation creates the possibility of new "
+    },
+    {
+      "id": "race",
+      "title": "Race",
+      "category": "Inclusionism Core",
+      "backlinks": 2,
+      "links": 7,
+      "excerpt": "Race Definition A socially constructed system of human categorization historically associated with ancestry, physical traits, identity formation, power distribution, and civilizational hierarchy. --- Inclusionist Perspective Race functions as a coordination an"
+    },
+    {
+      "id": "recognition",
+      "title": "Recognition",
+      "category": "Inclusionism Core",
+      "backlinks": 16,
+      "links": 8,
+      "excerpt": "# Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful "
+    },
+    {
+      "id": "civilization",
+      "title": "Civilization",
+      "category": "Inclusionism Core",
+      "backlinks": 37,
+      "links": 8,
+      "excerpt": "# Civilization Definition A large-scale coordination system through which agents organize interactions, value creation, participation, belonging, and governance. --- Inclusionist Perspective Civilizations are systems for managing interactions among differentia"
+    },
+    {
+      "id": "global-coordination",
+      "title": "Global Coordination",
+      "category": "Inclusionism Core",
+      "backlinks": 2,
+      "links": 6,
+      "excerpt": "Global Coordination Definition The ability of planetary systems, institutions, communities, and networks to synchronize action across borders and scales. --- Inclusionist Perspective Shared-fate problems require coordination beyond nation-state realism. --- Re"
+    },
+    {
+      "id": "mesh-regions",
+      "title": "Mesh Regions",
+      "category": "Inclusionism Core",
+      "backlinks": 4,
+      "links": 6,
+      "excerpt": "Mesh Regions Definition A mesh region is a networked zone of belonging, identity, exchange, and coordination that may overlap with but is not limited by nation-state borders. --- Inclusionist Perspective Mesh regions replace rigid territorial thinking with dyn"
+    },
+    {
+      "id": "networks",
+      "title": "Networks",
+      "category": "Inclusionism Core",
+      "backlinks": 44,
+      "links": 6,
+      "excerpt": "Networks Definition Interconnected systems capable of transmitting information, energy, and coordination. --- Core Principle Civilization evolves through networked cooperation. --- Relationships - Connectivity - Collective Intelligence - Distributed Ecosystems"
+    },
+    {
+      "id": "optimization",
+      "title": "Optimization",
+      "category": "Inclusionism Core",
+      "backlinks": 1,
+      "links": 9,
+      "excerpt": "Optimization Definition The process of increasing efficiency, performance, coordination, output, predictability, or desired outcomes within systems. --- Inclusionist Perspective Optimization is not inherently good or bad. Civilizational outcomes depend on: - w"
+    },
+    {
+      "id": "stratification-systems",
+      "title": "Stratification Systems",
+      "category": "Inclusionism Core",
+      "backlinks": 0,
+      "links": 3,
+      "excerpt": "Stratification Systems Definition Structures that distribute participation, legitimacy, agency, ownership, mobility, and recognition unevenly across civilizations. --- Inclusionist Perspective Stratification systems influence: - coordination capacity - social "
     },
     {
       "id": "ai-governance",
@@ -50,6 +290,54 @@
       "backlinks": 23,
       "links": 13,
       "excerpt": "AI Governance Definition Systems for coordinating the development, deployment, and alignment of artificial intelligence. --- Inclusionist Perspective AI systems should maximize distributed participation, transparency, and adaptive flourishing. AI governance mu"
+    },
+    {
+      "id": "collective-intelligence-capital",
+      "title": "Collective Intelligence Capital",
+      "category": "Inclusionism Core",
+      "backlinks": 7,
+      "links": 6,
+      "excerpt": "# Collective Intelligence Capital Definition The accumulated knowledge, creativity, culture, expertise, participation, and problem-solving capacity embedded within civilizations. --- Inclusionist Perspective No advanced intelligence system emerges from a singl"
+    },
+    {
+      "id": "collective-intelligence",
+      "title": "Collective Intelligence",
+      "category": "Inclusionism Core",
+      "backlinks": 28,
+      "links": 6,
+      "excerpt": "Collective Intelligence Definition The emergent problem-solving capacity of coordinated systems. --- Core Principle Connectivity amplifies adaptive intelligence. --- Relationships - Networks - Coordination - Inclusion - Participation - Governance - Civilizatio"
+    },
+    {
+      "id": "intelligence-infrastructure",
+      "title": "Intelligence Infrastructure",
+      "category": "Inclusionism Core",
+      "backlinks": 1,
+      "links": 0,
+      "excerpt": "Intelligence Infrastructure Systems that generate and distribute knowledge and intelligence."
+    },
+    {
+      "id": "intelligence-ownership",
+      "title": "Intelligence Ownership",
+      "category": "Inclusionism Core",
+      "backlinks": 7,
+      "links": 7,
+      "excerpt": "# Intelligence Ownership Definition The ownership, governance, participation rights, and value claims associated with intelligence-producing systems. --- Inclusionist Perspective As intelligence increasingly becomes collective, computational, and networked, ow"
+    },
+    {
+      "id": "inclusionism",
+      "title": "Inclusionism",
+      "category": "Inclusionism Core",
+      "backlinks": 2,
+      "links": 13,
+      "excerpt": "Inclusionism This canon is a living framework rather than a finished doctrine. Its purpose is to explore how value emerges through interaction and how civilizations recognize, attribute, distribute, and legitimate that value. The ideas contained herein are int"
+    },
+    {
+      "id": "civilization-moc",
+      "title": "Civilization MOC",
+      "category": "Inclusionism Core",
+      "backlinks": 0,
+      "links": 17,
+      "excerpt": "Civilization MOC Map-of-Content Civilizational Structure - Civilization - Networks - Governance - Collective Intelligence --- Adaptive Systems - Adaptation - Resilience - Feedback Loops - Emergence --- Failure Modes - Collapse - Fragility - Distrust - Coordina"
     },
     {
       "id": "adaptation",
@@ -100,28 +388,12 @@
       "excerpt": "Belonging Systems Definition Structures through which individuals and groups establish, maintain, expand, or restrict membership, identity, participation, and recognition. --- Inclusionist Perspective Belonging systems answer two foundational questions: - Who "
     },
     {
-      "id": "belonging",
-      "title": "Belonging",
-      "category": "Inclusionism Core",
-      "backlinks": 41,
-      "links": 9,
-      "excerpt": "Belonging Definition The condition that emerges when an agent's existence, participation, agency, and value are recognized within a system. --- Inclusionist Perspective Belonging is not merely acceptance. Belonging is the experience of being recognized as a le"
-    },
-    {
       "id": "candidate-laws-of-inclusionism",
       "title": "Candidate Laws of Inclusionism",
       "category": "Inclusionism Core",
       "backlinks": 1,
       "links": 0,
       "excerpt": "Candidate Laws of Inclusionism Purpose Inclusionism seeks to identify recurring patterns governing value creation, participation, agency, belonging, and civilization. The following laws are considered candidates rather than settled doctrine. --- Candidate Law "
-    },
-    {
-      "id": "caste",
-      "title": "Caste",
-      "category": "Inclusionism Core",
-      "backlinks": 5,
-      "links": 6,
-      "excerpt": "Caste Definition A rigid social stratification system in which participation, status, legitimacy, identity, and opportunity become inherited or structurally fixed across generations. --- Inclusionist Perspective Caste systems reduce adaptive capacity by constr"
     },
     {
       "id": "centralization",
@@ -148,30 +420,6 @@
       "excerpt": "Citizenship Definition Participation and recognized belonging within systems of governance, coordination, and civilization. --- Inclusionist Perspective Citizenship may increasingly emerge through participation networks rather than geography alone. --- Relatio"
     },
     {
-      "id": "civilization-moc",
-      "title": "Civilization MOC",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 17,
-      "excerpt": "Civilization MOC Map-of-Content Civilizational Structure - Civilization - Networks - Governance - Collective Intelligence --- Adaptive Systems - Adaptation - Resilience - Feedback Loops - Emergence --- Failure Modes - Collapse - Fragility - Distrust - Coordina"
-    },
-    {
-      "id": "civilization",
-      "title": "# Civilization",
-      "category": "Inclusionism Core",
-      "backlinks": 37,
-      "links": 8,
-      "excerpt": "# Civilization Definition A large-scale coordination system through which agents organize interactions, value creation, participation, belonging, and governance. --- Inclusionist Perspective Civilizations are systems for managing interactions among differentia"
-    },
-    {
-      "id": "class",
-      "title": "Class",
-      "category": "Inclusionism Core",
-      "backlinks": 8,
-      "links": 6,
-      "excerpt": "Class Definition A system of social and economic stratification based on differential access to resources, ownership, labor positioning, participation capacity, and institutional influence. --- Inclusionist Perspective Class structures shape how individuals pa"
-    },
-    {
       "id": "code-of-equity",
       "title": "Code of Equity",
       "category": "Inclusionism Core",
@@ -188,24 +436,8 @@
       "excerpt": "Collapse Definition The breakdown of coordinated participation within complex systems. --- Inclusionist Perspective Civilizations collapse when coordination, trust, and adaptive participation degrade beyond recovery thresholds. --- Relationships - Entropy - Fr"
     },
     {
-      "id": "collective-intelligence-capital",
-      "title": "# Collective Intelligence Capital",
-      "category": "Inclusionism Core",
-      "backlinks": 7,
-      "links": 6,
-      "excerpt": "# Collective Intelligence Capital Definition The accumulated knowledge, creativity, culture, expertise, participation, and problem-solving capacity embedded within civilizations. --- Inclusionist Perspective No advanced intelligence system emerges from a singl"
-    },
-    {
-      "id": "collective-intelligence",
-      "title": "Collective Intelligence",
-      "category": "Inclusionism Core",
-      "backlinks": 28,
-      "links": 6,
-      "excerpt": "Collective Intelligence Definition The emergent problem-solving capacity of coordinated systems. --- Core Principle Connectivity amplifies adaptive intelligence. --- Relationships - Networks - Coordination - Inclusion - Participation - Governance - Civilizatio"
-    },
-    {
       "id": "community",
-      "title": "# Community",
+      "title": "Community",
       "category": "Inclusionism Core",
       "backlinks": 6,
       "links": 6,
@@ -237,7 +469,7 @@
     },
     {
       "id": "coordinated-efficiency",
-      "title": "# Coordinated Efficiency",
+      "title": "Coordinated Efficiency",
       "category": "Inclusionism Core",
       "backlinks": 2,
       "links": 6,
@@ -300,22 +532,6 @@
       "excerpt": "Cost of Belonging Definition The social, economic, cultural, informational, or behavioral requirements necessary to gain and maintain membership within a belonging system. --- Inclusionist Perspective Belonging systems compete partially through differences in "
     },
     {
-      "id": "data-dividend",
-      "title": "# Data Dividend",
-      "category": "Inclusionism Core",
-      "backlinks": 9,
-      "links": 6,
-      "excerpt": "# Data Dividend Definition A mechanism through which individuals receive value derived from data generated through their participation in social, economic, technological, or informational systems. --- Inclusionist Perspective Personal data emerges through inte"
-    },
-    {
-      "id": "data-ontology",
-      "title": "Data Ontology",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 8,
-      "excerpt": "Data Ontology Definition A layered framework describing how raw interaction becomes meaning, intelligence, coordination, and value within civilization. --- Inclusionist Hierarchy Data Observable residue generated through interaction. --- Information Structured"
-    },
-    {
       "id": "data-as-labor",
       "title": "Data-as-Labor",
       "category": "Inclusionism Core",
@@ -346,14 +562,6 @@
       "backlinks": 0,
       "links": 6,
       "excerpt": "Degrees of Data Definition Different layers and forms of data generated through participation in civilization. --- Biological Data Data derived from biological existence. Examples: - DNA - biometrics - health signals - neurological activity --- Behavioral Data"
-    },
-    {
-      "id": "democracy",
-      "title": "# Democracy",
-      "category": "Inclusionism Core",
-      "backlinks": 11,
-      "links": 6,
-      "excerpt": "# Democracy Definition A governance system that distributes participation in collective decision-making among members of a community, society, or civilization. --- Inclusionist Perspective Democracy is not merely majority rule. Democracy is a mechanism for leg"
     },
     {
       "id": "democratic-coordination",
@@ -428,22 +636,6 @@
       "excerpt": "Entropy Definition The tendency of systems toward disorder, uncertainty, or informational degradation. --- Inclusionist Perspective Civilizations must continuously generate coordination to resist entropy. --- Relationships - Information - Coordination - Adapta"
     },
     {
-      "id": "equality",
-      "title": "Equality",
-      "category": "Inclusionism Core",
-      "backlinks": 1,
-      "links": 8,
-      "excerpt": "Equality Definition The condition in which individuals or groups possess similar status, treatment, rights, resources, opportunity, or participation within systems. --- Inclusionist Perspective Equality can increase fairness and reduce exclusion, but absolute "
-    },
-    {
-      "id": "equity",
-      "title": "Equity",
-      "category": "Inclusionism Core",
-      "backlinks": 18,
-      "links": 9,
-      "excerpt": "Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has reco"
-    },
-    {
       "id": "exclusion",
       "title": "Exclusion",
       "category": "Inclusionism Core",
@@ -484,14 +676,6 @@
       "excerpt": "Fragility Definition The susceptibility of systems to collapse under stress, disruption, or entropy. --- Inclusionist Perspective Systems become fragile when participation, trust, or ownership become concentrated. --- Relationships - Entropy - Exclusion - Cent"
     },
     {
-      "id": "global-coordination",
-      "title": "Global Coordination",
-      "category": "Inclusionism Core",
-      "backlinks": 2,
-      "links": 6,
-      "excerpt": "Global Coordination Definition The ability of planetary systems, institutions, communities, and networks to synchronize action across borders and scales. --- Inclusionist Perspective Shared-fate problems require coordination beyond nation-state realism. --- Re"
-    },
-    {
       "id": "globalization",
       "title": "Globalization",
       "category": "Inclusionism Core",
@@ -501,7 +685,7 @@
     },
     {
       "id": "governance",
-      "title": "# Governance",
+      "title": "Governance",
       "category": "Inclusionism Core",
       "backlinks": 41,
       "links": 9,
@@ -556,14 +740,6 @@
       "excerpt": "Human Flourishing Definition The expansion of meaningful agency, participation, well-being, and adaptive potential. --- Inclusionist Principle Civilizations should optimize for flourishing rather than extraction alone. --- Relationships - Meaning - Participati"
     },
     {
-      "id": "human-meaning",
-      "title": "# Human Meaning",
-      "category": "Inclusionism Core",
-      "backlinks": 4,
-      "links": 5,
-      "excerpt": "# Human Meaning Definition The experience of significance, purpose, contribution, belonging, and agency within reality. --- Inclusionist Perspective Meaning emerges through participation in systems that individuals perceive as valuable. --- Core Principle Agen"
-    },
-    {
       "id": "identification",
       "title": "Identification",
       "category": "Inclusionism Core",
@@ -578,14 +754,6 @@
       "backlinks": 5,
       "links": 10,
       "excerpt": "Identity Maturation Theory Core Proposition Identity is not a problem to be solved. Identity is a developmental reality. The challenge facing modern societies is not the existence of identity but the maturation of identity. Developmental Stages Stage 1: Suppre"
-    },
-    {
-      "id": "identity",
-      "title": "# Identity",
-      "category": "Inclusionism Core",
-      "backlinks": 31,
-      "links": 9,
-      "excerpt": "# Identity Definition The persistent pattern through which an agent understands itself and is understood by others across time. --- Inclusionist Perspective Identity is neither purely individual nor purely social. Identity emerges through the ongoing interacti"
     },
     {
       "id": "incentive-structures",
@@ -636,14 +804,6 @@
       "excerpt": "Inclusionism Thesis Core Claim Human civilization is evolving from industrial extraction systems toward networked coordination systems. --- Foundational Premise Value emerges through recognized transformational interactions between conscious systems. --- Inclu"
     },
     {
-      "id": "inclusionism",
-      "title": "Inclusionism",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 13,
-      "excerpt": "Inclusionism This canon is a living framework rather than a finished doctrine. Its purpose is to explore how value emerges through interaction and how civilizations recognize, attribute, distribute, and legitimate that value. The ideas contained herein are int"
-    },
-    {
       "id": "inclusionist-social-dynamic",
       "title": "Inclusionist Social Dynamic",
       "category": "Inclusionism Core",
@@ -666,14 +826,6 @@
       "backlinks": 1,
       "links": 6,
       "excerpt": "Inequality Definition The uneven distribution of agency, ownership, access, recognition, and participation within a system. --- Inclusionist Perspective Inequality is not only a moral problem; it is a systems problem that reduces coordination capacity and incr"
-    },
-    {
-      "id": "information-manipulation",
-      "title": "Information Manipulation",
-      "category": "Inclusionism Core",
-      "backlinks": 3,
-      "links": 6,
-      "excerpt": "Information Manipulation Definition The intentional shaping, distortion, filtering, amplification, suppression, or weaponization of informational flows in order to influence perception, coordination, behavior, or legitimacy. --- Inclusionist Perspective Civili"
     },
     {
       "id": "information",
@@ -708,22 +860,6 @@
       "excerpt": "Institutional Power Definition The capacity of institutions to influence coordination, participation, legitimacy, informational flows, economic distribution, and civilizational behavior. --- Inclusionist Perspective Institutions shape civilization by regulatin"
     },
     {
-      "id": "intelligence-infrastructure",
-      "title": "Intelligence Infrastructure",
-      "category": "Inclusionism Core",
-      "backlinks": 1,
-      "links": 0,
-      "excerpt": "Intelligence Infrastructure Systems that generate and distribute knowledge and intelligence."
-    },
-    {
-      "id": "intelligence-ownership",
-      "title": "# Intelligence Ownership",
-      "category": "Inclusionism Core",
-      "backlinks": 7,
-      "links": 7,
-      "excerpt": "# Intelligence Ownership Definition The ownership, governance, participation rights, and value claims associated with intelligence-producing systems. --- Inclusionist Perspective As intelligence increasingly becomes collective, computational, and networked, ow"
-    },
-    {
       "id": "intelligence",
       "title": "Intelligence",
       "category": "Inclusionism Core",
@@ -756,36 +892,12 @@
       "excerpt": "Interpretation Definition The process by which systems assign meaning, significance, or value to information and experience. --- Inclusionist Perspective Data becomes value only through interpretation by conscious or meaning-making systems. --- Relationships -"
     },
     {
-      "id": "labor",
-      "title": "Labor",
-      "category": "Inclusionism Core",
-      "backlinks": 1,
-      "links": 8,
-      "excerpt": "Labor Definition The expenditure of physical, cognitive, emotional, creative, or relational effort toward production, coordination, maintenance, or value generation within systems. --- Inclusionist Perspective Labor is one mechanism through which individuals p"
-    },
-    {
-      "id": "legitimacy",
-      "title": "Legitimacy",
-      "category": "Inclusionism Core",
-      "backlinks": 13,
-      "links": 7,
-      "excerpt": "Legitimacy Definition The recognized validity of authority, participation, ownership, governance, or value distribution within a system. --- Inclusionist Perspective Legitimacy emerges when participants believe systems accurately recognize reality. --- Core Pr"
-    },
-    {
       "id": "meaning",
       "title": "Meaning",
       "category": "Inclusionism Core",
       "backlinks": 9,
       "links": 6,
       "excerpt": "Meaning Definition The interpreted significance of relationships, experiences, or transformations. --- Inclusionist Perspective Meaning emerges through connectivity and participation within conscious systems. --- Relationships - Consciousness - Value - Identit"
-    },
-    {
-      "id": "mesh-regions",
-      "title": "Mesh Regions",
-      "category": "Inclusionism Core",
-      "backlinks": 4,
-      "links": 6,
-      "excerpt": "Mesh Regions Definition A mesh region is a networked zone of belonging, identity, exchange, and coordination that may overlap with but is not limited by nation-state borders. --- Inclusionist Perspective Mesh regions replace rigid territorial thinking with dyn"
     },
     {
       "id": "missing-notes-tracker",
@@ -812,14 +924,6 @@
       "excerpt": "Networks of Belonging Definition Relational systems through which individuals experience identity, recognition, care, participation, and shared meaning. --- Inclusionist Perspective Belonging is distributed through networks, not merely inherited through geogra"
     },
     {
-      "id": "networks",
-      "title": "Networks",
-      "category": "Inclusionism Core",
-      "backlinks": 44,
-      "links": 6,
-      "excerpt": "Networks Definition Interconnected systems capable of transmitting information, energy, and coordination. --- Core Principle Civilization evolves through networked cooperation. --- Relationships - Connectivity - Collective Intelligence - Distributed Ecosystems"
-    },
-    {
       "id": "ontology-clarifications",
       "title": "Ontology Clarifications",
       "category": "Inclusionism Core",
@@ -834,14 +938,6 @@
       "backlinks": 0,
       "links": 6,
       "excerpt": "Open Systems Definition Systems that exchange energy, information, people, resources, or influence with their surrounding environment. --- Inclusionist Perspective Open systems are more capable of adaptation, innovation, and inclusion, but they require governa"
-    },
-    {
-      "id": "optimization",
-      "title": "Optimization",
-      "category": "Inclusionism Core",
-      "backlinks": 1,
-      "links": 9,
-      "excerpt": "Optimization Definition The process of increasing efficiency, performance, coordination, output, predictability, or desired outcomes within systems. --- Inclusionist Perspective Optimization is not inherently good or bad. Civilizational outcomes depend on: - w"
     },
     {
       "id": "orthodoxy",
@@ -868,54 +964,6 @@
       "excerpt": "Ownership Distribution Definition The allocation of economic, informational, and technological ownership across participants in value-generating systems. --- Inclusionist Principle Participation in value creation should correspond to participation in ownership"
     },
     {
-      "id": "ownership",
-      "title": "Ownership",
-      "category": "Inclusionism Core",
-      "backlinks": 39,
-      "links": 13,
-      "excerpt": "Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-generati"
-    },
-    {
-      "id": "participation-precedes-ownership-2",
-      "title": "Participation Precedes Ownership",
-      "category": "Inclusionism Core",
-      "backlinks": 1,
-      "links": 0,
-      "excerpt": "Participation Precedes Ownership Participation generates the basis for legitimate ownership claims."
-    },
-    {
-      "id": "participation-precedes-ownership",
-      "title": "Participation Precedes Ownership",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 11,
-      "excerpt": "Participation Precedes Ownership Inclusionist Principle Participation in systems precedes claims of ownership over systems. --- Explanation Individuals and entities generate value through: - existence - interaction - labor - data generation - coordination - co"
-    },
-    {
-      "id": "participation",
-      "title": "Participation",
-      "category": "Inclusionism Core",
-      "backlinks": 85,
-      "links": 6,
-      "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. --- Relationships - Agency - Inclusion - Governance - Value - Connectivit"
-    },
-    {
-      "id": "personal-data",
-      "title": "Personal Data",
-      "category": "Inclusionism Core",
-      "backlinks": 16,
-      "links": 13,
-      "excerpt": "Personal Data Definition Personal data is metadata that derives from living and non-living individuals through existence, interaction, participation, and transaction within systems. --- Inclusionist Perspective All data is a derivative of personal data because"
-    },
-    {
-      "id": "personhood",
-      "title": "Personhood",
-      "category": "Inclusionism Core",
-      "backlinks": 5,
-      "links": 9,
-      "excerpt": "Personhood Definition The recognized status of an entity as a participant possessing identity, agency, and moral consideration. --- Inclusionist Perspective AI, biological systems, institutions, and future intelligences may challenge traditional boundaries of "
-    },
-    {
       "id": "physics-of-belonging",
       "title": "Physics of Belonging",
       "category": "Inclusionism Core",
@@ -930,14 +978,6 @@
       "backlinks": 1,
       "links": 0,
       "excerpt": ""
-    },
-    {
-      "id": "pluralism",
-      "title": "# Pluralism",
-      "category": "Inclusionism Core",
-      "backlinks": 15,
-      "links": 6,
-      "excerpt": "# Pluralism Definition The coexistence of multiple identities, beliefs, perspectives, cultures, and forms of participation within a shared system. --- Inclusionist Perspective Pluralism preserves differentiation. Differentiation creates the possibility of new "
     },
     {
       "id": "post-industrial-economics",
@@ -970,22 +1010,6 @@
       "backlinks": 1,
       "links": 5,
       "excerpt": "Procreative Liberty Definition The freedom to make decisions regarding reproduction, biological continuity, and family formation. --- Inclusionist Perspective Technological civilization increasingly reshapes the boundaries of biological agency and reproductive"
-    },
-    {
-      "id": "race",
-      "title": "Race",
-      "category": "Inclusionism Core",
-      "backlinks": 2,
-      "links": 7,
-      "excerpt": "Race Definition A socially constructed system of human categorization historically associated with ancestry, physical traits, identity formation, power distribution, and civilizational hierarchy. --- Inclusionist Perspective Race functions as a coordination an"
-    },
-    {
-      "id": "recognition",
-      "title": "# Recognition",
-      "category": "Inclusionism Core",
-      "backlinks": 16,
-      "links": 8,
-      "excerpt": "# Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful "
     },
     {
       "id": "relational-attribution",
@@ -1036,28 +1060,12 @@
       "excerpt": "Start Here Welcome to Inclusionism Inclusionism is a systems framework exploring how value, intelligence, meaning, and civilization emerge through connectivity, participation, and coordinated transformation. --- Explore the Core Ideas Foundations - What Is Inc"
     },
     {
-      "id": "stratification-systems",
-      "title": "Stratification Systems",
-      "category": "Inclusionism Core",
-      "backlinks": 0,
-      "links": 3,
-      "excerpt": "Stratification Systems Definition Structures that distribute participation, legitimacy, agency, ownership, mobility, and recognition unevenly across civilizations. --- Inclusionist Perspective Stratification systems influence: - coordination capacity - social "
-    },
-    {
       "id": "superintelligence",
       "title": "Superintelligence",
       "category": "Inclusionism Core",
       "backlinks": 2,
       "links": 9,
       "excerpt": "Superintelligence Definition An Intelligence that exceeds human cognitive capabilities across most or all domains. --- Inclusionist Perspective Superintelligence is not inherently valuable or dangerous. The critical question is whether Agency remains broadly d"
-    },
-    {
-      "id": "technocracy",
-      "title": "Technocracy",
-      "category": "Inclusionism Core",
-      "backlinks": 4,
-      "links": 8,
-      "excerpt": "Technocracy Definition A system of governance in which decision-making authority is concentrated among technical experts, institutions, algorithms, or optimization systems. --- Inclusionist Perspective Technocracy may improve coordination efficiency while simu"
     },
     {
       "id": "technogaian-ethics",
@@ -1140,14 +1148,6 @@
       "excerpt": "Trust Definition Predictive confidence in the reliability of systems, agents, or transactions. --- Inclusionist Principle Trust reduces coordination friction. --- Relationships - Transaction - Coordination - Governance - Networks - Participation - Democratic C"
     },
     {
-      "id": "universal-basic-ownership",
-      "title": "# Universal Basic Ownership",
-      "category": "Inclusionism Core",
-      "backlinks": 15,
-      "links": 6,
-      "excerpt": "# Universal Basic Ownership Definition A framework in which individuals possess baseline ownership participation within civilization-scale value-generating systems. --- Inclusionist Perspective Universal Basic Ownership expands beyond income redistribution by "
-    },
-    {
       "id": "universalism-as-an-outcome-of-identity",
       "title": "Universalism as an Outcome of Identity",
       "category": "Inclusionism Core",
@@ -1164,14 +1164,6 @@
       "excerpt": "Value Distribution Systems Definition The institutions, mechanisms, norms, and processes through which value is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization possesses value distr"
     },
     {
-      "id": "value-distribution",
-      "title": "Value Distribution",
-      "category": "Inclusionism Core",
-      "backlinks": 18,
-      "links": 11,
-      "excerpt": "Value Distribution Definition The processes through which value generated by interactions is recognized, attributed, allocated, and transferred among participating agents. --- Inclusionist Perspective Every civilization contains value distribution systems. The"
-    },
-    {
       "id": "value-emergence",
       "title": "Value Emergence",
       "category": "Inclusionism Core",
@@ -1186,14 +1178,6 @@
       "backlinks": 0,
       "links": 4,
       "excerpt": "Value Objects Definition Transferable units of perceived significance that influence participation, belonging, coordination, or identity within systems. --- Examples - trust - forgiveness - status - identity - covenant - belonging - recognition --- Inclusionis"
-    },
-    {
-      "id": "value",
-      "title": "Value",
-      "category": "Inclusionism Core",
-      "backlinks": 34,
-      "links": 10,
-      "excerpt": "Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Value"
     },
     {
       "id": "what-is-inclusionism",
@@ -2879,7 +2863,7 @@
     },
     {
       "source": "harmony-versus-unity",
-      "target": "08-inclusionism-coreinclusionism"
+      "target": "inclusionism"
     },
     {
       "source": "health",
@@ -3235,7 +3219,7 @@
     },
     {
       "source": "inclusionism-canon-v10-moc",
-      "target": "08-inclusionism-coreinclusionism"
+      "target": "inclusionism"
     },
     {
       "source": "inclusionism-canon-v10-moc",
@@ -4203,7 +4187,7 @@
     },
     {
       "source": "ownership",
-      "target": "participation-precedes-ownership-2"
+      "target": "participation-precedes-ownership"
     },
     {
       "source": "ownership",

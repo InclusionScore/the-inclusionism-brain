@@ -1,7 +1,13 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ArrowRight, BookOpen, GitBranch, Library } from "lucide-react";
 import GraphPreview from "@/components/GraphPreview";
 import { getGraph } from "@/lib/content";
+import { siteUrl } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: siteUrl("/") }
+};
 
 export default function HomePage() {
   const graph = getGraph();

@@ -339,6 +339,40 @@ const economic: FrameworkComparison[] = [
 
 const future: FrameworkComparison[] = [
   makeComparison({
+    name: "Technological Determinism",
+    group: "Future-Oriented",
+    summary: "Technological determinism explains social change primarily through the effects and momentum of technologies, from industrial machinery to networked computation and artificial intelligence.",
+    agrees: "Inclusionism agrees that technologies can reorganize institutions, incentives, relationships, and the practical conditions under which agency is exercised.",
+    disagrees: "It rejects the idea that technological development is an autonomous force with one inevitable social outcome. Technologies are selected, financed, governed, and interpreted by agents within existing relations of power.",
+    coreDistinction: "Technological determinism emphasizes how technology constructs society; Inclusionist Technological Constructivism studies the recursive process through which agents construct technology and technology then constructs the conditions of future agency.",
+    valueView: "Value is often treated as an effect of technical capacity, productivity, or the social transformations a technology makes possible.",
+    agencyView: "Human and institutional agency is constrained by technical systems and can appear secondary to technological momentum.",
+    ownershipView: "Ownership is consequential because control of infrastructure influences which technical trajectories become durable, though it is not always central to determinist accounts.",
+    legitimacyView: "Legitimacy may be inferred from adoption, effectiveness, inevitability, or adaptation to technical change.",
+    belongingView: "Belonging is reshaped by access to technologies and by the social categories that technical systems create or reinforce.",
+    inclusionistCritique: "Treating technology as inevitable can hide the contributors, owners, institutional choices, and distributive decisions that produced it.",
+    strongestCritique: "A determinist may argue that Inclusionism overstates intentional agency when complex technologies acquire path dependence and effects no designer can control.",
+    possibleSynthesis: "Study technical constraint seriously while preserving a precise account of who built, funded, governed, and benefited from the system, and how the system reshapes later agency.",
+    axes: { political: 34, economic: 38, civilizational: 42, technological: 24 }
+  }),
+  makeComparison({
+    name: "Social Construction of Technology",
+    group: "Future-Oriented",
+    summary: "The social construction of technology tradition studies how social groups, institutions, interpretations, and negotiations shape the design and meaning of technological artifacts.",
+    agrees: "Inclusionism agrees that technology is made through social choice rather than arriving as a neutral or inevitable external force.",
+    disagrees: "It extends the analysis beyond interpretive construction to ask how constructed technologies redistribute agency, ownership, recognition, value, and legitimacy over time.",
+    coreDistinction: "Social construction explains how society shapes technology; Inclusionist Technological Constructivism adds the recursive return path through which technology reconstructs future agents, communities, institutions, and their capacities to participate.",
+    valueView: "Value is negotiated among relevant social groups and embedded in the meanings and uses assigned to an artifact.",
+    agencyView: "Agency belongs to social groups, designers, users, institutions, and other actors who stabilize a technology's form and meaning.",
+    ownershipView: "Ownership matters as one source of power in design and stabilization, but it is not always the tradition's primary category.",
+    legitimacyView: "Legitimacy develops through negotiation, closure, institutional acceptance, and the accommodation of relevant groups.",
+    belongingView: "Belonging depends on which groups are recognized as relevant participants in technological construction.",
+    inclusionistCritique: "Explaining construction without tracking the value and agency subsequently distributed by a technology can leave the political economy of participation incomplete.",
+    strongestCritique: "A social constructivist may argue that Inclusionism's language of value and agency risks imposing a universal framework on historically specific meanings and conflicts.",
+    possibleSynthesis: "Combine close analysis of social construction with an explicit account of recursive agency, contribution, ownership, and the legitimacy of the resulting technical order.",
+    axes: { political: 78, economic: 64, civilizational: 76, technological: 70 }
+  }),
+  makeComparison({
     name: "Transhumanism",
     group: "Future-Oriented",
     summary: "Transhumanism seeks to enhance human capacities through technology, biology, cognition, and longevity.",

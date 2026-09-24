@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import JsonLd from "@/components/JsonLd";
+import { breadcrumb, entityIds } from "@/lib/entities";
 import { dynamicChain } from "@/lib/frameworks";
 import { issueLandings } from "@/lib/issues";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
@@ -8,7 +9,7 @@ import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
 export const metadata: Metadata = {
   title: metadataTitle("What Is Inclusionism?"),
   description:
-    "Inclusionism is a theory of how value and agency should remain connected across ownership, equity, legitimacy, fairness, and belonging.",
+    "Inclusionism is a philosophical and civilizational framework developed by James Felton Keith for connecting value, agency, equity, legitimacy, and belonging.",
   keywords: [
     "what is Inclusionism",
     "value and agency",
@@ -43,12 +44,14 @@ export default function WhatIsInclusionismPage() {
           {
             "@context": "https://schema.org",
             "@type": "Article",
+            "@id": siteUrl("/what-is-inclusionism#article"),
             headline: "What Is Inclusionism?",
             description: metadata.description,
-            author: { "@type": "Organization", name: "Inclusionism" },
-            publisher: { "@type": "Organization", name: "Inclusionism" },
+            author: { "@id": entityIds.jamesFeltonKeith },
+            publisher: { "@id": entityIds.keithInstitute },
             mainEntityOfPage: siteUrl("/what-is-inclusionism"),
-            about: [
+            about: { "@id": entityIds.inclusionism },
+            mentions: [
               "value creation",
               "agency",
               "legitimacy",
@@ -59,37 +62,21 @@ export default function WhatIsInclusionismPage() {
               "democracy"
             ].map((name) => ({ "@type": "Thing", name }))
           },
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: [
-              {
-                "@type": "Question",
-                name: "What is Inclusionism?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text:
-                    "Inclusionism is a theory of how value and agency should remain connected. Value emerges through interaction; equity requires that value be recognized, attributed, and returned as ownership, participation, influence, and self-determination to the agents and communities who help create it."
-                }
-              },
-              {
-                "@type": "Question",
-                name: "Is Inclusionism socialism or democratic socialism?",
-                acceptedAnswer: {
-                  "@type": "Answer",
-                  text:
-                    "No. Inclusionism can overlap with some egalitarian concerns, but it is broader than a left-right ideology. It is a civilizational framework about value, agency, legitimacy, ownership, fairness, and belonging."
-                }
-              }
-            ]
-          }
+          breadcrumb([{ name: "What Is Inclusionism?", path: "/what-is-inclusionism" }])
         ]}
       />
       <p className="brand-kicker">Flagship Explainer</p>
       <h1 className="brand-title mt-3 max-w-6xl text-5xl leading-none sm:text-8xl">What Is Inclusionism?</h1>
       <p className="mt-6 max-w-4xl border-l-4 border-signal pl-5 text-xl font-bold leading-9 text-white">
-        Inclusionism is a theory of how value and agency should remain connected. Value emerges through interaction; equity requires that value be
-        recognized, attributed, and returned as ownership, participation, influence, and self-determination to the agents and communities who help create it.
+        Inclusionism is a philosophical and civilizational framework developed by James Felton Keith concerned with how differentiated agents generate value
+        through interaction and how systems recognize, attribute, distribute, and legitimate that value.
+      </p>
+      <p className="mt-5 max-w-4xl text-base leading-8 text-white/70">
+        Inclusionism is a Code of Equity: a framework for recognizing, attributing, distributing, and legitimizing value so that the agents and communities
+        who contribute to its creation receive meaningful ownership, participation, influence, and self-determination in the systems they help create.
+      </p>
+      <p className="mt-4 text-sm text-white/50">
+        Developed by <Link href="/about/james-felton-keith" className="text-signal hover:underline">James Felton Keith</Link>.
       </p>
 
       <section className="mt-10 border-y border-white/15 py-6">
@@ -130,8 +117,10 @@ export default function WhatIsInclusionismPage() {
       </section>
 
       <section className="mt-10 flex flex-wrap gap-3">
+        <Link href="/ideas" className="hard-button px-5 py-3 text-xs">Explore the Ideas</Link>
         <Link href="/compare" className="hard-button px-5 py-3 text-xs">Compare Frameworks</Link>
         <Link href="/notes" className="outline-button px-5 py-3 text-xs">Read the Canon</Link>
+        <Link href="/publications" className="outline-button px-5 py-3 text-xs">Publications</Link>
         <Link href="/debate" className="outline-button px-5 py-3 text-xs">Debate Inclusionism</Link>
       </section>
     </main>

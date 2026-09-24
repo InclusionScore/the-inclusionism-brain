@@ -14,14 +14,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const note = getNote(slug);
   if (!isLocale(locale) || !note) return {};
   return {
-    title: metadataTitle(`${note.title} | Inclusionism Canon`),
-    description: note.excerpt || siteConfig.description,
-    robots: note.status === "Candidate" ? { index: false, follow: true } : undefined,
-    alternates: { canonical: siteUrl(localePath(locale, `/notes/${note.slug}`)) },
+    title: metadataTitle(note.title),
+    description: note.description || note.excerpt || siteConfig.description,
+    robots: { index: false, follow: true },
+    alternates: { canonical: siteUrl(`/notes/${note.slug}`) },
     openGraph: {
       title: socialTitle(note.title),
-      description: note.excerpt || siteConfig.description,
-      url: siteUrl(localePath(locale, `/notes/${note.slug}`)),
+      description: note.description || note.excerpt || siteConfig.description,
+      url: siteUrl(`/notes/${note.slug}`),
       siteName: siteConfig.name,
       images: ["/brand/inclusionism-logo-border.png"]
     }

@@ -90,7 +90,7 @@ function makeSlug(relativePath) {
 }
 
 function titleFrom(content, filePath) {
-  const heading = content.match(/^#\s+(.+)$/m)?.[1]?.trim();
+  const heading = content.match(/^#\s+(.+)$/m)?.[1]?.replace(/^#+\s*/, "").trim();
   return heading || path.basename(filePath, ".md");
 }
 
@@ -113,6 +113,11 @@ function excerpt(content) {
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, 260);
+}
+
+function descriptionFrom(content) {
+  const definition = content.match(/##\s+Definition\s*\n+([\s\S]*?)(?=\n---|\n##\s|$)/i)?.[1];
+  return excerpt(definition || content);
 }
 
 function decodeEntities(value) {
@@ -329,6 +334,10 @@ for (const file of files) {
     category: categoryFrom(relativePath),
     content: parsed.content.trim(),
     excerpt: excerpt(parsed.content),
+    description: String(parsed.data.description || descriptionFrom(parsed.content)).trim().slice(0, 320),
+    provenance: parsed.data.provenance ? String(parsed.data.provenance).trim() : undefined,
+    antecedents: Array.isArray(parsed.data.antecedents) ? parsed.data.antecedents.map(String) : [],
+    dateModified: parsed.data.dateModified ? new Date(parsed.data.dateModified).toISOString() : undefined,
     status: statusFrom(parsed.data),
     links: [],
     backlinks: [],
@@ -342,7 +351,6 @@ for (const file of files) {
   }
 }
 
-const bySlug = new Map(notes.map((note) => [note.slug, note]));
 const links = [];
 
 function resolveLink(source, rawTarget) {
@@ -350,8 +358,10 @@ function resolveLink(source, rawTarget) {
   const matches = titleIndex.get(normalized);
   if (!matches?.length) return null;
   if (matches.length === 1) return matches[0];
-  const sameCategory = matches.find((candidate) => candidate.category === source.category);
-  return sameCategory || matches[0];
+  return [...matches].sort((a, b) => {
+    const statusRank = (note) => note.status === "Canon" ? 0 : note.status === "Candidate" ? 1 : 2;
+    return statusRank(a) - statusRank(b) || b.content.length - a.content.length || a.path.length - b.path.length;
+  })[0];
 }
 
 for (const note of notes) {
@@ -367,10 +377,18 @@ for (const note of notes) {
   }
 }
 
-const readableStatuses = new Set(["Canon", "Candidate"]);
-const canonNotes = notes.filter((note) => note.status === "Canon");
+const canonCandidates = notes.filter((note) => note.status === "Canon");
+const canonicalByTitle = new Map();
+for (const note of canonCandidates) {
+  const key = note.title.toLowerCase();
+  const current = canonicalByTitle.get(key);
+  if (!current || note.content.length > current.content.length || (note.content.length === current.content.length && note.path.length < current.path.length)) {
+    canonicalByTitle.set(key, note);
+  }
+}
+const canonNotes = [...canonicalByTitle.values()];
 const candidateNotes = notes.filter((note) => note.status === "Candidate");
-const readableNotes = notes.filter((note) => readableStatuses.has(note.status));
+const readableNotes = [...canonNotes, ...notes.filter((note) => note.status === "Candidate")];
 const canonSlugs = new Set(canonNotes.map((note) => note.slug));
 const readableSlugs = new Set(readableNotes.map((note) => note.slug));
 const canonDegree = new Map(canonNotes.map((note) => [note.slug, 0]));

@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Inclusionism",
-  title: "Inclusionism",
-  description: "Explore, challenge, and debate a living theory of how value and agency should remain connected.",
+  title: "Inclusionism | A Code of Equity",
+  description: "Inclusionism is James Felton Keith's philosophical and civilizational framework for connecting value, agency, equity, legitimacy, and belonging.",
   domains: ["inclusionism.org", "www.inclusionism.org", "brain.inclusionism.org"]
 };
 
@@ -10,7 +10,7 @@ export function siteUrl(path = "") {
     process.env.NEXT_PUBLIC_CANONICAL_URL ||
     process.env.NEXT_PUBLIC_SITE_URL ||
     process.env.SITE_URL ||
-    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://inclusionism.org");
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "https://www.inclusionism.org");
   const normalizedBase = base.replace(/\/$/, "");
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
   return `${normalizedBase}${normalizedPath}`;

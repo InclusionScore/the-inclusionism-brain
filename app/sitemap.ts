@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
-import { getEditorialEssays, getEditorialPodcastEpisodes, getReadableNotes } from "@/lib/content";
+import { getAllNotes, getEditorialEssays, getEditorialPodcastEpisodes } from "@/lib/content";
 import { frameworkComparisons } from "@/lib/frameworks";
+import { ideaPages } from "@/lib/ideas";
 import { localePath, locales } from "@/lib/i18n";
 import { issueLandings } from "@/lib/issues";
 import { siteUrl } from "@/lib/site";
@@ -10,14 +11,13 @@ export const revalidate = 3600;
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const essays = await getEditorialEssays();
   const podcastEpisodes = await getEditorialPodcastEpisodes();
-  const staticRoutes = ["", "/what-is-inclusionism", "/issues", "/graph", "/compare", "/notes", "/under-development", "/essays", "/podcast", "/debate", "/pest"].map((path) => ({
-    url: siteUrl(path || "/"),
-    lastModified: new Date()
+  const staticRoutes = ["", "/what-is-inclusionism", "/issues", "/ideas", "/graph", "/compare", "/notes", "/essays", "/podcast", "/debate", "/pest", "/about/james-felton-keith", "/about/keith-institute", "/publications"].map((path) => ({
+    url: siteUrl(path || "/")
   }));
 
-  const noteRoutes = getReadableNotes().map((note) => ({
+  const noteRoutes = getAllNotes().map((note) => ({
     url: siteUrl(`/notes/${note.slug}`),
-    lastModified: new Date()
+    ...(note.dateModified ? { lastModified: new Date(note.dateModified) } : {})
   }));
 
   const essayRoutes = essays.map((essay) => ({
@@ -31,35 +31,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   const compareRoutes = frameworkComparisons.map((framework) => ({
-    url: siteUrl(`/compare/${framework.slug}`),
-    lastModified: new Date()
+    url: siteUrl(`/compare/${framework.slug}`)
   }));
 
   const issueRoutes = issueLandings.map((issue) => ({
-    url: siteUrl(`/issues/${issue.slug}`),
-    lastModified: new Date()
+    url: siteUrl(`/issues/${issue.slug}`)
   }));
 
-  const localizedStaticRoutes = locales.flatMap((locale) =>
+  const ideaRoutes = ideaPages.map((idea) => ({
+    url: siteUrl(`/ideas/${idea.slug}`)
+  }));
+
+  const localizedStaticRoutes = locales.filter((locale) => locale !== "en").flatMap((locale) =>
     ["", "/what-is-inclusionism", "/issues", "/graph", "/compare", "/notes", "/debate"].map((path) => ({
-      url: siteUrl(localePath(locale, path || "/")),
-      lastModified: new Date()
+      url: siteUrl(localePath(locale, path || "/"))
     }))
   );
 
-  const localizedIssueRoutes = locales.flatMap((locale) =>
+  const localizedIssueRoutes = locales.filter((locale) => locale !== "en").flatMap((locale) =>
     issueLandings.map((issue) => ({
-      url: siteUrl(localePath(locale, `/issues/${issue.slug}`)),
-      lastModified: new Date()
+      url: siteUrl(localePath(locale, `/issues/${issue.slug}`))
     }))
   );
 
-  const localizedNoteRoutes = locales.flatMap((locale) =>
-    getReadableNotes().map((note) => ({
-      url: siteUrl(localePath(locale, `/notes/${note.slug}`)),
-      lastModified: new Date()
-    }))
-  );
-
-  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes, ...issueRoutes, ...localizedStaticRoutes, ...localizedIssueRoutes, ...localizedNoteRoutes];
+  return [...staticRoutes, ...noteRoutes, ...essayRoutes, ...podcastRoutes, ...compareRoutes, ...issueRoutes, ...ideaRoutes, ...localizedStaticRoutes, ...localizedIssueRoutes];
 }

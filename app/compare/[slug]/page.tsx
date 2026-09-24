@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
+import { breadcrumb, entityIds } from "@/lib/entities";
 import { comparisonAxes, dynamicChain, frameworkComparisons, getFrameworkComparison } from "@/lib/frameworks";
 import { searchNotes } from "@/lib/content";
 import { metadataTitle, siteConfig, siteUrl, socialTitle } from "@/lib/site";
@@ -10,18 +11,24 @@ export function generateStaticParams() {
   return frameworkComparisons.map((framework) => ({ slug: framework.slug }));
 }
 
+function comparisonTitle(name: string) {
+  return name === "Technological Determinism"
+    ? "Technological Determinism vs. Social Constructivism vs. Technological Constructivism"
+    : `Inclusionism vs ${name}`;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const framework = getFrameworkComparison(slug);
   if (!framework) return {};
 
   return {
-    title: metadataTitle(`Inclusionism vs ${framework.name}`),
+    title: metadataTitle(comparisonTitle(framework.name)),
     description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
     keywords: ["Inclusionism", framework.name, `Inclusionism vs ${framework.name}`, "value", "agency", "ownership", "legitimacy", "belonging"],
     alternates: { canonical: siteUrl(`/compare/${framework.slug}`) },
     openGraph: {
-      title: socialTitle(`Inclusionism vs ${framework.name}`),
+      title: socialTitle(comparisonTitle(framework.name)),
       description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
       url: siteUrl(`/compare/${framework.slug}`),
       siteName: siteConfig.name,
@@ -29,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     },
     twitter: {
       card: "summary_large_image",
-      title: socialTitle(`Inclusionism vs ${framework.name}`),
+      title: socialTitle(comparisonTitle(framework.name)),
       description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
       images: ["/brand/inclusionism-logo-border.png"]
     }
@@ -59,7 +66,8 @@ export default async function FrameworkComparisonPage({ params }: { params: Prom
   const framework = getFrameworkComparison(slug);
   if (!framework) notFound();
 
-  const relatedNotes = searchNotes(`${framework.name} value agency ownership legitimacy belonging interaction civilization AI democracy race class`, 8);
+  const pageTitle = comparisonTitle(framework.name);
+  const relatedNotes = searchNotes(`${framework.name} Technological Constructivism value agency ownership legitimacy belonging interaction civilization AI democracy race class`, 8);
   const sections = [
     ["Summary of the other framework", framework.summary],
     ["Where Inclusionism agrees", framework.agrees],
@@ -82,10 +90,10 @@ export default async function FrameworkComparisonPage({ params }: { params: Prom
           {
             "@context": "https://schema.org",
             "@type": "Article",
-            headline: `Inclusionism vs ${framework.name}`,
+            headline: pageTitle,
             description: `Compare Inclusionism with ${framework.name} across value, agency, ownership, legitimacy, and belonging.`,
-            author: { "@type": "Organization", name: "Inclusionism" },
-            publisher: { "@type": "Organization", name: "Inclusionism" },
+            author: { "@id": entityIds.jamesFeltonKeith },
+            publisher: { "@id": entityIds.keithInstitute },
             mainEntityOfPage: siteUrl(`/compare/${framework.slug}`),
             about: [
               { "@type": "Thing", name: "Inclusionism" },
@@ -96,19 +104,15 @@ export default async function FrameworkComparisonPage({ params }: { params: Prom
               { "@type": "Thing", name: "belonging" }
             ]
           },
-          {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Compare", item: siteUrl("/compare") },
-              { "@type": "ListItem", position: 2, name: `Inclusionism vs ${framework.name}`, item: siteUrl(`/compare/${framework.slug}`) }
-            ]
-          }
+          breadcrumb([
+            { name: "Compare", path: "/compare" },
+            { name: pageTitle, path: `/compare/${framework.slug}` }
+          ])
         ]}
       />
       <article className="max-w-4xl">
         <p className="brand-kicker">Compare / {framework.group}</p>
-        <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">Inclusionism vs {framework.name}</h1>
+        <h1 className="brand-title mt-3 text-5xl leading-none sm:text-8xl">{pageTitle}</h1>
         <p className="mt-6 max-w-3xl border-l-4 border-red pl-5 text-lg leading-8 text-white/70">
           Inclusionism is a theory of how value and agency should remain connected. This comparison tests whether it explains more than {framework.name}
           without flattening the other framework into a simple left-right spectrum.

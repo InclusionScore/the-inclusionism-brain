@@ -15,7 +15,7 @@ export function isLocale(value: string): value is Locale {
 
 export function localePath(locale: Locale, path = "/") {
   const normalized = path.startsWith("/") ? path : `/${path}`;
-  if (locale === "en") return normalized === "/" ? "/en" : `/en${normalized}`;
+  if (locale === "en") return normalized;
   return normalized === "/" ? `/${locale}` : `/${locale}${normalized}`;
 }
 
