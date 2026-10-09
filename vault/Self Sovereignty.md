@@ -14,6 +14,8 @@ Agents cannot maintain meaningful sovereignty when their [[Personal Data]], digi
 
 Because technologies reconstruct the conditions under which agents act, self sovereignty also requires meaningful authority over technological mediation and self-construction. See [[Technological Constructivism]].
 
+Self sovereignty also requires that no observer, institution, or identity category gain exclusive ownership of a person's self-definition. Other people will form consequential representations through interaction, but those representations do not replace the agent's capacity to define and develop themselves. See [[Contextual Legitimacy and Relational Interpretation]].
+
 ---
 
 ## Relationships
@@ -27,6 +29,7 @@ Because technologies reconstruct the conditions under which agents act, self sov
 - [[Agency]]
 - [[Decentralization]]
 - [[Technological Constructivism]]
+- [[Contextual Legitimacy and Relational Interpretation]]
 
 ---
 

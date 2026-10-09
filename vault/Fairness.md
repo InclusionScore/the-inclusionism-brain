@@ -48,6 +48,8 @@ They are more likely to agree about whether they have been recognized.
 
 Fairness therefore depends upon systems that accurately recognize participation and value creation.
 
+Fairness also requires judgments that remain consistent in their commitment to agency without pretending that every interaction has the same relationships, risks, or consequences. See [[Contextual Legitimacy and Relational Interpretation]].
+
 ---
 
 ## Relationships
@@ -63,6 +65,8 @@ Fairness therefore depends upon systems that accurately recognize participation 
 - [[Equity]]
     
 - [[Value]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
     
 
 ---

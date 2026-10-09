@@ -34,6 +34,12 @@ Interaction creates the conditions for witnessing, differentiation, information 
 
 Civilization itself is a large-scale system for organizing interactions among agents.
 
+## Interpretation and Consequence
+
+An interaction can be encountered differently by its participants, observers, and people affected without participating directly.
+
+These interpretations are themselves consequential, but no interpretation automatically contains the whole interaction. [[Contextual Legitimacy and Relational Interpretation]] distinguishes authentic experience, factual accuracy, intention, consequence, legitimacy, and equitable response.
+
 ---
 
 ## Relationships
@@ -51,6 +57,10 @@ Civilization itself is a large-scale system for organizing interactions among ag
 - [[Belonging]]
     
 - [[Civilization]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
+
+- [[Dignity, Satire, and Consequential Ridicule]]
     
 
 ---

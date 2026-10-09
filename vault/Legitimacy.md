@@ -1,4 +1,4 @@
-## Legitimacy
+# Legitimacy
 
 ## Definition
 
@@ -17,6 +17,12 @@ Legitimacy emerges when participants believe systems accurately recognize realit
 Recognition produces legitimacy.
 
 Persistent misrecognition produces instability.
+
+## Contextual Legitimacy
+
+The legitimacy of an interaction is a dynamic, evidence-informed judgment about the exercise and distribution of agency.
+
+It cannot be determined solely by intention, offense, demographic category, formal authority, majority agreement, or general social power. [[Contextual Legitimacy and Relational Interpretation]] examines the specific participants, evidence, power exercised, foreseeable consequences, and available alternatives.
 
 ---
 
@@ -52,6 +58,10 @@ Civilizations derive legitimacy from their ability to:
 - [[Governance]]
     
 - [[Civilization]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
+
+- [[Dignity, Satire, and Consequential Ridicule]]
     
 
 ---

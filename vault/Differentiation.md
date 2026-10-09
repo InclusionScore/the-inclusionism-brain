@@ -28,6 +28,8 @@ Belonging and differentiation are not opposites.
 
 Belonging evolves through the continual incorporation of differentiated agents.
 
+Differentiated agents can interpret the same interaction through different histories, vulnerabilities, relationships, and positions. These perspectives can reveal distinct consequences without becoming equally complete accounts. See [[Contextual Legitimacy and Relational Interpretation]].
+
 ---
 
 ## Civilizational Importance
@@ -60,6 +62,8 @@ Differentiation drives:
 - [[Belonging]]
     
 - [[Value]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
     
 
 ---

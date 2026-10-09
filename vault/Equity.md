@@ -56,6 +56,12 @@ Equity therefore links [[Value]], [[Relational Attribution]], [[Ownership]], and
 
 If value is recognized but agency does not expand, equity remains incomplete.
 
+## Stable Commitment, Contextual Judgment
+
+Equity is not treating every interaction the same. It is evaluating every interaction through the same commitment to agency, while recognizing that relationships, power, and consequences are never exactly the same.
+
+This does not make equity arbitrary or relative. [[Contextual Legitimacy and Relational Interpretation]] requires evidence, accountability for exercised power, recognition of meaningful participation, and protection against unjustified domination and exclusion.
+
 ---
 
 ## Relationships
@@ -77,6 +83,8 @@ If value is recognized but agency does not expand, equity remains incomplete.
 - [[Code of Equity]]
     
 - [[Universal Basic Ownership]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
     
 
 ---

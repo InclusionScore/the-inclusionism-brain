@@ -19,6 +19,8 @@ Institutions shape civilization by regulating:
 ## Core Principle
 Institutional power becomes dangerous when informational visibility and participatory accountability collapse.
 
+Institutional authority does not create exclusive authority over the meaning of an interaction. Legitimate institutions make competing perspectives and consequences visible, evaluate them through evidence, and remain accountable for how their judgments distribute agency. See [[Contextual Legitimacy and Relational Interpretation]].
+
 ---
 
 ## Relationships
@@ -28,6 +30,9 @@ Institutional power becomes dangerous when informational visibility and particip
 - [[Networks]]
 - [[Coordination]]
 - [[Power]]
+- [[Recognition]]
+- [[Participation]]
+- [[Contextual Legitimacy and Relational Interpretation]]
 
 ---
 

@@ -28,6 +28,8 @@ In informational systems, attribution depends on preserving enough [[Data]] line
 
 As technologies reconstruct the conditions of future participation, attribution must preserve the contributions that constructed those technologies without denying the agency of new participants. See [[Technological Constructivism]].
 
+Attribution also depends on distinguishing what occurred from how an interaction was interpreted. Competing perspectives can reveal different contributions and consequences, but attribution remains answerable to evidence. See [[Contextual Legitimacy and Relational Interpretation]].
+
 ---
 
 ## Relationships
@@ -55,6 +57,8 @@ As technologies reconstruct the conditions of future participation, attribution 
 - [[Personal Data]]
 
 - [[Technological Constructivism]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
     
 
 ---

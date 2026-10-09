@@ -45,6 +45,8 @@ Ownership is one mechanism through which civilizations distribute agency.
 
 The concentration of ownership often produces the concentration of agency.
 
+Ownership claims do not extend to another person's identity, experience, or interpretation. [[Contextual Legitimacy and Relational Interpretation]] preserves [[Self Sovereignty]] while examining how relational representations can still affect value, opportunity, and agency.
+
 ---
 
 ## Inclusionist Perspective
@@ -74,6 +76,10 @@ Healthy ownership systems balance:
 - [[Participation Precedes Ownership]]
 
 - [[Personal Data]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
+
+- [[Self Sovereignty]]
 
 ---
 

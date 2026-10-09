@@ -46,6 +46,12 @@ It is the extraction of future [[Agency]] from the agents whose participation, l
 
 A system becomes exploitative when it converts contribution into value while leaving contributors with reduced ownership, reduced self-determination, or reduced power to shape the systems they sustain.
 
+## Agency in Context
+
+Agency must be assessed through relationships and consequences, not intention, formal rights, consciousness, or identity alone.
+
+The same interaction can expand agency in one relationship while constraining it in another. [[Contextual Legitimacy and Relational Interpretation]] evaluates these simultaneous effects without assuming that every perspective is equally accurate or that aggregate benefit justifies a fundamental violation of agency.
+
 ---
 
 ## Relationships
@@ -73,6 +79,8 @@ A system becomes exploitative when it converts contribution into value while lea
 - [[Artificial Intelligence]]
     
 - [[Belonging]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
     
 
 ---

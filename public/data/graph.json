@@ -15,24 +15,24 @@
       "id": "ownership",
       "title": "Ownership",
       "category": "Inclusionism Core",
-      "backlinks": 39,
-      "links": 13,
+      "backlinks": 40,
+      "links": 15,
       "excerpt": "Ownership Definition The allocation of authority, responsibility, participation rights, and claims over value-generating systems. --- Inclusionist Perspective Ownership is not merely possession. Ownership is a relationship between agents and the value-generati"
     },
     {
       "id": "participation",
       "title": "Participation",
       "category": "Inclusionism Core",
-      "backlinks": 85,
-      "links": 6,
-      "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. --- Relationships - Agency - Inclusion - Governance - Value - Connectivit"
+      "backlinks": 88,
+      "links": 7,
+      "excerpt": "Participation Definition Active engagement in systems of value creation, governance, or coordination. --- Inclusionist Principle Civilizations flourish when participation scales broadly. Interpretive Participation Participants do not only act within systems. T"
     },
     {
       "id": "value",
       "title": "Value",
       "category": "Inclusionism Core",
-      "backlinks": 34,
-      "links": 10,
+      "backlinks": 35,
+      "links": 11,
       "excerpt": "Value Definition Value is the significance, utility, meaning, capability, opportunity, or transformation that emerges through interactions among agents, systems, and environments. --- Inclusionist Perspective Value is not solely individual or collective. Value"
     },
     {
@@ -135,8 +135,8 @@
       "id": "legitimacy",
       "title": "Legitimacy",
       "category": "Inclusionism Core",
-      "backlinks": 13,
-      "links": 7,
+      "backlinks": 15,
+      "links": 9,
       "excerpt": "Legitimacy Definition The recognized validity of authority, participation, ownership, governance, or value distribution within a system. --- Inclusionist Perspective Legitimacy emerges when participants believe systems accurately recognize reality. --- Core Pr"
     },
     {
@@ -151,8 +151,8 @@
       "id": "belonging",
       "title": "Belonging",
       "category": "Inclusionism Core",
-      "backlinks": 41,
-      "links": 9,
+      "backlinks": 43,
+      "links": 10,
       "excerpt": "Belonging Definition The condition that emerges when an agent's existence, participation, agency, and value are recognized within a system. --- Inclusionist Perspective Belonging is not merely acceptance. Belonging is the experience of being recognized as a le"
     },
     {
@@ -183,8 +183,8 @@
       "id": "equity",
       "title": "Equity",
       "category": "Inclusionism Core",
-      "backlinks": 18,
-      "links": 9,
+      "backlinks": 20,
+      "links": 10,
       "excerpt": "Equity Definition The distribution of participation, opportunity, ownership, agency, and value in ways that reflect the contributions and circumstances of participating agents. --- Inclusionist Perspective Equity is the tangible evidence that a system has reco"
     },
     {
@@ -199,9 +199,9 @@
       "id": "identity",
       "title": "Identity",
       "category": "Inclusionism Core",
-      "backlinks": 31,
-      "links": 9,
-      "excerpt": "# Identity Definition The persistent pattern through which an agent understands itself and is understood by others across time. --- Inclusionist Perspective Identity is neither purely individual nor purely social. Identity emerges through the ongoing interacti"
+      "backlinks": 33,
+      "links": 11,
+      "excerpt": "Identity Definition The persistent pattern through which an agent understands itself and is understood by others across time. --- Inclusionist Perspective Identity is neither purely individual nor purely social. Identity emerges through the ongoing interaction"
     },
     {
       "id": "personhood",
@@ -231,9 +231,9 @@
       "id": "recognition",
       "title": "Recognition",
       "category": "Inclusionism Core",
-      "backlinks": 16,
-      "links": 8,
-      "excerpt": "# Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful "
+      "backlinks": 19,
+      "links": 9,
+      "excerpt": "Recognition Definition The acknowledgment that an agent exists, participates, contributes, or belongs within a system. --- Inclusionist Perspective Recognition transforms witnessing into social legitimacy. --- Core Principle Participation becomes meaningful wh"
     },
     {
       "id": "civilization",
@@ -359,8 +359,8 @@
       "id": "agency",
       "title": "Agency",
       "category": "Inclusionism Core",
-      "backlinks": 43,
-      "links": 10,
+      "backlinks": 45,
+      "links": 11,
       "excerpt": "Agency Definition The capacity of an agent to influence reality through decisions, actions, participation, adaptation, or self-determination. --- Inclusionist Perspective Agency is one of the primary expressions of value. Value becomes meaningful when agents p"
     },
     {
@@ -466,6 +466,14 @@
       "backlinks": 7,
       "links": 6,
       "excerpt": "Consciousness Definition The capacity of a system to recognize, interpret, and integrate meaningful state changes. --- Inclusionist Perspective Value requires recognition by conscious systems. Clarification Inclusionism does not use consciousness primarily in "
+    },
+    {
+      "id": "contextual-legitimacy-and-relational-interpretation",
+      "title": "Contextual Legitimacy and Relational Interpretation",
+      "category": "Inclusionism Core",
+      "backlinks": 17,
+      "links": 17,
+      "excerpt": "Contextual Legitimacy and Relational Interpretation Definition The disciplined evaluation of an Interaction through the perspectives of its participants and observers, the available evidence, the power exercised, the consequences produced, and the resulting di"
     },
     {
       "id": "coordinated-efficiency",
@@ -575,8 +583,8 @@
       "id": "differentiation",
       "title": "Differentiation",
       "category": "Inclusionism Core",
-      "backlinks": 4,
-      "links": 8,
+      "backlinks": 6,
+      "links": 9,
       "excerpt": "Differentiation Definition The process through which agents become distinct from one another through identity, behavior, capability, knowledge, perspective, or participation. --- Inclusionist Perspective Differentiation is one of the primary sources of value e"
     },
     {
@@ -594,6 +602,14 @@
       "backlinks": 1,
       "links": 5,
       "excerpt": "Digital Divide Definition Unequal access to digital infrastructure, informational systems, computational tools, network participation, and technological leverage. --- Inclusionist Perspective The digital divide increasingly determines participation capacity wi"
+    },
+    {
+      "id": "dignity-satire-and-consequential-ridicule",
+      "title": "Dignity, Satire, and Consequential Ridicule",
+      "category": "Inclusionism Core",
+      "backlinks": 4,
+      "links": 14,
+      "excerpt": "Dignity, Satire, and Consequential Ridicule Definition An Inclusionist application for evaluating satire and ridicule through intrinsic dignity, public accountability, the exercise of power, and the consequences experienced by people beyond the intended target"
     },
     {
       "id": "distributed-ecosystems",
@@ -647,8 +663,8 @@
       "id": "fairness",
       "title": "Fairness",
       "category": "Inclusionism Core",
-      "backlinks": 5,
-      "links": 6,
+      "backlinks": 7,
+      "links": 7,
       "excerpt": "Fairness Definition The perception that value, participation, opportunity, responsibility, and outcomes are being distributed in a legitimate manner. --- Inclusionist Perspective Fairness emerges from legitimacy. Legitimacy emerges from agency. Agency emerges "
     },
     {
@@ -855,8 +871,8 @@
       "id": "institutional-power",
       "title": "Institutional Power",
       "category": "Inclusionism Core",
-      "backlinks": 2,
-      "links": 6,
+      "backlinks": 4,
+      "links": 9,
       "excerpt": "Institutional Power Definition The capacity of institutions to influence coordination, participation, legitimacy, informational flows, economic distribution, and civilizational behavior. --- Inclusionist Perspective Institutions shape civilization by regulatin"
     },
     {
@@ -871,8 +887,8 @@
       "id": "interaction",
       "title": "Interaction",
       "category": "Inclusionism Core",
-      "backlinks": 8,
-      "links": 6,
+      "backlinks": 10,
+      "links": 8,
       "excerpt": "Interaction Definition The exchange, influence, observation, participation, or relationship between agents, systems, or environments. --- Inclusionist Perspective Interaction is the mechanism through which value emerges. Without interaction there can be existe"
     },
     {
@@ -991,8 +1007,8 @@
       "id": "power",
       "title": "Power",
       "category": "Inclusionism Core",
-      "backlinks": 1,
-      "links": 6,
+      "backlinks": 3,
+      "links": 8,
       "excerpt": "Power Definition The capacity to influence systems, behaviors, participation, coordination, informational flows, or value distribution. --- Inclusionist Perspective Power is fundamentally relational and emerges through network position, coordination leverage, "
     },
     {
@@ -1015,8 +1031,8 @@
       "id": "relational-attribution",
       "title": "Relational Attribution",
       "category": "Inclusionism Core",
-      "backlinks": 13,
-      "links": 12,
+      "backlinks": 14,
+      "links": 13,
       "excerpt": "Relational Attribution Definition The process of identifying and understanding the contributions of individual agents within systems where value emerges through interaction. --- Inclusionist Perspective Relational value does not eliminate individual contributi"
     },
     {
@@ -1039,8 +1055,8 @@
       "id": "self-sovereignty",
       "title": "Self Sovereignty",
       "category": "Inclusionism Core",
-      "backlinks": 10,
-      "links": 10,
+      "backlinks": 14,
+      "links": 11,
       "excerpt": "Self Sovereignty Definition The capacity of individuals or systems to maintain agency, identity, and participatory autonomy within broader networks. --- Inclusionist Perspective Healthy civilizations balance collective coordination with individual sovereignty."
     },
     {
@@ -1319,6 +1335,10 @@
     },
     {
       "source": "agency",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "agency",
       "target": "participation"
     },
     {
@@ -1424,6 +1444,10 @@
     {
       "source": "belonging-systems",
       "target": "civilization"
+    },
+    {
+      "source": "belonging",
+      "target": "contextual-legitimacy-and-relational-interpretation"
     },
     {
       "source": "belonging",
@@ -1888,6 +1912,74 @@
     {
       "source": "consciousness",
       "target": "identity"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "interaction"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "agency"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "identity"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "power"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "recognition"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "self-sovereignty"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "belonging"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "differentiation"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "relational-attribution"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "participation"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "equity"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "dignity-satire-and-consequential-ridicule"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "value"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "legitimacy"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "fairness"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "institutional-power"
+    },
+    {
+      "source": "contextual-legitimacy-and-relational-interpretation",
+      "target": "ownership"
     },
     {
       "source": "coordinated-efficiency",
@@ -2383,6 +2475,10 @@
     },
     {
       "source": "differentiation",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "differentiation",
       "target": "adaptation"
     },
     {
@@ -2456,6 +2552,62 @@
     {
       "source": "digital-divide",
       "target": "class"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "agency"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "institutional-power"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "legitimacy"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "interaction"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "recognition"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "fairness"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "equity"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "belonging"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "identity"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "differentiation"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "power"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "participation"
+    },
+    {
+      "source": "dignity-satire-and-consequential-ridicule",
+      "target": "self-sovereignty"
     },
     {
       "source": "distributed-ecosystems",
@@ -2631,6 +2783,10 @@
     },
     {
       "source": "equity",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "equity",
       "target": "belonging"
     },
     {
@@ -2664,6 +2820,10 @@
     {
       "source": "exclusion",
       "target": "governance"
+    },
+    {
+      "source": "fairness",
+      "target": "contextual-legitimacy-and-relational-interpretation"
     },
     {
       "source": "fairness",
@@ -3112,6 +3272,14 @@
     {
       "source": "identity-maturation-theory",
       "target": "fairness"
+    },
+    {
+      "source": "identity",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "identity",
+      "target": "self-sovereignty"
     },
     {
       "source": "identity",
@@ -3623,6 +3791,10 @@
     },
     {
       "source": "institutional-power",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "institutional-power",
       "target": "governance"
     },
     {
@@ -3644,6 +3816,14 @@
     {
       "source": "institutional-power",
       "target": "power"
+    },
+    {
+      "source": "institutional-power",
+      "target": "recognition"
+    },
+    {
+      "source": "institutional-power",
+      "target": "participation"
     },
     {
       "source": "intelligence-ownership",
@@ -3699,6 +3879,10 @@
     },
     {
       "source": "interaction",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "interaction",
       "target": "witnessing"
     },
     {
@@ -3720,6 +3904,10 @@
     {
       "source": "interaction",
       "target": "civilization"
+    },
+    {
+      "source": "interaction",
+      "target": "dignity-satire-and-consequential-ridicule"
     },
     {
       "source": "international-relations",
@@ -3799,6 +3987,10 @@
     },
     {
       "source": "legitimacy",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "legitimacy",
       "target": "recognition"
     },
     {
@@ -3824,6 +4016,10 @@
     {
       "source": "legitimacy",
       "target": "civilization"
+    },
+    {
+      "source": "legitimacy",
+      "target": "dignity-satire-and-consequential-ridicule"
     },
     {
       "source": "meaning",
@@ -4159,6 +4355,14 @@
     },
     {
       "source": "ownership",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "ownership",
+      "target": "self-sovereignty"
+    },
+    {
+      "source": "ownership",
       "target": "value"
     },
     {
@@ -4240,6 +4444,10 @@
     {
       "source": "participation-precedes-ownership",
       "target": "universal-basic-ownership"
+    },
+    {
+      "source": "participation",
+      "target": "contextual-legitimacy-and-relational-interpretation"
     },
     {
       "source": "participation",
@@ -4423,6 +4631,10 @@
     },
     {
       "source": "power",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "power",
       "target": "governance"
     },
     {
@@ -4444,6 +4656,10 @@
     {
       "source": "power",
       "target": "information-manipulation"
+    },
+    {
+      "source": "power",
+      "target": "dignity-satire-and-consequential-ridicule"
     },
     {
       "source": "privacy",
@@ -4535,6 +4751,10 @@
     },
     {
       "source": "recognition",
+      "target": "contextual-legitimacy-and-relational-interpretation"
+    },
+    {
+      "source": "recognition",
       "target": "witnessing"
     },
     {
@@ -4576,6 +4796,10 @@
     {
       "source": "relational-attribution",
       "target": "technological-constructivism"
+    },
+    {
+      "source": "relational-attribution",
+      "target": "contextual-legitimacy-and-relational-interpretation"
     },
     {
       "source": "relational-attribution",
@@ -4664,6 +4888,10 @@
     {
       "source": "self-sovereignty",
       "target": "technological-constructivism"
+    },
+    {
+      "source": "self-sovereignty",
+      "target": "contextual-legitimacy-and-relational-interpretation"
     },
     {
       "source": "self-sovereignty",
@@ -5344,6 +5572,10 @@
     {
       "source": "value",
       "target": "value-distribution"
+    },
+    {
+      "source": "value",
+      "target": "contextual-legitimacy-and-relational-interpretation"
     },
     {
       "source": "value",

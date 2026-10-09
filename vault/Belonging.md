@@ -57,6 +57,12 @@ Examples include:
 
 Belonging is therefore layered rather than singular.
 
+## Belonging and Disagreement
+
+Belonging does not require consensus or protection from every challenge. It requires that disagreement not erase a person's dignity, participation, or standing as a meaningful member of the system.
+
+[[Contextual Legitimacy and Relational Interpretation]] helps institutions examine conflicting interpretations without assigning one participant permanent ownership of another's identity or excluding people merely because judgment remains contested.
+
 ---
 
 ## Relationships
@@ -78,6 +84,8 @@ Belonging is therefore layered rather than singular.
 - [[Harmony versus Unity]]
 
 - [[Universalism as an Outcome of Identity]]
+
+- [[Contextual Legitimacy and Relational Interpretation]]
     
 
 ---
